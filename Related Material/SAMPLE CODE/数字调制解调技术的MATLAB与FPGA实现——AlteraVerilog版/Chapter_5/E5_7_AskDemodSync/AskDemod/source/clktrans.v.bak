@@ -1,0 +1,10 @@
+//这是clktrans.v文件的程序清单
+module clktrans (
+	rst,clk,datain,
+	dataout,Bit_Sync);
+	
+	input		rst;   //复位信号，高电平有效
+	input		clk;   //FPGA系统时钟:32MHz
+	input	 signed [5:0]	datain;    //输入数据
+	output signed [5:0]	dataout;   //延时处理后的输出数据
+	output Bit_Sync;  

@@ -1,0 +1,249 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ModemPrograms\Chapter_7\E7_11FpgaPiQpskModem\FpgaPiQpskModem\simulation\modelsim
+vBitSync
+ImY@i8T]UWFV@OSNK`[IzA1
+V8UAhdj?`z^GOn[Qh4`2a10
+Z1 dD:\ModemPrograms\Chapter_7\E7_11FpgaPiQpskModem\FpgaPiQpskModem\simulation\modelsim
+w1412952530
+8D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/source/BitSync.v
+FD:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/source/BitSync.v
+L0 2
+Z2 OV;L;10.1b;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/source -O0
+n@bit@sync
+!i10b 1
+!s100 Rh`1>LLSL0H8LVR<K0VU?3
+!s85 0
+!s108 1414592210.828000
+!s107 D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/source/BitSync.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/source|D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/source/BitSync.v|
+!s101 -O0
+vbpf
+Ie<C@[G^Y>2LnR>RZmm51I3
+VnnA<`PaAH;nm^O84Q^ZTD0
+R1
+w1414591524
+8D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/bpf.vo
+FD:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/bpf.vo
+L0 31
+R2
+r1
+31
+R3
+Z5 !s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem -O0
+!i10b 1
+!s100 eiIegabb_<9[=Kb`O;?7V2
+!s85 0
+!s108 1414592208.265000
+!s107 D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/bpf.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem|D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/bpf.vo|
+!s101 -O0
+vclktrans
+I]jjzL9RzS:6DK[gFYlDk`3
+VBfi<Azzn=jjTFc_E@Yf7V2
+R1
+w1411293775
+8D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/source/clktrans.v
+FD:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/source/clktrans.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 B483ikUVzVL:WMF@JaoYk3
+!s85 0
+!s108 1414592210.468000
+!s107 D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/source/clktrans.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/source|D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/source/clktrans.v|
+!s101 -O0
+vcontroldivfreq
+IZT87VeE36zBjXjXPIIT4d1
+VX82N`>^KlY36RWSZI2<jC1
+R1
+w1411299101
+8D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/source/controldivfreq.v
+FD:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/source/controldivfreq.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 :m;?>PbBRk[@kM_[=E4L70
+!s85 0
+!s108 1414592210.015000
+!s107 D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/source/controldivfreq.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/source|D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/source/controldivfreq.v|
+!s101 -O0
+vDelay8
+ILI8b?VSFi?8JjiBnDXkil0
+Vk=LPRX1jk6SI>=c<dC>H]0
+R1
+w1414592183
+8D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/Delay8.v
+FD:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/Delay8.v
+L0 39
+R2
+r1
+31
+R3
+R5
+n@delay8
+!i10b 1
+!s100 ZSm?UN8j5A1;Og5zYKk]`2
+!s85 0
+!s108 1414592211.343000
+!s107 D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/Delay8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem|D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/Delay8.v|
+!s101 -O0
+vdifferpd
+I>iA`29>:`WYL[@IzJ;kNf1
+ValL5FCORgzRl^WK^_j_go0
+R1
+w1412952661
+8D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/source/differpd.v
+FD:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/source/differpd.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 jh5`mO3?^>JkY0;e5H[:D1
+!s85 0
+!s108 1414592209.390000
+!s107 D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/source/differpd.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/source|D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/source/differpd.v|
+!s101 -O0
+vh_bpf
+I][DQ51eL^5Y5l2DCc54@R1
+V`U^?A0nJB@309N4mCNhRC0
+R1
+w1414591468
+8D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/h_bpf.vo
+FD:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/h_bpf.vo
+L0 31
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 24<2BGN?hR]HHNP^cU6`T0
+!s85 0
+!s108 1414592207.921000
+!s107 D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/h_bpf.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem|D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/h_bpf.vo|
+!s101 -O0
+vlpf
+I?::8IRfzH4mYaz?L;Z5X^3
+VHgV7<d6XIXUZgO:SkhCNY1
+R1
+w1414587750
+8D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/lpf.vo
+FD:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/lpf.vo
+L0 31
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 O>]`SM=6QA]HV4@hh^=B11
+!s85 0
+!s108 1414592208.593000
+!s107 D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/lpf.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem|D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/lpf.vo|
+!s101 -O0
+vmonostable
+IE0VY`lg9;7zlTT^4Rl[>73
+VL1_HmEk=@aEBAPN@I^Qo33
+R1
+w1411293749
+8D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/source/monostable.v
+FD:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/source/monostable.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 1Z_Xk7;:8dCCfQzHQCmM92
+!s85 0
+!s108 1414592211.046000
+!s107 D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/source/monostable.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/source|D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/source/monostable.v|
+!s101 -O0
+vmult16_18
+I7HjY=T4`fVNjLHl3hn==P2
+Vma<Zj^<cnj1>V?YABFX^N0
+R1
+w1414587627
+8D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/mult16_18.v
+FD:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/mult16_18.v
+L0 39
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 >1U_QGNLhQ7[:6aXXEET`0
+!s85 0
+!s108 1414592211.500000
+!s107 D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/mult16_18.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem|D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/mult16_18.v|
+!s101 -O0
+vPiQpskModem
+I3iOT_B3G8VP3EkE5ZSkW:0
+VLU@0J=?M3lSA3WQOd5<hd0
+R1
+w1414592195
+8D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/source/PiQpskModem.v
+FD:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/source/PiQpskModem.v
+L0 2
+R2
+r1
+31
+R3
+R4
+n@pi@qpsk@modem
+!i10b 1
+!s100 gZ=6jRDW>zVTgi3Mg`eI;0
+!s85 0
+!s108 1414592211.187000
+!s107 D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/source/PiQpskModem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/source|D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/source/PiQpskModem.v|
+!s101 -O0
+vPiQpskModem_vlg_tst
+!i10b 1
+!s100 :2lQBBFDRB0D`z``]4DgZ0
+I>8gV::1FTX]>Hg2O5oH5n0
+V1Ud@Sb8cXR@Y5aIFYVUao2
+R1
+w1414591282
+8D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/simulation/modelsim/PiQpskModem.vt
+FD:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/simulation/modelsim/PiQpskModem.vt
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1414592211.734000
+!s107 D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/simulation/modelsim/PiQpskModem.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/simulation/modelsim|D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/simulation/modelsim/PiQpskModem.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_7/E7_11FpgaPiQpskModem/FpgaPiQpskModem/simulation/modelsim -O0
+n@pi@qpsk@modem_vlg_tst

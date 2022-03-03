@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Oct 06 13:00:15 2014
+Quartus II 32-bit Version : 12.1 Build 177 11/07/2012 SJ Full Version
+Revision Name : IIRCas
+Top-level Entity Name : IIRCas
+Family : Cyclone IV E
+Device : EP4CE15F17C8
+Timing Models : Final
+Total logic elements : 575 / 15,408 ( 4 % )
+    Total combinational functions : 546 / 15,408 ( 4 % )
+    Dedicated logic registers : 120 / 15,408 ( < 1 % )
+Total registers : 120
+Total pins : 26 / 166 ( 16 % )
+Total virtual pins : 0
+Total memory bits : 0 / 516,096 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 112 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

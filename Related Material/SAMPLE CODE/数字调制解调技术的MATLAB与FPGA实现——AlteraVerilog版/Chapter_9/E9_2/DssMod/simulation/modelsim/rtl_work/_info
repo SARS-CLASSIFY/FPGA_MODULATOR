@@ -1,0 +1,128 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ModemPrograms\Chapter_9\E9_2\DssMod\simulation\modelsim
+vDssMod
+I>lJU<bK0WYliIoo5l=F<M1
+V`V^V?QGe7kUT]8kXmVSbK3
+Z1 dD:\ModemPrograms\Chapter_9\E9_2\DssMod\simulation\modelsim
+w1415631590
+8D:/ModemPrograms/Chapter_9/E9_2/DssMod/source/DssMod.v
+FD:/ModemPrograms/Chapter_9/E9_2/DssMod/source/DssMod.v
+L0 2
+Z2 OV;L;10.1b;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_9/E9_2/DssMod/source -O0
+n@dss@mod
+!i10b 1
+!s100 EY=0X>f4ViDJ?FTbEImA^0
+!s85 0
+!s108 1415631996.015000
+!s107 D:/ModemPrograms/Chapter_9/E9_2/DssMod/source/DssMod.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_9/E9_2/DssMod/source|D:/ModemPrograms/Chapter_9/E9_2/DssMod/source/DssMod.v|
+!s101 -O0
+vDssMod_vlg_tst
+!i10b 1
+!s100 N<9UiM?i1lB<=Gg8W;d]?0
+Im0Yb8O>XSefG3OD5M1H]10
+VACn>5PK4D4ZOm[hA=XGnZ0
+R1
+w1415629163
+8D:/ModemPrograms/Chapter_9/E9_2/DssMod/simulation/modelsim/DssMod.vt
+FD:/ModemPrograms/Chapter_9/E9_2/DssMod/simulation/modelsim/DssMod.vt
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1415631996.312000
+!s107 D:/ModemPrograms/Chapter_9/E9_2/DssMod/simulation/modelsim/DssMod.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_9/E9_2/DssMod/simulation/modelsim|D:/ModemPrograms/Chapter_9/E9_2/DssMod/simulation/modelsim/DssMod.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_9/E9_2/DssMod/simulation/modelsim -O0
+n@dss@mod_vlg_tst
+vmult8_8
+I]?n@@k6kADb0CagHGF_^;1
+VlcSL[haK_meMilJN=L=B=1
+R1
+w1415628774
+8D:/ModemPrograms/Chapter_9/E9_2/DssMod/mult8_8.v
+FD:/ModemPrograms/Chapter_9/E9_2/DssMod/mult8_8.v
+L0 39
+R2
+r1
+31
+R3
+Z5 !s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_9/E9_2/DssMod -O0
+!i10b 1
+!s100 DF@dcMMD[@Z^]68E9GlDi1
+!s85 0
+!s108 1415631996.156000
+!s107 D:/ModemPrograms/Chapter_9/E9_2/DssMod/mult8_8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_9/E9_2/DssMod|D:/ModemPrograms/Chapter_9/E9_2/DssMod/mult8_8.v|
+!s101 -O0
+vnco8m
+IFzfWc]oE;2VYDh9:D?a>T1
+Vjn=>0O[0WP0SGkjU69Z`l3
+R1
+w1415628809
+8D:/ModemPrograms/Chapter_9/E9_2/DssMod/nco8m.vo
+FD:/ModemPrograms/Chapter_9/E9_2/DssMod/nco8m.vo
+L0 31
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 df79l;F2BU:2em7zSPXeZ1
+!s85 0
+!s108 1415631995.437000
+!s107 D:/ModemPrograms/Chapter_9/E9_2/DssMod/nco8m.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_9/E9_2/DssMod|D:/ModemPrograms/Chapter_9/E9_2/DssMod/nco8m.vo|
+!s101 -O0
+vPnCode
+IAh5`GTUSkbXLD][eRQe6K2
+V@`HgAXaf18zzbN<<iUB@h3
+R1
+w1415600052
+8D:/ModemPrograms/Chapter_9/E9_2/DssMod/source/PnCode.v
+FD:/ModemPrograms/Chapter_9/E9_2/DssMod/source/PnCode.v
+L0 2
+R2
+r1
+31
+R3
+n@pn@code
+R4
+!i10b 1
+!s100 C7HNj?<]7TX@C`jWD_4:D0
+!s85 0
+!s108 1415631995.906000
+!s107 D:/ModemPrograms/Chapter_9/E9_2/DssMod/source/PnCode.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_9/E9_2/DssMod/source|D:/ModemPrograms/Chapter_9/E9_2/DssMod/source/PnCode.v|
+!s101 -O0
+vshape_fir
+IJj`nE=kWPJa4KXc1610]F0
+V]ji<;VEafg`@FH_MUeWI`1
+R1
+w1415628854
+8D:/ModemPrograms/Chapter_9/E9_2/DssMod/shape_fir.vo
+FD:/ModemPrograms/Chapter_9/E9_2/DssMod/shape_fir.vo
+L0 31
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 J[Z8KM;GmV?Zdm1Ud<G4G1
+!s85 0
+!s108 1415631995.671000
+!s107 D:/ModemPrograms/Chapter_9/E9_2/DssMod/shape_fir.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_9/E9_2/DssMod|D:/ModemPrograms/Chapter_9/E9_2/DssMod/shape_fir.vo|
+!s101 -O0

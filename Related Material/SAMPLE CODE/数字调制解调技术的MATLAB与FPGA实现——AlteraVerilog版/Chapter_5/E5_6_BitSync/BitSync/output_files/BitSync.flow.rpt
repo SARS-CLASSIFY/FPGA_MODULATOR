@@ -1,0 +1,137 @@
+Flow report for BitSync
+Sat Oct 11 21:37:01 2014
+Quartus II 32-bit Version 12.1 Build 177 11/07/2012 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2012 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------+
+; Flow Summary                                                                   ;
++------------------------------------+-------------------------------------------+
+; Flow Status                        ; Successful - Sat Oct 11 21:37:01 2014     ;
+; Quartus II 32-bit Version          ; 12.1 Build 177 11/07/2012 SJ Full Version ;
+; Revision Name                      ; BitSync                                   ;
+; Top-level Entity Name              ; BitSync                                   ;
+; Family                             ; Cyclone IV E                              ;
+; Device                             ; EP4CE15F17C8                              ;
+; Timing Models                      ; Final                                     ;
+; Total logic elements               ; 21 / 15,408 ( < 1 % )                     ;
+;     Total combinational functions  ; 20 / 15,408 ( < 1 % )                     ;
+;     Dedicated logic registers      ; 20 / 15,408 ( < 1 % )                     ;
+; Total registers                    ; 20                                        ;
+; Total pins                         ; 4 / 166 ( 2 % )                           ;
+; Total virtual pins                 ; 0                                         ;
+; Total memory bits                  ; 0 / 516,096 ( 0 % )                       ;
+; Embedded Multiplier 9-bit elements ; 0 / 112 ( 0 % )                           ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                             ;
++------------------------------------+-------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 10/11/2014 21:36:37 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; BitSync             ;
++-------------------+---------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                            ;
++--------------------------------------+---------------------------------------+---------------+-------------+----------------+
+; Assignment Name                      ; Value                                 ; Default Value ; Entity Name ; Section Id     ;
++--------------------------------------+---------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID                ; 827313738527.141303459701264          ; --            ; --          ; --             ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; --             ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; BitSync                               ; --            ; --          ; eda_simulation ;
+; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                           ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)             ; <None>        ; --          ; --             ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                       ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_FILE                  ; simulation/modelsim/BitSync.vt        ; --            ; --          ; --             ;
+; EDA_TEST_BENCH_MODULE_NAME           ; BitSync_vlg_tst                       ; --            ; --          ; --             ;
+; EDA_TEST_BENCH_NAME                  ; BitSync                               ; --            ; --          ; eda_simulation ;
+; EDA_TIME_SCALE                       ; 1 ps                                  ; --            ; --          ; eda_simulation ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                    ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                     ; --            ; --          ; --             ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE          ; 1.2V                                  ; --            ; --          ; --             ;
+; PARTITION_COLOR                      ; 16764057                              ; --            ; --          ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; PLACEMENT_AND_ROUTING                 ; --            ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE               ; SOURCE                                ; --            ; --          ; Top            ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                   ; --            ; --          ; --             ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ; --            ; --          ; --             ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                          ; --            ; --          ; --             ;
+; SEARCH_PATH                          ; .                                     ; --            ; --          ; --             ;
+; SEARCH_PATH                          ; nco-library                           ; --            ; --          ; --             ;
++--------------------------------------+---------------------------------------+---------------+-------------+----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:03     ; 1.0                     ; 517 MB              ; 00:00:03                           ;
+; Fitter                    ; 00:00:09     ; 1.2                     ; 631 MB              ; 00:00:09                           ;
+; Assembler                 ; 00:00:02     ; 1.0                     ; 503 MB              ; 00:00:03                           ;
+; TimeQuest Timing Analyzer ; 00:00:04     ; 1.0                     ; 518 MB              ; 00:00:03                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 449 MB              ; 00:00:02                           ;
+; Total                     ; 00:00:19     ; --                      ; --                  ; 00:00:20                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++-----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                         ;
++---------------------------+------------------+------------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++---------------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis      ; 20120612-2332    ; Windows XP ; 5.1        ; i686           ;
+; Fitter                    ; 20120612-2332    ; Windows XP ; 5.1        ; i686           ;
+; Assembler                 ; 20120612-2332    ; Windows XP ; 5.1        ; i686           ;
+; TimeQuest Timing Analyzer ; 20120612-2332    ; Windows XP ; 5.1        ; i686           ;
+; EDA Netlist Writer        ; 20120612-2332    ; Windows XP ; 5.1        ; i686           ;
++---------------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off BitSync -c BitSync
+quartus_fit --read_settings_files=off --write_settings_files=off BitSync -c BitSync
+quartus_asm --read_settings_files=off --write_settings_files=off BitSync -c BitSync
+quartus_sta BitSync -c BitSync
+quartus_eda --read_settings_files=off --write_settings_files=off BitSync -c BitSync
+
+
+

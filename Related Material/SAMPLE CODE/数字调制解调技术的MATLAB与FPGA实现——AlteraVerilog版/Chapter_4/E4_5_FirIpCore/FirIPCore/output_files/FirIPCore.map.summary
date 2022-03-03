@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Oct 06 10:49:31 2014
+Quartus II 32-bit Version : 12.1 Build 177 11/07/2012 SJ Full Version
+Revision Name : FirIPCore
+Top-level Entity Name : FirIPCore
+Family : Cyclone IV E
+Total logic elements : 900
+    Total combinational functions : 667
+    Dedicated logic registers : 674
+Total registers : 674
+Total pins : 39
+Total virtual pins : 0
+Total memory bits : 252
+Embedded Multiplier 9-bit elements : 6
+Total PLLs : 0

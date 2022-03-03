@@ -1,0 +1,86 @@
+`timescale 1 ns/ 1 ns
+module FirIPCore_vlg_tst();
+// constants                                           
+// general purpose registers
+//reg eachvec;
+// test vector input registers
+reg [11:0] Xin;
+reg clk,clk_data;
+reg reset_n;
+// wires                                               
+wire [13:0]  Yout;
+
+// assign statements (if any)                          
+FirIPCore i1 (
+// port map - connection between master ports and signals/registers   
+	.Xin(Xin),
+	.Yout(Yout),
+	.clk(clk),
+	.reset_n(reset_n)
+);
+parameter clk_period=20; //设置时钟信号周期（频率）:50MHz
+parameter data_clk_period=clk_period*2; //设置数据时钟周期
+parameter clk_half_period=clk_period/2;
+parameter data_half_period=data_clk_period/2;
+parameter data_num=2000;  //仿真数据长度
+parameter time_sim=data_num*data_clk_period; //仿真时间
+initial
+begin
+	//设置输入信号初值
+	Xin=12'd10;
+	//设置时钟信号初值
+	clk=1;
+	clk_data=1;
+	//设置复位信号
+	reset_n=0;
+	#110 reset_n=1;
+	//设置仿真时间
+	#time_sim $finish;
+
+end
+
+//产生时钟信号
+always                                                 
+	#clk_half_period clk=~clk;
+always                                                 
+	#data_half_period clk_data=~clk_data;
+	
+//从外部TX文件(E4_5_TestData.txt)读入数据作为测试激励
+integer Pattern;
+reg [11:0] stimulus[1:data_num];
+initial
+begin
+   //文件必须放置在"工程目录\simulation\modelsim"路径下
+	$readmemb("testdata.txt",stimulus);
+	Pattern=0;
+	repeat(data_num)
+		begin
+			Pattern=Pattern+1;
+			Xin=stimulus[Pattern];
+			#data_clk_period;
+		end
+end
+
+//将仿真数据Yout写入外部TXT文件中(E4_5_FpgaData.txt)
+integer file_out;
+initial 
+begin
+   //文件放置在"工程目录\simulation\modelsim"路径下                                                  
+	file_out = $fopen("E4_5_FpgaData.txt");
+	if(!file_out)
+		begin
+			$display("could not open file!");
+			$finish;
+		end
+end
+wire rst_write;
+wire signed [13:0] dout_s;
+assign dout_s = Yout;                  //将Yout转换成有符号数据
+assign rst_write = clk_data & (reset_n);    //产生写入时钟信号，复位状态时不写入数据
+always @(posedge rst_write )
+	$fdisplay(file_out,"%d",dout_s);
+		
+
+                                                    
+endmodule
+

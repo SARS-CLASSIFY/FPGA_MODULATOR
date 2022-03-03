@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Oct 30 13:01:41 2014
+Quartus II 32-bit Version : 12.1 Build 177 11/07/2012 SJ Full Version
+Revision Name : aPiQpskModem
+Top-level Entity Name : PiQpskModem
+Family : Cyclone IV E
+Total logic elements : 7,633
+    Total combinational functions : 6,540
+    Dedicated logic registers : 6,934
+Total registers : 6934
+Total pins : 14
+Total virtual pins : 0
+Total memory bits : 780
+Embedded Multiplier 9-bit elements : 4
+Total PLLs : 0

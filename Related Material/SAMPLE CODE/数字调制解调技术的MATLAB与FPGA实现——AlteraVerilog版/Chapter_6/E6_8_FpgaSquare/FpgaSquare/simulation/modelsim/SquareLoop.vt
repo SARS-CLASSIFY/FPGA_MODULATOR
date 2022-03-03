@@ -1,0 +1,131 @@
+// Copyright (C) 1991-2012 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench template that is freely editable to  
+// suit user's needs .Comments are provided in each section to help the user    
+// fill out necessary details.                                                  
+// *****************************************************************************
+// Generated on "08/30/2014 09:18:06"
+                                                                                
+// Verilog Test Bench template for design : SquareLoop
+// 
+// Simulation tool : ModelSim-Altera (Verilog)
+// 
+
+`timescale 1 ns/ 1 ns
+module SquareLoop_vlg_tst();
+// constants                                           
+// general purpose registers
+//reg eachvec;
+// test vector input registers
+reg clk;
+reg [7:0] din;
+reg rst;
+// wires                                               
+wire [27:0]  df;
+wire [7:0]  carrier;
+
+// assign statements (if any)                          
+SquareLoop i1 (
+// port map - connection between master ports and signals/registers   
+	.clk(clk),
+	.df(df),
+	.din(din),
+	.rst(rst),
+	.carrier(carrier));
+parameter clk_period=20; //设置时钟信号周期（频率）
+parameter period_data=clk_period*1;//数据周期
+parameter clk_half_period=clk_period/2;
+parameter data_half_period=period_data/2;
+parameter data_num=20000;  //仿真数据长度
+parameter time_sim=data_num*period_data; //仿真时间
+
+initial
+begin
+	//设置时钟信号初值
+	clk=1;
+	//clk_data=1;
+	//设置复位信号
+	rst=1;
+	#400 rst=0;
+	//设置仿真时间
+	#time_sim $finish;
+	//#400 $finish;
+end
+
+
+
+//产生时钟信号
+always                                                 
+	#clk_half_period clk=~clk;
+
+
+//从外部TX文件读入数据作为测试激励
+integer Pattern;
+reg [7:0] stimulus[1:data_num];
+initial
+begin
+   //文件必须放置在"工程目录\simulation\modelsim"路径下
+	$readmemb("msk.txt",stimulus);
+	Pattern=0;
+	repeat(data_num)
+		begin
+			Pattern=Pattern+1;
+			din=stimulus[Pattern];
+			#period_data;
+		end
+end
+
+////产生写入时钟信号，复位状态时不写入数据
+//wire rst_write;
+//assign rst_write = clk & (!rst);    
+//	
+////将仿真数据df写入外部TXT文件中(df.txt)
+//integer file_df;
+//initial
+//begin
+//   //文件放置在"工程目录\simulation\modelsim"路径下                                                  
+//	file_df = $fopen("df.txt");
+//	if(!file_df)
+//		begin
+//			$display("could not open file!");
+//			$finish;
+//		end
+//end
+////将df转换成有符号数据
+//wire signed [28:0] s_df;
+//assign s_df = df;
+//always @(posedge rst_write)
+//	$fdisplay(file_df,"%d",s_df);
+//
+////将仿真数据sine写入外部TXT文件中(oc.txt)
+//integer file_oc;
+//initial
+//begin
+//   //文件放置在"工程目录\simulation\modelsim"路径下                                                  
+//	file_oc = $fopen("oc.txt");
+//	if(!file_oc)
+//		begin
+//			$display("could not open file!");
+//			$finish;
+//		end
+//end
+////将df转换成有符号数据
+//wire signed [7:0] s_oc;
+//assign s_oc = carrier;
+//always @(posedge rst_write)
+//	$fdisplay(file_oc,"%d",s_oc);
+	
+endmodule

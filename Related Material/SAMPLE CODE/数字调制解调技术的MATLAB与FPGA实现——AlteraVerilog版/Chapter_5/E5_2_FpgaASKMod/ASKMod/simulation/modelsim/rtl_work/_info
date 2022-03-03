@@ -1,0 +1,67 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ModemPrograms\Chapter_5\E5_2_FpgaASKMod\ASKMod\simulation\modelsim
+vASKMod
+I@NJ?DRzE`Cb1MRfI04ZOf1
+V3jMRUc:@0Y8HjiXCoWJKO2
+Z1 dD:\ModemPrograms\Chapter_5\E5_2_FpgaASKMod\ASKMod\simulation\modelsim
+w1412650142
+8D:/ModemPrograms/Chapter_5/E5_2_FpgaASKMod/ASKMod/source/ASKMod.v
+FD:/ModemPrograms/Chapter_5/E5_2_FpgaASKMod/ASKMod/source/ASKMod.v
+L0 2
+Z2 OV;L;10.1b;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+n@a@s@k@mod
+!i10b 1
+!s100 AnFHkR[ZiKWa2oIdCOP<A1
+!s85 0
+!s108 1412654708.000000
+!s107 D:/ModemPrograms/Chapter_5/E5_2_FpgaASKMod/ASKMod/source/ASKMod.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_5/E5_2_FpgaASKMod/ASKMod/source|D:/ModemPrograms/Chapter_5/E5_2_FpgaASKMod/ASKMod/source/ASKMod.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_5/E5_2_FpgaASKMod/ASKMod/source -O0
+vASKMod_vlg_tst
+!i10b 1
+!s100 ]DQJiK6RO<MYScJgU4_JG2
+IC_UH06;]P6LIQ0PcbRCnI3
+V::4b4C?zCXJhLNb2glOTD3
+R1
+w1412654698
+8D:/ModemPrograms/Chapter_5/E5_2_FpgaASKMod/ASKMod/simulation/modelsim/ASKMod.vt
+FD:/ModemPrograms/Chapter_5/E5_2_FpgaASKMod/ASKMod/simulation/modelsim/ASKMod.vt
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1412654708.140000
+!s107 D:/ModemPrograms/Chapter_5/E5_2_FpgaASKMod/ASKMod/simulation/modelsim/ASKMod.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_5/E5_2_FpgaASKMod/ASKMod/simulation/modelsim|D:/ModemPrograms/Chapter_5/E5_2_FpgaASKMod/ASKMod/simulation/modelsim/ASKMod.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_5/E5_2_FpgaASKMod/ASKMod/simulation/modelsim -O0
+n@a@s@k@mod_vlg_tst
+vdds
+IR^OW;QZZd4UFUfR@dzWmY2
+VkT5Qm@JHj:zo[2VBNkK@e3
+R1
+w1412649279
+8D:/ModemPrograms/Chapter_5/E5_2_FpgaASKMod/ASKMod/dds.vo
+FD:/ModemPrograms/Chapter_5/E5_2_FpgaASKMod/ASKMod/dds.vo
+L0 31
+R2
+r1
+31
+R3
+!i10b 1
+!s100 ;mb;LX>2Fn1UZL8PzaKj22
+!s85 0
+!s108 1412654707.734000
+!s107 D:/ModemPrograms/Chapter_5/E5_2_FpgaASKMod/ASKMod/dds.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_5/E5_2_FpgaASKMod/ASKMod|D:/ModemPrograms/Chapter_5/E5_2_FpgaASKMod/ASKMod/dds.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_5/E5_2_FpgaASKMod/ASKMod -O0

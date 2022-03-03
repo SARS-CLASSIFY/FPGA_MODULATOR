@@ -1,0 +1,188 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ModemPrograms\Chapter_9\E9_3\PnSync\simulation\modelsim
+vcounter
+I61Y>X:Y7DHj_Tb:M?HI>_1
+VDVCERa<fLVIV2=PWz1hC70
+Z1 dD:\ModemPrograms\Chapter_9\E9_3\PnSync\simulation\modelsim
+w1415711465
+8D:/ModemPrograms/Chapter_9/E9_3/PnSync/counter.v
+FD:/ModemPrograms/Chapter_9/E9_3/PnSync/counter.v
+L0 39
+Z2 OV;L;10.1b;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_9/E9_3/PnSync -O0
+!i10b 1
+!s100 IzAdi3gbG00GnFjT@@1693
+!s85 0
+!s108 1415943005.640000
+!s107 D:/ModemPrograms/Chapter_9/E9_3/PnSync/counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_9/E9_3/PnSync|D:/ModemPrograms/Chapter_9/E9_3/PnSync/counter.v|
+!s101 -O0
+vintegrator
+I[?<IPg:Gfm7UcKiLV]H8m1
+VZD`2YZ2lXEmiFV3:Tc0Q:3
+R1
+w1415803921
+8D:/ModemPrograms/Chapter_9/E9_3/PnSync/source/integrator.v
+FD:/ModemPrograms/Chapter_9/E9_3/PnSync/source/integrator.v
+L0 2
+R2
+r1
+31
+R3
+Z5 !s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_9/E9_3/PnSync/source -O0
+!i10b 1
+!s100 ?@GBiKKmGjbTi;W`HJ_Db0
+!s85 0
+!s108 1415943005.750000
+!s107 D:/ModemPrograms/Chapter_9/E9_3/PnSync/source/integrator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_9/E9_3/PnSync/source|D:/ModemPrograms/Chapter_9/E9_3/PnSync/source/integrator.v|
+!s101 -O0
+vintegrator_col
+I^WUeG>IbO^zCYA5T8lW2[0
+VSd5Peez:?5ELlVLiVK[Jc3
+R1
+w1415715300
+8D:/ModemPrograms/Chapter_9/E9_3/PnSync/source/integrator_col.v
+FD:/ModemPrograms/Chapter_9/E9_3/PnSync/source/integrator_col.v
+L0 2
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 KI]lDkeUz8E98z8[@@T5i3
+!s85 0
+!s108 1415943005.843000
+!s107 D:/ModemPrograms/Chapter_9/E9_3/PnSync/source/integrator_col.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_9/E9_3/PnSync/source|D:/ModemPrograms/Chapter_9/E9_3/PnSync/source/integrator_col.v|
+!s101 -O0
+vmult18_18
+Il`R@Si7b9MGOBmm;`LjEz2
+V]B?]Cg2XzC<3ET9a?7K^61
+R1
+w1415716254
+8D:/ModemPrograms/Chapter_9/E9_3/PnSync/mult18_18.v
+FD:/ModemPrograms/Chapter_9/E9_3/PnSync/mult18_18.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 IU?lM0<_:nABf7CRMea`40
+!s85 0
+!s108 1415943006.046000
+!s107 D:/ModemPrograms/Chapter_9/E9_3/PnSync/mult18_18.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_9/E9_3/PnSync|D:/ModemPrograms/Chapter_9/E9_3/PnSync/mult18_18.v|
+!s101 -O0
+vpn
+IW6`DecYb>COLjR5`<m`BF0
+VRZ3L7Fa^]WWb5MA3O<QTO2
+R1
+w1415719962
+8D:/ModemPrograms/Chapter_9/E9_3/PnSync/pn.v
+FD:/ModemPrograms/Chapter_9/E9_3/PnSync/pn.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 UDM1R=f[h;eF:YCgY`eDi1
+!s85 0
+!s108 1415943005.296000
+!s107 D:/ModemPrograms/Chapter_9/E9_3/PnSync/pn.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_9/E9_3/PnSync|D:/ModemPrograms/Chapter_9/E9_3/PnSync/pn.v|
+!s101 -O0
+vPN_adjust
+IeN>men_RCA;zjLnSjgz@T0
+V;LkO2OW54W8j_za1kMZF@0
+R1
+w1415771532
+8D:/ModemPrograms/Chapter_9/E9_3/PnSync/source/PN_adjust.v
+FD:/ModemPrograms/Chapter_9/E9_3/PnSync/source/PN_adjust.v
+L0 2
+R2
+r1
+31
+R3
+R5
+n@p@n_adjust
+!i10b 1
+!s100 d_8<FjSiBHFlRV1T=LdVW2
+!s85 0
+!s108 1415943005.937000
+!s107 D:/ModemPrograms/Chapter_9/E9_3/PnSync/source/PN_adjust.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_9/E9_3/PnSync/source|D:/ModemPrograms/Chapter_9/E9_3/PnSync/source/PN_adjust.v|
+!s101 -O0
+vpn_code
+IV^=?_cid<WOYJCQG=Ggkn3
+VflOTX1hb3QMF>1h8G4hPT0
+R1
+w1415771287
+8D:/ModemPrograms/Chapter_9/E9_3/PnSync/source/pn_code.v
+FD:/ModemPrograms/Chapter_9/E9_3/PnSync/source/pn_code.v
+L0 2
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 Li9bofY2Z`D9]GneXL_gN2
+!s85 0
+!s108 1415943005.531000
+!s107 D:/ModemPrograms/Chapter_9/E9_3/PnSync/source/pn_code.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_9/E9_3/PnSync/source|D:/ModemPrograms/Chapter_9/E9_3/PnSync/source/pn_code.v|
+!s101 -O0
+vPnSync
+IjMMF<_QGNRoKfG<7]J[f@0
+Vbklk;BR8;`<OQA6VY>=`70
+R1
+w1415942894
+8D:/ModemPrograms/Chapter_9/E9_3/PnSync/source/PnSync.v
+FD:/ModemPrograms/Chapter_9/E9_3/PnSync/source/PnSync.v
+L0 2
+R2
+r1
+31
+R3
+n@pn@sync
+R5
+!i10b 1
+!s100 >>lYUkmYF8Y:lK_Ca1z1B3
+!s85 0
+!s108 1415943005.421000
+!s107 D:/ModemPrograms/Chapter_9/E9_3/PnSync/source/PnSync.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_9/E9_3/PnSync/source|D:/ModemPrograms/Chapter_9/E9_3/PnSync/source/PnSync.v|
+!s101 -O0
+vPnSync_vlg_tst
+!i10b 1
+!s100 o[QRHlE>hdk>`QOS?HAla2
+I_jjBdfMV0;8GZmCg9LA>Y0
+VlWGc`N5S3eWKJMXTU>[zg0
+R1
+w1415942786
+8D:/ModemPrograms/Chapter_9/E9_3/PnSync/simulation/modelsim/PnSync.vt
+FD:/ModemPrograms/Chapter_9/E9_3/PnSync/simulation/modelsim/PnSync.vt
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1415943006.140000
+!s107 D:/ModemPrograms/Chapter_9/E9_3/PnSync/simulation/modelsim/PnSync.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_9/E9_3/PnSync/simulation/modelsim|D:/ModemPrograms/Chapter_9/E9_3/PnSync/simulation/modelsim/PnSync.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_9/E9_3/PnSync/simulation/modelsim -O0
+n@pn@sync_vlg_tst

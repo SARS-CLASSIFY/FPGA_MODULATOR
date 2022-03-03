@@ -1,0 +1,4 @@
+//这是integrator_col.v文件的程序清单
+module integrator_col (
+	rst,clk,pn,addr,din,
+	dout); 

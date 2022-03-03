@@ -1,0 +1,127 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ModemPrograms\Chapter_5\E5_6_BitSync\BitSync\simulation\modelsim
+vBitSync
+IGX:EIPKCI=XAE:46`1[e10
+V8UAhdj?`z^GOn[Qh4`2a10
+Z1 dD:\ModemPrograms\Chapter_5\E5_6_BitSync\BitSync\simulation\modelsim
+w1412952530
+8D:/ModemPrograms/Chapter_5/E5_6_BitSync/source/BitSync.v
+FD:/ModemPrograms/Chapter_5/E5_6_BitSync/source/BitSync.v
+L0 2
+Z2 OV;L;10.1b;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_5/E5_6_BitSync/source -O0
+n@bit@sync
+!i10b 1
+!s100 F`c77k:J<APCXS^WA7Lda1
+!s85 0
+!s108 1413033445.046000
+!s107 D:/ModemPrograms/Chapter_5/E5_6_BitSync/source/BitSync.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_5/E5_6_BitSync/source|D:/ModemPrograms/Chapter_5/E5_6_BitSync/source/BitSync.v|
+!s101 -O0
+vBitSync_vlg_tst
+!i10b 1
+!s100 OLX<5O3D;Y1Q:[f9;l`FX1
+IaU3`Z8Z8UVhP40fRjG67H1
+VMRo[[7zg>T4nTYcg>e`Y82
+R1
+w1413033432
+8D:/ModemPrograms/Chapter_5/E5_6_BitSync/BitSync/simulation/modelsim/BitSync.vt
+FD:/ModemPrograms/Chapter_5/E5_6_BitSync/BitSync/simulation/modelsim/BitSync.vt
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1413033445.140000
+!s107 D:/ModemPrograms/Chapter_5/E5_6_BitSync/BitSync/simulation/modelsim/BitSync.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_5/E5_6_BitSync/BitSync/simulation/modelsim|D:/ModemPrograms/Chapter_5/E5_6_BitSync/BitSync/simulation/modelsim/BitSync.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_5/E5_6_BitSync/BitSync/simulation/modelsim -O0
+n@bit@sync_vlg_tst
+vclktrans
+IIRjZ:UAbRXgJ2`NImMbkK1
+VBfi<Azzn=jjTFc_E@Yf7V2
+R1
+w1411293775
+8D:/ModemPrograms/Chapter_5/E5_6_BitSync/source/clktrans.v
+FD:/ModemPrograms/Chapter_5/E5_6_BitSync/source/clktrans.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 =>FDRDO>8MWgM8Ea<DWn=2
+!s85 0
+!s108 1413033444.937000
+!s107 D:/ModemPrograms/Chapter_5/E5_6_BitSync/source/clktrans.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_5/E5_6_BitSync/source|D:/ModemPrograms/Chapter_5/E5_6_BitSync/source/clktrans.v|
+!s101 -O0
+vcontroldivfreq
+IYR85`PHAKK2j33]7H>1IO1
+VX82N`>^KlY36RWSZI2<jC1
+R1
+w1411299101
+8D:/ModemPrograms/Chapter_5/E5_6_BitSync/source/controldivfreq.v
+FD:/ModemPrograms/Chapter_5/E5_6_BitSync/source/controldivfreq.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 C15oCCo1]6NOgA?ja78Rn1
+!s85 0
+!s108 1413033444.765000
+!s107 D:/ModemPrograms/Chapter_5/E5_6_BitSync/source/controldivfreq.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_5/E5_6_BitSync/source|D:/ModemPrograms/Chapter_5/E5_6_BitSync/source/controldivfreq.v|
+!s101 -O0
+vdifferpd
+IVJbfKlbI]Gj2D3KB7[TIO2
+ValL5FCORgzRl^WK^_j_go0
+R1
+w1412952661
+8D:/ModemPrograms/Chapter_5/E5_6_BitSync/source/differpd.v
+FD:/ModemPrograms/Chapter_5/E5_6_BitSync/source/differpd.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 kTT:2Bl]HXR437WF:6nXM3
+!s85 0
+!s108 1413033444.546000
+!s107 D:/ModemPrograms/Chapter_5/E5_6_BitSync/source/differpd.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_5/E5_6_BitSync/source|D:/ModemPrograms/Chapter_5/E5_6_BitSync/source/differpd.v|
+!s101 -O0
+vmonostable
+Il`=_NeBm3TH8;SB=8];na0
+VL1_HmEk=@aEBAPN@I^Qo33
+R1
+w1411293749
+8D:/ModemPrograms/Chapter_5/E5_6_BitSync/source/monostable.v
+FD:/ModemPrograms/Chapter_5/E5_6_BitSync/source/monostable.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 Z2gE6FKD@D=^?hzi5[4WR2
+!s85 0
+!s108 1413033444.281000
+!s107 D:/ModemPrograms/Chapter_5/E5_6_BitSync/source/monostable.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_5/E5_6_BitSync/source|D:/ModemPrograms/Chapter_5/E5_6_BitSync/source/monostable.v|
+!s101 -O0

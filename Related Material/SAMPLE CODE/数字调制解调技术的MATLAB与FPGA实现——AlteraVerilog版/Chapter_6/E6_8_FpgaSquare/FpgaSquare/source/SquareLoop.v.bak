@@ -1,0 +1,69 @@
+//这是SyncCarrier.v文件的程序清单
+module SyncCarrier (
+	rst,clk,din,
+	sine,df); 
+	
+	input		rst;   //复位信号，高电平有效
+	input		clk;   //FPGA系统时钟：32MHz
+	input	 signed [7:0]	din;   //输入数据：4MHz
+	output signed [7:0]	sine;  //同步后的载波输出信号(正交支路)
+	output signed [24:0]	df;    //环路滤波器输出数据
+	
+	//实例化NCO核所需的接口信号
+	wire reset_n,out_valid,clken;
+	wire [28:0] carrier;
+	wire signed [9:0] sin,cosine ;
+	wire signed [28:0] frequency_df;
+	wire signed [24:0] Loopout;
+	assign reset_n = !rst;
+	assign clken = 1'b1;
+	//assign carrier=29'd100663296;//6MHz
+	//assign carrier=29'd102236160;//6.09375MHz
+	//assign carrier = 29'd101449728;//6.046875MHz
+	assign carrier = 29'd100860000;//6.0117188MHz
+	assign frequency_df={{4{Loopout[24]}},Loopout};//根据DDS核接口，扩展为29位
+	
+	wire [28:0] start;
+	assign start=29'd0;
+	
+	//实例化NCO核
+   //Quartus提供的NCO核输出数据最小位宽为10比特，根据环路设计需求，只取高8比特参与后续运算	
+	dds	u4 (
+		.phi_inc_i (carrier),
+		.clk (clk),
+		.reset_n (reset_n),
+		.clken (clken),
+		.freq_mod_i (frequency_df),
+		.fsin_o (sin),
+		.fcos_o (cosine),
+		.out_valid (out_valid));
+	assign sine = sin[9:2];
+
+   //实例化乘法器核	
+	wire signed [14:0] mult_out;	
+   mult u1 (
+	   .clock (clk),
+		.dataa (din),
+		.datab (cosine[9:2]),
+		.result (mult_out));
+
+
+   //实例化低通滤波器核
+	wire signed [24:0] pd;
+   iir_lpf u2 (
+	   .rst (rst),
+		.clk (clk),	   
+		.Xin (mult_out),
+	   .Yout (pd));
+
+	//实例化环路滤波器模块	
+   LoopFilter u3(
+	   .rst (rst),
+		.clk (clk),
+		.pd  (pd),
+		.frequency_df(Loopout));
+		
+	//将环路滤波器数据送至输出端口查看	
+	assign df = Loopout;
+	
+endmodule

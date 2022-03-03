@@ -1,0 +1,19 @@
+module adc10065 (
+	rst_n,clk,
+	dout);
+	
+	
+	input    rst_n;            
+	input		clk;   				
+	output signed [9:0] dout;
+	
+	
+	always@(posedge clk or negedge rst_n)
+		begin
+			
+		
+		
+		
+		
+		end
+		

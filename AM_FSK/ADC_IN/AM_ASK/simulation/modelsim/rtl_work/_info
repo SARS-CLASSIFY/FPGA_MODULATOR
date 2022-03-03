@@ -1,0 +1,253 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dJ:/AM_ASK/simulation/modelsim
+vadd
+Z1 !s110 1646193296
+!i10b 1
+!s100 f9zB4<>hhc881alP]Rg?L2
+IY8am<bPCOmgYHzmA`l`N51
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1644510803
+8J:/AM_ASK/ip/add/add.v
+FJ:/AM_ASK/ip/add/add.v
+Z3 L0 39
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1646193296.000000
+!s107 J:/AM_ASK/ip/add/add.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+J:/AM_ASK/ip/add|J:/AM_ASK/ip/add/add.v|
+!i113 1
+Z6 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+J:/AM_ASK/ip/add
+Z7 tCvgOpt 0
+vadda_out
+R1
+!i10b 1
+!s100 Ij3NkcAV4CJBRJDVF=KkE1
+IoEa89hMnIjhB]z5:FjUib2
+R2
+R0
+w1646192277
+8J:/AM_ASK/rom_sim/adda_out.v
+FJ:/AM_ASK/rom_sim/adda_out.v
+L0 7
+R4
+r1
+!s85 0
+31
+R5
+!s107 J:/AM_ASK/rom_sim/adda_out.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+J:/AM_ASK/rom_sim|J:/AM_ASK/rom_sim/adda_out.v|
+!i113 1
+R6
+Z8 !s92 -vlog01compat -work work +incdir+J:/AM_ASK/rom_sim
+R7
+vaddr_ctrl
+R1
+!i10b 1
+!s100 6Kl]<9B7:1VPX>j>0Vg@@3
+I^=IW;HLe5k;ELm5JAPzc71
+R2
+R0
+w1616678245
+8J:/AM_ASK/rom_sim/addr_ctrl.v
+FJ:/AM_ASK/rom_sim/addr_ctrl.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 J:/AM_ASK/rom_sim/addr_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+J:/AM_ASK/rom_sim|J:/AM_ASK/rom_sim/addr_ctrl.v|
+!i113 1
+R6
+R8
+R7
+vAM_MODE
+R1
+!i10b 1
+!s100 f2gJUKbzV^a5jg0bBIJ:d2
+ISjozBZ7TP4hZUPz0?Io2P2
+R2
+R0
+w1646193217
+8J:/AM_ASK/AM_MODE.v
+FJ:/AM_ASK/AM_MODE.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 J:/AM_ASK/AM_MODE.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+J:/AM_ASK|J:/AM_ASK/AM_MODE.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+J:/AM_ASK
+R7
+n@a@m_@m@o@d@e
+vAM_MODE_vlg_tst
+R1
+!i10b 1
+!s100 <Fg<5mZXC>J5KRc^9?]];3
+ICTXOn02O29BS8KX]EYWg31
+R2
+R0
+w1646193280
+8J:/AM_ASK/simulation/modelsim/AM_MODE.vt
+FJ:/AM_ASK/simulation/modelsim/AM_MODE.vt
+L0 28
+R4
+r1
+!s85 0
+31
+R5
+!s107 J:/AM_ASK/simulation/modelsim/AM_MODE.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+J:/AM_ASK/simulation/modelsim|J:/AM_ASK/simulation/modelsim/AM_MODE.vt|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+J:/AM_ASK/simulation/modelsim
+R7
+n@a@m_@m@o@d@e_vlg_tst
+vfsk
+Z9 !s110 1646193295
+!i10b 1
+!s100 ;zU>^jh_9^Ma9mQM`E=@20
+I03GVom0;ag87Y]bD6<2<<0
+R2
+R0
+w1646035507
+8J:/AM_ASK/ip/fsk/fsk/simulation/fsk.v
+FJ:/AM_ASK/ip/fsk/fsk/simulation/fsk.v
+L0 6
+R4
+r1
+!s85 0
+31
+Z10 !s108 1646193295.000000
+!s107 J:/AM_ASK/ip/fsk/fsk/simulation/fsk.v|
+!s90 -reportprogress|300|J:/AM_ASK/ip/fsk/fsk/simulation/fsk.v|
+!i113 1
+R7
+vFskMod
+R1
+!i10b 1
+!s100 1P`X62K1R9@WmIm`e6TGn0
+IB[Nhe>O6Na7DVG[k`F4^a3
+R2
+R0
+w1646035572
+8J:/AM_ASK/source/fsk/FskMod.v
+FJ:/AM_ASK/source/fsk/FskMod.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 J:/AM_ASK/source/fsk/FskMod.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+J:/AM_ASK/source/fsk|J:/AM_ASK/source/fsk/FskMod.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+J:/AM_ASK/source/fsk
+R7
+n@fsk@mod
+vmult
+R9
+!i10b 1
+!s100 U]L5N8ID08mjfN:;89ann0
+I2>G@Ek7ZFHRV^H1NN4?U02
+R2
+R0
+w1646033179
+8J:/AM_ASK/ip/mult/mult.v
+FJ:/AM_ASK/ip/mult/mult.v
+R3
+R4
+r1
+!s85 0
+31
+R10
+!s107 J:/AM_ASK/ip/mult/mult.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+J:/AM_ASK/ip/mult|J:/AM_ASK/ip/mult/mult.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+J:/AM_ASK/ip/mult
+R7
+vpll200
+R1
+!i10b 1
+!s100 e<h9d^Wm9BLo2jYkMgEEd0
+I=;R35Sk82;NHC]DoV7GXi3
+R2
+R0
+w1645673883
+8J:/AM_ASK/ip/pll200/pll200.v
+FJ:/AM_ASK/ip/pll200/pll200.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 J:/AM_ASK/ip/pll200/pll200.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+J:/AM_ASK/ip/pll200|J:/AM_ASK/ip/pll200/pll200.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+J:/AM_ASK/ip/pll200
+R7
+vpll200_altpll
+R1
+!i10b 1
+!s100 lQ[82ETZibL8R^P^aU@m;1
+I[lE90_?9P6f@L]eOXWEG22
+R2
+R0
+w1645703316
+8J:/AM_ASK/db/pll200_altpll.v
+FJ:/AM_ASK/db/pll200_altpll.v
+L0 29
+R4
+r1
+!s85 0
+31
+R5
+!s107 J:/AM_ASK/db/pll200_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+J:/AM_ASK/db|J:/AM_ASK/db/pll200_altpll.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+J:/AM_ASK/db
+R7
+vsin
+R1
+!i10b 1
+!s100 dB=3YzQgQakK?KI?UQM^[0
+I9_NJWFPQ5d5Sl0Z73U>E41
+R2
+R0
+w1646192151
+8J:/AM_ASK/rom_sim/sin.v
+FJ:/AM_ASK/rom_sim/sin.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 J:/AM_ASK/rom_sim/sin.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+J:/AM_ASK/rom_sim|J:/AM_ASK/rom_sim/sin.v|
+!i113 1
+R6
+R8
+R7

@@ -1,0 +1,252 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ModemPrograms\Chapter_8\E8_5_FpgaGardner\QamModemPolar\simulation\modelsim
+vErrorLp
+IDh2<im4ebOd>f_e66;C0b3
+V<iR?ZC;h2JgzTU>E_O9?[1
+Z1 dD:\ModemPrograms\Chapter_8\E8_5_FpgaGardner\QamModemPolar\simulation\modelsim
+w1415434553
+8D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source/ErrorLp.v
+FD:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source/ErrorLp.v
+L0 2
+Z2 OV;L;10.1b;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source -O0
+n@error@lp
+!i10b 1
+!s100 _aV02OSVnGnWhMS3Cd8L[0
+!s85 0
+!s108 1415434696.187000
+!s107 D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source/ErrorLp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source|D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source/ErrorLp.v|
+!s101 -O0
+vfir_lpf
+IkW>3fL;A[M=9ScVT2CeI13
+VE@IHMZNG1M_<:GaG;=29o0
+R1
+w1414814199
+8D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/fir_lpf.vo
+FD:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/fir_lpf.vo
+L0 31
+R2
+r1
+31
+R3
+Z5 !s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar -O0
+!i10b 1
+!s100 MREhjXnE?m7`PLI1=ZJAS3
+!s85 0
+!s108 1415434694.953000
+!s107 D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/fir_lpf.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar|D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/fir_lpf.vo|
+!s101 -O0
+vFpgaGardner
+Ic]i5Ki74^[HIFcQ?45IQz2
+V?JOFi?50RAE?X9h;_[o6I3
+R1
+w1415432033
+8D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source/FpgaGardner.v
+FD:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source/FpgaGardner.v
+L0 2
+R2
+r1
+31
+R3
+R4
+n@fpga@gardner
+!i10b 1
+!s100 z<0Za?nZiMe[`P4O:0[:]0
+!s85 0
+!s108 1415434696.031000
+!s107 D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source/FpgaGardner.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source|D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source/FpgaGardner.v|
+!s101 -O0
+vgnco
+I?S4o`XEbIiFk?GAjj2^:F3
+Vlf]:R`K<g2AIdeAQ?cWZa0
+R1
+w1415432095
+8D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source/gnco.v
+FD:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source/gnco.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 `afn:MSzzoO3;>f]5<^Nm0
+!s85 0
+!s108 1415434695.859000
+!s107 D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source/gnco.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source|D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source/gnco.v|
+!s101 -O0
+vInterpolateFilter
+I`QzE4JkB=1O@mbgY3O6:D2
+VHI:]WiT>BBK]5l;HhDSKn3
+R1
+w1415432203
+8D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source/InterpolateFilter.v
+FD:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source/InterpolateFilter.v
+L0 2
+R2
+r1
+31
+R3
+R4
+n@interpolate@filter
+!i10b 1
+!s100 Ngj=0Yi1z2zGkH]ez:W9i2
+!s85 0
+!s108 1415434696.343000
+!s107 D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source/InterpolateFilter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source|D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source/InterpolateFilter.v|
+!s101 -O0
+vLoopFilter
+IY<bLIfOnWWTjVFANo;78m1
+VnkgK<i:^IECI7OA6=PY963
+R1
+w1415026888
+8D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source/LoopFilter.v
+FD:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source/LoopFilter.v
+L0 2
+R2
+r1
+31
+R3
+R4
+n@loop@filter
+!i10b 1
+!s100 No<>mWejkPhH1D2lnId102
+!s85 0
+!s108 1415434696.734000
+!s107 D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source/LoopFilter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source|D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source/LoopFilter.v|
+!s101 -O0
+vmult18_16
+I>icf=:Ie7QGCPZ<IKgm@o1
+VLD>]MYGObH6CBn5;X_Z3O2
+R1
+w1415408483
+8D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/mult18_16.v
+FD:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/mult18_16.v
+L0 39
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 3E0TKiOaL[eEQ]Z:GKTEY1
+!s85 0
+!s108 1415434697.000000
+!s107 D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/mult18_16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar|D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/mult18_16.v|
+!s101 -O0
+vmult8_8
+IJT>7cc[3AjzlBF>EP_95@1
+VlcSL[haK_meMilJN=L=B=1
+R1
+w1414813864
+8D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/mult8_8.v
+FD:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/mult8_8.v
+L0 39
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 QYlF7:9:^jQV;c<?^^lz]3
+!s85 0
+!s108 1415434696.468000
+!s107 D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/mult8_8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar|D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/mult8_8.v|
+!s101 -O0
+vnco
+Ik4VZzS`f_RBboZFFY3OmB0
+VQZ>Mj<B6EzWK9MX?21>8:2
+R1
+w1415027152
+8D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/nco.vo
+FD:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/nco.vo
+L0 31
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 kMHN;led[La[k:_W=dGgU0
+!s85 0
+!s108 1415434695.593000
+!s107 D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/nco.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar|D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/nco.vo|
+!s101 -O0
+vPolarDetect
+IE7Xa]UB9z8Rdzn:[NgiF82
+VL^nQ^F3V6C2_@;3GkO]kR3
+R1
+w1415026796
+8D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source/PolarDetect.v
+FD:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source/PolarDetect.v
+L0 2
+R2
+r1
+31
+R3
+R4
+n@polar@detect
+!i10b 1
+!s100 z<eXYmO0`Ae6<OGJEH`JF3
+!s85 0
+!s108 1415434696.859000
+!s107 D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source/PolarDetect.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source|D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source/PolarDetect.v|
+!s101 -O0
+vQamCarrier
+IWcR?QaCkO6W7cET_VnPPQ0
+VgVWdW_:`0L;ajCSilQ2O[1
+R1
+w1415434684
+8D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source/QamCarrier.v
+FD:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source/QamCarrier.v
+L0 2
+R2
+r1
+31
+R3
+R4
+n@qam@carrier
+!i10b 1
+!s100 V8O?XJmkg>3?eXzBWFfi=3
+!s85 0
+!s108 1415434696.609000
+!s107 D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source/QamCarrier.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source|D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/source/QamCarrier.v|
+!s101 -O0
+vQamCarrier_vlg_tst
+!i10b 1
+!s100 :ocZobV;WOLEJg>CABab:0
+IhlIeCG;zb04QV0g5Z2:eg1
+VDlimUT_6Xk_AK0G:KD?EC0
+R1
+w1415434383
+8D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/simulation/modelsim/QamCarrier.vt
+FD:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/simulation/modelsim/QamCarrier.vt
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1415434697.140000
+!s107 D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/simulation/modelsim/QamCarrier.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/simulation/modelsim|D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/simulation/modelsim/QamCarrier.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamModemPolar/simulation/modelsim -O0
+n@qam@carrier_vlg_tst

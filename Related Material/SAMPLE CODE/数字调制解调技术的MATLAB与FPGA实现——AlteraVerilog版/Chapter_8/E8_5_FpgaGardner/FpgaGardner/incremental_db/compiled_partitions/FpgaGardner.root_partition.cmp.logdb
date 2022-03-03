@@ -1,0 +1,8 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,InterpolateFilter:u2|mult18_16:u3|lpm_mult:lpm_mult_component|mult_i6p:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,InterpolateFilter:u3|mult18_16:u3|lpm_mult:lpm_mult_component|mult_i6p:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,InterpolateFilter:u2|mult18_16:u1|lpm_mult:lpm_mult_component|mult_i6p:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,InterpolateFilter:u2|mult18_16:u2|lpm_mult:lpm_mult_component|mult_i6p:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,InterpolateFilter:u3|mult18_16:u1|lpm_mult:lpm_mult_component|mult_i6p:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,InterpolateFilter:u3|mult18_16:u2|lpm_mult:lpm_mult_component|mult_i6p:auto_generated|mac_out2,
+PORT_SWAPPING,PORT_SWAPPING_FINISHED,InterpolateFilter:u2|mult18_16:u3|lpm_mult:lpm_mult_component|mult_i6p:auto_generated|mac_mult1,

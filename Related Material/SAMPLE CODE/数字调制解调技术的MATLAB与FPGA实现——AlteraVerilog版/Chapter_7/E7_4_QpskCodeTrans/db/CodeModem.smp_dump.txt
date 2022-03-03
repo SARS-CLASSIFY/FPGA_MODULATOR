@@ -1,0 +1,7 @@
+
+State Machine - |CodeModem|ab2cd:u1|ef
+Name ef.11 ef.10 ef.01 ef.00 
+ef.00 0 0 0 0 
+ef.01 0 0 1 1 
+ef.10 0 1 0 1 
+ef.11 1 0 0 1 

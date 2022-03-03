@@ -1,0 +1,13 @@
+//这是pn_code.v文件的程序清单
+module pn_code (
+	rst,clk,di,dq,
+	pn,bit_sync,locked,dout); 
+	
+	input	 rst;       //复位信号，高电平有效
+	input	 clk;       //FPGA系统时钟/DDS驱动时钟：49.6 MHz
+	input  di;        //输入的下变频后的I支路基带信号
+	input  dq;        //输入的下变频后的Q支路基带信号
+	output pn;        //输出的本地同步伪码序列
+	output bit_sync;  //扩频解调数据的位同步脉冲
+	output locked;    //锁定状态指示信号，高电平锁定
+	output signed [15:0 ]dout;  //中间支路相关积分器输出

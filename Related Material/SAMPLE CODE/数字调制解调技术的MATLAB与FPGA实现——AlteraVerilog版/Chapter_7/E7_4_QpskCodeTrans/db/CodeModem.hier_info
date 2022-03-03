@@ -1,0 +1,43 @@
+|CodeModem
+rst => rst.IN2
+clk => clk.IN2
+ab_in[0] => ab_in[0].IN1
+ab_in[1] => ab_in[1].IN1
+cd[0] <= c_d[0].DB_MAX_OUTPUT_PORT_TYPE
+cd[1] <= c_d[1].DB_MAX_OUTPUT_PORT_TYPE
+ab_out[0] <= cd2ab:u2.ab
+ab_out[1] <= cd2ab:u2.ab
+
+
+|CodeModem|ab2cd:u1
+rst => ef~3.DATAIN
+clk => ef~1.DATAIN
+ab[0] => Equal0.IN1
+ab[0] => Equal1.IN0
+ab[0] => Equal2.IN1
+ab[0] => Equal3.IN1
+ab[1] => Equal0.IN0
+ab[1] => Equal1.IN1
+ab[1] => Equal2.IN0
+ab[1] => Equal3.IN0
+cd[0] <= cd.DB_MAX_OUTPUT_PORT_TYPE
+cd[1] <= cd.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CodeModem|cd2ab:u2
+rst => ef[0].ACLR
+rst => ef[1].ACLR
+rst => a_b[1].ENA
+rst => a_b[0].ENA
+clk => a_b[0].CLK
+clk => a_b[1].CLK
+clk => ef[0].CLK
+clk => ef[1].CLK
+cd[0] => a_b.IN1
+cd[0] => ef[0].DATAIN
+cd[1] => a_b.IN1
+cd[1] => ef[1].DATAIN
+ab[0] <= a_b[0].DB_MAX_OUTPUT_PORT_TYPE
+ab[1] <= a_b[1].DB_MAX_OUTPUT_PORT_TYPE
+
+

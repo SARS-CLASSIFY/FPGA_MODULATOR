@@ -1,0 +1,132 @@
+// Copyright (C) 1991-2012 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench template that is freely editable to  
+// suit user's needs .Comments are provided in each section to help the user    
+// fill out necessary details.                                                  
+// *****************************************************************************
+// Generated on "11/07/2014 22:55:56"
+                                                                                
+// Verilog Test Bench template for design : FpgaGardner
+// 
+// Simulation tool : ModelSim-Altera (Verilog)
+// 
+
+`timescale 1 ns/ 1 ns
+module FpgaGardner_vlg_tst();
+// constants                                           
+// general purpose registers
+//reg eachvec;
+// test vector input registers
+reg clk,clk_data;
+reg [15:0] di;
+reg [15:0] dq;
+reg rst;
+// wires                                               
+wire [15:0]  e;
+wire sync;
+wire [15:0]  u;
+wire [15:0]  w;
+wire [17:0]  yi;
+wire [17:0]  yq;
+
+// assign statements (if any)                          
+FpgaGardner i1 (
+// port map - connection between master ports and signals/registers   
+	.clk(clk),
+	.di(di),
+	.dq(dq),
+	.e(e),
+	.rst(rst),
+	.sync(sync),
+	.u(u),
+	.w(w),
+	.yi(yi),
+	.yq(yq)
+);
+parameter clk_period=20; //设置时钟信号周期（频率）
+parameter period_data=clk_period/2;//数据周期
+parameter clk_half_period=clk_period/2;
+parameter data_half_period=period_data/2;
+parameter data_num=49990*8;  //仿真数据长度
+parameter time_sim=data_num*period_data; //仿真时间
+
+initial
+begin
+	//设置时钟信号初值
+	clk=1;
+	clk_data=1;
+	//设置复位信号
+	rst=1;
+	#400 rst=0;
+	//设置仿真时间
+	#time_sim $finish;
+	//#400 $finish;
+end
+
+
+
+//产生时钟信号
+always                                                 
+	#clk_half_period clk=~clk;
+//产生时钟信号
+always                                                 
+	#data_half_period clk_data=~clk_data;
+
+//从外部TX文件读入数据作为测试激励
+reg signed [26:0] dit;
+integer Pattern;
+reg [26:0] stimulus[1:data_num];
+initial
+begin
+   //文件必须放置在"工程目录\simulation\modelsim"路径下
+	$readmemb("di.txt",stimulus);
+	Pattern=0;
+	repeat(data_num)
+		begin
+			Pattern=Pattern+1;
+			dit=stimulus[Pattern];
+			#period_data;
+		end
+end
+
+reg signed [26:0] dqt;
+integer Patternq;
+reg [26:0] stimulusq[1:data_num];
+initial
+begin
+   //文件必须放置在"工程目录\simulation\modelsim"路径下
+	$readmemb("dq.txt",stimulusq);
+	Patternq=0;
+	repeat(data_num)
+		begin
+			Patternq=Patternq+1;
+			dqt=stimulusq[Patternq];
+			#period_data;
+		end
+end
+
+   always @(posedge clk)
+	   begin
+		   di <= dit[26:11];
+			dq <= dqt[26:11];
+		end
+		
+
+	
+endmodule
+
+
+

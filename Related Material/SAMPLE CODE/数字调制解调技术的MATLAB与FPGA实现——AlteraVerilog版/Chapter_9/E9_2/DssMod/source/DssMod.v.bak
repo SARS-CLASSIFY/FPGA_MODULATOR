@@ -1,0 +1,8 @@
+//这是DssMod.v文件的程序清单
+module DssMod (
+	rst,clk,
+	pn); 
+	
+	input	 rst; //复位信号，高电平有效
+	input	 clk; //FPGA系统时钟，频率：31×Rb=6.2 MHz
+	output pn;  //输出的PN码序列

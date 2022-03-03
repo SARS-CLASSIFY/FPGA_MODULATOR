@@ -1,0 +1,19 @@
+//这是PN_adjust.v文件的程序清单
+module PN_adjust (
+	rst,clk,pn_pre,pn_mid,pn_aft,addr,di,dq,
+	di_pre,dq_pre,di_mid,dq_mid,di_aft,dq_aft);
+
+	input	 rst;   //复位信号，高电平有效
+	input	 clk;   //FPGA系统时钟：49.6 MHz
+	input  pn_pre;    //本地产生的pn码序列
+	input  pn_mid;
+	input  pn_aft;
+	input [7:0]  addr;       
+	input  signed [14:0] di; 
+	input  signed [14:0] dq; 	
+	output signed [22:0 ]di_pre;  	
+	output signed [22:0 ]dq_pre; 
+	output signed [22:0 ]di_mid;  	
+	output signed [22:0 ]dq_mid; 
+	output signed [22:0 ]di_aft;  	
+	output signed [22:0 ]dq_aft;

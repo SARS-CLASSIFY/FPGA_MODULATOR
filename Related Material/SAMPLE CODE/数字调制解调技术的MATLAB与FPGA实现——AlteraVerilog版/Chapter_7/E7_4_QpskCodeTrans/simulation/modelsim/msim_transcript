@@ -1,0 +1,61 @@
+# Reading C:/altera/modelsim/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do CodeModem_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\modelsim\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\modelsim\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/source {D:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/source/CodeModem.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module CodeModem
+# 
+# Top level modules:
+# 	CodeModem
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/source {D:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/source/ab2cd.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module ab2cd
+# 
+# Top level modules:
+# 	ab2cd
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/source {D:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/source/cd2ab.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module cd2ab
+# 
+# Top level modules:
+# 	cd2ab
+# 
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/simulation/modelsim {D:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/simulation/modelsim/CodeModem.vt}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module CodeModem_vlg_tst
+# 
+# Top level modules:
+# 	CodeModem_vlg_tst
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  CodeModem_vlg_tst
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps CodeModem_vlg_tst 
+# Loading work.CodeModem_vlg_tst
+# Loading work.CodeModem
+# Loading work.ab2cd
+# Loading work.cd2ab
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 10001 of file "Dqpsk_bit.txt". (Current address [10001], address range [1:10000])    : D:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/simulation/modelsim/CodeModem.vt(82)
+#    Time: 0 ps  Iteration: 0  Instance: /CodeModem_vlg_tst
+# ** Note: $finish    : D:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/simulation/modelsim/CodeModem.vt(65)
+#    Time: 200400 ns  Iteration: 0  Instance: /CodeModem_vlg_tst
+# 1
+# Break in Module CodeModem_vlg_tst at D:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/simulation/modelsim/CodeModem.vt line 65
+# Simulation Breakpoint: 1
+# Break in Module CodeModem_vlg_tst at D:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/simulation/modelsim/CodeModem.vt line 65
+# MACRO ./CodeModem_run_msim_rtl_verilog.do PAUSED at line 19

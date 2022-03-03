@@ -1,0 +1,10 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_6/E6_4_FpgaFskMod/fsk {D:/ModemPrograms/Chapter_6/E6_4_FpgaFskMod/fsk/dds.vo}
+vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_6/E6_4_FpgaFskMod/fsk/source {D:/ModemPrograms/Chapter_6/E6_4_FpgaFskMod/fsk/source/FskMod.v}
+

@@ -1,0 +1,87 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ModemPrograms\Chapter_7\E7_4_QpskCodeTrans\simulation\modelsim
+vab2cd
+Im;gTOlPWOFnkA6A[>FcLE1
+VUYBDNBUS9>:5Io<06DGdP1
+Z1 dD:\ModemPrograms\Chapter_7\E7_4_QpskCodeTrans\simulation\modelsim
+Z2 w1414156537
+8D:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/source/ab2cd.v
+FD:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/source/ab2cd.v
+L0 2
+Z3 OV;L;10.1b;51
+r1
+31
+Z4 o-vlog01compat -work work -O0
+Z5 !s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/source -O0
+!i10b 1
+!s100 BW4:>PkGh2nm6IzDiYLbE3
+!s85 0
+!s108 1414156792.156000
+!s107 D:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/source/ab2cd.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/source|D:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/source/ab2cd.v|
+!s101 -O0
+vcd2ab
+Ife`fQd0NV6K_RBCSfJldU3
+Vn:H_@F2=@YhjB6^lj]mc:1
+R1
+R2
+8D:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/source/cd2ab.v
+FD:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/source/cd2ab.v
+L0 2
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 B3@m[DeAI3MLIzR@2]Z9c3
+!s85 0
+!s108 1414156792.281000
+!s107 D:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/source/cd2ab.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/source|D:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/source/cd2ab.v|
+!s101 -O0
+vCodeModem
+IaIIEZb4h69ah:iA49hGKF3
+VZM1DlHDX`9<F<DD_DHoe=2
+R1
+w1414155967
+8D:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/source/CodeModem.v
+FD:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/source/CodeModem.v
+L0 2
+R3
+r1
+31
+R4
+n@code@modem
+R5
+!i10b 1
+!s100 2idKEDV_8g7Y<ga7a=ocl2
+!s85 0
+!s108 1414156792.046000
+!s107 D:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/source/CodeModem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/source|D:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/source/CodeModem.v|
+!s101 -O0
+vCodeModem_vlg_tst
+!i10b 1
+!s100 =7_O@THXR1N:jkWMj7ZXT2
+Igfj7zAn^2?DYFW5BmP1Ke1
+V<gYKZkbN=249HU<27eT9]2
+R1
+w1414156780
+8D:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/simulation/modelsim/CodeModem.vt
+FD:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/simulation/modelsim/CodeModem.vt
+L0 28
+R3
+r1
+!s85 0
+31
+!s108 1414156792.390000
+!s107 D:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/simulation/modelsim/CodeModem.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/simulation/modelsim|D:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/simulation/modelsim/CodeModem.vt|
+!s101 -O0
+R4
+!s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_7/E7_4_QpskCodeTrans/simulation/modelsim -O0
+n@code@modem_vlg_tst

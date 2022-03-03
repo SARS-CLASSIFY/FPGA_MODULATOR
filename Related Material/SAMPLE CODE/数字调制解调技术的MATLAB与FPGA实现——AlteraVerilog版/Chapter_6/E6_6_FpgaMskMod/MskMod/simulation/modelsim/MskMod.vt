@@ -1,0 +1,77 @@
+// Copyright (C) 1991-2012 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench template that is freely editable to  
+// suit user's needs .Comments are provided in each section to help the user    
+// fill out necessary details.                                                  
+// *****************************************************************************
+// Generated on "10/17/2014 21:44:25"
+                                                                                
+// Verilog Test Bench template for design : MskMod
+// 
+// Simulation tool : ModelSim-Altera (Verilog)
+// 
+
+`timescale 1 ns/ 1 ps
+module MskMod_vlg_tst();
+// constants                                           
+// general purpose registers
+reg eachvec;
+// test vector input registers
+reg clk;
+reg din;
+reg rst;
+// wires                                               
+wire [14:0]  it;
+wire [14:0]  qt;
+
+// assign statements (if any)                          
+MskMod i1 (
+// port map - connection between master ports and signals/registers   
+	.clk(clk),
+	.din(din),
+	.it(it),
+	.qt(qt),
+	.rst(rst)
+);
+parameter clk_period=20; //设置时钟信号周期（频率）:50MHz
+parameter clk_half_period=clk_period/2;
+parameter data_half_period=clk_half_period*64;
+parameter data_num=1000;  //仿真数据长度
+parameter time_sim=data_num*clk_period; //仿真时间
+initial
+begin
+	//设置输入信号初值
+	din=1'd0;
+	//设置时钟信号初值
+	clk=1;
+	//clk32=1;
+	//设置复位信号
+	rst=1;
+	#110 rst=0;
+	//设置仿真时间
+	#400 $finish;//time_sim $finish;//
+
+end
+
+//产生时钟信号
+always                                                 
+	#clk_half_period clk=~clk;
+	
+always                                                 
+	#data_half_period din=~din;
+	
+endmodule
+

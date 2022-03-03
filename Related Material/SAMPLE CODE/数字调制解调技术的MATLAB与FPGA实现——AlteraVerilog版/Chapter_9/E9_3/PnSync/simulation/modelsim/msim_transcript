@@ -1,0 +1,107 @@
+# Reading C:/altera/12.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do PnSync_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying c:\altera\12.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied c:\altera\12.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_9/E9_3/PnSync {D:/ModemPrograms/Chapter_9/E9_3/PnSync/pn.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module pn
+# 
+# Top level modules:
+# 	pn
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_9/E9_3/PnSync/source {D:/ModemPrograms/Chapter_9/E9_3/PnSync/source/PnSync.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module PnSync
+# 
+# Top level modules:
+# 	PnSync
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_9/E9_3/PnSync/source {D:/ModemPrograms/Chapter_9/E9_3/PnSync/source/pn_code.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module pn_code
+# 
+# Top level modules:
+# 	pn_code
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_9/E9_3/PnSync {D:/ModemPrograms/Chapter_9/E9_3/PnSync/counter.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_9/E9_3/PnSync/source {D:/ModemPrograms/Chapter_9/E9_3/PnSync/source/integrator.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module integrator
+# 
+# Top level modules:
+# 	integrator
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_9/E9_3/PnSync/source {D:/ModemPrograms/Chapter_9/E9_3/PnSync/source/integrator_col.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module integrator_col
+# 
+# Top level modules:
+# 	integrator_col
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_9/E9_3/PnSync/source {D:/ModemPrograms/Chapter_9/E9_3/PnSync/source/PN_adjust.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module PN_adjust
+# 
+# Top level modules:
+# 	PN_adjust
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_9/E9_3/PnSync {D:/ModemPrograms/Chapter_9/E9_3/PnSync/mult18_18.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module mult18_18
+# 
+# Top level modules:
+# 	mult18_18
+# 
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_9/E9_3/PnSync/simulation/modelsim {D:/ModemPrograms/Chapter_9/E9_3/PnSync/simulation/modelsim/PnSync.vt}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module PnSync_vlg_tst
+# 
+# Top level modules:
+# 	PnSync_vlg_tst
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  PnSync_vlg_tst
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps PnSync_vlg_tst 
+# Loading work.PnSync_vlg_tst
+# Loading work.PnSync
+# Loading work.integrator_col
+# Loading work.integrator
+# Loading work.pn_code
+# Loading work.pn
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.counter
+# Loading lpm_ver.lpm_counter
+# Loading work.PN_adjust
+# Loading work.mult18_18
+# Loading altera_mf_ver.altsquare
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 28001 of file "rcos_ads.txt". (Current address [28001], address range [1:28000])    : D:/ModemPrograms/Chapter_9/E9_3/PnSync/simulation/modelsim/PnSync.vt(89)
+#    Time: 0 ps  Iteration: 0  Instance: /PnSync_vlg_tst
+# ** Note: $finish    : D:/ModemPrograms/Chapter_9/E9_3/PnSync/simulation/modelsim/PnSync.vt(73)
+#    Time: 800 ns  Iteration: 0  Instance: /PnSync_vlg_tst
+# 1
+# Break in Module PnSync_vlg_tst at D:/ModemPrograms/Chapter_9/E9_3/PnSync/simulation/modelsim/PnSync.vt line 73
+# Simulation Breakpoint: 1
+# Break in Module PnSync_vlg_tst at D:/ModemPrograms/Chapter_9/E9_3/PnSync/simulation/modelsim/PnSync.vt line 73
+# MACRO ./PnSync_run_msim_rtl_verilog.do PAUSED at line 24
+add wave -position insertpoint  \
+sim:/PnSync_vlg_tst/i1/u3/mid
+run -all
+# Break key hit 
+# Break in Module altsquare at c:/altera/12.1/modelsim_ase/win32aloem/../altera/verilog/src/altera_mf.v line 49221
+# Simulation Breakpoint: Break in Module altsquare at c:/altera/12.1/modelsim_ase/win32aloem/../altera/verilog/src/altera_mf.v line 49221
+# MACRO ./PnSync_run_msim_rtl_verilog.do PAUSED at line 24

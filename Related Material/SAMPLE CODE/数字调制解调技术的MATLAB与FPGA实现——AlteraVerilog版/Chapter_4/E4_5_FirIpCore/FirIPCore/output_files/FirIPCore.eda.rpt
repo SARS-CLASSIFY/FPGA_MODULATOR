@@ -1,0 +1,154 @@
+EDA Netlist Writer report for FirIPCore
+Mon Oct 06 10:19:26 2014
+Quartus II 32-bit Version 12.1 Build 177 11/07/2012 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. EDA Netlist Writer Summary
+  3. EDA Netlist Writer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2012 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++---------------------------------------------------------------+
+; EDA Netlist Writer Summary                                    ;
++---------------------------+-----------------------------------+
+; EDA Netlist Writer Status ; Failed - Mon Oct 06 10:19:26 2014 ;
+; Revision Name             ; FirIPCore                         ;
+; Top-level Entity Name     ; FirIPCore                         ;
+; Family                    ; Cyclone IV E                      ;
++---------------------------+-----------------------------------+
+
+
++-----------------------------+
+; EDA Netlist Writer Messages ;
++-----------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 32-bit EDA Netlist Writer
+    Info: Version 12.1 Build 177 11/07/2012 SJ Full Version
+    Info: Processing started: Mon Oct 06 10:19:24 2014
+Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off FirIPCore -c FirIPCore
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mux_2to1_cen.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/sadd_reg_top_cen.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/lc_store_cen.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_math_pkg_fir_121.vhd" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_avalon_streaming_sink_fir_121.vhd" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_avalon_streaming_source_fir_121.vhd" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mlu_inf_2reg.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mux_2to1_comb.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/maccum_cen.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/sadd_cen.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_avalon_streaming_controller_fir_121.vhd" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mac_tl.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/msft_data.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mcv_ctrl_nc.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_lib_pkg_fir_121.vhd" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/msft_lt_32.v" is an OpenCore Plus time-limited file
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mux_2to1_cen.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/sadd_reg_top_cen.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/lc_store_cen.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_math_pkg_fir_121.vhd" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_avalon_streaming_sink_fir_121.vhd" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_avalon_streaming_source_fir_121.vhd" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mlu_inf_2reg.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mux_2to1_comb.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/maccum_cen.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/sadd_cen.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_avalon_streaming_controller_fir_121.vhd" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mac_tl.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/msft_data.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mcv_ctrl_nc.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_lib_pkg_fir_121.vhd" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/msft_lt_32.v" is not available
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mux_2to1_cen.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/sadd_reg_top_cen.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/lc_store_cen.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_math_pkg_fir_121.vhd" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_avalon_streaming_sink_fir_121.vhd" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_avalon_streaming_source_fir_121.vhd" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mlu_inf_2reg.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mux_2to1_comb.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/maccum_cen.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/sadd_cen.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_avalon_streaming_controller_fir_121.vhd" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mac_tl.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/msft_data.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mcv_ctrl_nc.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_lib_pkg_fir_121.vhd" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/msft_lt_32.v" is an OpenCore Plus time-limited file
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mux_2to1_cen.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/sadd_reg_top_cen.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/lc_store_cen.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_math_pkg_fir_121.vhd" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_avalon_streaming_sink_fir_121.vhd" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_avalon_streaming_source_fir_121.vhd" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mlu_inf_2reg.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mux_2to1_comb.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/maccum_cen.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/sadd_cen.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_avalon_streaming_controller_fir_121.vhd" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mac_tl.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/msft_data.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mcv_ctrl_nc.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_lib_pkg_fir_121.vhd" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/msft_lt_32.v" is not available
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mux_2to1_cen.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/sadd_reg_top_cen.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/lc_store_cen.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_math_pkg_fir_121.vhd" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_avalon_streaming_sink_fir_121.vhd" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_avalon_streaming_source_fir_121.vhd" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mlu_inf_2reg.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mux_2to1_comb.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/maccum_cen.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/sadd_cen.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_avalon_streaming_controller_fir_121.vhd" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mac_tl.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/msft_data.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mcv_ctrl_nc.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_lib_pkg_fir_121.vhd" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/msft_lt_32.v" is an OpenCore Plus time-limited file
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mux_2to1_cen.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/sadd_reg_top_cen.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/lc_store_cen.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_math_pkg_fir_121.vhd" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_avalon_streaming_sink_fir_121.vhd" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_avalon_streaming_source_fir_121.vhd" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mlu_inf_2reg.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mux_2to1_comb.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/maccum_cen.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/sadd_cen.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_avalon_streaming_controller_fir_121.vhd" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mac_tl.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/msft_data.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mcv_ctrl_nc.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_lib_pkg_fir_121.vhd" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/msft_lt_32.v" is not available
+Error: Quartus II 32-bit EDA Netlist Writer was unsuccessful. 96 errors, 0 warnings
+    Error: Peak virtual memory: 467 megabytes
+    Error: Processing ended: Mon Oct 06 10:19:26 2014
+    Error: Elapsed time: 00:00:02
+    Error: Total CPU time (on all processors): 00:00:02
+
+

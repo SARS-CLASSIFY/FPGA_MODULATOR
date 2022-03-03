@@ -1,0 +1,129 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ModemPrograms\Chapter_8\E8_5_FpgaGardner\FpgaGardner\simulation\modelsim
+vErrorLp
+I50nHFzZU_CdfI9E8HbdJU1
+V<iR?ZC;h2JgzTU>E_O9?[1
+Z1 dD:\ModemPrograms\Chapter_8\E8_5_FpgaGardner\FpgaGardner\simulation\modelsim
+w1415368050
+8D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/source/ErrorLp.v
+FD:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/source/ErrorLp.v
+L0 2
+Z2 OV;L;10.1b;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/source -O0
+n@error@lp
+!i10b 1
+!s100 5>l9F2_kS:jl5YHFXNjfX1
+!s85 0
+!s108 1415372811.718000
+!s107 D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/source/ErrorLp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/source|D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/source/ErrorLp.v|
+!s101 -O0
+vFpgaGardner
+IMS8;<[2@N4U`=iAboBJlb3
+V?JOFi?50RAE?X9h;_[o6I3
+R1
+w1415362178
+8D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/source/FpgaGardner.v
+FD:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/source/FpgaGardner.v
+L0 2
+R2
+r1
+31
+R3
+n@fpga@gardner
+R4
+!i10b 1
+!s100 [K^aU5jdRn@I8Jd^g4b_]1
+!s85 0
+!s108 1415372811.468000
+!s107 D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/source/FpgaGardner.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/source|D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/source/FpgaGardner.v|
+!s101 -O0
+vFpgaGardner_vlg_tst
+!i10b 1
+!s100 SXkdYKfVBhK;;YRQfbFA21
+IjMM8X1cfzFUoo_J>QV3Ca3
+VjiHonGkQihl]cbQVeC>6W0
+R1
+w1415372793
+8D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/simulation/modelsim/FpgaGardner.vt
+FD:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/simulation/modelsim/FpgaGardner.vt
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1415372811.968000
+!s107 D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/simulation/modelsim/FpgaGardner.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/simulation/modelsim|D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/simulation/modelsim/FpgaGardner.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/simulation/modelsim -O0
+n@fpga@gardner_vlg_tst
+vgnco
+IB8]bZ5cVRM3aMBm=0EQ6T1
+Vlf]:R`K<g2AIdeAQ?cWZa0
+R1
+w1415372015
+8D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/source/gnco.v
+FD:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/source/gnco.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 g]KeHC=JIWL=Nb;_`obLD0
+!s85 0
+!s108 1415372811.828000
+!s107 D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/source/gnco.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/source|D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/source/gnco.v|
+!s101 -O0
+vInterpolateFilter
+Ih=KgXWjYWoTB?9jV7JkVN0
+VHI:]WiT>BBK]5l;HhDSKn3
+R1
+w1415372040
+8D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/source/InterpolateFilter.v
+FD:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/source/InterpolateFilter.v
+L0 2
+R2
+r1
+31
+R3
+R4
+n@interpolate@filter
+!i10b 1
+!s100 MNoFeY51S1c:^4l5MGHCk0
+!s85 0
+!s108 1415372811.593000
+!s107 D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/source/InterpolateFilter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/source|D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/source/InterpolateFilter.v|
+!s101 -O0
+vmult18_16
+IJlcZFfS6YFPAJ:?hfdIFJ2
+VLD>]MYGObH6CBn5;X_Z3O2
+R1
+w1415364400
+8D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/mult18_16.v
+FD:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/mult18_16.v
+L0 39
+R2
+r1
+31
+R3
+!i10b 1
+!s100 _klK0=e77gCQ9P6cC?Cn:2
+!s85 0
+!s108 1415372811.343000
+!s107 D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/mult18_16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner|D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/mult18_16.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner -O0

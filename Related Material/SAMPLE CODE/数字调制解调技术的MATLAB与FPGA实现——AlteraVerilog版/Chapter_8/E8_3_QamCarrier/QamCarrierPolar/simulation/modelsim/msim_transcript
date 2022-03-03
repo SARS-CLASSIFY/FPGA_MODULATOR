@@ -1,0 +1,109 @@
+# Reading C:/altera/12.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do QamCarrier_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying c:\altera\12.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied c:\altera\12.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierPolar {D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierPolar/fir_lpf.vo}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module fir_lpf
+# 
+# Top level modules:
+# 	fir_lpf
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierPolar {D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierPolar/nco.vo}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module nco
+# 
+# Top level modules:
+# 	nco
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierPolar {D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierPolar/mult8_8.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module mult8_8
+# 
+# Top level modules:
+# 	mult8_8
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierPolar/source {D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierPolar/source/QamCarrier.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module QamCarrier
+# 
+# Top level modules:
+# 	QamCarrier
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierPolar/source {D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierPolar/source/LoopFilter.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module LoopFilter
+# 
+# Top level modules:
+# 	LoopFilter
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierPolar/source {D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierPolar/source/PolarDetect.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module PolarDetect
+# 
+# Top level modules:
+# 	PolarDetect
+# 
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierPolar/simulation/modelsim {D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierPolar/simulation/modelsim/QamCarrier.vt}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module QamCarrier_vlg_tst
+# 
+# Top level modules:
+# 	QamCarrier_vlg_tst
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  QamCarrier_vlg_tst
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps QamCarrier_vlg_tst 
+# Loading work.QamCarrier_vlg_tst
+# Loading work.QamCarrier
+# Loading work.nco
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading lpm_ver.lpm_add_sub
+# Loading lpm_ver.lpm_counter
+# Loading sgate_ver.oper_add
+# Loading sgate_ver.oper_mux
+# Loading work.mult8_8
+# Loading lpm_ver.lpm_mult
+# Loading lpm_ver.LPM_HINT_EVALUATION
+# Loading work.fir_lpf
+# Loading sgate_ver.oper_decoder
+# Loading lpm_ver.lpm_decode
+# Loading sgate_ver.oper_less_than
+# Loading sgate_ver.oper_selector
+# Loading altera_mf_ver.scfifo
+# Loading work.PolarDetect
+# Loading work.LoopFilter
+# ** Warning: (vsim-3017) D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierPolar/nco.vo(1921): [TFMPC] - Too few port connections. Expected 15, found 14.
+# 
+#         Region: /QamCarrier_vlg_tst/i1/u0/nllOi
+# ** Warning: (vsim-3722) D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierPolar/nco.vo(1921): [TFMPC] - Missing connection for port 'eq'.
+# 
+# ** Warning: (vsim-3016) D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierPolar/mult8_8.v(60): Port type is incompatible with connection (port 'clock').
+# 
+#         Region: /QamCarrier_vlg_tst/i1/u1/lpm_mult_component
+# ** Warning: (vsim-3016) D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierPolar/mult8_8.v(60): Port type is incompatible with connection (port 'clock').
+# 
+#         Region: /QamCarrier_vlg_tst/i1/u2/lpm_mult_component
+# ** Warning: (vsim-3015) D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierPolar/source/QamCarrier.v(96): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'ast_source_error'. The port definition is at: D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierPolar/fir_lpf.vo(38).
+# 
+#         Region: /QamCarrier_vlg_tst/i1/u4
+# ** Warning: Design size of 7 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 399921 of file "QAM.txt". (Current address [399921], address range [1:399920])    : D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierPolar/simulation/modelsim/QamCarrier.vt(84)
+#    Time: 0 ps  Iteration: 0  Instance: /QamCarrier_vlg_tst
+# Break key hit 
+# Simulation stop requested.
+# Simulation Breakpoint: Simulation stop requested.
+# MACRO ./QamCarrier_run_msim_rtl_verilog.do PAUSED at line 22

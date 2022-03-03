@@ -1,0 +1,7 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_0_n|lpm_mult:Mult0|mult_t5t:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_1_n|lpm_mult:Mult0|mult_v5t:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_2_n|lpm_mult:Mult0|mult_v5t:auto_generated|mac_out2,
+PORT_SWAPPING,PORT_SWAP_TYPE_DSPMULT,fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_0_n|lpm_mult:Mult0|mult_t5t:auto_generated|mac_mult1,
+PORT_SWAPPING,PORT_SWAP_TYPE_DSPMULT,fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_1_n|lpm_mult:Mult0|mult_v5t:auto_generated|mac_mult1,
+PORT_SWAPPING,PORT_SWAP_TYPE_DSPMULT,fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_2_n|lpm_mult:Mult0|mult_v5t:auto_generated|mac_mult1,

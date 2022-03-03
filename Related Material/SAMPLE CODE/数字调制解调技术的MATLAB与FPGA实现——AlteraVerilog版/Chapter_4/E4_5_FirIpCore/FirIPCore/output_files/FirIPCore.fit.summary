@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Oct 06 10:49:47 2014
+Quartus II 32-bit Version : 12.1 Build 177 11/07/2012 SJ Full Version
+Revision Name : FirIPCore
+Top-level Entity Name : FirIPCore
+Family : Cyclone IV E
+Device : EP4CE15F17C8
+Timing Models : Final
+Total logic elements : 777 / 15,408 ( 5 % )
+    Total combinational functions : 665 / 15,408 ( 4 % )
+    Dedicated logic registers : 556 / 15,408 ( 4 % )
+Total registers : 556
+Total pins : 39 / 166 ( 23 % )
+Total virtual pins : 0
+Total memory bits : 252 / 516,096 ( < 1 % )
+Embedded Multiplier 9-bit elements : 6 / 112 ( 5 % )
+Total PLLs : 0 / 4 ( 0 % )

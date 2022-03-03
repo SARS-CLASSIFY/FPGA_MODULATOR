@@ -1,0 +1,67 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ModemPrograms\Chapter_5\E5_4_FpgaASKDemod\AskDemod\simulation\modelsim
+vAskDemod
+Ig@LLJ=SCD?U[2oN_WK:SR3
+VB1S9EXYISIFMdcU2:o6UI2
+Z1 dD:\ModemPrograms\Chapter_5\E5_4_FpgaASKDemod\AskDemod\simulation\modelsim
+w1412686929
+8D:/ModemPrograms/Chapter_5/E5_4_FpgaASKDemod/AskDemod/source/AskDemod.v
+FD:/ModemPrograms/Chapter_5/E5_4_FpgaASKDemod/AskDemod/source/AskDemod.v
+L0 2
+Z2 OV;L;10.1b;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+n@ask@demod
+!i10b 1
+!s100 hVWjNK2S^7fdmNZ5aK]Cd2
+!s85 0
+!s108 1412687275.187000
+!s107 D:/ModemPrograms/Chapter_5/E5_4_FpgaASKDemod/AskDemod/source/AskDemod.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_5/E5_4_FpgaASKDemod/AskDemod/source|D:/ModemPrograms/Chapter_5/E5_4_FpgaASKDemod/AskDemod/source/AskDemod.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_5/E5_4_FpgaASKDemod/AskDemod/source -O0
+vAskDemod_vlg_tst
+!i10b 1
+!s100 :B8L7AQCY8Vc;MbFWJ@F^3
+I3?zozk>Uo30<O3G8QC2kK2
+VY_3_c7D6XD[@6I8O_^fTY2
+R1
+w1412687263
+8D:/ModemPrograms/Chapter_5/E5_4_FpgaASKDemod/AskDemod/simulation/modelsim/AskDemod.vt
+FD:/ModemPrograms/Chapter_5/E5_4_FpgaASKDemod/AskDemod/simulation/modelsim/AskDemod.vt
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1412687275.343000
+!s107 D:/ModemPrograms/Chapter_5/E5_4_FpgaASKDemod/AskDemod/simulation/modelsim/AskDemod.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_5/E5_4_FpgaASKDemod/AskDemod/simulation/modelsim|D:/ModemPrograms/Chapter_5/E5_4_FpgaASKDemod/AskDemod/simulation/modelsim/AskDemod.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_5/E5_4_FpgaASKDemod/AskDemod/simulation/modelsim -O0
+n@ask@demod_vlg_tst
+vlpf
+INn[E<EISnJUIKa0HEM>^c2
+VV?M<;0RjGzMj^RnFN6a4[0
+R1
+w1412658243
+8D:/ModemPrograms/Chapter_5/E5_4_FpgaASKDemod/AskDemod/lpf.vo
+FD:/ModemPrograms/Chapter_5/E5_4_FpgaASKDemod/AskDemod/lpf.vo
+L0 31
+R2
+r1
+31
+R3
+!i10b 1
+!s100 Y9a0P1YV5<2]7Wacf7;dd2
+!s85 0
+!s108 1412687274.843000
+!s107 D:/ModemPrograms/Chapter_5/E5_4_FpgaASKDemod/AskDemod/lpf.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_5/E5_4_FpgaASKDemod/AskDemod|D:/ModemPrograms/Chapter_5/E5_4_FpgaASKDemod/AskDemod/lpf.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_5/E5_4_FpgaASKDemod/AskDemod -O0

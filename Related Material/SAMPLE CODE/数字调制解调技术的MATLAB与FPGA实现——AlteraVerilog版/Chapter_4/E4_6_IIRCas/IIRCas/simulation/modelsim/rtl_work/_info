@@ -1,0 +1,89 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ModemPrograms\Chapter_4\E4_6_IIRCas\IIRCas\simulation\modelsim
+vFirstTap
+IY5TZlT2laN=dOgZ];4M]b3
+VB5QjG1H9;?l]OV_Y;z^gM0
+Z1 dD:\ModemPrograms\Chapter_4\E4_6_IIRCas\IIRCas\simulation\modelsim
+w1412570203
+8D:/ModemPrograms/Chapter_4/E4_6_IIRCas/IIRCas/source/FirstTap.v
+FD:/ModemPrograms/Chapter_4/E4_6_IIRCas/IIRCas/source/FirstTap.v
+L0 2
+Z2 OV;L;10.1b;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+n@first@tap
+Z4 !s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_4/E4_6_IIRCas/IIRCas/source -O0
+!i10b 1
+!s100 Em;@eoER101UCiUk=Nl6P3
+!s85 0
+!s108 1412573498.375000
+!s107 D:/ModemPrograms/Chapter_4/E4_6_IIRCas/IIRCas/source/FirstTap.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_4/E4_6_IIRCas/IIRCas/source|D:/ModemPrograms/Chapter_4/E4_6_IIRCas/IIRCas/source/FirstTap.v|
+!s101 -O0
+vIIRCas
+I<U_aW4@mM5LmKcS[9o:nA1
+VZBmIJAeV2SS[FoSj7?J@03
+R1
+w1412569268
+8D:/ModemPrograms/Chapter_4/E4_6_IIRCas/IIRCas/source/IIRCas.v
+FD:/ModemPrograms/Chapter_4/E4_6_IIRCas/IIRCas/source/IIRCas.v
+L0 2
+R2
+r1
+31
+R3
+R4
+n@i@i@r@cas
+!i10b 1
+!s100 S4N<b^QLVHEYzOi]5E>]f1
+!s85 0
+!s108 1412573498.625000
+!s107 D:/ModemPrograms/Chapter_4/E4_6_IIRCas/IIRCas/source/IIRCas.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_4/E4_6_IIRCas/IIRCas/source|D:/ModemPrograms/Chapter_4/E4_6_IIRCas/IIRCas/source/IIRCas.v|
+!s101 -O0
+vIIRCas_vlg_tst
+!i10b 1
+!s100 UcN90??k^YKWK]GejBTT70
+I1<WLn@hdgSfLaGDl[MA^83
+VQXH12JOS6LO@YBJCJf^jZ3
+R1
+w1412571526
+8D:/ModemPrograms/Chapter_4/E4_6_IIRCas/IIRCas/simulation/modelsim/IIRCas.vt
+FD:/ModemPrograms/Chapter_4/E4_6_IIRCas/IIRCas/simulation/modelsim/IIRCas.vt
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1412573498.703000
+!s107 D:/ModemPrograms/Chapter_4/E4_6_IIRCas/IIRCas/simulation/modelsim/IIRCas.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_4/E4_6_IIRCas/IIRCas/simulation/modelsim|D:/ModemPrograms/Chapter_4/E4_6_IIRCas/IIRCas/simulation/modelsim/IIRCas.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_4/E4_6_IIRCas/IIRCas/simulation/modelsim -O0
+n@i@i@r@cas_vlg_tst
+vSecondTap
+I2Wz0z?n?We0EV3Vg>DO8K1
+V7R1QOP2cBjLcTU26WPTU=1
+R1
+w1412571046
+8D:/ModemPrograms/Chapter_4/E4_6_IIRCas/IIRCas/source/SecondTap.v
+FD:/ModemPrograms/Chapter_4/E4_6_IIRCas/IIRCas/source/SecondTap.v
+L0 2
+R2
+r1
+31
+R3
+R4
+n@second@tap
+!i10b 1
+!s100 a2O@DSW_[HgD413in2bGD1
+!s85 0
+!s108 1412573498.500000
+!s107 D:/ModemPrograms/Chapter_4/E4_6_IIRCas/IIRCas/source/SecondTap.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_4/E4_6_IIRCas/IIRCas/source|D:/ModemPrograms/Chapter_4/E4_6_IIRCas/IIRCas/source/SecondTap.v|
+!s101 -O0

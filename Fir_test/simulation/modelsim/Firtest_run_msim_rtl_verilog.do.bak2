@@ -1,0 +1,40 @@
+transcript on
+if ![file isdirectory Firtest_iputf_libs] {
+	file mkdir Firtest_iputf_libs
+}
+
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+
+
+vcom "J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip_sim/dspba_library_package.vhd"                      
+vcom "J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip_sim/dspba_library.vhd"                              
+vcom "J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip_sim/auk_dspip_math_pkg_hpfir.vhd"                   
+vcom "J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip_sim/auk_dspip_lib_pkg_hpfir.vhd"                    
+vcom "J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd"
+vcom "J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd"      
+vcom "J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip_sim/auk_dspip_avalon_streaming_source_hpfir.vhd"    
+vcom "J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip_sim/auk_dspip_roundsat_hpfir.vhd"                   
+vlog "J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip_sim/altera_avalon_sc_fifo.v"                        
+vcom "J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip_sim/firip_rtl_core.vhd"                             
+vcom "J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip_sim/firip_ast.vhd"                                  
+vcom "J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip_sim/firip.vhd"                                      
+vcom "J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip_sim/firip_tb.vhd"                                   
+
+vlog -vlog01compat -work work +incdir+J:/GIT/FPGA_MODULATOR/Firtest/source {J:/GIT/FPGA_MODULATOR/Firtest/source/FirIPCore.v}
+
+vlog -vlog01compat -work work +incdir+J:/GIT/FPGA_MODULATOR/Firtest/simulation/modelsim {J:/GIT/FPGA_MODULATOR/Firtest/simulation/modelsim/FirIPCore.vt}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L cycloneive -L rtl_work -L work -voptargs="+acc"  FirIPCore
+
+add wave *
+view structure
+view signals
+run -all

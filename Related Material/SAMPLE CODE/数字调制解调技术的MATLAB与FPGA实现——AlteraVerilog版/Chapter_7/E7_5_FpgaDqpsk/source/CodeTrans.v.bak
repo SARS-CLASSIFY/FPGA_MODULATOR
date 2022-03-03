@@ -1,0 +1,10 @@
+//这是CodeTrans.v文件的程序清单
+module CodeTrans (
+	rst,clk,din,
+	di,dq); 
+	
+	input		rst;   //复位信号，高电平有效
+	input		clk;   //FPGA系统时钟：8MHz
+	input	   din;    //输入数据：8MHz
+	output signed [1:0]	di;     //同步后的输出信号(同相支路)
+	output signed [1:0]	dq;     //同步后的输出信号(正交支路)

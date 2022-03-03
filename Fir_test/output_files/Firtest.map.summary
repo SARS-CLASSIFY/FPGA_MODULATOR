@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Jan 30 00:23:52 2022
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : Firtest
+Top-level Entity Name : FirIPCore
+Family : Cyclone IV E
+Total logic elements : 3,905
+    Total combinational functions : 1,351
+    Dedicated logic registers : 3,902
+Total registers : 3902
+Total pins : 28
+Total virtual pins : 0
+Total memory bits : 36
+Embedded Multiplier 9-bit elements : 102
+Total PLLs : 0

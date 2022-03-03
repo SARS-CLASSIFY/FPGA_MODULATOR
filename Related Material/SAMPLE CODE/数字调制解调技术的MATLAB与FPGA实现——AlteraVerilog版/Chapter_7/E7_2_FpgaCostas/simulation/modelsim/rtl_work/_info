@@ -1,0 +1,128 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ModemPrograms\Chapter_7\E7_2_FpgaCostas\simulation\modelsim
+vCostasLoop
+I;VE<YPekZi<D[D^fVeKT:3
+Vm`a7NnVUeSljX2dLA6nMd3
+Z1 dD:\ModemPrograms\Chapter_7\E7_2_FpgaCostas\simulation\modelsim
+w1414750998
+8D:/ModemPrograms/Chapter_7/E7_2_FpgaCostas/source/CostasLoop.v
+FD:/ModemPrograms/Chapter_7/E7_2_FpgaCostas/source/CostasLoop.v
+L0 2
+Z2 OV;L;10.1b;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_7/E7_2_FpgaCostas/source -O0
+n@costas@loop
+!i10b 1
+!s100 UcjBz0zo1dWFFf0WBR3`T1
+!s85 0
+!s108 1414751091.140000
+!s107 D:/ModemPrograms/Chapter_7/E7_2_FpgaCostas/source/CostasLoop.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_2_FpgaCostas/source|D:/ModemPrograms/Chapter_7/E7_2_FpgaCostas/source/CostasLoop.v|
+!s101 -O0
+vCostasLoop_vlg_tst
+!i10b 1
+!s100 F0Uc;1<TG6ZK53bVo3;Y91
+Il9ORDe:CcLQfmdiiIo=[S2
+V9dLPkHM>E=Xh86WEmkKP=3
+R1
+w1414150070
+8D:/ModemPrograms/Chapter_7/E7_2_FpgaCostas/simulation/modelsim/CostasLoop.vt
+FD:/ModemPrograms/Chapter_7/E7_2_FpgaCostas/simulation/modelsim/CostasLoop.vt
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1414751091.437000
+!s107 D:/ModemPrograms/Chapter_7/E7_2_FpgaCostas/simulation/modelsim/CostasLoop.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_2_FpgaCostas/simulation/modelsim|D:/ModemPrograms/Chapter_7/E7_2_FpgaCostas/simulation/modelsim/CostasLoop.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_7/E7_2_FpgaCostas/simulation/modelsim -O0
+n@costas@loop_vlg_tst
+vfir_lpf
+I<>531<_mHX`L;^W7fOLn]2
+Vnn[M994JiVIBE^RFeSIR72
+R1
+w1414065592
+8D:/ModemPrograms/Chapter_7/E7_2_FpgaCostas/fir_lpf.vo
+FD:/ModemPrograms/Chapter_7/E7_2_FpgaCostas/fir_lpf.vo
+L0 31
+R2
+r1
+31
+R3
+Z5 !s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_7/E7_2_FpgaCostas -O0
+!i10b 1
+!s100 QSJ0@=0V[bPXFTc8IS_nM1
+!s85 0
+!s108 1414751090.140000
+!s107 D:/ModemPrograms/Chapter_7/E7_2_FpgaCostas/fir_lpf.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_2_FpgaCostas|D:/ModemPrograms/Chapter_7/E7_2_FpgaCostas/fir_lpf.vo|
+!s101 -O0
+vLoopFilter
+IZGh88`TAbaLdHe_imMV2e0
+VNimR1[NhLJ[d]?D;:?[kW3
+R1
+w1414750734
+8D:/ModemPrograms/Chapter_7/E7_2_FpgaCostas/source/LoopFilter.v
+FD:/ModemPrograms/Chapter_7/E7_2_FpgaCostas/source/LoopFilter.v
+L0 2
+R2
+r1
+31
+R3
+n@loop@filter
+R4
+!i10b 1
+!s100 =>9VIS^CU=WiV3WFg=e3K0
+!s85 0
+!s108 1414751090.968000
+!s107 D:/ModemPrograms/Chapter_7/E7_2_FpgaCostas/source/LoopFilter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_2_FpgaCostas/source|D:/ModemPrograms/Chapter_7/E7_2_FpgaCostas/source/LoopFilter.v|
+!s101 -O0
+vmult8_8
+IHgU=F[m>U=gQLG60cY9ZN1
+VlcSL[haK_meMilJN=L=B=1
+R1
+w1414065316
+8D:/ModemPrograms/Chapter_7/E7_2_FpgaCostas/mult8_8.v
+FD:/ModemPrograms/Chapter_7/E7_2_FpgaCostas/mult8_8.v
+L0 39
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 _Phk:md114__<[3ngOaE@0
+!s85 0
+!s108 1414751091.281000
+!s107 D:/ModemPrograms/Chapter_7/E7_2_FpgaCostas/mult8_8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_2_FpgaCostas|D:/ModemPrograms/Chapter_7/E7_2_FpgaCostas/mult8_8.v|
+!s101 -O0
+vnco
+I9V;F=l]:boJTRhWz:=0fO3
+VFWlZ_6c[EIa0]X5g_7W`j0
+R1
+w1414065789
+8D:/ModemPrograms/Chapter_7/E7_2_FpgaCostas/nco.vo
+FD:/ModemPrograms/Chapter_7/E7_2_FpgaCostas/nco.vo
+L0 31
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 4U6[mHVf7ZWQobcm9zIbk3
+!s85 0
+!s108 1414751090.531000
+!s107 D:/ModemPrograms/Chapter_7/E7_2_FpgaCostas/nco.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_2_FpgaCostas|D:/ModemPrograms/Chapter_7/E7_2_FpgaCostas/nco.vo|
+!s101 -O0

@@ -1,0 +1,22 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas {D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/nco.vo}
+vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas {D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/fir_lpf.vo}
+vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas {D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/mult8_8.v}
+vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/source {D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/source/PolarCostas.v}
+vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/source {D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/source/LoopFilter.v}
+vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/source {D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/source/PhaseDetect.v}
+
+vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/simulation/modelsim {D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/simulation/modelsim/PolarCostas.vt}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  PolarCostas_vlg_ts
+
+add wave *
+view structure
+view signals
+run -all

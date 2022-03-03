@@ -1,0 +1,9 @@
+//这是CodeModem.v文件的程序清单
+module CodeModem (
+	rst,clk,pd,
+	frequency_df); 
+	
+	input		rst;   //复位信号，高电平有效
+	input		clk;   //FPGA系统时钟：8MHz
+	input	 signed [25:0]	pd;            //输入数据：8MHz
+	output signed [25:0]	frequency_df;  //环路滤波器输出数据

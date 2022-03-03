@@ -1,0 +1,209 @@
+Flow report for AM_ASK
+Thu Mar 03 15:51:17 2022
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Flow Summary                                                                         ;
++------------------------------------+-------------------------------------------------+
+; Flow Status                        ; Successful - Thu Mar 03 15:51:17 2022           ;
+; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
+; Revision Name                      ; AM_ASK                                          ;
+; Top-level Entity Name              ; AM_MODE                                         ;
+; Family                             ; Cyclone IV E                                    ;
+; Device                             ; EP4CE6F17C8                                     ;
+; Timing Models                      ; Final                                           ;
+; Total logic elements               ; 289 / 6,272 ( 5 % )                             ;
+;     Total combinational functions  ; 281 / 6,272 ( 4 % )                             ;
+;     Dedicated logic registers      ; 208 / 6,272 ( 3 % )                             ;
+; Total registers                    ; 208                                             ;
+; Total pins                         ; 28 / 180 ( 16 % )                               ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 106,496 / 276,480 ( 39 % )                      ;
+; Embedded Multiplier 9-bit elements ; 1 / 30 ( 3 % )                                  ;
+; Total PLLs                         ; 2 / 2 ( 100 % )                                 ;
++------------------------------------+-------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 03/03/2022 15:50:38 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; AM_ASK              ;
++-------------------+---------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                 ;
++--------------------------------------+------------------------------------------------------------+---------------+-------------+----------------+
+; Assignment Name                      ; Value                                                      ; Default Value ; Entity Name ; Section Id     ;
++--------------------------------------+------------------------------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID                ; 154027290586572.164629383804560                            ; --            ; --          ; --             ;
+; EDA_DESIGN_INSTANCE_NAME             ; i1                                                         ; --            ; --          ; source_data    ;
+; EDA_DESIGN_INSTANCE_NAME             ; i1                                                         ; --            ; --          ; AM_MODE        ;
+; EDA_DESIGN_INSTANCE_NAME             ; i1                                                         ; --            ; --          ; ASKMod         ;
+; EDA_DESIGN_INSTANCE_NAME             ; i1                                                         ; --            ; --          ; FskMod         ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; AM_MODE                                                    ; --            ; --          ; eda_simulation ;
+; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                                                ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)                                  ; <None>        ; --          ; --             ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                                            ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_FILE                  ; simulation/modelsim/source_data.vt                         ; --            ; --          ; source_data    ;
+; EDA_TEST_BENCH_FILE                  ; simulation/modelsim/AM_MODE.vt                             ; --            ; --          ; AM_MODE        ;
+; EDA_TEST_BENCH_FILE                  ; simulation/modelsim/ASKMod.vt                              ; --            ; --          ; ASKMod         ;
+; EDA_TEST_BENCH_FILE                  ; simulation/modelsim/FskMod.vt                              ; --            ; --          ; FskMod         ;
+; EDA_TEST_BENCH_MODULE_NAME           ; source_data_vlg_tst                                        ; --            ; --          ; source_data    ;
+; EDA_TEST_BENCH_MODULE_NAME           ; AM_MODE_vlg_tst                                            ; --            ; --          ; AM_MODE        ;
+; EDA_TEST_BENCH_MODULE_NAME           ; ASKMod_vlg_tst                                             ; --            ; --          ; ASKMod         ;
+; EDA_TEST_BENCH_MODULE_NAME           ; FskMod_vlg_tst                                             ; --            ; --          ; FskMod         ;
+; EDA_TEST_BENCH_NAME                  ; ASKMod                                                     ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_NAME                  ; source_data                                                ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_NAME                  ; AM_MODE                                                    ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_NAME                  ; FskMod                                                     ; --            ; --          ; eda_simulation ;
+; EDA_TIME_SCALE                       ; 1 ps                                                       ; --            ; --          ; eda_simulation ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                                         ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                                          ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/mult/mult_inst.v                                        ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/mult/mult_bb.v                                          ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/mult/mult_syn.v                                         ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/add/add_inst.v                                          ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/add/add_bb.v                                            ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/add/add_syn.v                                           ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/pll200/pll200_inst.v                                    ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/pll200/pll200_bb.v                                      ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/pll200/pll200.ppf                                       ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/pll200/pll200_syn.v                                     ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/../../fsk.qsys                       ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/fsk.v                                ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/submodules/mentor/sid_2c_1p.v        ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/submodules/aldec/sid_2c_1p.v         ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/submodules/mentor/asj_nco_fxx.v      ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/submodules/aldec/asj_nco_fxx.v       ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/submodules/mentor/asj_gar.v          ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/submodules/aldec/asj_gar.v           ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/submodules/mentor/asj_nco_apr_dxx.v  ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/submodules/aldec/asj_nco_apr_dxx.v   ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/submodules/mentor/asj_dxx_g.v        ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/submodules/aldec/asj_dxx_g.v         ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/submodules/mentor/asj_nco_as_m_cen.v ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/submodules/aldec/asj_nco_as_m_cen.v  ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/submodules/mentor/asj_altqmcpipe.v   ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/submodules/aldec/asj_altqmcpipe.v    ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/submodules/mentor/asj_nco_mob_rw.v   ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/submodules/aldec/asj_nco_mob_rw.v    ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/submodules/mentor/asj_nco_isdr.v     ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/submodules/aldec/asj_nco_isdr.v      ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/submodules/mentor/segment_arr_tdl.v  ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/submodules/aldec/segment_arr_tdl.v   ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/submodules/mentor/segment_sel.v      ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/submodules/aldec/segment_sel.v       ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/submodules/mentor/asj_dxx.v          ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/submodules/aldec/asj_dxx.v           ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/submodules/mentor/asj_xnqg.v         ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/submodules/aldec/asj_xnqg.v          ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/submodules/fsk_nco_ii_0_sin.hex      ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/submodules/fsk_nco_ii_0_cos.hex      ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/submodules/fsk_nco_ii_0.v            ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/submodules/fsk_nco_ii_0_tb.vhd       ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/submodules/c_model/model_wrapper.cpp ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/submodules/c_model/nco_model.cpp     ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/simulation/submodules/c_model/nco_model.h       ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/synthesis/../fsk.cmp                            ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/fsk/fsk/synthesis/../../fsk.qsys                        ; --            ; --          ; --             ;
+; MISC_FILE                            ; rom_sim/sin_inst.v                                         ; --            ; --          ; --             ;
+; MISC_FILE                            ; rom_sim/sin_bb.v                                           ; --            ; --          ; --             ;
+; MISC_FILE                            ; rom_sim/sin_syn.v                                          ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/pll_1M/pll_1M_inst.v                                    ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/pll_1M/pll_1M_bb.v                                      ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/pll_1M/pll_1M.ppf                                       ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/pll_1M/pll_1M_syn.v                                     ; --            ; --          ; --             ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE          ; 1.2V                                                       ; --            ; --          ; --             ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family)                     ; --            ; AM_MODE     ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family)                     ; --            ; AM_MODE     ; Top            ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family)                     ; --            ; AM_MODE     ; Top            ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                                        ; --            ; --          ; --             ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                      ; --            ; --          ; --             ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                                               ; --            ; --          ; --             ;
+; SLD_FILE                             ; ip/fsk/fsk/synthesis/fsk.debuginfo                         ; --            ; --          ; --             ;
+; SLD_INFO                             ; QSYS_NAME fsk HAS_SOPCINFO 1 GENERATION_ID 1646035513      ; --            ; fsk         ; --             ;
+; SOPCINFO_FILE                        ; ip/fsk/fsk/synthesis/../../fsk.sopcinfo                    ; --            ; --          ; --             ;
+; SPD_FILE                             ; ip/fsk/fsk/simulation/../fsk.spd                           ; --            ; --          ; --             ;
+; SYNTHESIS_ONLY_QIP                   ; On                                                         ; --            ; --          ; --             ;
+; TOP_LEVEL_ENTITY                     ; AM_MODE                                                    ; AM_ASK        ; --          ; --             ;
++--------------------------------------+------------------------------------------------------------+---------------+-------------+----------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:19     ; 1.0                     ; 4810 MB             ; 00:00:30                           ;
+; Fitter               ; 00:00:06     ; 1.0                     ; 5526 MB             ; 00:00:07                           ;
+; Assembler            ; 00:00:02     ; 1.0                     ; 4673 MB             ; 00:00:02                           ;
+; Timing Analyzer      ; 00:00:02     ; 1.1                     ; 4752 MB             ; 00:00:03                           ;
+; EDA Netlist Writer   ; 00:00:03     ; 1.0                     ; 4643 MB             ; 00:00:03                           ;
+; Total                ; 00:00:32     ; --                      ; --                  ; 00:00:45                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; LAPTOP-7TUI81E5  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; LAPTOP-7TUI81E5  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; LAPTOP-7TUI81E5  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; LAPTOP-7TUI81E5  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; LAPTOP-7TUI81E5  ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off AM_ASK -c AM_ASK
+quartus_fit --read_settings_files=off --write_settings_files=off AM_ASK -c AM_ASK
+quartus_asm --read_settings_files=off --write_settings_files=off AM_ASK -c AM_ASK
+quartus_sta AM_ASK -c AM_ASK
+quartus_eda --read_settings_files=off --write_settings_files=off AM_ASK -c AM_ASK
+
+
+

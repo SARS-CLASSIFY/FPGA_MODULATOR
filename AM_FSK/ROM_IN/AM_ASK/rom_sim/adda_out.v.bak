@@ -1,0 +1,74 @@
+/* ------------------------------------------------------------------ 
+* brief	: DDS GENERATE HIGE PRECISION WAVE
+* data 	: 2021.3.25
+* author : SARS_CLASSIFY
+* ------------------------------------------------------------------- */ 
+
+`timescale 1ns/1ps
+module adda_out(
+    input clk,
+    output wire [13:0] dacdata,
+    output dac_clk,
+
+
+    input    rst_n									//KEY IN PORT
+
+);
+
+
+    wire [7:0] rom_address;			
+    assign dac_clk=clk;										//DAC_CLK OUT PORT
+
+
+		
+
+/* ------------------------------------------------------------------ 
+* WAVE RELATED
+* ------------------------------------------------------------------- */ 
+wire [7:0] rom_data;
+wire [7:0] rom_datarec;			//save rec
+wire [7:0] rom_datatri;			//save tri
+reg [7:0] save_data;				//choose the generated wave
+assign dacdata =  {save_data,6'b111111};	//get rom data
+
+
+always @(posedge clk)
+begin
+    begin
+        save_data<=rom_data;
+    end
+end
+/* ------------------------------------------------------------------ 
+* FREQUENCE CTRL MODULE:USING USATR PART
+* COMPUTING FORMULA: fre=2^32*F(the fre you hope to get)*TCLK(T of clk source :20ns)
+* ------------------------------------------------------------------- */ 
+
+
+wire    [7:0]     receive_data;    					//save data received
+wire [59:0] truefre;
+
+assign truefre=60'd85899;
+
+/* ------------------------------------------------------------------ 
+* INSTANTIATION PROCESS
+* ------------------------------------------------------------------- */ 
+
+addr_ctrl addr_ctrl_inst(
+    .clk_50M(clk),
+    .rst_n(rst_n),
+    .addr(rom_address),
+    .freqctrl(truefre[31:0])
+
+);
+
+sin sin_inst(
+    .clock(clk),
+    .address(rom_address),
+    .q(rom_data)
+
+);
+
+
+
+
+endmodule

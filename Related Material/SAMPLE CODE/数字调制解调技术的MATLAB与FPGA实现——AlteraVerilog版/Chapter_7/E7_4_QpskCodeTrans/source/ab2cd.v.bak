@@ -1,0 +1,9 @@
+//这是ab2cd.v文件的程序清单
+module ab2cd (
+	rst,clk,ab,
+	cd); 
+	
+	input		rst;   //复位信号，高电平有效
+	input		clk;   //FPGA系统时钟
+	input	 [1:0]	ab;     //输入的绝对码数据
+	output [1:0]	cd;     //转换后的相对码数据

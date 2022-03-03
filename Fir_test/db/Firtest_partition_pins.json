@@ -1,0 +1,121 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Yout[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Yout[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Yout[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Yout[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Yout[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Yout[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Yout[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Yout[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Yout[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Yout[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Yout[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Yout[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Yout[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Yout[13]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset_n",
+					"strict" : false
+				},
+				{
+					"name" : "Xin[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Xin[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Xin[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Xin[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Xin[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Xin[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Xin[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Xin[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Xin[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Xin[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Xin[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Xin[11]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

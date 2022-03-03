@@ -1,0 +1,67 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ModemPrograms\Chapter_4\E4_5_FirIpCore\FirIPCore\simulation\modelsim
+vfir
+IaZgjhVbSPA;[af;4FHGMl3
+V?Zbk`RC[^h9oM]7mZ8S<j3
+Z1 dD:\ModemPrograms\Chapter_4\E4_5_FirIpCore\FirIPCore\simulation\modelsim
+w1412561886
+8D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir.vo
+FD:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir.vo
+L0 31
+Z2 OV;L;10.1b;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 k?zQYoW;VI01OhHbdk6MJ2
+!s85 0
+!s108 1412565212.515000
+!s107 D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore|D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore -O0
+vFirIPCore
+I5KDcm4M2`CSoKKdcSenBH1
+V4P3SFFM;H1IM?M@=lboKK0
+R1
+w1412563398
+8D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/source/FirIPCore.v
+FD:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/source/FirIPCore.v
+L0 2
+R2
+r1
+31
+R3
+n@fir@i@p@core
+!i10b 1
+!s100 j3Nliz2LeQmdb:02O>Hz`1
+!s85 0
+!s108 1412565212.781000
+!s107 D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/source/FirIPCore.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/source|D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/source/FirIPCore.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/source -O0
+vFirIPCore_vlg_tst
+!i10b 1
+!s100 Njz:dT8^cWhoAK:6CJoCI2
+I`CAIjM0QBS6j26NcG1FH_1
+VV@WNkJ2:D:za>XEWX8JVR0
+R1
+w1412563497
+8D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/simulation/modelsim/FirIPCore.vt
+FD:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/simulation/modelsim/FirIPCore.vt
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1412565212.921000
+!s107 D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/simulation/modelsim/FirIPCore.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/simulation/modelsim|D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/simulation/modelsim/FirIPCore.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/simulation/modelsim -O0
+n@fir@i@p@core_vlg_tst

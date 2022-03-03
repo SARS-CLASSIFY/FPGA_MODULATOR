@@ -1,0 +1,66 @@
+# Reading C:/altera/modelsim/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do AskDemod_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\modelsim\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\modelsim\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_5/E5_4_FpgaASKDemod/AskDemod {D:/ModemPrograms/Chapter_5/E5_4_FpgaASKDemod/AskDemod/lpf.vo}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module lpf
+# 
+# Top level modules:
+# 	lpf
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_5/E5_4_FpgaASKDemod/AskDemod/source {D:/ModemPrograms/Chapter_5/E5_4_FpgaASKDemod/AskDemod/source/AskDemod.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module AskDemod
+# 
+# Top level modules:
+# 	AskDemod
+# 
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_5/E5_4_FpgaASKDemod/AskDemod/simulation/modelsim {D:/ModemPrograms/Chapter_5/E5_4_FpgaASKDemod/AskDemod/simulation/modelsim/AskDemod.vt}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module AskDemod_vlg_tst
+# 
+# Top level modules:
+# 	AskDemod_vlg_tst
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  AskDemod_vlg_tst
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps AskDemod_vlg_tst 
+# Loading work.AskDemod_vlg_tst
+# Loading work.AskDemod
+# Loading work.lpf
+# Loading sgate_ver.oper_add
+# Loading lpm_ver.lpm_add_sub
+# Loading sgate_ver.oper_mult
+# Loading lpm_ver.lpm_mult
+# Loading lpm_ver.LPM_HINT_EVALUATION
+# Loading sgate_ver.oper_mux
+# Loading sgate_ver.oper_selector
+# Loading altera_mf_ver.scfifo
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# ** Warning: Design size of 3 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2001 of file "ASK4_filter.txt". (Current address [2001], address range [1:2000])    : D:/ModemPrograms/Chapter_5/E5_4_FpgaASKDemod/AskDemod/simulation/modelsim/AskDemod.vt(80)
+#    Time: 0 ps  Iteration: 0  Instance: /AskDemod_vlg_tst
+# ** Note: $finish    : D:/ModemPrograms/Chapter_5/E5_4_FpgaASKDemod/AskDemod/simulation/modelsim/AskDemod.vt(64)
+#    Time: 160110 ps  Iteration: 0  Instance: /AskDemod_vlg_tst
+# 1
+# Break in Module AskDemod_vlg_tst at D:/ModemPrograms/Chapter_5/E5_4_FpgaASKDemod/AskDemod/simulation/modelsim/AskDemod.vt line 64
+# Simulation Breakpoint: 1
+# Break in Module AskDemod_vlg_tst at D:/ModemPrograms/Chapter_5/E5_4_FpgaASKDemod/AskDemod/simulation/modelsim/AskDemod.vt line 64
+# MACRO ./AskDemod_run_msim_rtl_verilog.do PAUSED at line 18

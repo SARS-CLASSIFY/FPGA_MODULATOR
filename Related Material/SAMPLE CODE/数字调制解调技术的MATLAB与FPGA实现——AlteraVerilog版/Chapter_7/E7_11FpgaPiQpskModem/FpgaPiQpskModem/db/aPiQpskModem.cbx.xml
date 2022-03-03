@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="aPiQpskModem">
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|bpf:u1|bpf_ast:bpf_ast_inst|bpf_st:fircore|mlu_inf_2reg:Umlu_13_n|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_gkh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|bpf:u1|bpf_ast:bpf_ast_inst|bpf_st:fircore|mlu_inf_2reg:Umlu_15_n|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_dkh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|bpf:u1|bpf_ast:bpf_ast_inst|bpf_st:fircore|mlu_inf_2reg:Umlu_7_n|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_88h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|h_bpf:u2|h_bpf_ast:h_bpf_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|scfifo:\normal_fifo:fifo_eab_on:in_fifo" CBX_FILE_NAME="scfifo_2lh1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|h_bpf:u2|h_bpf_ast:h_bpf_ast_inst|h_bpf_st:fircore|mlu_inf_2reg:Umlu_0_n|lpm_mult:Mult0|multcore:mult_core|lpm_add_sub:adder" CBX_FILE_NAME="add_sub_g9h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|h_bpf:u2|h_bpf_ast:h_bpf_ast_inst|h_bpf_st:fircore|mlu_inf_2reg:Umlu_2_n|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_78h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|h_bpf:u2|h_bpf_ast:h_bpf_ast_inst|h_bpf_st:fircore|mlu_inf_2reg:Umlu_8_n|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_ekh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|h_bpf:u2|h_bpf_ast:h_bpf_ast_inst|h_bpf_st:fircore|mlu_inf_2reg:Umlu_10_n|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_fkh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|h_bpf:u2|h_bpf_ast:h_bpf_ast_inst|h_bpf_st:fircore|mlu_inf_2reg:Umlu_12_n|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_88h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|mult16_18:u4|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_i6p.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|bpf:u1|bpf_ast:bpf_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|scfifo:\normal_fifo:fifo_eab_on:in_fifo" CBX_FILE_NAME="scfifo_2lh1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|bpf:u1|bpf_ast:bpf_ast_inst|bpf_st:fircore|mlu_inf_2reg:Umlu_7_n|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_dkh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|bpf:u1|bpf_ast:bpf_ast_inst|bpf_st:fircore|mlu_inf_2reg:Umlu_9_n|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_78h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|h_bpf:u2|h_bpf_ast:h_bpf_ast_inst|h_bpf_st:fircore|mlu_inf_2reg:Umlu_2_n|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_ckh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|h_bpf:u2|h_bpf_ast:h_bpf_ast_inst|h_bpf_st:fircore|mlu_inf_2reg:Umlu_4_n|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_78h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|lpf:u6|lpf_ast:lpf_ast_inst|lpf_st:fircore|sadd_lpm_cen:Uadd_4_lut_l_4_n_0_n|altshift_taps:pipe_rtl_0" CBX_FILE_NAME="shift_taps_pnm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|mult16_18:u5|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_i6p.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|bpf:u1|bpf_ast:bpf_ast_inst|bpf_st:fircore|mlu_inf_2reg:Umlu_11_n|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_h9h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|h_bpf:u2|h_bpf_ast:h_bpf_ast_inst|h_bpf_st:fircore|mlu_inf_2reg:Umlu_12_n|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_dkh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|h_bpf:u2|h_bpf_ast:h_bpf_ast_inst|h_bpf_st:fircore|mlu_inf_2reg:Umlu_14_n|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_j9h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|lpf:u7|lpf_ast:lpf_ast_inst|lpf_st:fircore|sadd_lpm_cen:Uadd_4_lut_l_4_n_0_n|altshift_taps:pipe_rtl_0" CBX_FILE_NAME="shift_taps_pnm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|bpf:u1|bpf_ast:bpf_ast_inst|bpf_st:fircore|mlu_inf_2reg:Umlu_1_n|lpm_mult:Mult0|multcore:mult_core|lpm_add_sub:adder" CBX_FILE_NAME="add_sub_g9h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|bpf:u1|bpf_ast:bpf_ast_inst|bpf_st:fircore|mlu_inf_2reg:Umlu_9_n|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_ckh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|h_bpf:u2|h_bpf_ast:h_bpf_ast_inst|h_bpf_st:fircore|mlu_inf_2reg:Umlu_4_n|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_ckh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|h_bpf:u2|h_bpf_ast:h_bpf_ast_inst|h_bpf_st:fircore|mlu_inf_2reg:Umlu_6_n|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_78h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|lpf:u6|lpf_ast:lpf_ast_inst|lpf_st:fircore|rom_lut_r_cen:Ur3_n_16_pp|altshift_taps:data_out_rtl_0" CBX_FILE_NAME="shift_taps_rnm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|bpf:u1|bpf_ast:bpf_ast_inst|bpf_st:fircore|mlu_inf_2reg:Umlu_11_n|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_fkh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|bpf:u1|bpf_ast:bpf_ast_inst|bpf_st:fircore|mlu_inf_2reg:Umlu_13_n|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_i9h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|h_bpf:u2|h_bpf_ast:h_bpf_ast_inst|h_bpf_st:fircore|mlu_inf_2reg:Umlu_14_n|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_hkh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|lpf:u6|lpf_ast:lpf_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|scfifo:\normal_fifo:fifo_eab_on:in_fifo" CBX_FILE_NAME="scfifo_alh1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|lpf:u7|lpf_ast:lpf_ast_inst|lpf_st:fircore|rom_lut_r_cen:Ur3_n_16_pp|altshift_taps:data_out_rtl_0" CBX_FILE_NAME="shift_taps_rnm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|Delay8:u3|altshift_taps:ALTSHIFT_TAPS_component" CBX_FILE_NAME="shift_taps_gmv.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|h_bpf:u2|h_bpf_ast:h_bpf_ast_inst|h_bpf_st:fircore|mlu_inf_2reg:Umlu_6_n|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_ckh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|h_bpf:u2|h_bpf_ast:h_bpf_ast_inst|h_bpf_st:fircore|mlu_inf_2reg:Umlu_8_n|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_g9h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|lpf:u7|lpf_ast:lpf_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|scfifo:\normal_fifo:fifo_eab_on:in_fifo" CBX_FILE_NAME="scfifo_alh1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PiQpskModem|h_bpf:u2|h_bpf_ast:h_bpf_ast_inst|h_bpf_st:fircore|mlu_inf_2reg:Umlu_10_n|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_h9h.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

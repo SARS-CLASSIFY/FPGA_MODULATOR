@@ -1,0 +1,372 @@
+# Reading D:/IntelFPGA/IntelFPGA/modelsim_ase/tcl/vsim/pref.tcl
+# do AM_ASK_run_msim_rtl_verilog.do
+# if ![file isdirectory AM_ASK_iputf_libs] {
+# 	file mkdir AM_ASK_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/IntelFPGA/IntelFPGA/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+###### Libraries for IPUTF cores 
+# vlib AM_ASK_iputf_libs/nco_ii_0
+# ** Warning: (vlib-34) Library already exists at "AM_ASK_iputf_libs/nco_ii_0".
+# vmap nco_ii_0 ./AM_ASK_iputf_libs/nco_ii_0
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap nco_ii_0 ./AM_ASK_iputf_libs/nco_ii_0 
+# Modifying modelsim.ini
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# file copy -force J:/AM_ASK/ip/fsk/fsk/simulation/submodules/fsk_nco_ii_0_sin.hex ./
+# file copy -force J:/AM_ASK/ip/fsk/fsk/simulation/submodules/fsk_nco_ii_0_cos.hex ./
+# 
+# vlog "J:/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/sid_2c_1p.v"        -work nco_ii_0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:51 on Mar 02,2022
+# vlog -reportprogress 300 J:/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/sid_2c_1p.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 11:54:52 on Mar 02,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog "J:/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_nco_fxx.v"      -work nco_ii_0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:52 on Mar 02,2022
+# vlog -reportprogress 300 J:/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_nco_fxx.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 11:54:52 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "J:/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_gar.v"          -work nco_ii_0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:52 on Mar 02,2022
+# vlog -reportprogress 300 J:/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_gar.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 11:54:52 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "J:/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_nco_apr_dxx.v"  -work nco_ii_0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:52 on Mar 02,2022
+# vlog -reportprogress 300 J:/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_nco_apr_dxx.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 11:54:52 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "J:/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_dxx_g.v"        -work nco_ii_0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:53 on Mar 02,2022
+# vlog -reportprogress 300 J:/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_dxx_g.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 11:54:53 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "J:/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_nco_as_m_cen.v" -work nco_ii_0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:53 on Mar 02,2022
+# vlog -reportprogress 300 J:/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_nco_as_m_cen.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 11:54:53 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "J:/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_altqmcpipe.v"   -work nco_ii_0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:53 on Mar 02,2022
+# vlog -reportprogress 300 J:/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_altqmcpipe.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 11:54:53 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "J:/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_nco_mob_rw.v"   -work nco_ii_0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:53 on Mar 02,2022
+# vlog -reportprogress 300 J:/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_nco_mob_rw.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 11:54:54 on Mar 02,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog "J:/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_nco_isdr.v"     -work nco_ii_0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:54 on Mar 02,2022
+# vlog -reportprogress 300 J:/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_nco_isdr.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 11:54:54 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "J:/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/segment_arr_tdl.v"  -work nco_ii_0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:54 on Mar 02,2022
+# vlog -reportprogress 300 J:/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/segment_arr_tdl.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 11:54:54 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "J:/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/segment_sel.v"      -work nco_ii_0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:54 on Mar 02,2022
+# vlog -reportprogress 300 J:/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/segment_sel.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 11:54:55 on Mar 02,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog "J:/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_dxx.v"          -work nco_ii_0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:55 on Mar 02,2022
+# vlog -reportprogress 300 J:/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_dxx.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 11:54:55 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "J:/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_xnqg.v"         -work nco_ii_0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:55 on Mar 02,2022
+# vlog -reportprogress 300 J:/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_xnqg.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 11:54:55 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "J:/AM_ASK/ip/fsk/fsk/simulation/submodules/fsk_nco_ii_0.v"            -work nco_ii_0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:55 on Mar 02,2022
+# vlog -reportprogress 300 J:/AM_ASK/ip/fsk/fsk/simulation/submodules/fsk_nco_ii_0.v -work nco_ii_0 
+# -- Compiling module fsk_nco_ii_0
+# 
+# Top level modules:
+# 	fsk_nco_ii_0
+# End time: 11:54:55 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "J:/AM_ASK/ip/fsk/fsk/simulation/fsk.v"                                              
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:55 on Mar 02,2022
+# vlog -reportprogress 300 J:/AM_ASK/ip/fsk/fsk/simulation/fsk.v 
+# -- Compiling module fsk
+# 
+# Top level modules:
+# 	fsk
+# End time: 11:54:55 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+J:/AM_ASK/ip/mult {J:/AM_ASK/ip/mult/mult.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:55 on Mar 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+J:/AM_ASK/ip/mult" J:/AM_ASK/ip/mult/mult.v 
+# -- Compiling module mult
+# 
+# Top level modules:
+# 	mult
+# End time: 11:54:55 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+J:/AM_ASK {J:/AM_ASK/AM_MODE.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:56 on Mar 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+J:/AM_ASK" J:/AM_ASK/AM_MODE.v 
+# -- Compiling module AM_MODE
+# 
+# Top level modules:
+# 	AM_MODE
+# End time: 11:54:56 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+J:/AM_ASK/ip/add {J:/AM_ASK/ip/add/add.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:56 on Mar 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+J:/AM_ASK/ip/add" J:/AM_ASK/ip/add/add.v 
+# -- Compiling module add
+# 
+# Top level modules:
+# 	add
+# End time: 11:54:56 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+J:/AM_ASK/ip/pll200 {J:/AM_ASK/ip/pll200/pll200.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:56 on Mar 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+J:/AM_ASK/ip/pll200" J:/AM_ASK/ip/pll200/pll200.v 
+# -- Compiling module pll200
+# 
+# Top level modules:
+# 	pll200
+# End time: 11:54:56 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+J:/AM_ASK/source/fsk {J:/AM_ASK/source/fsk/FskMod.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:56 on Mar 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+J:/AM_ASK/source/fsk" J:/AM_ASK/source/fsk/FskMod.v 
+# -- Compiling module FskMod
+# 
+# Top level modules:
+# 	FskMod
+# End time: 11:54:56 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+J:/AM_ASK/rom_sim {J:/AM_ASK/rom_sim/adda_out.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:56 on Mar 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+J:/AM_ASK/rom_sim" J:/AM_ASK/rom_sim/adda_out.v 
+# -- Compiling module adda_out
+# 
+# Top level modules:
+# 	adda_out
+# End time: 11:54:56 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+J:/AM_ASK/rom_sim {J:/AM_ASK/rom_sim/addr_ctrl.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:56 on Mar 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+J:/AM_ASK/rom_sim" J:/AM_ASK/rom_sim/addr_ctrl.v 
+# -- Compiling module addr_ctrl
+# 
+# Top level modules:
+# 	addr_ctrl
+# End time: 11:54:56 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+J:/AM_ASK/rom_sim {J:/AM_ASK/rom_sim/sin.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:56 on Mar 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+J:/AM_ASK/rom_sim" J:/AM_ASK/rom_sim/sin.v 
+# -- Compiling module sin
+# 
+# Top level modules:
+# 	sin
+# End time: 11:54:56 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+J:/AM_ASK/db {J:/AM_ASK/db/pll200_altpll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:56 on Mar 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+J:/AM_ASK/db" J:/AM_ASK/db/pll200_altpll.v 
+# -- Compiling module pll200_altpll
+# 
+# Top level modules:
+# 	pll200_altpll
+# End time: 11:54:56 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+J:/AM_ASK/simulation/modelsim {J:/AM_ASK/simulation/modelsim/AM_MODE.vt}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:56 on Mar 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+J:/AM_ASK/simulation/modelsim" J:/AM_ASK/simulation/modelsim/AM_MODE.vt 
+# -- Compiling module AM_MODE_vlg_tst
+# 
+# Top level modules:
+# 	AM_MODE_vlg_tst
+# End time: 11:54:56 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -L nco_ii_0 -voptargs="+acc"  AM_MODE_vlg_tst
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -L nco_ii_0 -voptargs=""+acc"" AM_MODE_vlg_tst 
+# Start time: 11:54:56 on Mar 02,2022
+# Loading work.AM_MODE_vlg_tst
+# Loading work.AM_MODE
+# Loading work.add
+# Loading lpm_ver.lpm_add_sub
+# Loading work.mult
+# Loading lpm_ver.lpm_mult
+# Loading lpm_ver.LPM_HINT_EVALUATION
+# Loading work.adda_out
+# Loading work.addr_ctrl
+# Loading work.sin
+# Loading altera_mf_ver.altsyncram
+# Loading work.FskMod
+# Loading work.fsk
+# Loading nco_ii_0.fsk_nco_ii_0
+# Loading lpm_ver.lpm_counter
+# Loading work.pll200
+# Loading altera_mf_ver.altpll
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.pll_iobuf
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading altera_mf_ver.MF_cycloneiii_pll
+# Loading altera_mf_ver.cda_m_cntr
+# Loading altera_mf_ver.cda_n_cntr
+# Loading altera_mf_ver.cda_scale_cntr
+# ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
+#    Time: 0 ps  Iteration: 0  Protected: /AM_MODE_vlg_tst/i1/FskMod_inst/u0/nco_ii_0/ux003/<protected> File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/220model.v
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
+#    Time: 0 ps  Iteration: 0  Protected: /AM_MODE_vlg_tst/i1/FskMod_inst/u0/nco_ii_0/ux000/<protected> File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/220model.v
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
+#    Time: 0 ps  Iteration: 0  Protected: /AM_MODE_vlg_tst/i1/FskMod_inst/u0/nco_ii_0/ux0120/<protected> File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
+#    Time: 0 ps  Iteration: 0  Protected: /AM_MODE_vlg_tst/i1/FskMod_inst/u0/nco_ii_0/ux0121/<protected> File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
+#    Time: 0 ps  Iteration: 0  Protected: /AM_MODE_vlg_tst/i1/FskMod_inst/u0/nco_ii_0/ux710isdr/<protected> File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/220model.v
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "../rom_sim/sin.mif" for reading.
+# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(263)
+#    Time: 0 ps  Iteration: 0  Instance: /AM_MODE_vlg_tst/i1/adda_out_inst/sin_inst/altsyncram_component/m_default/altsyncram_inst
+# ERROR: cannot read ../rom_sim/sin.mif.
+# ** Warning: (vsim-7) Failed to open readmem file "../rom_sim/sin.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(48976)
+#    Time: 0 ps  Iteration: 0  Instance: /AM_MODE_vlg_tst/i1/adda_out_inst/sin_inst/altsyncram_component/m_default/altsyncram_inst
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 60000  Instance: AM_MODE_vlg_tst.i1.FskMod_inst.pll200_inst.altpll_component.cycloneiii_pll.pll3
+# ** Note: $finish    : J:/AM_ASK/simulation/modelsim/AM_MODE.vt(70)
+#    Time: 400110 ns  Iteration: 0  Instance: /AM_MODE_vlg_tst
+# 1
+# Break in Module AM_MODE_vlg_tst at J:/AM_ASK/simulation/modelsim/AM_MODE.vt line 70
+# End time: 11:56:50 on Mar 02,2022, Elapsed time: 0:01:54
+# Errors: 0, Warnings: 63

@@ -1,0 +1,351 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/86150/Desktop/AM_ASK/simulation/modelsim
+vOTqRGskVGfh/sX5WVfeZkw==
+Z1 !s110 1645958341
+!i10b 0
+!s100 J^Y>K7J3Zf3T97WF<E;RH0
+I7]hC[Jl>A>YBkhWe1aoa;3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!i8a 322515328
+R0
+Z3 w1645958341
+8C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_altqmcpipe.v
+FC:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_altqmcpipe.v
+Z4 L0 38
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1645958340.000000
+!s107 C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_altqmcpipe.v|
+!s90 -reportprogress|300|C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_altqmcpipe.v|-work|nco_ii_0|
+!i113 1
+Z7 o-work nco_ii_0
+Z8 tCvgOpt 0
+ne3ff555
+vffN/nwFjqRYRpxWr/VzKcw==
+Z9 !s110 1645958342
+!i10b 0
+!s100 [KYP4kGZDd6g^@WNSjEBm2
+IQ>W_Cj@?GH;MW73ZzWQ?Y2
+R2
+!i8a 1460230800
+R0
+Z10 w1645958342
+8C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_dxx.v
+FC:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_dxx.v
+R4
+R5
+r1
+!s85 0
+31
+Z11 !s108 1645958342.000000
+!s107 C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_dxx.v|
+!s90 -reportprogress|300|C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_dxx.v|-work|nco_ii_0|
+!i113 1
+R7
+R8
+n8a05b98
+vpd2FPsDmb1/FUnOR+Y64VQ==
+Z12 !s110 1645958340
+!i10b 0
+!s100 oj<XKHMlTK<[T;4KHlbef1
+I7TaPSg>8E^l@;:YFc9c[]2
+R2
+!i8a 571566256
+R0
+Z13 w1645958340
+8C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_dxx_g.v
+FC:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_dxx_g.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_dxx_g.v|
+!s90 -reportprogress|300|C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_dxx_g.v|-work|nco_ii_0|
+!i113 1
+R7
+R8
+n5b96f7
+vVE8eOY+4NjwVhpqYNWz5vw==
+Z14 !s110 1645958339
+!i10b 0
+!s100 WG71_4Kz3?UHECzC>lngQ3
+IPh>830gcUR=A;37J5ECFb3
+R2
+!i8a 783524272
+R0
+Z15 w1645958339
+8C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_gar.v
+FC:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_gar.v
+R4
+R5
+r1
+!s85 0
+31
+Z16 !s108 1645958339.000000
+!s107 C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_gar.v|
+!s90 -reportprogress|300|C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_gar.v|-work|nco_ii_0|
+!i113 1
+R7
+R8
+n8a05de2
+vR04dZ5JXvIGEeqMuE1QQ0w==
+R12
+!i10b 0
+!s100 onReWXU4TGiE=QkGJeThN1
+I[BOnda]`UgMekGRVf]8C>0
+R2
+!i8a 265347648
+R0
+R13
+8C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_nco_apr_dxx.v
+FC:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_nco_apr_dxx.v
+R4
+R5
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_nco_apr_dxx.v|
+!s90 -reportprogress|300|C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_nco_apr_dxx.v|-work|nco_ii_0|
+!i113 1
+R7
+R8
+n8135608
+vx9t2FhNPqdOzs7kGgK8/OTGpVXM0fNnJ0EoznbE69QA=
+R12
+!i10b 0
+!s100 TTR7^l6W?C`JE^gng8G1F1
+Iod395nHRm4`KUF=<JTOa`3
+R2
+!i8a 1924355136
+R0
+R13
+8C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_nco_as_m_cen.v
+FC:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_nco_as_m_cen.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_nco_as_m_cen.v|
+!s90 -reportprogress|300|C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_nco_as_m_cen.v|-work|nco_ii_0|
+!i113 1
+R7
+R8
+nf13863e
+vICEWC7HSeQdbHXbl8F2TtQ==
+R14
+!i10b 0
+!s100 3b0Ed@M;XGl9FU=53W3MS0
+II]7Lo2Od3B3X8fG[5Z]i03
+R2
+!i8a 1045806320
+R0
+R15
+8C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_nco_fxx.v
+FC:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_nco_fxx.v
+R4
+R5
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_nco_fxx.v|
+!s90 -reportprogress|300|C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_nco_fxx.v|-work|nco_ii_0|
+!i113 1
+R7
+R8
+n50dfd98
+vtILjNJ6gSIxcL4CzDlxUZA==
+R1
+!i10b 0
+!s100 MT4o@nFI74FkN4`<]Qmk71
+II2W<gbjIPKJ2Q0c_fZ]n<1
+R2
+!i8a 833547808
+R0
+R3
+8C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_nco_isdr.v
+FC:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_nco_isdr.v
+R4
+R5
+r1
+!s85 0
+31
+Z17 !s108 1645958341.000000
+!s107 C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_nco_isdr.v|
+!s90 -reportprogress|300|C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_nco_isdr.v|-work|nco_ii_0|
+!i113 1
+R7
+R8
+ne00fe2
+vpDNP9hmrTyJ1UmunsPvNHw==
+R1
+!i10b 0
+!s100 3_XbFABceeSWMc[XhdjUi0
+I5X`bQOaR]Ue91n1V9AD@P3
+R2
+!i8a 675126208
+R0
+R3
+8C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_nco_mob_rw.v
+FC:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_nco_mob_rw.v
+R4
+R5
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_nco_mob_rw.v|
+!s90 -reportprogress|300|C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_nco_mob_rw.v|-work|nco_ii_0|
+!i113 1
+R7
+R8
+n433677
+v8b7vfjN2l0z0Kinz0b+xHA==
+Z18 !s110 1645958343
+!i10b 0
+!s100 ^0M6Tb1AmK<:1IRTCh3D<3
+IjDQ?LS[_IS7dPdc<LYMgR0
+R2
+!i8a 752729488
+R0
+w1645958343
+8C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_xnqg.v
+FC:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_xnqg.v
+R4
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_xnqg.v|
+!s90 -reportprogress|300|C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/asj_xnqg.v|-work|nco_ii_0|
+!i113 1
+R7
+R8
+na06f3f7
+vcarrier_nco_ii_0
+!s110 1645863796
+!i10b 1
+!s100 ^aE:e:aOGQe4_:UnQ:0_b2
+IenzjSak0b33OOEmI?0UBz0
+R2
+R0
+w1644396904
+8C:/Users/86150/Desktop/AM_ASK/ip/nco/carrier/simulation/submodules/carrier_nco_ii_0.v
+FC:/Users/86150/Desktop/AM_ASK/ip/nco/carrier/simulation/submodules/carrier_nco_ii_0.v
+Z19 L0 23
+R5
+r1
+!s85 0
+31
+!s108 1645863796.000000
+!s107 C:/Users/86150/Desktop/AM_ASK/ip/nco/carrier/simulation/submodules/carrier_nco_ii_0.v|
+!s90 -reportprogress|300|C:/Users/86150/Desktop/AM_ASK/ip/nco/carrier/simulation/submodules/carrier_nco_ii_0.v|-work|nco_ii_0|
+!i113 1
+R7
+R8
+vfsk_nco_ii_0
+R18
+!i10b 1
+!s100 oZHo<SYg6@z6QcR^MPKY20
+IH]8okW9`:CHN`Q?cTM5c42
+R2
+R0
+w1645702783
+8C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/fsk_nco_ii_0.v
+FC:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/fsk_nco_ii_0.v
+R19
+R5
+r1
+!s85 0
+31
+!s108 1645958343.000000
+!s107 C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/fsk_nco_ii_0.v|
+!s90 -reportprogress|300|C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/fsk_nco_ii_0.v|-work|nco_ii_0|
+!i113 1
+R7
+R8
+vnJ26jaEp1jeTU5KaS+6oSg==
+R9
+!i10b 0
+!s100 Ngl``j<<oLWj`fPQ9?gkz0
+IF4YT]OcMQ3`2cWE1QmJRn1
+R2
+!i8a 1339210368
+R0
+R10
+8C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/segment_arr_tdl.v
+FC:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/segment_arr_tdl.v
+R4
+R5
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/segment_arr_tdl.v|
+!s90 -reportprogress|300|C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/segment_arr_tdl.v|-work|nco_ii_0|
+!i113 1
+R7
+R8
+n6ac4b4c
+vkdt1aCaZzO2/tyI7amdHvQ==
+R9
+!i10b 0
+!s100 KbECcJPO@2_P7G50Ak5zB2
+I:NgYTOLIL:lk1TTT4^MRY3
+R2
+!i8a 874182560
+R0
+R10
+8C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/segment_sel.v
+FC:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/segment_sel.v
+R4
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/segment_sel.v|
+!s90 -reportprogress|300|C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/segment_sel.v|-work|nco_ii_0|
+!i113 1
+R7
+R8
+nc21d78c
+v5tbJP48wOjynNxzcSQ93hA==
+R14
+!i10b 0
+!s100 ^_j__0SDW6Q<AUIYnAfH70
+IEjoLPlYQXAl9o9[JFf5[>0
+R2
+!i8a 1090547552
+R0
+R15
+8C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/sid_2c_1p.v
+FC:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/sid_2c_1p.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1645958338.000000
+!s107 C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/sid_2c_1p.v|
+!s90 -reportprogress|300|C:/Users/86150/Desktop/AM_ASK/ip/fsk/fsk/simulation/submodules/mentor/sid_2c_1p.v|-work|nco_ii_0|
+!i113 1
+R7
+R8
+na290b70

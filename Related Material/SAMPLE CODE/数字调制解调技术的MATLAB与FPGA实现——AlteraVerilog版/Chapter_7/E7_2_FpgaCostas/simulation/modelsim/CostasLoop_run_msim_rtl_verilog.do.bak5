@@ -1,0 +1,21 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+D:/SyncPrograms/Chapter_5/E5_2/CostasLoop {D:/SyncPrograms/Chapter_5/E5_2/CostasLoop/fir_lpf.vo}
+vlog -vlog01compat -work work +incdir+D:/SyncPrograms/Chapter_5/E5_2/CostasLoop {D:/SyncPrograms/Chapter_5/E5_2/CostasLoop/nco.vo}
+vlog -vlog01compat -work work +incdir+D:/SyncPrograms/Chapter_5/E5_2/CostasLoop/source {D:/SyncPrograms/Chapter_5/E5_2/CostasLoop/source/LoopFilter.v}
+vlog -vlog01compat -work work +incdir+D:/SyncPrograms/Chapter_5/E5_2/CostasLoop/source {D:/SyncPrograms/Chapter_5/E5_2/CostasLoop/source/CostasLoop.v}
+vlog -vlog01compat -work work +incdir+D:/SyncPrograms/Chapter_5/E5_2/CostasLoop {D:/SyncPrograms/Chapter_5/E5_2/CostasLoop/mult8_8.v}
+
+vlog -vlog01compat -work work +incdir+D:/SyncPrograms/Chapter_5/E5_2/CostasLoop/simulation/modelsim {D:/SyncPrograms/Chapter_5/E5_2/CostasLoop/simulation/modelsim/CostasLoop.vt}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  CostasLoop_vlg_tst
+
+add wave *
+view structure
+view signals
+run -all

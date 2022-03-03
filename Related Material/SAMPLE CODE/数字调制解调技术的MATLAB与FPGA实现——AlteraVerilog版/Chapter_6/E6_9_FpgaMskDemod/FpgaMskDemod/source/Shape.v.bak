@@ -1,0 +1,11 @@
+//这是Shape.v文件的程序清单
+module Shape (
+	rst,clk,din,startf,
+	carrier,df); 
+	
+	input		rst;   //复位信号，高电平有效
+	input		clk;   //FPGA系统时钟：16MHz
+	input	 signed [7:0]	din;     //输入数据：16MHz
+	input  signed [31:0] startf;  //输入的载波初始频率
+	output signed [7:0]	carrier; //同步后的载波输出信号(正交支路)
+	output signed [27:0]	df;      //环路滤波器输出数据

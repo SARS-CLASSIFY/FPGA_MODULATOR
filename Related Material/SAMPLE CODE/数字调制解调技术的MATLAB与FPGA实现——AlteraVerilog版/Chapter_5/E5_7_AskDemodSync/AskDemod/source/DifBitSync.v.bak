@@ -1,0 +1,20 @@
+//这是DifBitSnc.v文件的程序清单
+module DifBitSync (
+	rst,clk,datain,
+	dataout,Bit_Sync);
+	
+	input		rst;   //复位信号，高电平有效
+	input		clk;   //FPGA系统时钟:32MHz
+	input	 signed [5:0]	datain;    //输入数据
+	output signed [5:0]	dataout;   //延时处理后的输出数据
+	output Bit_Sync;                //位同步脉冲输出
+
+	
+	//双相时钟产生单元：产生周期为码速率的8倍(采样速率)，占空比为1:3的双相时钟信号
+	//两路双相时钟相位相差一个clk32时钟周期
+	wire clk_d1,clk_d2; 
+   clktrans u2(
+	    .rst   (rst),
+		 .clk32 (clk),
+		 .clk_d1(clk_d1),
+		 .clk_d2(clk_d2));

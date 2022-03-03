@@ -1,0 +1,93 @@
+# Reading C:/altera/12.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do DssMod_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying c:\altera\12.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied c:\altera\12.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_9/E9_2/DssMod {D:/ModemPrograms/Chapter_9/E9_2/DssMod/nco8m.vo}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module nco8m
+# 
+# Top level modules:
+# 	nco8m
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_9/E9_2/DssMod {D:/ModemPrograms/Chapter_9/E9_2/DssMod/shape_fir.vo}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module shape_fir
+# 
+# Top level modules:
+# 	shape_fir
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_9/E9_2/DssMod/source {D:/ModemPrograms/Chapter_9/E9_2/DssMod/source/PnCode.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module PnCode
+# 
+# Top level modules:
+# 	PnCode
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_9/E9_2/DssMod/source {D:/ModemPrograms/Chapter_9/E9_2/DssMod/source/DssMod.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module DssMod
+# 
+# Top level modules:
+# 	DssMod
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_9/E9_2/DssMod {D:/ModemPrograms/Chapter_9/E9_2/DssMod/mult8_8.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module mult8_8
+# 
+# Top level modules:
+# 	mult8_8
+# 
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_9/E9_2/DssMod/simulation/modelsim {D:/ModemPrograms/Chapter_9/E9_2/DssMod/simulation/modelsim/DssMod.vt}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module DssMod_vlg_tst
+# 
+# Top level modules:
+# 	DssMod_vlg_tst
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  DssMod_vlg_tst
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps DssMod_vlg_tst 
+# Loading work.DssMod_vlg_tst
+# Loading work.DssMod
+# Loading work.PnCode
+# Loading work.shape_fir
+# Loading sgate_ver.oper_add
+# Loading lpm_ver.lpm_add_sub
+# Loading sgate_ver.oper_decoder
+# Loading lpm_ver.lpm_decode
+# Loading sgate_ver.oper_less_than
+# Loading sgate_ver.oper_mux
+# Loading sgate_ver.oper_selector
+# Loading altera_mf_ver.scfifo
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading work.nco8m
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading lpm_ver.lpm_counter
+# Loading work.mult8_8
+# Loading lpm_ver.lpm_mult
+# Loading lpm_ver.LPM_HINT_EVALUATION
+# ** Warning: (vsim-3017) D:/ModemPrograms/Chapter_9/E9_2/DssMod/nco8m.vo(1571): [TFMPC] - Too few port connections. Expected 15, found 14.
+# 
+#         Region: /DssMod_vlg_tst/i1/u3/n0il
+# ** Warning: (vsim-3722) D:/ModemPrograms/Chapter_9/E9_2/DssMod/nco8m.vo(1571): [TFMPC] - Missing connection for port 'eq'.
+# 
+# ** Warning: (vsim-3016) D:/ModemPrograms/Chapter_9/E9_2/DssMod/mult8_8.v(60): Port type is incompatible with connection (port 'clock').
+# 
+#         Region: /DssMod_vlg_tst/i1/u4/lpm_mult_component
+# ** Warning: Design size of 6 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+add wave -position insertpoint sim:/DssMod_vlg_tst/i1/*
+# Break key hit 
+# Simulation stop requested.

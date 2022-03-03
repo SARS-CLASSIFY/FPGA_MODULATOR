@@ -1,0 +1,109 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\simulation\modelsim
+vCode
+IP4D=GO54Qn@_>=G?`daGd3
+V=Okh6FQ2cGzYJUzo<Gf761
+Z1 dD:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\simulation\modelsim
+w1413382503
+8D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/source/Code.v
+FD:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/source/Code.v
+L0 2
+Z2 OV;L;10.1b;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/source -O0
+n@code
+!i10b 1
+!s100 <eab]3AjiAk?<44NUzI[J1
+!s85 0
+!s108 1413553580.343000
+!s107 D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/source/Code.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/source|D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/source/Code.v|
+!s101 -O0
+vdds
+IBAn1K`4GXBbU>`nDWTdDo2
+Ve8NCY2K_=4@JQFWP=AU7T0
+R1
+w1413552410
+8D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/dds.vo
+FD:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/dds.vo
+L0 31
+R2
+r1
+31
+R3
+!i10b 1
+!s100 :bcMId>KLhi[V;Odc9GoA1
+!s85 0
+!s108 1413553579.703000
+!s107 D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/dds.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod|D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/dds.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod -O0
+vFskMod
+IEWo3M>c2P]65]6IdULhZ[0
+VAS985f7X3CJT@M0Io8Qd61
+R1
+w1413552851
+8D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/source/FskMod.v
+FD:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/source/FskMod.v
+L0 2
+R2
+r1
+31
+R3
+n@fsk@mod
+R4
+!i10b 1
+!s100 _C`UEJE?e8oLj^7gB?D9z3
+!s85 0
+!s108 1413553580.093000
+!s107 D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/source/FskMod.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/source|D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/source/FskMod.v|
+!s101 -O0
+vMskMod
+IS`O=gOe=^KOf<KL;V`USG3
+VNmehdRL]AIIEDIV[bOifN3
+R1
+w1413553196
+8D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/source/MskMod.v
+FD:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/source/MskMod.v
+L0 2
+R2
+r1
+31
+R3
+R4
+n@msk@mod
+!i10b 1
+!s100 [Ra>giz`bBHFQCMo3AKU31
+!s85 0
+!s108 1413553580.468000
+!s107 D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/source/MskMod.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/source|D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/source/MskMod.v|
+!s101 -O0
+vMskMod_vlg_tst
+!i10b 1
+!s100 8V40;NdJAjEzlDK7=FFJb1
+I1i[GM[6YQC2fo4gT25fV23
+VU@P`[758?K>8Ecb?9mdJ40
+R1
+w1413553559
+8D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/simulation/modelsim/MskMod.vt
+FD:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/simulation/modelsim/MskMod.vt
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1413553580.640000
+!s107 D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/simulation/modelsim/MskMod.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/simulation/modelsim|D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/simulation/modelsim/MskMod.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/simulation/modelsim -O0
+n@msk@mod_vlg_tst

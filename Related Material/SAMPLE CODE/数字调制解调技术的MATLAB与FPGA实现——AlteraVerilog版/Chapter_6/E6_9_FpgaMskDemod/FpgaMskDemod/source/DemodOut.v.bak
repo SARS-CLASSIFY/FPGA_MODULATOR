@@ -1,0 +1,10 @@
+//这是DemodOut.v文件的程序清单
+module DemodOut (
+	rst,clk,din,
+	Isync,Qsync); 
+	
+	input		rst;   //复位信号，高电平有效
+	input		clk;   //时钟信号，FPGA系统时钟/输入数据速率/采样速率
+	input	   din;   //输入的滤波后的同相、正交两路位定时单载波信号
+	output Isync;   //成形后输出的同相位定时脉冲
+	output Qsync;   //成形后输出的正交位定时脉冲

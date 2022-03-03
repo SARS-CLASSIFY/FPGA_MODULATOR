@@ -1,0 +1,211 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ModemPrograms\Chapter_6\E6_9_FpgaMskDemod\FpgaMskDemod\simulation\modelsim
+vDemodOut
+I9fdl300JfO@5ln5lZceUT2
+VRDUzZE]6F=bh:MHDb<c1J3
+Z1 dD:\ModemPrograms\Chapter_6\E6_9_FpgaMskDemod\FpgaMskDemod\simulation\modelsim
+w1413683196
+8D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/source/DemodOut.v
+FD:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/source/DemodOut.v
+L0 2
+Z2 OV;L;10.1b;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/source -O0
+n@demod@out
+!i10b 1
+!s100 oBYXgSVJ]923UL2Gb4Xaj3
+!s85 0
+!s108 1414682071.328000
+!s107 D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/source/DemodOut.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/source|D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/source/DemodOut.v|
+!s101 -O0
+vlocklpf
+IeTi`hWa[Lh3REH0`c[agz3
+V8hmLMmk`7JSVoJLzi27340
+R1
+w1413646055
+8D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/locklpf.vo
+FD:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/locklpf.vo
+L0 31
+R2
+r1
+31
+R3
+Z5 !s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod -O0
+!i10b 1
+!s100 icUMAYP]H?8118WlV[hKH1
+!s85 0
+!s108 1414682068.968000
+!s107 D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/locklpf.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod|D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/locklpf.vo|
+!s101 -O0
+vLoopFilter
+Ia0HEoKeaE`lQ:m>GWB0TV1
+VzL@1NVk`ec1jgZ1YfPL^m3
+R1
+w1414681147
+8D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/source/LoopFilter.v
+FD:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/source/LoopFilter.v
+L0 2
+R2
+r1
+31
+R3
+R4
+n@loop@filter
+!i10b 1
+!s100 zeUXEnMbA11cS<0ma42_50
+!s85 0
+!s108 1414682070.718000
+!s107 D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/source/LoopFilter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/source|D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/source/LoopFilter.v|
+!s101 -O0
+vMskDemod
+I]3HkOe@7DlaPChP0?;;6S2
+V7?H:121hZ=kT`=>Z7dD=k3
+R1
+w1413723909
+8D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/source/MskDemod.v
+FD:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/source/MskDemod.v
+L0 2
+R2
+r1
+31
+R3
+R4
+n@msk@demod
+!i10b 1
+!s100 b^bb^o2nXCHAR2OmX>AL:0
+!s85 0
+!s108 1414682070.984000
+!s107 D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/source/MskDemod.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/source|D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/source/MskDemod.v|
+!s101 -O0
+vMskDemod_vlg_tst
+!i10b 1
+!s100 bzBR3DWWX>?j7C@D`I5`I1
+IoSz0M>NDHRZXKUSR7;3mk1
+V_W;00;>L9QL6hPjLK4Z`z0
+R1
+w1413719650
+8D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/simulation/modelsim/MskDemod.vt
+FD:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/simulation/modelsim/MskDemod.vt
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1414682071.468000
+!s107 D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/simulation/modelsim/MskDemod.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/simulation/modelsim|D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/simulation/modelsim/MskDemod.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/simulation/modelsim -O0
+n@msk@demod_vlg_tst
+vmsklpf
+IUBeJ=2@^QTOo4A3Xc<GK;2
+VjKiKFNf1FOAg=J5E`S7GD1
+R1
+w1413679959
+8D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/msklpf.vo
+FD:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/msklpf.vo
+L0 31
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 iW<FFe5mYLHgO<Y0X9[E81
+!s85 0
+!s108 1414682069.734000
+!s107 D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/msklpf.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod|D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/msklpf.vo|
+!s101 -O0
+vmult8_8
+I@Wh29g_2A<cU6Q:?SHJF83
+VlcSL[haK_meMilJN=L=B=1
+R1
+w1413645940
+8D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/mult8_8.v
+FD:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/mult8_8.v
+L0 39
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 nNE3;:8So2IWb:EkiF8F90
+!s85 0
+!s108 1414682070.031000
+!s107 D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/mult8_8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod|D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/mult8_8.v|
+!s101 -O0
+vnco
+I`2cVQ3^n03a6@]ddn5d9^1
+VLYjO4A]?[aQSfLMZC9fGB2
+R1
+w1413646732
+8D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/nco.vo
+FD:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/nco.vo
+L0 31
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 fHU=CMDaDhN<zW:TI^FXe2
+!s85 0
+!s108 1414682068.750000
+!s107 D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/nco.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod|D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/nco.vo|
+!s101 -O0
+vShape
+I:HI4JRJQj8cPgA?eJ<S7k2
+Vn146CaJPA34LKkCJ3fL8B3
+R1
+w1413682276
+8D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/source/Shape.v
+FD:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/source/Shape.v
+L0 2
+R2
+r1
+31
+R3
+R4
+n@shape
+!i10b 1
+!s100 D]P2<4Y?L[>=hazCA>i8T1
+!s85 0
+!s108 1414682071.156000
+!s107 D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/source/Shape.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/source|D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/source/Shape.v|
+!s101 -O0
+vSquareLoop
+IoXjmG;NWN9NQzT_n`=EV]0
+V;FLX?VHFDB=VQUS0A:Q8[3
+R1
+w1413722255
+8D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/source/SquareLoop.v
+FD:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/source/SquareLoop.v
+L0 2
+R2
+r1
+31
+R3
+n@square@loop
+R4
+!i10b 1
+!s100 0?R@bN>I09>DRG5@R5^hE1
+!s85 0
+!s108 1414682070.312000
+!s107 D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/source/SquareLoop.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/source|D:/ModemPrograms/Chapter_6/E6_9_FpgaMskDemod/FpgaMskDemod/source/SquareLoop.v|
+!s101 -O0

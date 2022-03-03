@@ -1,0 +1,956 @@
+Analysis & Synthesis report for FirIPCore
+Mon Oct 06 10:49:31 2014
+Quartus II 32-bit Version 12.1 Build 177 11/07/2012 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Analysis & Synthesis RAM Summary
+  9. Analysis & Synthesis DSP Block Usage Summary
+ 10. Analysis & Synthesis IP Cores Summary
+ 11. State Machine - |FirIPCore|fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_source_fir_121:source|source_state
+ 12. State Machine - |FirIPCore|fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|sink_out_state
+ 13. State Machine - |FirIPCore|fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|sink_state
+ 14. Registers Protected by Synthesis
+ 15. Registers Removed During Synthesis
+ 16. Removed Registers Triggering Further Register Optimizations
+ 17. General Register Statistics
+ 18. Inverted Register Statistics
+ 19. Registers Packed Into Inferred Megafunctions
+ 20. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 21. Source assignments for fir:u0|fir_ast:fir_ast_inst
+ 22. Source assignments for fir:u0|fir_ast:fir_ast_inst|fir_st:fircore
+ 23. Parameter Settings for User Entity Instance: fir:u0|fir_ast:fir_ast_inst|fir_st:fircore
+ 24. Port Connectivity Checks: "fir:u0"
+ 25. Elapsed Time Per Partition
+ 26. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2012 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                   ;
++------------------------------------+-------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Mon Oct 06 10:49:31 2014     ;
+; Quartus II 32-bit Version          ; 12.1 Build 177 11/07/2012 SJ Full Version ;
+; Revision Name                      ; FirIPCore                                 ;
+; Top-level Entity Name              ; FirIPCore                                 ;
+; Family                             ; Cyclone IV E                              ;
+; Total logic elements               ; 900                                       ;
+;     Total combinational functions  ; 667                                       ;
+;     Dedicated logic registers      ; 674                                       ;
+; Total registers                    ; 674                                       ;
+; Total pins                         ; 39                                        ;
+; Total virtual pins                 ; 0                                         ;
+; Total memory bits                  ; 252                                       ;
+; Embedded Multiplier 9-bit elements ; 6                                         ;
+; Total PLLs                         ; 0                                         ;
++------------------------------------+-------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; EP4CE15F17C8       ;                    ;
+; Top-level entity name                                                      ; FirIPCore          ; FirIPCore          ;
+; Family name                                                                ; Cyclone IV E       ; Cyclone IV GX      ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                 ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM Block Balancing                                                   ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; On                 ; On                 ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 2           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 2           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     1 processor            ; 100.0%      ;
+;     2 processors           ; < 0.1%      ;
++----------------------------+-------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                ;
++-----------------------------------------------------+-----------------+----------------------------------------+----------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path                    ; Used in Netlist ; File Type                              ; File Name with Absolute Path                                                                                               ; Library ;
++-----------------------------------------------------+-----------------+----------------------------------------+----------------------------------------------------------------------------------------------------------------------------+---------+
+; fir.v                                               ; yes             ; User Wizard-Generated File             ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir.v                                                                  ;         ;
+; fir_compiler-library/auk_dspip_lib_pkg_fir_121.vhd  ; yes             ; Encrypted User VHDL File               ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_lib_pkg_fir_121.vhd                     ;         ;
+; fir_compiler-library/auk_dspip_math_pkg_fir_121.vhd ; yes             ; Encrypted User VHDL File               ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_math_pkg_fir_121.vhd                    ;         ;
+; fir_st.v                                            ; yes             ; User Verilog HDL File                  ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_st.v                                                               ;         ;
+; fir_ast.vhd                                         ; yes             ; User VHDL File                         ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_ast.vhd                                                            ;         ;
+; source/FirIPCore.v                                  ; yes             ; User Verilog HDL File                  ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/source/FirIPCore.v                                                     ;         ;
+; auk_dspip_avalon_streaming_sink_fir_121.vhd         ; yes             ; Encrypted Auto-Found VHDL File         ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_avalon_streaming_sink_fir_121.vhd       ;         ;
+; scfifo.tdf                                          ; yes             ; Megafunction                           ; c:/altera/12.1/quartus/libraries/megafunctions/scfifo.tdf                                                                  ;         ;
+; a_regfifo.inc                                       ; yes             ; Megafunction                           ; c:/altera/12.1/quartus/libraries/megafunctions/a_regfifo.inc                                                               ;         ;
+; a_dpfifo.inc                                        ; yes             ; Megafunction                           ; c:/altera/12.1/quartus/libraries/megafunctions/a_dpfifo.inc                                                                ;         ;
+; a_i2fifo.inc                                        ; yes             ; Megafunction                           ; c:/altera/12.1/quartus/libraries/megafunctions/a_i2fifo.inc                                                                ;         ;
+; a_fffifo.inc                                        ; yes             ; Megafunction                           ; c:/altera/12.1/quartus/libraries/megafunctions/a_fffifo.inc                                                                ;         ;
+; a_f2fifo.inc                                        ; yes             ; Megafunction                           ; c:/altera/12.1/quartus/libraries/megafunctions/a_f2fifo.inc                                                                ;         ;
+; aglobal121.inc                                      ; yes             ; Megafunction                           ; c:/altera/12.1/quartus/libraries/megafunctions/aglobal121.inc                                                              ;         ;
+; db/scfifo_8hh1.tdf                                  ; yes             ; Auto-Generated Megafunction            ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/db/scfifo_8hh1.tdf                                                     ;         ;
+; db/a_dpfifo_3s81.tdf                                ; yes             ; Auto-Generated Megafunction            ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/db/a_dpfifo_3s81.tdf                                                   ;         ;
+; db/altsyncram_osf1.tdf                              ; yes             ; Auto-Generated Megafunction            ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/db/altsyncram_osf1.tdf                                                 ;         ;
+; db/cmpr_gs8.tdf                                     ; yes             ; Auto-Generated Megafunction            ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/db/cmpr_gs8.tdf                                                        ;         ;
+; db/cntr_tnb.tdf                                     ; yes             ; Auto-Generated Megafunction            ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/db/cntr_tnb.tdf                                                        ;         ;
+; db/cntr_ao7.tdf                                     ; yes             ; Auto-Generated Megafunction            ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/db/cntr_ao7.tdf                                                        ;         ;
+; db/cntr_unb.tdf                                     ; yes             ; Auto-Generated Megafunction            ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/db/cntr_unb.tdf                                                        ;         ;
+; auk_dspip_avalon_streaming_source_fir_121.vhd       ; yes             ; Encrypted Auto-Found VHDL File         ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_avalon_streaming_source_fir_121.vhd     ;         ;
+; auk_dspip_avalon_streaming_controller_fir_121.vhd   ; yes             ; Encrypted Auto-Found VHDL File         ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_avalon_streaming_controller_fir_121.vhd ;         ;
+; mux_2to1_cen.v                                      ; yes             ; Encrypted Auto-Found Verilog HDL File  ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mux_2to1_cen.v                                    ;         ;
+; mux_2to1_comb.v                                     ; yes             ; Encrypted Auto-Found Verilog HDL File  ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mux_2to1_comb.v                                   ;         ;
+; msft_data.v                                         ; yes             ; Encrypted Auto-Found Verilog HDL File  ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/msft_data.v                                       ;         ;
+; lc_store_cen.v                                      ; yes             ; Encrypted Auto-Found Verilog HDL File  ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/lc_store_cen.v                                    ;         ;
+; sadd_cen.v                                          ; yes             ; Encrypted Auto-Found Verilog HDL File  ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/sadd_cen.v                                        ;         ;
+; msft_lt_32.v                                        ; yes             ; Encrypted Auto-Found Verilog HDL File  ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/msft_lt_32.v                                      ;         ;
+; mlu_inf_2reg.v                                      ; yes             ; Encrypted Auto-Found Verilog HDL File  ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mlu_inf_2reg.v                                    ;         ;
+; mac_tl.v                                            ; yes             ; Encrypted Auto-Found Verilog HDL File  ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mac_tl.v                                          ;         ;
+; sadd_reg_top_cen.v                                  ; yes             ; Encrypted Auto-Found Verilog HDL File  ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/sadd_reg_top_cen.v                                ;         ;
+; maccum_cen.v                                        ; yes             ; Encrypted Auto-Found Verilog HDL File  ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/maccum_cen.v                                      ;         ;
+; mcv_ctrl_nc.v                                       ; yes             ; Encrypted Auto-Found Verilog HDL File  ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mcv_ctrl_nc.v                                     ;         ;
+; pzdyqx.vhd                                          ; yes             ; Encrypted Megafunction                 ; c:/altera/12.1/quartus/libraries/megafunctions/pzdyqx.vhd                                                                  ;         ;
+; sld_hub.vhd                                         ; yes             ; Encrypted Megafunction                 ; c:/altera/12.1/quartus/libraries/megafunctions/sld_hub.vhd                                                                 ;         ;
+; sld_jtag_hub.vhd                                    ; yes             ; Encrypted Megafunction                 ; c:/altera/12.1/quartus/libraries/megafunctions/sld_jtag_hub.vhd                                                            ;         ;
+; sld_rom_sr.vhd                                      ; yes             ; Encrypted Megafunction                 ; c:/altera/12.1/quartus/libraries/megafunctions/sld_rom_sr.vhd                                                              ;         ;
+; altshift_taps.tdf                                   ; yes             ; Megafunction                           ; c:/altera/12.1/quartus/libraries/megafunctions/altshift_taps.tdf                                                           ;         ;
+; altdpram.inc                                        ; yes             ; Megafunction                           ; c:/altera/12.1/quartus/libraries/megafunctions/altdpram.inc                                                                ;         ;
+; lpm_counter.inc                                     ; yes             ; Megafunction                           ; c:/altera/12.1/quartus/libraries/megafunctions/lpm_counter.inc                                                             ;         ;
+; lpm_compare.inc                                     ; yes             ; Megafunction                           ; c:/altera/12.1/quartus/libraries/megafunctions/lpm_compare.inc                                                             ;         ;
+; lpm_constant.inc                                    ; yes             ; Megafunction                           ; c:/altera/12.1/quartus/libraries/megafunctions/lpm_constant.inc                                                            ;         ;
+; db/shift_taps_pnm.tdf                               ; yes             ; Auto-Generated Megafunction            ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/db/shift_taps_pnm.tdf                                                  ;         ;
+; db/altsyncram_sd81.tdf                              ; yes             ; Auto-Generated Megafunction            ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/db/altsyncram_sd81.tdf                                                 ;         ;
+; db/cntr_4pf.tdf                                     ; yes             ; Auto-Generated Megafunction            ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/db/cntr_4pf.tdf                                                        ;         ;
+; db/shift_taps_lnm.tdf                               ; yes             ; Auto-Generated Megafunction            ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/db/shift_taps_lnm.tdf                                                  ;         ;
+; db/altsyncram_rk31.tdf                              ; yes             ; Auto-Generated Megafunction            ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/db/altsyncram_rk31.tdf                                                 ;         ;
+; db/add_sub_24e.tdf                                  ; yes             ; Auto-Generated Megafunction            ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/db/add_sub_24e.tdf                                                     ;         ;
+; db/cntr_6pf.tdf                                     ; yes             ; Auto-Generated Megafunction            ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/db/cntr_6pf.tdf                                                        ;         ;
+; db/cmpr_ogc.tdf                                     ; yes             ; Auto-Generated Megafunction            ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/db/cmpr_ogc.tdf                                                        ;         ;
+; lpm_mult.tdf                                        ; yes             ; Megafunction                           ; c:/altera/12.1/quartus/libraries/megafunctions/lpm_mult.tdf                                                                ;         ;
+; lpm_add_sub.inc                                     ; yes             ; Megafunction                           ; c:/altera/12.1/quartus/libraries/megafunctions/lpm_add_sub.inc                                                             ;         ;
+; multcore.inc                                        ; yes             ; Megafunction                           ; c:/altera/12.1/quartus/libraries/megafunctions/multcore.inc                                                                ;         ;
+; bypassff.inc                                        ; yes             ; Megafunction                           ; c:/altera/12.1/quartus/libraries/megafunctions/bypassff.inc                                                                ;         ;
+; altshift.inc                                        ; yes             ; Megafunction                           ; c:/altera/12.1/quartus/libraries/megafunctions/altshift.inc                                                                ;         ;
+; db/mult_t5t.tdf                                     ; yes             ; Auto-Generated Megafunction            ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/db/mult_t5t.tdf                                                        ;         ;
+; db/mult_v5t.tdf                                     ; yes             ; Auto-Generated Megafunction            ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/db/mult_v5t.tdf                                                        ;         ;
++-----------------------------------------------------+-----------------+----------------------------------------+----------------------------------------------------------------------------------------------------------------------------+---------+
+
+
++-----------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary         ;
++---------------------------------------------+-------+
+; Resource                                    ; Usage ;
++---------------------------------------------+-------+
+; Estimated Total logic elements              ; 900   ;
+;                                             ;       ;
+; Total combinational functions               ; 667   ;
+; Logic element usage by number of LUT inputs ;       ;
+;     -- 4 input functions                    ; 137   ;
+;     -- 3 input functions                    ; 262   ;
+;     -- <=2 input functions                  ; 268   ;
+;                                             ;       ;
+; Logic elements by mode                      ;       ;
+;     -- normal mode                          ; 540   ;
+;     -- arithmetic mode                      ; 127   ;
+;                                             ;       ;
+; Total registers                             ; 674   ;
+;     -- Dedicated logic registers            ; 674   ;
+;     -- I/O registers                        ; 0     ;
+;                                             ;       ;
+; I/O pins                                    ; 39    ;
+; Total memory bits                           ; 252   ;
+; Embedded Multiplier 9-bit elements          ; 6     ;
+; Maximum fan-out                             ; 604   ;
+; Total fan-out                               ; 4610  ;
+; Average fan-out                             ; 3.04  ;
++---------------------------------------------+-------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                                                                                                       ;
++--------------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
+; Compilation Hierarchy Node                                               ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                                                 ; Library Name ;
++--------------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
+; |FirIPCore                                                               ; 667 (4)           ; 674 (3)      ; 252         ; 6            ; 0       ; 3         ; 39   ; 0            ; |FirIPCore                                                                                                                                                                                          ;              ;
+;    |fir:u0|                                                              ; 417 (0)           ; 517 (0)      ; 252         ; 6            ; 0       ; 3         ; 0    ; 0            ; |FirIPCore|fir:u0                                                                                                                                                                                   ;              ;
+;       |fir_ast:fir_ast_inst|                                             ; 417 (0)           ; 517 (0)      ; 252         ; 6            ; 0       ; 3         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst                                                                                                                                                              ;              ;
+;          |auk_dspip_avalon_streaming_controller_fir_121:intf_ctrl|       ; 2 (2)             ; 3 (3)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_controller_fir_121:intf_ctrl                                                                                                      ;              ;
+;          |auk_dspip_avalon_streaming_sink_fir_121:sink|                  ; 43 (22)           ; 34 (18)      ; 96          ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink                                                                                                                 ;              ;
+;             |scfifo:\normal_fifo:fifo_eab_on:in_fifo|                    ; 21 (0)            ; 16 (0)       ; 96          ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|scfifo:\normal_fifo:fifo_eab_on:in_fifo                                                                         ;              ;
+;                |scfifo_8hh1:auto_generated|                              ; 21 (2)            ; 16 (1)       ; 96          ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|scfifo:\normal_fifo:fifo_eab_on:in_fifo|scfifo_8hh1:auto_generated                                              ;              ;
+;                   |a_dpfifo_3s81:dpfifo|                                 ; 19 (11)           ; 15 (7)       ; 96          ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|scfifo:\normal_fifo:fifo_eab_on:in_fifo|scfifo_8hh1:auto_generated|a_dpfifo_3s81:dpfifo                         ;              ;
+;                      |altsyncram_osf1:FIFOram|                           ; 0 (0)             ; 0 (0)        ; 96          ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|scfifo:\normal_fifo:fifo_eab_on:in_fifo|scfifo_8hh1:auto_generated|a_dpfifo_3s81:dpfifo|altsyncram_osf1:FIFOram ;              ;
+;                      |cntr_ao7:usedw_counter|                            ; 3 (3)             ; 3 (3)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|scfifo:\normal_fifo:fifo_eab_on:in_fifo|scfifo_8hh1:auto_generated|a_dpfifo_3s81:dpfifo|cntr_ao7:usedw_counter  ;              ;
+;                      |cntr_tnb:rd_ptr_msb|                               ; 2 (2)             ; 2 (2)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|scfifo:\normal_fifo:fifo_eab_on:in_fifo|scfifo_8hh1:auto_generated|a_dpfifo_3s81:dpfifo|cntr_tnb:rd_ptr_msb     ;              ;
+;                      |cntr_unb:wr_ptr|                                   ; 3 (3)             ; 3 (3)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|scfifo:\normal_fifo:fifo_eab_on:in_fifo|scfifo_8hh1:auto_generated|a_dpfifo_3s81:dpfifo|cntr_unb:wr_ptr         ;              ;
+;          |auk_dspip_avalon_streaming_source_fir_121:source|              ; 3 (3)             ; 53 (53)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_source_fir_121:source                                                                                                             ;              ;
+;          |fir_st:fircore|                                                ; 369 (0)           ; 427 (0)      ; 156         ; 6            ; 0       ; 3         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore                                                                                                                                               ;              ;
+;             |lc_store_cen:Uaccum_reg|                                    ; 26 (26)           ; 25 (25)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|lc_store_cen:Uaccum_reg                                                                                                                       ;              ;
+;             |lc_store_cen:Udata_comp|                                    ; 12 (12)           ; 12 (12)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|lc_store_cen:Udata_comp                                                                                                                       ;              ;
+;             |lc_store_cen:Ures_reg|                                      ; 26 (26)           ; 25 (25)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|lc_store_cen:Ures_reg                                                                                                                         ;              ;
+;             |mac_tl:Umtl_0_n|                                            ; 24 (24)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mac_tl:Umtl_0_n                                                                                                                               ;              ;
+;             |mac_tl:Umtl_1_n|                                            ; 25 (25)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mac_tl:Umtl_1_n                                                                                                                               ;              ;
+;             |mac_tl:Umtl_2_n|                                            ; 25 (25)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mac_tl:Umtl_2_n                                                                                                                               ;              ;
+;             |maccum_cen:Usa|                                             ; 25 (25)           ; 25 (25)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|maccum_cen:Usa                                                                                                                                ;              ;
+;             |mcv_ctrl_nc:ctrl|                                           ; 24 (24)           ; 22 (22)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mcv_ctrl_nc:ctrl                                                                                                                              ;              ;
+;             |mlu_inf_2reg:Umlu_0_n|                                      ; 2 (2)             ; 40 (40)      ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_0_n                                                                                                                         ;              ;
+;                |lpm_mult:Mult0|                                          ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_0_n|lpm_mult:Mult0                                                                                                          ;              ;
+;                   |mult_t5t:auto_generated|                              ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_0_n|lpm_mult:Mult0|mult_t5t:auto_generated                                                                                  ;              ;
+;             |mlu_inf_2reg:Umlu_1_n|                                      ; 1 (1)             ; 41 (41)      ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_1_n                                                                                                                         ;              ;
+;                |lpm_mult:Mult0|                                          ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_1_n|lpm_mult:Mult0                                                                                                          ;              ;
+;                   |mult_v5t:auto_generated|                              ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_1_n|lpm_mult:Mult0|mult_v5t:auto_generated                                                                                  ;              ;
+;             |mlu_inf_2reg:Umlu_2_n|                                      ; 3 (3)             ; 43 (43)      ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_2_n                                                                                                                         ;              ;
+;                |lpm_mult:Mult0|                                          ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_2_n|lpm_mult:Mult0                                                                                                          ;              ;
+;                   |mult_v5t:auto_generated|                              ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_2_n|lpm_mult:Mult0|mult_v5t:auto_generated                                                                                  ;              ;
+;             |msft_data:tdl_ff_0_ch_0_n|                                  ; 13 (12)           ; 1 (0)        ; 120         ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_0_ch_0_n                                                                                                                     ;              ;
+;                |altshift_taps:in_reg_rtl_0|                              ; 1 (0)             ; 1 (0)        ; 120         ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_0_ch_0_n|altshift_taps:in_reg_rtl_0                                                                                          ;              ;
+;                   |shift_taps_pnm:auto_generated|                        ; 1 (0)             ; 1 (0)        ; 120         ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_0_ch_0_n|altshift_taps:in_reg_rtl_0|shift_taps_pnm:auto_generated                                                            ;              ;
+;                      |altsyncram_sd81:altsyncram2|                       ; 0 (0)             ; 0 (0)        ; 120         ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_0_ch_0_n|altshift_taps:in_reg_rtl_0|shift_taps_pnm:auto_generated|altsyncram_sd81:altsyncram2                                ;              ;
+;                      |cntr_4pf:cntr1|                                    ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_0_ch_0_n|altshift_taps:in_reg_rtl_0|shift_taps_pnm:auto_generated|cntr_4pf:cntr1                                             ;              ;
+;             |msft_data:tdl_ff_1_ch_0_n|                                  ; 12 (12)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_1_ch_0_n                                                                                                                     ;              ;
+;             |msft_data:tdl_ff_2_ch_0_n|                                  ; 12 (12)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_2_ch_0_n                                                                                                                     ;              ;
+;             |msft_data:tdl_ff_3_ch_0_n|                                  ; 24 (24)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_3_ch_0_n                                                                                                                     ;              ;
+;             |msft_data:tdl_ff_4_ch_0_n|                                  ; 12 (12)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_4_ch_0_n                                                                                                                     ;              ;
+;             |msft_data:tdl_ff_5_ch_0_n|                                  ; 19 (12)           ; 4 (0)        ; 36          ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_5_ch_0_n                                                                                                                     ;              ;
+;                |altshift_taps:in_reg_rtl_0|                              ; 7 (0)             ; 4 (0)        ; 36          ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_5_ch_0_n|altshift_taps:in_reg_rtl_0                                                                                          ;              ;
+;                   |shift_taps_lnm:auto_generated|                        ; 7 (2)             ; 4 (2)        ; 36          ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_5_ch_0_n|altshift_taps:in_reg_rtl_0|shift_taps_lnm:auto_generated                                                            ;              ;
+;                      |altsyncram_rk31:altsyncram4|                       ; 0 (0)             ; 0 (0)        ; 36          ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_5_ch_0_n|altshift_taps:in_reg_rtl_0|shift_taps_lnm:auto_generated|altsyncram_rk31:altsyncram4                                ;              ;
+;                      |cntr_6pf:cntr1|                                    ; 5 (5)             ; 2 (2)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_5_ch_0_n|altshift_taps:in_reg_rtl_0|shift_taps_lnm:auto_generated|cntr_6pf:cntr1                                             ;              ;
+;             |msft_lt_32:Ucoef_0_n|                                       ; 4 (4)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n                                                                                                                          ;              ;
+;             |msft_lt_32:Ucoef_1_n|                                       ; 2 (2)             ; 2 (2)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n                                                                                                                          ;              ;
+;             |msft_lt_32:Ucoef_2_n|                                       ; 2 (2)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n                                                                                                                          ;              ;
+;             |mux_2to1_cen:tdl_mux|                                       ; 0 (0)             ; 12 (12)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mux_2to1_cen:tdl_mux                                                                                                                          ;              ;
+;             |mux_2to1_comb:sym_mux|                                      ; 12 (12)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mux_2to1_comb:sym_mux                                                                                                                         ;              ;
+;             |sadd_cen:U_0_sym_add|                                       ; 13 (13)           ; 13 (13)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|sadd_cen:U_0_sym_add                                                                                                                          ;              ;
+;             |sadd_cen:U_1_sym_add|                                       ; 13 (13)           ; 13 (13)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|sadd_cen:U_1_sym_add                                                                                                                          ;              ;
+;             |sadd_cen:U_2_sym_add|                                       ; 13 (13)           ; 13 (13)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|sadd_cen:U_2_sym_add                                                                                                                          ;              ;
+;             |sadd_reg_top_cen:Uaddl_0_n_0_n|                             ; 0 (0)             ; 49 (49)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|sadd_reg_top_cen:Uaddl_0_n_0_n                                                                                                                ;              ;
+;             |sadd_reg_top_cen:Uaddl_0_n_1_n|                             ; 0 (0)             ; 25 (25)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|sadd_reg_top_cen:Uaddl_0_n_1_n                                                                                                                ;              ;
+;             |sadd_reg_top_cen:Uaddl_1_n_0_n|                             ; 25 (25)           ; 50 (50)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|sadd_reg_top_cen:Uaddl_1_n_0_n                                                                                                                ;              ;
+;    |pzdyqx:nabboc|                                                       ; 122 (0)           ; 72 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|pzdyqx:nabboc                                                                                                                                                                            ;              ;
+;       |pzdyqx_impl:pzdyqx_impl_inst|                                     ; 122 (12)          ; 72 (9)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|pzdyqx:nabboc|pzdyqx_impl:pzdyqx_impl_inst                                                                                                                                               ;              ;
+;          |GHVD5181:\cycloneiii_BITP7563_gen_0:cycloneiii_BITP7563_gen_1| ; 53 (23)           ; 28 (8)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|pzdyqx:nabboc|pzdyqx_impl:pzdyqx_impl_inst|GHVD5181:\cycloneiii_BITP7563_gen_0:cycloneiii_BITP7563_gen_1                                                                                 ;              ;
+;             |LQYT7093:MBPH5020|                                          ; 30 (30)           ; 20 (20)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|pzdyqx:nabboc|pzdyqx_impl:pzdyqx_impl_inst|GHVD5181:\cycloneiii_BITP7563_gen_0:cycloneiii_BITP7563_gen_1|LQYT7093:MBPH5020                                                               ;              ;
+;          |KIFI3548:TPOO7242|                                             ; 13 (13)           ; 13 (13)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|pzdyqx:nabboc|pzdyqx_impl:pzdyqx_impl_inst|KIFI3548:TPOO7242                                                                                                                             ;              ;
+;          |LQYT7093:LRYQ7721|                                             ; 22 (22)           ; 13 (13)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|pzdyqx:nabboc|pzdyqx_impl:pzdyqx_impl_inst|LQYT7093:LRYQ7721                                                                                                                             ;              ;
+;          |PUDL0439:ESUL0435|                                             ; 22 (22)           ; 9 (9)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|pzdyqx:nabboc|pzdyqx_impl:pzdyqx_impl_inst|PUDL0439:ESUL0435                                                                                                                             ;              ;
+;    |sld_hub:auto_hub|                                                    ; 124 (1)           ; 82 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|sld_hub:auto_hub                                                                                                                                                                         ;              ;
+;       |sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|                     ; 123 (87)          ; 82 (54)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst                                                                                                                            ;              ;
+;          |sld_rom_sr:hub_info_reg|                                       ; 19 (19)           ; 9 (9)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_rom_sr:hub_info_reg                                                                                                    ;              ;
+;          |sld_shadow_jsm:shadow_jsm|                                     ; 17 (17)           ; 19 (19)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FirIPCore|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_shadow_jsm:shadow_jsm                                                                                                  ;              ;
++--------------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis RAM Summary                                                                                                                                                                                                                                                                        ;
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+------+------+
+; Name                                                                                                                                                                                                ; Type ; Mode             ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size ; MIF  ;
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+------+------+
+; fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|scfifo:\normal_fifo:fifo_eab_on:in_fifo|scfifo_8hh1:auto_generated|a_dpfifo_3s81:dpfifo|altsyncram_osf1:FIFOram|ALTSYNCRAM ; AUTO ; Simple Dual Port ; 8            ; 14           ; 8            ; 14           ; 112  ; None ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_0_ch_0_n|altshift_taps:in_reg_rtl_0|shift_taps_pnm:auto_generated|altsyncram_sd81:altsyncram2|ALTSYNCRAM                                ; AUTO ; Simple Dual Port ; 2            ; 60           ; 2            ; 60           ; 120  ; None ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_5_ch_0_n|altshift_taps:in_reg_rtl_0|shift_taps_lnm:auto_generated|altsyncram_rk31:altsyncram4|ALTSYNCRAM                                ; AUTO ; Simple Dual Port ; 3            ; 12           ; 3            ; 12           ; 36   ; None ;
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+------+------+
+
+
++-----------------------------------------------------+
+; Analysis & Synthesis DSP Block Usage Summary        ;
++---------------------------------------+-------------+
+; Statistic                             ; Number Used ;
++---------------------------------------+-------------+
+; Simple Multipliers (9-bit)            ; 0           ;
+; Simple Multipliers (18-bit)           ; 3           ;
+; Embedded Multiplier Blocks            ; --          ;
+; Embedded Multiplier 9-bit elements    ; 6           ;
+; Signed Embedded Multipliers           ; 3           ;
+; Unsigned Embedded Multipliers         ; 0           ;
+; Mixed Sign Embedded Multipliers       ; 0           ;
+; Variable Sign Embedded Multipliers    ; 0           ;
+; Dedicated Input Shift Register Chains ; 0           ;
++---------------------------------------+-------------+
+Note: number of Embedded Multiplier Blocks used is only available after a successful fit.
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                                                                                                                                                                                                                    ;
++--------+--------------------------+---------+--------------+---------------+------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------+
+; Vendor ; IP Core Name             ; Version ; Release Date ; License Type  ; Entity Instance                                                                                ; IP Include File                                                                                                            ;
++--------+--------------------------+---------+--------------+---------------+------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------+
+; Altera ; FIR Compiler             ; 12.1    ; N/A          ; N/A           ; |FirIPCore|fir:u0                                                                              ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir.v                                                                  ;
+; Altera ; FIR_Compiler (6AF7_0012) ; N/A     ; May 2011     ; OpenCore Plus ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|sadd_cen:U_0_sym_add                     ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/sadd_cen.v                                        ;
+; Altera ; FIR_Compiler (6AF7_0012) ; N/A     ; May 2011     ; OpenCore Plus ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|sadd_cen:U_0_sym_add                     ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/sadd_cen.v                                        ;
+; Altera ; FIR_Compiler (6AF7_0012) ; N/A     ; May 2011     ; OpenCore Plus ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|sadd_cen:U_0_sym_add                     ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/sadd_cen.v                                        ;
+; Altera ; FIR_Compiler (6AF7_0012) ; N/A     ; May 2011     ; OpenCore Plus ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|lc_store_cen:Uaccum_reg                  ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/lc_store_cen.v                                    ;
+; Altera ; FIR_Compiler (6AF7_0012) ; N/A     ; May 2011     ; OpenCore Plus ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|sadd_reg_top_cen:Uaddl_0_n_0_n           ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/sadd_reg_top_cen.v                                ;
+; Altera ; FIR_Compiler (6AF7_0012) ; N/A     ; May 2011     ; OpenCore Plus ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|sadd_reg_top_cen:Uaddl_0_n_0_n           ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/sadd_reg_top_cen.v                                ;
+; Altera ; FIR_Compiler (6AF7_0012) ; N/A     ; May 2011     ; OpenCore Plus ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|sadd_reg_top_cen:Uaddl_0_n_0_n           ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/sadd_reg_top_cen.v                                ;
+; Altera ; FIR_Compiler (6AF7_0012) ; N/A     ; May 2011     ; OpenCore Plus ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n                     ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/msft_lt_32.v                                      ;
+; Altera ; FIR_Compiler (6AF7_0012) ; N/A     ; May 2011     ; OpenCore Plus ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n                     ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/msft_lt_32.v                                      ;
+; Altera ; FIR_Compiler (6AF7_0012) ; N/A     ; May 2011     ; OpenCore Plus ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n                     ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/msft_lt_32.v                                      ;
+; Altera ; FIR_Compiler (6AF7_0012) ; N/A     ; May 2011     ; OpenCore Plus ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|lc_store_cen:Uaccum_reg                  ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/lc_store_cen.v                                    ;
+; Altera ; FIR_Compiler (6AF7_0012) ; N/A     ; May 2011     ; OpenCore Plus ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_0_n                    ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mlu_inf_2reg.v                                    ;
+; Altera ; FIR_Compiler (6AF7_0012) ; N/A     ; May 2011     ; OpenCore Plus ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_0_n                    ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mlu_inf_2reg.v                                    ;
+; Altera ; FIR_Compiler (6AF7_0012) ; N/A     ; May 2011     ; OpenCore Plus ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_0_n                    ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mlu_inf_2reg.v                                    ;
+; Altera ; FIR_Compiler (6AF7_0012) ; N/A     ; May 2011     ; OpenCore Plus ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mac_tl:Umtl_0_n                          ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mac_tl.v                                          ;
+; Altera ; FIR_Compiler (6AF7_0012) ; N/A     ; May 2011     ; OpenCore Plus ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mac_tl:Umtl_0_n                          ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mac_tl.v                                          ;
+; Altera ; FIR_Compiler (6AF7_0012) ; N/A     ; May 2011     ; OpenCore Plus ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mac_tl:Umtl_0_n                          ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mac_tl.v                                          ;
+; Altera ; FIR_Compiler (6AF7_0012) ; N/A     ; May 2011     ; OpenCore Plus ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|lc_store_cen:Uaccum_reg                  ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/lc_store_cen.v                                    ;
+; Altera ; FIR_Compiler (6AF7_0012) ; N/A     ; May 2011     ; OpenCore Plus ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|maccum_cen:Usa                           ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/maccum_cen.v                                      ;
+; Altera ; FIR_Compiler (6AF7_0012) ; N/A     ; May 2011     ; OpenCore Plus ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mcv_ctrl_nc:ctrl                         ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mcv_ctrl_nc.v                                     ;
+; Altera ; FIR_Compiler (6AF7_0012) ; N/A     ; May 2011     ; OpenCore Plus ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mux_2to1_comb:sym_mux                    ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mux_2to1_comb.v                                   ;
+; Altera ; FIR_Compiler (6AF7_0012) ; N/A     ; May 2011     ; OpenCore Plus ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_0_ch_0_n                ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/msft_data.v                                       ;
+; Altera ; FIR_Compiler (6AF7_0012) ; N/A     ; May 2011     ; OpenCore Plus ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_0_ch_0_n                ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/msft_data.v                                       ;
+; Altera ; FIR_Compiler (6AF7_0012) ; N/A     ; May 2011     ; OpenCore Plus ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_0_ch_0_n                ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/msft_data.v                                       ;
+; Altera ; FIR_Compiler (6AF7_0012) ; N/A     ; May 2011     ; OpenCore Plus ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_0_ch_0_n                ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/msft_data.v                                       ;
+; Altera ; FIR_Compiler (6AF7_0012) ; N/A     ; May 2011     ; OpenCore Plus ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_0_ch_0_n                ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/msft_data.v                                       ;
+; Altera ; FIR_Compiler (6AF7_0012) ; N/A     ; May 2011     ; OpenCore Plus ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_0_ch_0_n                ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/msft_data.v                                       ;
+; Altera ; FIR_Compiler (6AF7_0012) ; N/A     ; May 2011     ; OpenCore Plus ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mux_2to1_cen:tdl_mux                     ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mux_2to1_cen.v                                    ;
+; Altera ; FIR_Compiler (6AF7_0012) ; N/A     ; May 2011     ; OpenCore Plus ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mux_2to1_comb:sym_mux                    ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/mux_2to1_comb.v                                   ;
+; Altera ; FIR_Compiler (6AF7_0012) ; N/A     ; May 2011     ; OpenCore Plus ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_controller_fir_121:intf_ctrl ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_avalon_streaming_controller_fir_121.vhd ;
+; Altera ; FIR_Compiler (6AF7_0012) ; N/A     ; May 2011     ; OpenCore Plus ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink            ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_avalon_streaming_sink_fir_121.vhd       ;
+; Altera ; FIR_Compiler (6AF7_0012) ; N/A     ; May 2011     ; OpenCore Plus ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_source_fir_121:source        ; D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir_compiler-library/auk_dspip_avalon_streaming_source_fir_121.vhd     ;
++--------+--------------------------+---------+--------------+---------------+------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------+
+OpenCore Plus Hardware Evaluation feature is turned on for all cores in the design.
+
+
+Encoding Type:  One-Hot
++---------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |FirIPCore|fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_source_fir_121:source|source_state      ;
++---------------------+-------------------+---------------------+-------------------+------------------+--------------------+
+; Name                ; source_state.end1 ; source_state.st_err ; source_state.run1 ; source_state.sop ; source_state.start ;
++---------------------+-------------------+---------------------+-------------------+------------------+--------------------+
+; source_state.start  ; 0                 ; 0                   ; 0                 ; 0                ; 0                  ;
+; source_state.sop    ; 0                 ; 0                   ; 0                 ; 1                ; 1                  ;
+; source_state.run1   ; 0                 ; 0                   ; 1                 ; 0                ; 1                  ;
+; source_state.st_err ; 0                 ; 1                   ; 0                 ; 0                ; 1                  ;
+; source_state.end1   ; 1                 ; 0                   ; 0                 ; 0                ; 1                  ;
++---------------------+-------------------+---------------------+-------------------+------------------+--------------------+
+
+
+Encoding Type:  One-Hot
++----------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |FirIPCore|fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|sink_out_state               ;
++------------------------------------+--------------------------------+------------------------------------+-----------------------+
+; Name                               ; sink_out_state.empty_and_ready ; sink_out_state.empty_and_not_ready ; sink_out_state.normal ;
++------------------------------------+--------------------------------+------------------------------------+-----------------------+
+; sink_out_state.normal              ; 0                              ; 0                                  ; 0                     ;
+; sink_out_state.empty_and_not_ready ; 0                              ; 1                                  ; 1                     ;
+; sink_out_state.empty_and_ready     ; 1                              ; 0                                  ; 1                     ;
++------------------------------------+--------------------------------+------------------------------------+-----------------------+
+
+
+Encoding Type:  One-Hot
++-----------------------------------------------------------------------------------------------------------------+
+; State Machine - |FirIPCore|fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|sink_state  ;
++-------------------+-----------------+-------------------+-----------------+------------------+------------------+
+; Name              ; sink_state.end1 ; sink_state.st_err ; sink_state.run1 ; sink_state.stall ; sink_state.start ;
++-------------------+-----------------+-------------------+-----------------+------------------+------------------+
+; sink_state.start  ; 0               ; 0                 ; 0               ; 0                ; 0                ;
+; sink_state.stall  ; 0               ; 0                 ; 0               ; 1                ; 1                ;
+; sink_state.run1   ; 0               ; 0                 ; 1               ; 0                ; 1                ;
+; sink_state.st_err ; 0               ; 1                 ; 0               ; 0                ; 1                ;
+; sink_state.end1   ; 1               ; 0                 ; 0               ; 0                ; 1                ;
++-------------------+-----------------+-------------------+-----------------+------------------+------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Registers Protected by Synthesis                                                                                                                                                                              ;
++-----------------------------------------------------------------------------------------------+------------------------------------------------------------------+--------------------------------------------+
+; Register Name                                                                                 ; Protected by Synthesis Attribute or Preserve Register Assignment ; Not to be Touched by Netlist Optimizations ;
++-----------------------------------------------------------------------------------------------+------------------------------------------------------------------+--------------------------------------------+
+; fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_controller_fir_121:intf_ctrl|stall_reg ; yes                                                              ; yes                                        ;
++-----------------------------------------------------------------------------------------------+------------------------------------------------------------------+--------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                                                                                                                              ;
++-------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
+; Register name                                                                                               ; Reason for Removal                                                                                ;
++-------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
+; fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|at_sink_sop_int                    ; Lost fanout                                                                                       ;
+; fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|at_sink_eop_int                    ; Lost fanout                                                                                       ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|sadd_reg_top_cen:Uaddl_0_n_1_n|bin_reg[0..24]                    ; Stuck at GND due to stuck port data_in                                                            ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|sadd_reg_top_cen:Uaddl_1_n_0_n|bin_reg[25]                       ; Lost fanout                                                                                       ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|sadd_reg_top_cen:Uaddl_1_n_0_n|ain_reg[25]                       ; Lost fanout                                                                                       ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mcv_ctrl_nc:ctrl|dd[3]                                           ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mcv_ctrl_nc:ctrl|acc_rst_out               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_2_n|coef_reg[2,3,8..10]                        ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_2_n|coef_reg[0]          ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_0_n|coef_reg[2]                                ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_0_n|coef_reg[0]          ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_1_n|coef_reg[1]                                ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_0_n|coef_reg[0]          ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_2_n|coef_reg[1]                                ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_0_n|coef_reg[0]          ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_0_n|coef_reg[4,5,9]                            ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_0_n|coef_reg[1]          ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_1_n|coef_reg[0,5,9,10]                         ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_0_n|coef_reg[1]          ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_1_n|coef_reg[4]                                ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_1_n|coef_reg[3]          ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_0_n|coef_reg[7,8,11]                           ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_0_n|coef_reg[10]         ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_1_n|coef_reg[7,11]                             ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_0_n|coef_reg[10]         ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_0_n|coef_reg[6]                                ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_0_n|coef_reg[3]          ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_1_n|coef_reg[8]                                ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_0_n|coef_reg[3]          ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n|reg3[2]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n|reg1[2]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg0[11]                                    ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n|reg1[2]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg2[11]                                    ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n|reg1[2]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg0[2,3,8..10]                             ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg0[0]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg1[5]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg0[0]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg3[6]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg0[0]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg1[4,5,9]                                 ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg1[1]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n|reg1[0,5,9,10]                              ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg1[1]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n|reg2[3,4]                                   ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg1[1]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg0[7]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg1[1]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg1[0,2,3,8..10]                           ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg0[6]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg2[5]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg0[6]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg2[6]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg0[5]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg3[0,2,3,8..10]                           ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg0[5]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg1[4]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg0[4]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg2[4]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg0[4]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg3[4]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg0[4]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg0[2]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg0[0]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg1[7,8,10,11]                             ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg0[0]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n|reg0[1]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg0[0]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n|reg1[7,11]                                  ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg0[0]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n|reg2[6]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg0[0]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg0[1]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg0[0]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n|reg2[2]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n|reg0[2]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg1[11]                                    ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n|reg0[2]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg3[11]                                    ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n|reg0[2]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg2[4,5,9]                                 ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg2[1]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n|reg2[0,5,9,10]                              ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg2[1]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n|reg3[3,4]                                   ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg2[1]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg1[7]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg2[1]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg2[0,2,3,8..10]                           ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg1[6]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg3[5]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg1[6]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg1[2]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg1[0]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg2[7,8,10,11]                             ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg1[0]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n|reg1[1]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg1[0]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n|reg2[7,11]                                  ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg1[0]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n|reg3[6]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg1[0]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg1[1]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg1[0]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg3[4,5,9]                                 ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg3[1]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n|reg0[3,4]                                   ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg3[1]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n|reg3[0,5,9,10]                              ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg3[1]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg2[7]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg3[1]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg2[2]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg2[0]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg3[7,8,10,11]                             ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg2[0]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n|reg0[6]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg2[0]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n|reg2[1]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg2[0]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n|reg3[7,11]                                  ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg2[0]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg2[1]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg2[0]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg0[4,5,9]                                 ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg0[1]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n|reg0[0,5,9,10]                              ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg0[1]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n|reg1[3,4]                                   ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg0[1]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg3[7]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg0[1]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg0[7,8,11]                                ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg0[10]              ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg3[0,2]                                   ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg0[10]              ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n|reg0[7,11]                                  ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg0[10]              ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n|reg1[6]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg0[10]              ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n|reg3[1]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg0[10]              ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg3[1]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg0[10]              ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg0[6]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg0[3]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg1[3,6]                                   ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg0[3]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg2[3,6]                                   ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg0[3]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg3[3,6]                                   ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg0[3]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n|reg0[8]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg0[3]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n|reg1[8]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg0[3]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n|reg2[8]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg0[3]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n|reg3[8]                                     ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg0[3]               ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg0[4]                                     ; Stuck at VCC due to stuck port data_in                                                            ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg0[3]                                     ; Stuck at GND due to stuck port data_in                                                            ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_2_n|coef_reg[4]                                ; Stuck at VCC due to stuck port data_in                                                            ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_0_n|coef_reg[3]                                ; Stuck at GND due to stuck port data_in                                                            ;
+; fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_source_fir_121:source|data_int1[0..24]               ; Stuck at GND due to stuck port clock_enable                                                       ;
+; fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_source_fir_121:source|valid_ctrl_int1                ; Stuck at GND due to stuck port data_in                                                            ;
+; fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_source_fir_121:source|first_data                     ; Stuck at GND due to stuck port data_in                                                            ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_0_n|mlu_out[24]                                ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_0_n|mlu_out[23]          ;
+; fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_source_fir_121:source|source_stall_int_d             ; Stuck at GND due to stuck port data_in                                                            ;
+; fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_source_fir_121:source|source_state.start             ; Lost fanout                                                                                       ;
+; fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_source_fir_121:source|source_state.sop               ; Lost fanout                                                                                       ;
+; fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_source_fir_121:source|source_state.run1              ; Lost fanout                                                                                       ;
+; fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_source_fir_121:source|source_state.st_err            ; Lost fanout                                                                                       ;
+; fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_source_fir_121:source|source_state.end1              ; Lost fanout                                                                                       ;
+; fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|sink_state.start                   ; Lost fanout                                                                                       ;
+; fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|sink_state.stall                   ; Lost fanout                                                                                       ;
+; fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|sink_state.st_err                  ; Lost fanout                                                                                       ;
+; fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|sink_state.end1                    ; Stuck at GND due to stuck port data_in                                                            ;
+; fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|sink_out_state.empty_and_not_ready ; Lost fanout                                                                                       ;
+; fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|packet_error_s[0]                  ; Stuck at GND due to stuck port data_in                                                            ;
+; fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_controller_fir_121:intf_ctrl|source_packet_error[0]  ; Stuck at GND due to stuck port data_in                                                            ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|sadd_reg_top_cen:Uaddl_0_n_0_n|ain_reg[24]                       ; Merged with fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|sadd_reg_top_cen:Uaddl_0_n_0_n|ain_reg[23] ;
+; Total Number of Removed Registers = 227                                                                     ;                                                                                                   ;
++-------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Removed Registers Triggering Further Register Optimizations                                                                                                                                                                           ;
++----------------------------------------------------------------------------------------------+---------------------------+------------------------------------------------------------------------------------------------------------+
+; Register name                                                                                ; Reason for Removal        ; Registers Removed due to This Register                                                                     ;
++----------------------------------------------------------------------------------------------+---------------------------+------------------------------------------------------------------------------------------------------------+
+; fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|sink_state.end1     ; Stuck at GND              ; fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|packet_error_s[0],                ;
+;                                                                                              ; due to stuck port data_in ; fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_controller_fir_121:intf_ctrl|source_packet_error[0] ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg0[4]                      ; Stuck at VCC              ; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_2_n|coef_reg[4]                               ;
+;                                                                                              ; due to stuck port data_in ;                                                                                                            ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg0[3]                      ; Stuck at GND              ; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_0_n|coef_reg[3]                               ;
+;                                                                                              ; due to stuck port data_in ;                                                                                                            ;
+; fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_source_fir_121:source|valid_ctrl_int1 ; Stuck at GND              ; fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_source_fir_121:source|source_stall_int_d            ;
+;                                                                                              ; due to stuck port data_in ;                                                                                                            ;
++----------------------------------------------------------------------------------------------+---------------------------+------------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 674   ;
+; Number of registers using Synchronous Clear  ; 59    ;
+; Number of registers using Synchronous Load   ; 50    ;
+; Number of registers using Asynchronous Clear ; 164   ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 576   ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Inverted Register Statistics                                                                                   ;
++------------------------------------------------------------------------------------------------------+---------+
+; Inverted Register                                                                                    ; Fan out ;
++------------------------------------------------------------------------------------------------------+---------+
+; fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_controller_fir_121:intf_ctrl|sink_stall_reg   ; 4       ;
+; fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_controller_fir_121:intf_ctrl|source_stall_reg ; 4       ;
+; fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_controller_fir_121:intf_ctrl|stall_reg        ; 435     ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg3[1]                              ; 2       ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg2[0]                              ; 2       ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n|reg2[1]                              ; 2       ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg0[5]                              ; 2       ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg1[6]                              ; 2       ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n|reg0[2]                              ; 2       ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n|reg0[6]                              ; 1       ;
+; sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|tdo                                    ; 1       ;
+; sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|jtag_ir_reg[2]                         ; 2       ;
+; sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|jtag_ir_reg[1]                         ; 3       ;
+; Total number of inverted registers = 13                                                              ;         ;
++------------------------------------------------------------------------------------------------------+---------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Registers Packed Into Inferred Megafunctions                                                                                                                                              ;
++------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------+------------+
+; Register Name                                                                            ; Megafunction                                                                      ; Type       ;
++------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------+------------+
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_0_ch_0_n|in_reg[0..3][0..11] ; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_0_ch_0_n|in_reg_rtl_0 ; SHIFT_TAPS ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_4_ch_0_n|in_reg[0..3][0..11] ; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_0_ch_0_n|in_reg_rtl_0 ; SHIFT_TAPS ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_1_ch_0_n|in_reg[0..3][0..11] ; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_0_ch_0_n|in_reg_rtl_0 ; SHIFT_TAPS ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_3_ch_0_n|in_reg[0..3][0..11] ; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_0_ch_0_n|in_reg_rtl_0 ; SHIFT_TAPS ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_2_ch_0_n|in_reg[0..3][0..11] ; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_0_ch_0_n|in_reg_rtl_0 ; SHIFT_TAPS ;
+; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_5_ch_0_n|in_reg[0..2][0..11] ; fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_5_ch_0_n|in_reg_rtl_0 ; SHIFT_TAPS ;
++------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                                                 ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                                       ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------------------------------------+
+; 3:1                ; 25 bits   ; 50 LEs        ; 25 LEs               ; 25 LEs                 ; Yes        ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|lc_store_cen:Ures_reg|q[2]                                 ;
+; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mcv_ctrl_nc:ctrl|sty[1]                                    ;
+; 3:1                ; 52 bits   ; 104 LEs       ; 52 LEs               ; 52 LEs                 ; Yes        ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|lc_store_cen:Uaccum_reg|q[21]                              ;
+; 3:1                ; 12 bits   ; 24 LEs        ; 12 LEs               ; 12 LEs                 ; No         ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mux_2to1_comb:sym_mux|data_out[0]                          ;
+; 4:1                ; 12 bits   ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; No         ; |FirIPCore|fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_3_ch_0_n|in_reg                           ;
+; 20:1               ; 4 bits    ; 52 LEs        ; 44 LEs               ; 8 LEs                  ; Yes        ; |FirIPCore|pzdyqx:nabboc|pzdyqx_impl:pzdyqx_impl_inst|PUDL0439:ESUL0435|YROJ4113[2]                              ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |FirIPCore|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|hub_minor_ver_reg[0]                    ;
+; 5:1                ; 4 bits    ; 12 LEs        ; 4 LEs                ; 8 LEs                  ; Yes        ; |FirIPCore|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|irf_reg[1][0]                           ;
+; 4:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |FirIPCore|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|mixer_addr_reg[4]                       ;
+; 5:1                ; 5 bits    ; 15 LEs        ; 5 LEs                ; 10 LEs                 ; Yes        ; |FirIPCore|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_rom_sr:hub_info_reg|word_counter[0] ;
+; 6:1                ; 3 bits    ; 12 LEs        ; 3 LEs                ; 9 LEs                  ; Yes        ; |FirIPCore|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|irsr_reg[2]                             ;
+; 6:1                ; 4 bits    ; 16 LEs        ; 4 LEs                ; 12 LEs                 ; Yes        ; |FirIPCore|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|shadow_irf_reg[1][3]                    ;
+; 34:1               ; 4 bits    ; 88 LEs        ; 56 LEs               ; 32 LEs                 ; Yes        ; |FirIPCore|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|design_hash_reg[3]                      ;
+; 20:1               ; 4 bits    ; 52 LEs        ; 32 LEs               ; 20 LEs                 ; Yes        ; |FirIPCore|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_rom_sr:hub_info_reg|WORD_SR[0]      ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------+
+; Source assignments for fir:u0|fir_ast:fir_ast_inst ;
++-----------------+-------+------+-------------------+
+; Assignment      ; Value ; From ; To                ;
++-----------------+-------+------+-------------------+
+; MESSAGE_DISABLE ; 15400 ; -    ; -                 ;
+; MESSAGE_DISABLE ; 14130 ; -    ; -                 ;
+; MESSAGE_DISABLE ; 12020 ; -    ; -                 ;
+; MESSAGE_DISABLE ; 12030 ; -    ; -                 ;
+; MESSAGE_DISABLE ; 12010 ; -    ; -                 ;
+; MESSAGE_DISABLE ; 12110 ; -    ; -                 ;
+; MESSAGE_DISABLE ; 14320 ; -    ; -                 ;
+; MESSAGE_DISABLE ; 13410 ; -    ; -                 ;
+; MESSAGE_DISABLE ; 10036 ; -    ; -                 ;
++-----------------+-------+------+-------------------+
+
+
++-------------------------------------------------------------------+
+; Source assignments for fir:u0|fir_ast:fir_ast_inst|fir_st:fircore ;
++-----------------+-------+------+----------------------------------+
+; Assignment      ; Value ; From ; To                               ;
++-----------------+-------+------+----------------------------------+
+; MESSAGE_DISABLE ; 15400 ; -    ; -                                ;
+; MESSAGE_DISABLE ; 14130 ; -    ; -                                ;
+; MESSAGE_DISABLE ; 10036 ; -    ; -                                ;
+; MESSAGE_DISABLE ; 12020 ; -    ; -                                ;
+; MESSAGE_DISABLE ; 12030 ; -    ; -                                ;
+; MESSAGE_DISABLE ; 12010 ; -    ; -                                ;
+; MESSAGE_DISABLE ; 12110 ; -    ; -                                ;
+; MESSAGE_DISABLE ; 14320 ; -    ; -                                ;
+; MESSAGE_DISABLE ; 13410 ; -    ; -                                ;
++-----------------+-------+------+----------------------------------+
+
+
++-----------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: fir:u0|fir_ast:fir_ast_inst|fir_st:fircore ;
++----------------+-------+----------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                           ;
++----------------+-------+----------------------------------------------------------------+
+; DATA_WIDTH     ; 12    ; Signed Integer                                                 ;
+; COEF_WIDTH     ; 12    ; Signed Integer                                                 ;
+; COEF_WIDTH_IN  ; 12    ; Signed Integer                                                 ;
+; ACCUM_WIDTH    ; 25    ; Signed Integer                                                 ;
++----------------+-------+----------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "fir:u0"                                                                                         ;
++------------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port             ; Type   ; Severity ; Details                                                                             ;
++------------------+--------+----------+-------------------------------------------------------------------------------------+
+; ast_source_ready ; Input  ; Info     ; Stuck at VCC                                                                        ;
+; ast_sink_error   ; Input  ; Info     ; Stuck at GND                                                                        ;
+; ast_sink_ready   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; ast_source_valid ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; ast_source_error ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++---------------------------------+
+; Elapsed Time Per Partition      ;
++------------------+--------------+
+; Partition Name   ; Elapsed Time ;
++------------------+--------------+
+; Top              ; 00:00:03     ;
+; sld_hub:auto_hub ; 00:00:01     ;
+; pzdyqx:nabboc    ; 00:00:01     ;
++------------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 32-bit Analysis & Synthesis
+    Info: Version 12.1 Build 177 11/07/2012 SJ Full Version
+    Info: Processing started: Mon Oct 06 10:49:19 2014
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off FirIPCore -c FirIPCore
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file fir.v
+    Info (12023): Found entity 1: fir
+Info (12021): Found 1 design units, including 0 entities, in source file fir_compiler-library/auk_dspip_lib_pkg_fir_121.vhd
+    Info (12022): Found design unit 1: auk_dspip_lib_pkg_fir_121
+Info (12021): Found 2 design units, including 0 entities, in source file fir_compiler-library/auk_dspip_math_pkg_fir_121.vhd
+    Info (12022): Found design unit 1: auk_dspip_math_pkg_fir_121
+    Info (12022): Found design unit 2: auk_dspip_math_pkg_fir_121-body
+Info (12021): Found 1 design units, including 1 entities, in source file fir_st.v
+    Info (12023): Found entity 1: fir_st
+Info (12021): Found 2 design units, including 1 entities, in source file fir_ast.vhd
+    Info (12022): Found design unit 1: fir_ast-struct
+    Info (12023): Found entity 1: fir_ast
+Info (12021): Found 1 design units, including 1 entities, in source file source/firipcore.v
+    Info (12023): Found entity 1: FirIPCore
+Warning (10236): Verilog HDL Implicit Net warning at fir_st.v(218): created implicit net for "coef_ld"
+Info (12127): Elaborating entity "FirIPCore" for the top level hierarchy
+Info (12128): Elaborating entity "fir" for hierarchy "fir:u0"
+Info (12128): Elaborating entity "fir_ast" for hierarchy "fir:u0|fir_ast:fir_ast_inst"
+Info (12021): Found 2 design units, including 1 entities, in source file fir_compiler-library/auk_dspip_avalon_streaming_sink_fir_121.vhd
+    Info (12022): Found design unit 1: auk_dspip_avalon_streaming_sink_fir_121-rtl
+    Info (12023): Found entity 1: auk_dspip_avalon_streaming_sink_fir_121
+Info (12128): Elaborating entity "auk_dspip_avalon_streaming_sink_fir_121" for hierarchy "fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink"
+Info (12128): Elaborating entity "scfifo" for hierarchy "fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|scfifo:\normal_fifo:fifo_eab_on:in_fifo"
+Info (12021): Found 1 design units, including 1 entities, in source file db/scfifo_8hh1.tdf
+    Info (12023): Found entity 1: scfifo_8hh1
+Info (12128): Elaborating entity "scfifo_8hh1" for hierarchy "fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|scfifo:\normal_fifo:fifo_eab_on:in_fifo|scfifo_8hh1:auto_generated"
+Info (12021): Found 1 design units, including 1 entities, in source file db/a_dpfifo_3s81.tdf
+    Info (12023): Found entity 1: a_dpfifo_3s81
+Info (12128): Elaborating entity "a_dpfifo_3s81" for hierarchy "fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|scfifo:\normal_fifo:fifo_eab_on:in_fifo|scfifo_8hh1:auto_generated|a_dpfifo_3s81:dpfifo"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_osf1.tdf
+    Info (12023): Found entity 1: altsyncram_osf1
+Info (12128): Elaborating entity "altsyncram_osf1" for hierarchy "fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|scfifo:\normal_fifo:fifo_eab_on:in_fifo|scfifo_8hh1:auto_generated|a_dpfifo_3s81:dpfifo|altsyncram_osf1:FIFOram"
+Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr_gs8.tdf
+    Info (12023): Found entity 1: cmpr_gs8
+Info (12128): Elaborating entity "cmpr_gs8" for hierarchy "fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|scfifo:\normal_fifo:fifo_eab_on:in_fifo|scfifo_8hh1:auto_generated|a_dpfifo_3s81:dpfifo|cmpr_gs8:almost_full_comparer"
+Info (12128): Elaborating entity "cmpr_gs8" for hierarchy "fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|scfifo:\normal_fifo:fifo_eab_on:in_fifo|scfifo_8hh1:auto_generated|a_dpfifo_3s81:dpfifo|cmpr_gs8:two_comparison"
+Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_tnb.tdf
+    Info (12023): Found entity 1: cntr_tnb
+Info (12128): Elaborating entity "cntr_tnb" for hierarchy "fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|scfifo:\normal_fifo:fifo_eab_on:in_fifo|scfifo_8hh1:auto_generated|a_dpfifo_3s81:dpfifo|cntr_tnb:rd_ptr_msb"
+Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_ao7.tdf
+    Info (12023): Found entity 1: cntr_ao7
+Info (12128): Elaborating entity "cntr_ao7" for hierarchy "fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|scfifo:\normal_fifo:fifo_eab_on:in_fifo|scfifo_8hh1:auto_generated|a_dpfifo_3s81:dpfifo|cntr_ao7:usedw_counter"
+Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_unb.tdf
+    Info (12023): Found entity 1: cntr_unb
+Info (12128): Elaborating entity "cntr_unb" for hierarchy "fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_sink_fir_121:sink|scfifo:\normal_fifo:fifo_eab_on:in_fifo|scfifo_8hh1:auto_generated|a_dpfifo_3s81:dpfifo|cntr_unb:wr_ptr"
+Info (12021): Found 2 design units, including 1 entities, in source file fir_compiler-library/auk_dspip_avalon_streaming_source_fir_121.vhd
+    Info (12022): Found design unit 1: auk_dspip_avalon_streaming_source_fir_121-rtl
+    Info (12023): Found entity 1: auk_dspip_avalon_streaming_source_fir_121
+Info (12128): Elaborating entity "auk_dspip_avalon_streaming_source_fir_121" for hierarchy "fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_source_fir_121:source"
+Info (12021): Found 2 design units, including 1 entities, in source file fir_compiler-library/auk_dspip_avalon_streaming_controller_fir_121.vhd
+    Info (12022): Found design unit 1: auk_dspip_avalon_streaming_controller_fir_121-struct
+    Info (12023): Found entity 1: auk_dspip_avalon_streaming_controller_fir_121
+Info (12128): Elaborating entity "auk_dspip_avalon_streaming_controller_fir_121" for hierarchy "fir:u0|fir_ast:fir_ast_inst|auk_dspip_avalon_streaming_controller_fir_121:intf_ctrl"
+Info (12128): Elaborating entity "fir_st" for hierarchy "fir:u0|fir_ast:fir_ast_inst|fir_st:fircore"
+Info (12021): Found 1 design units, including 1 entities, in source file fir_compiler-library/mux_2to1_cen.v
+    Info (12023): Found entity 1: mux_2to1_cen
+Info (12128): Elaborating entity "mux_2to1_cen" for hierarchy "fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mux_2to1_cen:tdl_mux"
+Info (12021): Found 1 design units, including 1 entities, in source file fir_compiler-library/mux_2to1_comb.v
+    Info (12023): Found entity 1: mux_2to1_comb
+Info (12128): Elaborating entity "mux_2to1_comb" for hierarchy "fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mux_2to1_comb:tdl_mux2"
+Info (12021): Found 1 design units, including 1 entities, in source file fir_compiler-library/msft_data.v
+    Info (12023): Found entity 1: msft_data
+Info (12128): Elaborating entity "msft_data" for hierarchy "fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_0_ch_0_n"
+Info (12128): Elaborating entity "msft_data" for hierarchy "fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_5_ch_0_n"
+Info (12021): Found 1 design units, including 1 entities, in source file fir_compiler-library/lc_store_cen.v
+    Info (12023): Found entity 1: lc_store_cen
+Info (12128): Elaborating entity "lc_store_cen" for hierarchy "fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|lc_store_cen:Udata_comp"
+Info (12021): Found 1 design units, including 1 entities, in source file fir_compiler-library/sadd_cen.v
+    Info (12023): Found entity 1: sadd_cen
+Info (12128): Elaborating entity "sadd_cen" for hierarchy "fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|sadd_cen:U_0_sym_add"
+Info (12021): Found 1 design units, including 1 entities, in source file fir_compiler-library/msft_lt_32.v
+    Info (12023): Found entity 1: msft_lt_32
+Info (12128): Elaborating entity "msft_lt_32" for hierarchy "fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_0_n"
+Info (12128): Elaborating entity "msft_lt_32" for hierarchy "fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_1_n"
+Info (12128): Elaborating entity "msft_lt_32" for hierarchy "fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_lt_32:Ucoef_2_n"
+Info (12021): Found 1 design units, including 1 entities, in source file fir_compiler-library/mlu_inf_2reg.v
+    Info (12023): Found entity 1: mlu_inf_2reg
+Info (12128): Elaborating entity "mlu_inf_2reg" for hierarchy "fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_0_n"
+Info (12021): Found 1 design units, including 1 entities, in source file fir_compiler-library/mac_tl.v
+    Info (12023): Found entity 1: mac_tl
+Info (12128): Elaborating entity "mac_tl" for hierarchy "fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mac_tl:Umtl_0_n"
+Info (12021): Found 1 design units, including 1 entities, in source file fir_compiler-library/sadd_reg_top_cen.v
+    Info (12023): Found entity 1: sadd_reg_top_cen
+Info (12128): Elaborating entity "sadd_reg_top_cen" for hierarchy "fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|sadd_reg_top_cen:Uaddl_0_n_0_n"
+Info (12128): Elaborating entity "sadd_reg_top_cen" for hierarchy "fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|sadd_reg_top_cen:Uaddl_1_n_0_n"
+Info (12128): Elaborating entity "lc_store_cen" for hierarchy "fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|lc_store_cen:Uaccum_reg"
+Info (12021): Found 1 design units, including 1 entities, in source file fir_compiler-library/maccum_cen.v
+    Info (12023): Found entity 1: maccum_cen
+Info (12128): Elaborating entity "maccum_cen" for hierarchy "fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|maccum_cen:Usa"
+Info (12021): Found 1 design units, including 1 entities, in source file fir_compiler-library/mcv_ctrl_nc.v
+    Info (12023): Found entity 1: mcv_ctrl_nc
+Info (12128): Elaborating entity "mcv_ctrl_nc" for hierarchy "fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mcv_ctrl_nc:ctrl"
+Info (19000): Inferred 2 megafunctions from design logic
+    Info (276034): Inferred altshift_taps megafunction from the following design logic: "fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_0_ch_0_n|in_reg_rtl_0"
+        Info (286033): Parameter NUMBER_OF_TAPS set to 1
+        Info (286033): Parameter TAP_DISTANCE set to 4
+        Info (286033): Parameter WIDTH set to 60
+    Info (276034): Inferred altshift_taps megafunction from the following design logic: "fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_5_ch_0_n|in_reg_rtl_0"
+        Info (286033): Parameter NUMBER_OF_TAPS set to 1
+        Info (286033): Parameter TAP_DISTANCE set to 3
+        Info (286033): Parameter WIDTH set to 12
+Info (278001): Inferred 3 megafunctions from design logic
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_0_n|Mult0"
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_1_n|Mult0"
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_2_n|Mult0"
+Info (12130): Elaborated megafunction instantiation "fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_0_ch_0_n|altshift_taps:in_reg_rtl_0"
+Info (12133): Instantiated megafunction "fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_0_ch_0_n|altshift_taps:in_reg_rtl_0" with the following parameter:
+    Info (12134): Parameter "NUMBER_OF_TAPS" = "1"
+    Info (12134): Parameter "TAP_DISTANCE" = "4"
+    Info (12134): Parameter "WIDTH" = "60"
+Info (12021): Found 1 design units, including 1 entities, in source file db/shift_taps_pnm.tdf
+    Info (12023): Found entity 1: shift_taps_pnm
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_sd81.tdf
+    Info (12023): Found entity 1: altsyncram_sd81
+Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_4pf.tdf
+    Info (12023): Found entity 1: cntr_4pf
+Info (12130): Elaborated megafunction instantiation "fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_5_ch_0_n|altshift_taps:in_reg_rtl_0"
+Info (12133): Instantiated megafunction "fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|msft_data:tdl_ff_5_ch_0_n|altshift_taps:in_reg_rtl_0" with the following parameter:
+    Info (12134): Parameter "NUMBER_OF_TAPS" = "1"
+    Info (12134): Parameter "TAP_DISTANCE" = "3"
+    Info (12134): Parameter "WIDTH" = "12"
+Info (12021): Found 1 design units, including 1 entities, in source file db/shift_taps_lnm.tdf
+    Info (12023): Found entity 1: shift_taps_lnm
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_rk31.tdf
+    Info (12023): Found entity 1: altsyncram_rk31
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_24e.tdf
+    Info (12023): Found entity 1: add_sub_24e
+Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_6pf.tdf
+    Info (12023): Found entity 1: cntr_6pf
+Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr_ogc.tdf
+    Info (12023): Found entity 1: cmpr_ogc
+Info (12130): Elaborated megafunction instantiation "fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_0_n|lpm_mult:Mult0"
+Info (12133): Instantiated megafunction "fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_0_n|lpm_mult:Mult0" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "11"
+    Info (12134): Parameter "LPM_WIDTHB" = "13"
+    Info (12134): Parameter "LPM_WIDTHP" = "24"
+    Info (12134): Parameter "LPM_WIDTHR" = "24"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
+Info (12021): Found 1 design units, including 1 entities, in source file db/mult_t5t.tdf
+    Info (12023): Found entity 1: mult_t5t
+Info (12130): Elaborated megafunction instantiation "fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_1_n|lpm_mult:Mult0"
+Info (12133): Instantiated megafunction "fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_1_n|lpm_mult:Mult0" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "12"
+    Info (12134): Parameter "LPM_WIDTHB" = "13"
+    Info (12134): Parameter "LPM_WIDTHP" = "25"
+    Info (12134): Parameter "LPM_WIDTHR" = "25"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
+Info (12021): Found 1 design units, including 1 entities, in source file db/mult_v5t.tdf
+    Info (12023): Found entity 1: mult_v5t
+Info (12130): Elaborated megafunction instantiation "fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_2_n|lpm_mult:Mult0"
+Info (12133): Instantiated megafunction "fir:u0|fir_ast:fir_ast_inst|fir_st:fircore|mlu_inf_2reg:Umlu_2_n|lpm_mult:Mult0" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "12"
+    Info (12134): Parameter "LPM_WIDTHB" = "13"
+    Info (12134): Parameter "LPM_WIDTHP" = "25"
+    Info (12134): Parameter "LPM_WIDTHR" = "25"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
+Warning (12188): OpenCore Plus Hardware Evaluation feature is turned on for the following cores
+    Warning (12190): "FIR_Compiler (6AF7_0012)" will use the OpenCore Plus Hardware Evaluation feature
+Warning (265072): Messages from megafunction that supports OpenCore Plus feature
+    Warning (265073): Messages from megafunction that supports OpenCore Plus feature FIR MegaCore v6.1
+        Warning (265074): The output signal datao will go low when the evaluation time expires
+        Warning (265074): The output signals data_out will go low when the evaluation time expires
+Warning (265069): Megafunction that supports OpenCore Plus feature will stop functioning in 1 hour after device is programmed
+Info (265071): Evaluation period of megafunction that supports OpenCore Plus feature can be extended indefinitely by using tethered operation
+Info (13000): Registers with preset signals will power-up high
+Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
+Info (286031): Timing-Driven Synthesis is running on partition "Top"
+Info (17049): 13 registers lost all their fanouts during netlist optimizations.
+Info (286031): Timing-Driven Synthesis is running on partition "pzdyqx:nabboc"
+Info (13000): Registers with preset signals will power-up high
+Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "sld_hub:auto_hub|receive[0][0]" is stuck at GND
+Info (286031): Timing-Driven Synthesis is running on partition "sld_hub:auto_hub"
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 1043 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 17 input pins
+    Info (21059): Implemented 26 output pins
+    Info (21061): Implemented 909 logic cells
+    Info (21064): Implemented 84 RAM segments
+    Info (21062): Implemented 6 DSP elements
+Info: Quartus II 32-bit Analysis & Synthesis was successful. 0 errors, 10 warnings
+    Info: Peak virtual memory: 574 megabytes
+    Info: Processing ended: Mon Oct 06 10:49:31 2014
+    Info: Elapsed time: 00:00:12
+    Info: Total CPU time (on all processors): 00:00:12
+
+

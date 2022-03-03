@@ -1,0 +1,148 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ModemPrograms\Chapter_6\E6_5_FpgaFskDemod\fskmodem\simulation\modelsim
+vbpf1
+ICzg?N`@Sl[7<YVc8RZbL[3
+VzaTM=d8^PNb8Z``GWJVVX2
+Z1 dD:\ModemPrograms\Chapter_6\E6_5_FpgaFskDemod\fskmodem\simulation\modelsim
+w1413103728
+8D:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem/bpf1.vo
+FD:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem/bpf1.vo
+L0 31
+Z2 OV;L;10.1b;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem -O0
+!i10b 1
+!s100 6UW1lE]Uj=[c6XaVj_Kkj1
+!s85 0
+!s108 1413108563.250000
+!s107 D:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem/bpf1.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem|D:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem/bpf1.vo|
+!s101 -O0
+vbpf2
+IYc?eWnjRWAEmmaPNjNd;X3
+V2X1<KWEL`bI:_RV?kF2WH3
+R1
+w1413103840
+8D:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem/bpf2.vo
+FD:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem/bpf2.vo
+L0 31
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 `=ZNN_[ToTY2i^=[H:K?H1
+!s85 0
+!s108 1413108562.625000
+!s107 D:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem/bpf2.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem|D:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem/bpf2.vo|
+!s101 -O0
+vdds
+IUb1Xo00hAFN1jDg;jX:]e1
+Ve8NCY2K_=4@JQFWP=AU7T0
+R1
+w1413107758
+8D:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem/dds.vo
+FD:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem/dds.vo
+L0 31
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 ljc4Q8?m]`GL=_MP[b5L?0
+!s85 0
+!s108 1413108563.953000
+!s107 D:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem/dds.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem|D:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem/dds.vo|
+!s101 -O0
+vFskDemod
+IX5z1MgmB738T@i9WJ[REa3
+V:@fnbEzcbHj=eQXka4RPM0
+R1
+w1413108141
+8D:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem/source/FskDemod.v
+FD:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem/source/FskDemod.v
+L0 2
+R2
+r1
+31
+R3
+Z5 !s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem/source -O0
+n@fsk@demod
+!i10b 1
+!s100 EMAFPahWNoC^MBPCXPiTN1
+!s85 0
+!s108 1413108564.750000
+!s107 D:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem/source/FskDemod.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem/source|D:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem/source/FskDemod.v|
+!s101 -O0
+vFskDemod_vlg_tst
+!i10b 1
+!s100 k8e_R@JaECJ<G]Ia;NQ>c0
+IX3j]5?@a@k9O[7YA6Cih]3
+Vm^93[V>@Om2oi1_QEW[_J1
+R1
+w1413108544
+8D:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem/simulation/modelsim/FskDemod.vt
+FD:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem/simulation/modelsim/FskDemod.vt
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1413108564.921000
+!s107 D:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem/simulation/modelsim/FskDemod.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem/simulation/modelsim|D:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem/simulation/modelsim/FskDemod.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem/simulation/modelsim -O0
+n@fsk@demod_vlg_tst
+vFskMod
+I;E34S<@3Pzche3lL^TCR20
+VIi8^>1?UfC8i@mTic>bHN2
+R1
+w1413086935
+8D:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem/source/FskMod.v
+FD:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem/source/FskMod.v
+L0 2
+R2
+r1
+31
+R3
+n@fsk@mod
+R5
+!i10b 1
+!s100 6CM7FooX:_zUOa7<CIF4C3
+!s85 0
+!s108 1413108564.546000
+!s107 D:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem/source/FskMod.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem/source|D:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem/source/FskMod.v|
+!s101 -O0
+vlpf
+IZ8l5UZdZP?bNdc3M_Y2jZ0
+VzZ@eNMB^F45`^U]<02CQ?0
+R1
+w1413103928
+8D:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem/lpf.vo
+FD:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem/lpf.vo
+L0 31
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 bk6`CE4NCd_em<M:_0V7h0
+!s85 0
+!s108 1413108561.921000
+!s107 D:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem/lpf.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem|D:/ModemPrograms/Chapter_6/E6_5_FpgaFskDemod/fskmodem/lpf.vo|
+!s101 -O0

@@ -1,0 +1,92 @@
+# Reading C:/altera/12.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do FpgaGardner_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying c:\altera\12.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied c:\altera\12.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner {D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/mult18_16.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module mult18_16
+# 
+# Top level modules:
+# 	mult18_16
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/source {D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/source/FpgaGardner.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module FpgaGardner
+# 
+# Top level modules:
+# 	FpgaGardner
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/source {D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/source/InterpolateFilter.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module InterpolateFilter
+# 
+# Top level modules:
+# 	InterpolateFilter
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/source {D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/source/ErrorLp.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module ErrorLp
+# ** Warning: D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/source/ErrorLp.v(35): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	ErrorLp
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/source {D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/source/gnco.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module gnco
+# 
+# Top level modules:
+# 	gnco
+# 
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/simulation/modelsim {D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/simulation/modelsim/FpgaGardner.vt}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module FpgaGardner_vlg_tst
+# 
+# Top level modules:
+# 	FpgaGardner_vlg_tst
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  FpgaGardner_vlg_tst
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps FpgaGardner_vlg_tst 
+# Loading work.FpgaGardner_vlg_tst
+# Loading work.FpgaGardner
+# Loading work.gnco
+# Loading work.InterpolateFilter
+# Loading work.mult18_16
+# Loading lpm_ver.lpm_mult
+# Loading lpm_ver.LPM_HINT_EVALUATION
+# Loading work.ErrorLp
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '4' in data on line 33 of file "di.txt".    : D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/simulation/modelsim/FpgaGardner.vt(95)
+#    Time: 0 ps  Iteration: 0  Instance: /FpgaGardner_vlg_tst
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '7' in data on line 33 of file "di.txt".    : D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/simulation/modelsim/FpgaGardner.vt(95)
+#    Time: 0 ps  Iteration: 0  Instance: /FpgaGardner_vlg_tst
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '3' in data on line 33 of file "di.txt".    : D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/simulation/modelsim/FpgaGardner.vt(95)
+#    Time: 0 ps  Iteration: 0  Instance: /FpgaGardner_vlg_tst
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '2' in data on line 33 of file "di.txt".    : D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/simulation/modelsim/FpgaGardner.vt(95)
+#    Time: 0 ps  Iteration: 0  Instance: /FpgaGardner_vlg_tst
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '4' in data on line 25 of file "dq.txt".    : D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/simulation/modelsim/FpgaGardner.vt(111)
+#    Time: 0 ps  Iteration: 0  Instance: /FpgaGardner_vlg_tst
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '7' in data on line 25 of file "dq.txt".    : D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/simulation/modelsim/FpgaGardner.vt(111)
+#    Time: 0 ps  Iteration: 0  Instance: /FpgaGardner_vlg_tst
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '3' in data on line 25 of file "dq.txt".    : D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/simulation/modelsim/FpgaGardner.vt(111)
+#    Time: 0 ps  Iteration: 0  Instance: /FpgaGardner_vlg_tst
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '2' in data on line 25 of file "dq.txt".    : D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/simulation/modelsim/FpgaGardner.vt(111)
+#    Time: 0 ps  Iteration: 0  Instance: /FpgaGardner_vlg_tst
+# ** Note: $finish    : D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/simulation/modelsim/FpgaGardner.vt(75)
+#    Time: 3999600 ns  Iteration: 0  Instance: /FpgaGardner_vlg_tst
+# 1
+# Break in Module FpgaGardner_vlg_tst at D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/simulation/modelsim/FpgaGardner.vt line 75
+# Simulation Breakpoint: 1
+# Break in Module FpgaGardner_vlg_tst at D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/FpgaGardner/simulation/modelsim/FpgaGardner.vt line 75
+# MACRO ./FpgaGardner_run_msim_rtl_verilog.do PAUSED at line 21

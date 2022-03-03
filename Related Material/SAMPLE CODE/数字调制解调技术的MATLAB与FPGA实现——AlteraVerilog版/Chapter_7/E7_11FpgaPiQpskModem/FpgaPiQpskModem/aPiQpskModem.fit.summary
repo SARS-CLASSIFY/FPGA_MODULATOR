@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Oct 30 13:02:43 2014
+Quartus II 32-bit Version : 12.1 Build 177 11/07/2012 SJ Full Version
+Revision Name : aPiQpskModem
+Top-level Entity Name : PiQpskModem
+Family : Cyclone IV E
+Device : EP4CE15F17C8
+Timing Models : Final
+Total logic elements : 7,461 / 15,408 ( 48 % )
+    Total combinational functions : 6,541 / 15,408 ( 42 % )
+    Dedicated logic registers : 6,934 / 15,408 ( 45 % )
+Total registers : 6934
+Total pins : 14 / 166 ( 8 % )
+Total virtual pins : 0
+Total memory bits : 780 / 516,096 ( < 1 % )
+Embedded Multiplier 9-bit elements : 4 / 112 ( 4 % )
+Total PLLs : 0 / 4 ( 0 % )

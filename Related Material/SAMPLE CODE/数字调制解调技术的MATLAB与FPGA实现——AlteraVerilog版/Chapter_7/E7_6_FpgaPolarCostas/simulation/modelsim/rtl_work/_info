@@ -1,0 +1,149 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ModemPrograms\Chapter_7\E7_6_FpgaPolarCostas\simulation\modelsim
+vfir_lpf
+InfXO^R5YJG6nUNha9DbVO2
+Vnn[M994JiVIBE^RFeSIR72
+Z1 dD:\ModemPrograms\Chapter_7\E7_6_FpgaPolarCostas\simulation\modelsim
+w1414304991
+8D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/fir_lpf.vo
+FD:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/fir_lpf.vo
+L0 31
+Z2 OV;L;10.1b;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas -O0
+!i10b 1
+!s100 mZX0<UC@ofSj=UcDXA>FY0
+!s85 0
+!s108 1414751234.390000
+!s107 D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/fir_lpf.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas|D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/fir_lpf.vo|
+!s101 -O0
+vLoopFilter
+Iz1HaGLbek4N:U]W?_zMKB3
+VNimR1[NhLJ[d]?D;:?[kW3
+R1
+w1414751213
+8D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/source/LoopFilter.v
+FD:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/source/LoopFilter.v
+L0 2
+R2
+r1
+31
+R3
+Z5 !s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/source -O0
+n@loop@filter
+!i10b 1
+!s100 d97G];giRDRE3];Eh[Gbd0
+!s85 0
+!s108 1414751234.968000
+!s107 D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/source/LoopFilter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/source|D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/source/LoopFilter.v|
+!s101 -O0
+vmult8_8
+I@<@]ke64P8d><CHiE67Z^3
+VlcSL[haK_meMilJN=L=B=1
+R1
+w1414319167
+8D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/mult8_8.v
+FD:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/mult8_8.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 a;9U;d=eQ^AT^XkXb`Xg<1
+!s85 0
+!s108 1414751235.281000
+!s107 D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/mult8_8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas|D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/mult8_8.v|
+!s101 -O0
+vnco
+IPL20d@h7oP2DhK<kG]a]S0
+VFWlZ_6c[EIa0]X5g_7W`j0
+R1
+w1414296329
+8D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/nco.vo
+FD:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/nco.vo
+L0 31
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 6hgKeWGSLK^Y81Ca>4fRW1
+!s85 0
+!s108 1414751234.140000
+!s107 D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/nco.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas|D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/nco.vo|
+!s101 -O0
+vPhaseDetect
+I:RMFKZQ`VVjlzRcWO]fNI1
+V1@kjX7@<UPS5AOAf1G`051
+R1
+w1414325898
+8D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/source/PhaseDetect.v
+FD:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/source/PhaseDetect.v
+L0 2
+R2
+r1
+31
+R3
+R5
+n@phase@detect
+!i10b 1
+!s100 1FUAUfN5c>?zj<7XDzM5R3
+!s85 0
+!s108 1414751235.125000
+!s107 D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/source/PhaseDetect.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/source|D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/source/PhaseDetect.v|
+!s101 -O0
+vPolarCostas
+IJDc6Xd:=Ce[7OjdbBVIR23
+V]XB<a6n2Q3gH20mAo`RVL0
+R1
+w1414734405
+8D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/source/PolarCostas.v
+FD:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/source/PolarCostas.v
+L0 2
+R2
+r1
+31
+R3
+n@polar@costas
+R5
+!i10b 1
+!s100 G]z_>QF9aDThiJe:]`QQ12
+!s85 0
+!s108 1414751234.812000
+!s107 D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/source/PolarCostas.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/source|D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/source/PolarCostas.v|
+!s101 -O0
+vPolarCostas_vlg_tst
+!i10b 1
+!s100 zNW>?UNI7m^7zJ8J]UHnb2
+If_7k>Uge9hg8E>n0fBZjf3
+V4aDC=Dd2CSg7?M::M7F:z1
+R1
+w1414326358
+8D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/simulation/modelsim/PolarCostas.vt
+FD:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/simulation/modelsim/PolarCostas.vt
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1414751235.437000
+!s107 D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/simulation/modelsim/PolarCostas.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/simulation/modelsim|D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/simulation/modelsim/PolarCostas.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_7/E7_6_FpgaPolarCostas/simulation/modelsim -O0
+n@polar@costas_vlg_tst

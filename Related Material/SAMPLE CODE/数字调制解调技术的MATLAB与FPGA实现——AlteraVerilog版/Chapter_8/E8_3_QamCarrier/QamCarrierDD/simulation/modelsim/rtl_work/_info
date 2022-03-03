@@ -1,0 +1,149 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ModemPrograms\Chapter_8\E8_3_QamCarrier\QamCarrierDD\simulation\modelsim
+vDD
+IeF7TZL5J<`^2=mnb;W[8b3
+VT_gR_<Oa>BcJoDIkN_6h`1
+Z1 dD:\ModemPrograms\Chapter_8\E8_3_QamCarrier\QamCarrierDD\simulation\modelsim
+w1415102355
+8D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/source/DD.v
+FD:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/source/DD.v
+L0 2
+Z2 OV;L;10.1b;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+n@d@d
+Z4 !s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/source -O0
+!i10b 1
+!s100 O;QfkYj38E0Ij;?nmW]T`0
+!s85 0
+!s108 1415145053.734000
+!s107 D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/source/DD.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/source|D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/source/DD.v|
+!s101 -O0
+vfir_lpf
+I`TVRC?7830NYYXloLBjnS1
+VE@IHMZNG1M_<:GaG;=29o0
+R1
+w1415103495
+8D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/fir_lpf.vo
+FD:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/fir_lpf.vo
+L0 31
+R2
+r1
+31
+R3
+Z5 !s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD -O0
+!i10b 1
+!s100 QgfFl9[5ZMAFHD3Z=RHMD2
+!s85 0
+!s108 1415145052.906000
+!s107 D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/fir_lpf.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD|D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/fir_lpf.vo|
+!s101 -O0
+vLoopFilter
+IH[b]L]dggka8OFbNE`mV=3
+V6BYGhS[23lMX[IY>G^ZG40
+R1
+w1415103014
+8D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/source/LoopFilter.v
+FD:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/source/LoopFilter.v
+L0 2
+R2
+r1
+31
+R3
+R4
+n@loop@filter
+!i10b 1
+!s100 Ha?9G3gRo09Q9Q8o[AX?^1
+!s85 0
+!s108 1415145054.718000
+!s107 D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/source/LoopFilter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/source|D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/source/LoopFilter.v|
+!s101 -O0
+vmult8_8
+I<?Da`U9R_7^>`8`?:26HI2
+VlcSL[haK_meMilJN=L=B=1
+R1
+w1415103449
+8D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/mult8_8.v
+FD:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/mult8_8.v
+L0 39
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 OTPc95>3?2Ab8hg^`M[2A2
+!s85 0
+!s108 1415145055.125000
+!s107 D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/mult8_8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD|D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/mult8_8.v|
+!s101 -O0
+vnco
+I>SKIWLYa>H3cB4_jZ<N342
+VL;fJi:;5aVGlbVkgO^bj90
+R1
+w1415103383
+8D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/nco.vo
+FD:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/nco.vo
+L0 31
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 [WzMLRAM_i8FPz<R92o8m3
+!s85 0
+!s108 1415145052.453000
+!s107 D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/nco.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD|D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/nco.vo|
+!s101 -O0
+vQamCarrier
+IYhoK1ISd@]=0D@BXHEe4m1
+VE=E4_ZEn@D85W`CLBOX]Q1
+R1
+w1415114256
+8D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/source/QamCarrier.v
+FD:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/source/QamCarrier.v
+L0 2
+R2
+r1
+31
+R3
+R4
+n@qam@carrier
+!i10b 1
+!s100 ?Lf:mg;dVRan705<@6h^h1
+!s85 0
+!s108 1415145054.171000
+!s107 D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/source/QamCarrier.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/source|D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/source/QamCarrier.v|
+!s101 -O0
+vQamCarrier_vlg_tst
+!i10b 1
+!s100 hzkM<]1GlIY90UMATfG6:1
+I<oWnY^P[>JUCA[7K_o[6Z0
+VDlimUT_6Xk_AK0G:KD?EC0
+R1
+w1415102965
+8D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/simulation/modelsim/QamCarrier.vt
+FD:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/simulation/modelsim/QamCarrier.vt
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1415145055.343000
+!s107 D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/simulation/modelsim/QamCarrier.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/simulation/modelsim|D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/simulation/modelsim/QamCarrier.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_8/E8_3_QamCarrier/QamCarrierDD/simulation/modelsim -O0
+n@qam@carrier_vlg_tst

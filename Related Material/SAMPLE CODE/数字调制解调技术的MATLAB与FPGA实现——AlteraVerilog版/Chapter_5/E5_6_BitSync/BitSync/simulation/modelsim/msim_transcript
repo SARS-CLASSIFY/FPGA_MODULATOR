@@ -1,0 +1,79 @@
+# Reading C:/altera/modelsim/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do BitSync_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\modelsim\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\modelsim\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_5/E5_6_BitSync/source {D:/ModemPrograms/Chapter_5/E5_6_BitSync/source/monostable.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module monostable
+# 
+# Top level modules:
+# 	monostable
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_5/E5_6_BitSync/source {D:/ModemPrograms/Chapter_5/E5_6_BitSync/source/differpd.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module differpd
+# 
+# Top level modules:
+# 	differpd
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_5/E5_6_BitSync/source {D:/ModemPrograms/Chapter_5/E5_6_BitSync/source/controldivfreq.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module controldivfreq
+# 
+# Top level modules:
+# 	controldivfreq
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_5/E5_6_BitSync/source {D:/ModemPrograms/Chapter_5/E5_6_BitSync/source/clktrans.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module clktrans
+# 
+# Top level modules:
+# 	clktrans
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_5/E5_6_BitSync/source {D:/ModemPrograms/Chapter_5/E5_6_BitSync/source/BitSync.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module BitSync
+# 
+# Top level modules:
+# 	BitSync
+# 
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_5/E5_6_BitSync/BitSync/simulation/modelsim {D:/ModemPrograms/Chapter_5/E5_6_BitSync/BitSync/simulation/modelsim/BitSync.vt}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module BitSync_vlg_tst
+# 
+# Top level modules:
+# 	BitSync_vlg_tst
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  BitSync_vlg_tst
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps BitSync_vlg_tst 
+# Loading work.BitSync_vlg_tst
+# Loading work.BitSync
+# Loading work.clktrans
+# Loading work.differpd
+# Loading work.monostable
+# Loading work.controldivfreq
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $finish    : D:/ModemPrograms/Chapter_5/E5_6_BitSync/BitSync/simulation/modelsim/BitSync.vt(66)
+#    Time: 40110 ns  Iteration: 0  Instance: /BitSync_vlg_tst
+# 1
+# Break in Module BitSync_vlg_tst at D:/ModemPrograms/Chapter_5/E5_6_BitSync/BitSync/simulation/modelsim/BitSync.vt line 66
+# Simulation Breakpoint: 1
+# Break in Module BitSync_vlg_tst at D:/ModemPrograms/Chapter_5/E5_6_BitSync/BitSync/simulation/modelsim/BitSync.vt line 66
+# MACRO ./BitSync_run_msim_rtl_verilog.do PAUSED at line 21
+add wave -position insertpoint sim:/BitSync_vlg_tst/i1/*
+run -all
+# Break key hit 
+# Break in Module BitSync_vlg_tst at D:/ModemPrograms/Chapter_5/E5_6_BitSync/BitSync/simulation/modelsim/BitSync.vt line 72
+# Simulation Breakpoint: Break in Module BitSync_vlg_tst at D:/ModemPrograms/Chapter_5/E5_6_BitSync/BitSync/simulation/modelsim/BitSync.vt line 72
+# MACRO ./BitSync_run_msim_rtl_verilog.do PAUSED at line 21

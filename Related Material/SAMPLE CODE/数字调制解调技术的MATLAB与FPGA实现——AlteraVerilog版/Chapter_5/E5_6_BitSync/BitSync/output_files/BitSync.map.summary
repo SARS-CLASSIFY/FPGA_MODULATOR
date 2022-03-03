@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat Oct 11 21:36:38 2014
+Quartus II 32-bit Version : 12.1 Build 177 11/07/2012 SJ Full Version
+Revision Name : BitSync
+Top-level Entity Name : BitSync
+Family : Cyclone IV E
+Total logic elements : 21
+    Total combinational functions : 20
+    Dedicated logic registers : 20
+Total registers : 20
+Total pins : 4
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

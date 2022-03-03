@@ -1,0 +1,94 @@
+# Reading C:/altera/modelsim/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do SquareLoop_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\modelsim\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\modelsim\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_6/E6_8_FpgaSquare/FpgaSquare {D:/ModemPrograms/Chapter_6/E6_8_FpgaSquare/FpgaSquare/nco.vo}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module nco
+# 
+# Top level modules:
+# 	nco
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_6/E6_8_FpgaSquare/FpgaSquare {D:/ModemPrograms/Chapter_6/E6_8_FpgaSquare/FpgaSquare/locklpf.vo}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module locklpf
+# 
+# Top level modules:
+# 	locklpf
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_6/E6_8_FpgaSquare/FpgaSquare/source {D:/ModemPrograms/Chapter_6/E6_8_FpgaSquare/FpgaSquare/source/SquareLoop.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module SquareLoop
+# 
+# Top level modules:
+# 	SquareLoop
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_6/E6_8_FpgaSquare/FpgaSquare/source {D:/ModemPrograms/Chapter_6/E6_8_FpgaSquare/FpgaSquare/source/LoopFilter.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module LoopFilter
+# 
+# Top level modules:
+# 	LoopFilter
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_6/E6_8_FpgaSquare/FpgaSquare {D:/ModemPrograms/Chapter_6/E6_8_FpgaSquare/FpgaSquare/mult8_8.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module mult8_8
+# 
+# Top level modules:
+# 	mult8_8
+# 
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_6/E6_8_FpgaSquare/FpgaSquare/simulation/modelsim {D:/ModemPrograms/Chapter_6/E6_8_FpgaSquare/FpgaSquare/simulation/modelsim/SquareLoop.vt}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module SquareLoop_vlg_tst
+# 
+# Top level modules:
+# 	SquareLoop_vlg_tst
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  SquareLoop_vlg_tst
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps SquareLoop_vlg_tst 
+# Loading work.SquareLoop_vlg_tst
+# Loading work.SquareLoop
+# Loading work.nco
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading lpm_ver.lpm_add_sub
+# Loading lpm_ver.lpm_counter
+# Loading sgate_ver.oper_add
+# Loading sgate_ver.oper_mux
+# Loading work.mult8_8
+# Loading lpm_ver.lpm_mult
+# Loading lpm_ver.LPM_HINT_EVALUATION
+# Loading work.locklpf
+# Loading sgate_ver.oper_decoder
+# Loading lpm_ver.lpm_decode
+# Loading sgate_ver.oper_less_than
+# Loading sgate_ver.oper_selector
+# Loading altera_mf_ver.scfifo
+# Loading work.LoopFilter
+# ** Warning: (vsim-3017) D:/ModemPrograms/Chapter_6/E6_8_FpgaSquare/FpgaSquare/nco.vo(1928): [TFMPC] - Too few port connections. Expected 15, found 14.
+# 
+#         Region: /SquareLoop_vlg_tst/i1/u0/nllll
+# ** Warning: (vsim-3722) D:/ModemPrograms/Chapter_6/E6_8_FpgaSquare/FpgaSquare/nco.vo(1928): [TFMPC] - Missing connection for port 'eq'.
+# 
+# ** Warning: Design size of 6 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 20001 of file "msk.txt". (Current address [20001], address range [1:20000])    : D:/ModemPrograms/Chapter_6/E6_8_FpgaSquare/FpgaSquare/simulation/modelsim/SquareLoop.vt(81)
+#    Time: 0 ps  Iteration: 0  Instance: /SquareLoop_vlg_tst
+# Break key hit 
+# Simulation stop requested.
+# Simulation Breakpoint: Simulation stop requested.
+# MACRO ./SquareLoop_run_msim_rtl_verilog.do PAUSED at line 21

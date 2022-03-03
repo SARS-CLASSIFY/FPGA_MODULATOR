@@ -1,0 +1,37 @@
+//这是Code.v文件的程序清单
+module Code (
+	rst,clk,din,
+	dout);
+	
+	input    rst;              //复位信号，高电平有效
+	input		clk;   				//系统时钟信号，与采样频率相同，fs=32 MHz
+	input	   din;              //差分编码前的调制数据：1 MHz
+	output   dout; 				//差分编码后的调制数据：1 MHz
+
+
+
+	
+	//实例化NCO核所需的接口信号
+	wire reset_n,out_valid,clken;
+	wire [24:0] carrier;
+	wire signed [24:0] frequency_df;
+	assign reset_n = !rst;
+	assign clken = 1'b1;
+	assign carrier=25'd6291456;//6MHz
+	
+	//实例化NCO核
+	dds	u0 (
+		.phi_inc_i (carrier),
+		.clk (clk),
+		.reset_n (reset_n),
+		.clken (clken),
+		.freq_mod_i (frequency_df),
+		.fsin_o (dout),
+		.out_valid (out_valid));
+
+	//Rb=1MHz，h=3.5，df1=-1.75MHz df2=1.75MHz
+	//根据输入数据的高电低平，设置不同的频率偏移量
+	assign frequency_df = (din)?25'd1835008:-25'd1835008;
+
+		
+endmodule

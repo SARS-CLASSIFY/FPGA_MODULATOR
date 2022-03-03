@@ -1,0 +1,88 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ModemPrograms\Chapter_5\E5_5_FpgaASKDemodGate\AskDemod\simulation\modelsim
+vAskDemod
+ILaN>K@;iV6?Cg>M4l;knU0
+Vd6ELa[^`4:>hZEh_=ZgfL2
+Z1 dD:\ModemPrograms\Chapter_5\E5_5_FpgaASKDemodGate\AskDemod\simulation\modelsim
+w1412944249
+8D:/ModemPrograms/Chapter_5/E5_5_FpgaASKDemodGate/AskDemod/source/AskDemod.v
+FD:/ModemPrograms/Chapter_5/E5_5_FpgaASKDemodGate/AskDemod/source/AskDemod.v
+L0 2
+Z2 OV;L;10.1b;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+n@ask@demod
+Z4 !s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_5/E5_5_FpgaASKDemodGate/AskDemod/source -O0
+!i10b 1
+!s100 fW0PnONP3JoPRB:DVCXW81
+!s85 0
+!s108 1412945003.669000
+!s107 D:/ModemPrograms/Chapter_5/E5_5_FpgaASKDemodGate/AskDemod/source/AskDemod.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_5/E5_5_FpgaASKDemodGate/AskDemod/source|D:/ModemPrograms/Chapter_5/E5_5_FpgaASKDemodGate/AskDemod/source/AskDemod.v|
+!s101 -O0
+vAskDemod_vlg_tst
+!i10b 1
+!s100 [mcE=ZI]dcdmR3a8f^?HG1
+I5;Ch68_gfhS9M0>CfAzHS1
+V1J7A_oPWB=nNNGYj[`63Z2
+R1
+w1412944990
+8D:/ModemPrograms/Chapter_5/E5_5_FpgaASKDemodGate/AskDemod/simulation/modelsim/AskDemod.vt
+FD:/ModemPrograms/Chapter_5/E5_5_FpgaASKDemodGate/AskDemod/simulation/modelsim/AskDemod.vt
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1412945004.028000
+!s107 D:/ModemPrograms/Chapter_5/E5_5_FpgaASKDemodGate/AskDemod/simulation/modelsim/AskDemod.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_5/E5_5_FpgaASKDemodGate/AskDemod/simulation/modelsim|D:/ModemPrograms/Chapter_5/E5_5_FpgaASKDemodGate/AskDemod/simulation/modelsim/AskDemod.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_5/E5_5_FpgaASKDemodGate/AskDemod/simulation/modelsim -O0
+n@ask@demod_vlg_tst
+vGate
+InG:@2i6X@=Bf_Tb0TE0U<3
+V_HWojXn1fJ`daRI:AJ9k@3
+R1
+w1412943805
+8D:/ModemPrograms/Chapter_5/E5_5_FpgaASKDemodGate/AskDemod/source/Gate.v
+FD:/ModemPrograms/Chapter_5/E5_5_FpgaASKDemodGate/AskDemod/source/Gate.v
+L0 2
+R2
+r1
+31
+R3
+R4
+n@gate
+!i10b 1
+!s100 [RaV^OJLUjb];gF2X`__N1
+!s85 0
+!s108 1412945003.856000
+!s107 D:/ModemPrograms/Chapter_5/E5_5_FpgaASKDemodGate/AskDemod/source/Gate.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_5/E5_5_FpgaASKDemodGate/AskDemod/source|D:/ModemPrograms/Chapter_5/E5_5_FpgaASKDemodGate/AskDemod/source/Gate.v|
+!s101 -O0
+vlpf
+I28`?<O5MP4mYAcLB]`TPG1
+VV?M<;0RjGzMj^RnFN6a4[0
+R1
+w1412658243
+8D:/ModemPrograms/Chapter_5/E5_5_FpgaASKDemodGate/AskDemod/lpf.vo
+FD:/ModemPrograms/Chapter_5/E5_5_FpgaASKDemodGate/AskDemod/lpf.vo
+L0 31
+R2
+r1
+31
+R3
+!i10b 1
+!s100 ASW^cF5nDC[8zNH71RE?F1
+!s85 0
+!s108 1412945003.263000
+!s107 D:/ModemPrograms/Chapter_5/E5_5_FpgaASKDemodGate/AskDemod/lpf.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_5/E5_5_FpgaASKDemodGate/AskDemod|D:/ModemPrograms/Chapter_5/E5_5_FpgaASKDemodGate/AskDemod/lpf.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_5/E5_5_FpgaASKDemodGate/AskDemod -O0

@@ -1,0 +1,83 @@
+# Reading C:/altera/modelsim/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do MskMod_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\modelsim\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\modelsim\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod {D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/dds.vo}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module dds
+# 
+# Top level modules:
+# 	dds
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/source {D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/source/FskMod.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module FskMod
+# 
+# Top level modules:
+# 	FskMod
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/source {D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/source/Code.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module Code
+# 
+# Top level modules:
+# 	Code
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/source {D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/source/MskMod.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module MskMod
+# 
+# Top level modules:
+# 	MskMod
+# 
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/simulation/modelsim {D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/simulation/modelsim/MskMod.vt}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module MskMod_vlg_tst
+# 
+# Top level modules:
+# 	MskMod_vlg_tst
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  MskMod_vlg_tst
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps MskMod_vlg_tst 
+# Loading work.MskMod_vlg_tst
+# Loading work.MskMod
+# Loading work.Code
+# Loading work.FskMod
+# Loading work.dds
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading lpm_ver.lpm_add_sub
+# Loading lpm_ver.lpm_counter
+# Loading sgate_ver.oper_add
+# Loading sgate_ver.oper_mux
+# ** Warning: (vsim-3017) D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/dds.vo(2056): [TFMPC] - Too few port connections. Expected 15, found 14.
+# 
+#         Region: /MskMod_vlg_tst/i1/u2/u0/nllOO
+# ** Warning: (vsim-3722) D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/dds.vo(2056): [TFMPC] - Missing connection for port 'eq'.
+# 
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $finish    : D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/simulation/modelsim/MskMod.vt(65)
+#    Time: 510 ns  Iteration: 0  Instance: /MskMod_vlg_tst
+# 1
+# Break in Module MskMod_vlg_tst at D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/simulation/modelsim/MskMod.vt line 65
+# Simulation Breakpoint: 1
+# Break in Module MskMod_vlg_tst at D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/simulation/modelsim/MskMod.vt line 65
+# MACRO ./MskMod_run_msim_rtl_verilog.do PAUSED at line 20
+run -all
+# Break key hit 
+# Simulation stop requested.
+# Simulation Breakpoint: Simulation stop requested.
+# MACRO ./MskMod_run_msim_rtl_verilog.do PAUSED at line 20

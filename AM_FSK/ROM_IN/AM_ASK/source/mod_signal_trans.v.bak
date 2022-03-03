@@ -1,0 +1,7 @@
+module mod_signal_trans (
+	rst_n,clk,
+	dout);
+	
+	input    rst_n;            
+	input		clk;   				
+	output signed [6:0] dout;

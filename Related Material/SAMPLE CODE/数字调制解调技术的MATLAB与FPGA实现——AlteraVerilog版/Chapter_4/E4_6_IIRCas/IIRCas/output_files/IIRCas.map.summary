@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Oct 06 13:00:02 2014
+Quartus II 32-bit Version : 12.1 Build 177 11/07/2012 SJ Full Version
+Revision Name : IIRCas
+Top-level Entity Name : IIRCas
+Family : Cyclone IV E
+Total logic elements : 642
+    Total combinational functions : 546
+    Dedicated logic registers : 120
+Total registers : 120
+Total pins : 26
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

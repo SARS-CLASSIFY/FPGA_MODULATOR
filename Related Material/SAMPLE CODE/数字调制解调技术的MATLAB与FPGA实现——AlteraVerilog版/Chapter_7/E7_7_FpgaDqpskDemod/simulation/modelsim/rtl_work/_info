@@ -1,0 +1,291 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ModemPrograms\Chapter_7\E7_7_FpgaDqpskDemod\simulation\modelsim
+vBitSync
+I6JFaH6T1FfkCQRA>7?mfO2
+V8UAhdj?`z^GOn[Qh4`2a10
+Z1 dD:\ModemPrograms\Chapter_7\E7_7_FpgaDqpskDemod\simulation\modelsim
+w1412952530
+8D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/BitSync.v
+FD:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/BitSync.v
+L0 2
+Z2 OV;L;10.1b;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source -O0
+n@bit@sync
+!i10b 1
+!s100 Wanhb67h_634MA6_a8@083
+!s85 0
+!s108 1414504633.984000
+!s107 D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/BitSync.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source|D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/BitSync.v|
+!s101 -O0
+vcd2ab
+IBmG88NzBDg54FnhN5aN]`1
+Vn:H_@F2=@YhjB6^lj]mc:1
+R1
+w1414156537
+8D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/cd2ab.v
+FD:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/cd2ab.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 1c6Gee=YT75RUJS82gL<B3
+!s85 0
+!s108 1414504634.250000
+!s107 D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/cd2ab.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source|D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/cd2ab.v|
+!s101 -O0
+vclktrans
+INYY69kk`8Vh^e=]W;A91O0
+VBfi<Azzn=jjTFc_E@Yf7V2
+R1
+w1411293775
+8D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/clktrans.v
+FD:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/clktrans.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 gPz^I]H@Tg5YCUBD<LiIM3
+!s85 0
+!s108 1414504633.843000
+!s107 D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/clktrans.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source|D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/clktrans.v|
+!s101 -O0
+vcontroldivfreq
+IWUED65O]bnC:FH``K_JOf3
+VX82N`>^KlY36RWSZI2<jC1
+R1
+w1411299101
+8D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/controldivfreq.v
+FD:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/controldivfreq.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 mYjohl2RFb1e[]Q@?mH1j2
+!s85 0
+!s108 1414504633.359000
+!s107 D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/controldivfreq.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source|D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/controldivfreq.v|
+!s101 -O0
+vdifferpd
+I]QbcZl1nl>UMVIf>`;Ha62
+ValL5FCORgzRl^WK^_j_go0
+R1
+w1412952661
+8D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/differpd.v
+FD:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/differpd.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 RZ4i^zG]2c:i:;]dZ^GOA1
+!s85 0
+!s108 1414504633.718000
+!s107 D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/differpd.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source|D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/differpd.v|
+!s101 -O0
+vfir_lpf
+Id_=Zaf6]a?aT55EPOGobY1
+Vnn[M994JiVIBE^RFeSIR72
+R1
+w1414304991
+8D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/fir_lpf.vo
+FD:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/fir_lpf.vo
+L0 31
+R2
+r1
+31
+R3
+Z5 !s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod -O0
+!i10b 1
+!s100 ?:h[`hm_J1UXiCG6?K?KA2
+!s85 0
+!s108 1414504633.015000
+!s107 D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/fir_lpf.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod|D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/fir_lpf.vo|
+!s101 -O0
+vLoopFilter
+I4=AD9e=DCAD`0VSi6bW291
+VNimR1[NhLJ[d]?D;:?[kW3
+R1
+w1414499733
+8D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/LoopFilter.v
+FD:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/LoopFilter.v
+L0 2
+R2
+r1
+31
+R3
+R4
+n@loop@filter
+!i10b 1
+!s100 ago>n6D_4ZcX2^N9^O<Eh2
+!s85 0
+!s108 1414504634.812000
+!s107 D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/LoopFilter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source|D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/LoopFilter.v|
+!s101 -O0
+vmonostable
+I`AKjhFZ3i7zH]E1mH_;UO0
+VL1_HmEk=@aEBAPN@I^Qo33
+R1
+w1411293749
+8D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/monostable.v
+FD:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/monostable.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 N]ZHh49CjXWG@@TE3KOL11
+!s85 0
+!s108 1414504633.531000
+!s107 D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/monostable.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source|D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/monostable.v|
+!s101 -O0
+vmult8_8
+Ia;@FbL<lzESm^kBYPcPD:2
+VlcSL[haK_meMilJN=L=B=1
+R1
+w1414319167
+8D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/mult8_8.v
+FD:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/mult8_8.v
+L0 39
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 QN2aXmB1BZKkg]ie?E]]L1
+!s85 0
+!s108 1414504635.093000
+!s107 D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/mult8_8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod|D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/mult8_8.v|
+!s101 -O0
+vnco
+IXOCN`05BGOKVBNf@GnQBo3
+VFWlZ_6c[EIa0]X5g_7W`j0
+R1
+w1414296329
+8D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/nco.vo
+FD:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/nco.vo
+L0 31
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 >:CH?>?Y78k_KT73onDlZ3
+!s85 0
+!s108 1414504632.796000
+!s107 D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/nco.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod|D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/nco.vo|
+!s101 -O0
+vPhaseDetect
+IN`[93>8DGJki_]3Fhdd>R3
+V1@kjX7@<UPS5AOAf1G`051
+R1
+w1414325898
+8D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/PhaseDetect.v
+FD:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/PhaseDetect.v
+L0 2
+R2
+r1
+31
+R3
+R4
+n@phase@detect
+!i10b 1
+!s100 1W4<3l_no3llScMkRj[=j1
+!s85 0
+!s108 1414504634.953000
+!s107 D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/PhaseDetect.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source|D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/PhaseDetect.v|
+!s101 -O0
+vPolar
+I?h73i[W`_Szb9L_GZ6MlB1
+VR^]g4T@ggoUP8F3>FHib^3
+R1
+w1414503649
+8D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/Polar.v
+FD:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/Polar.v
+L0 2
+R2
+r1
+31
+R3
+R4
+n@polar
+!i10b 1
+!s100 1=ZISTJ]L66?B>4O=1_Eh3
+!s85 0
+!s108 1414504634.484000
+!s107 D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/Polar.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source|D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/Polar.v|
+!s101 -O0
+vPolarCostas
+InmO;B^gCY][J:N2H<^JMH2
+VKf]TUWmFP`nV8=DRg:Ca_0
+R1
+w1414501072
+8D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/PolarCostas.v
+FD:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/PolarCostas.v
+L0 2
+R2
+r1
+31
+R3
+R4
+n@polar@costas
+!i10b 1
+!s100 9EOhZ_iBcUI=Fj7B29gi:3
+!s85 0
+!s108 1414504634.656000
+!s107 D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/PolarCostas.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source|D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/source/PolarCostas.v|
+!s101 -O0
+vPolarCostas_vlg_tst
+!i10b 1
+!s100 >?3n3LznYPaI[cGaco`QJ3
+IDJC_Ja`]CO1lgFF4LlFB43
+V`QBSoQ0Q`bC7S@af]MonD2
+R1
+w1414504618
+8D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/simulation/modelsim/PolarCostas.vt
+FD:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/simulation/modelsim/PolarCostas.vt
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1414504635.250000
+!s107 D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/simulation/modelsim/PolarCostas.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/simulation/modelsim|D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/simulation/modelsim/PolarCostas.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_7/E7_7_FpgaDqpskDemod/simulation/modelsim -O0
+n@polar@costas_vlg_tst

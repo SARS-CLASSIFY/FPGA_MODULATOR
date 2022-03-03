@@ -1,0 +1,86 @@
+//这是SquareLoop.v文件的程序清单
+module SquareLoop (
+	rst,clk,din,
+	sine,df); 
+	
+	input		rst;   //复位信号，高电平有效
+	input		clk;   //FPGA系统时钟：32MHz
+	input	 signed [7:0]	din;   //输入数据：32MHz
+	output signed [7:0]	sine;  //同步后的载波输出信号(正交支路)
+	output signed [28:0]	df;    //环路滤波器输出数据
+	
+	//实例化NCO核所需的接口信号
+	wire reset_n,out_valid,clken;
+	wire [31:0] carrier;
+	wire signed [9:0] sin,cosine ;
+	wire signed [31:0] frequency_df;
+	wire signed [28:0] Loopout;
+	assign reset_n = !rst;
+	assign clken = 1'b1;
+	assign carrier=32'd805306368;//6MHz
+	//assign carrier=32'd808450000;//6.02344MHz
+
+	assign frequency_df={{3{Loopout[28]}},Loopout};//根据NCO核接口，扩展为29位
+	
+	//实例化NCO核
+   //Quartus提供的NCO核输出数据最小位宽为10比特，根据环路设计需求，只取高8比特参与后续运算	
+	nco	u0 (
+		.phi_inc_i (carrier),
+		.clk (clk),
+		.reset_n (reset_n),
+		.clken (clken),
+		.freq_mod_i (frequency_df),
+		.fsin_o (sin),
+		.fcos_o (cosine),
+		.out_valid (out_valid));
+	assign sine = sin[9:2];
+
+   //实例化NCO同相正交支路乘法运算器核	
+	wire signed [14:0] oc_out;	
+   mult8_8 u1 (
+		.dataa (sin[9:2]),
+		.datab (cosine[9:2]),
+		.result (oc_out));
+
+   //实例化平方运算乘法器核	
+	wire signed [14:0] square_out;	
+   mult8_8 u2 (
+		.dataa (din),
+		.datab (din),
+		.result (square_out));
+
+   //实例化带通滤波器核
+	wire signed [14:0] pass_out;
+   bandpass u3 (
+	   .rst (rst),
+		.clk (clk),	   
+		.din (square_out),
+	   .dout (pass_out));
+
+   //实例化鉴相器乘法运算器核	
+	wire signed [28:0] mult_out;	
+   mult15_15 u4 (
+		.dataa (oc_out),
+		.datab (pass_out),
+		.result (mult_out));		
+		
+		
+   //实例化低通滤波器核
+	wire signed [28:0] pd;
+   iir_lpf u5 (
+	   .rst (rst),
+		.clk (clk),	   
+		.Xin (mult_out),
+	   .Yout (pd));		
+		
+	//实例化环路滤波器模块	
+   LoopFilter u6(
+	   .rst (rst),
+		.clk (clk),
+		.pd  (pd),
+		.frequency_df(Loopout));
+		
+	//将环路滤波器数据送至输出端口查看	
+	assign df = Loopout;
+	
+endmodule

@@ -1,0 +1,273 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ModemPrograms\Chapter_8\E8_5_FpgaGardner\QamCarrierDD\simulation\modelsim
+vBitSync
+IR5eRBW4=[9FainNz7JmkE0
+Vm3Hj=fLEg18Nf:bP@f[EA0
+Z1 dD:\ModemPrograms\Chapter_8\E8_5_FpgaGardner\QamCarrierDD\simulation\modelsim
+w1415441314
+8D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/BitSync.v
+FD:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/BitSync.v
+L0 2
+Z2 OV;L;10.1b;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD -O0
+n@bit@sync
+!i10b 1
+!s100 S@?o<`N:V4HR:@f6V;fjd0
+!s85 0
+!s108 1415441613.578000
+!s107 D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/BitSync.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD|D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/BitSync.v|
+!s101 -O0
+vDD
+I[I2[RMogN8K5?I8boiO>A3
+VT_gR_<Oa>BcJoDIkN_6h`1
+R1
+w1415102355
+8D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source/DD.v
+FD:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source/DD.v
+L0 2
+R2
+r1
+31
+R3
+Z5 !s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source -O0
+n@d@d
+!i10b 1
+!s100 LaBV6_AnVNVn_UHLIYbM`0
+!s85 0
+!s108 1415441613.062000
+!s107 D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source/DD.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source|D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source/DD.v|
+!s101 -O0
+vErrorLp
+IheAzOFD4Bo3T97U;cHX8V0
+V<iR?ZC;h2JgzTU>E_O9?[1
+R1
+w1415434553
+8D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source/ErrorLp.v
+FD:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source/ErrorLp.v
+L0 2
+R2
+r1
+31
+R3
+R5
+n@error@lp
+!i10b 1
+!s100 YJQ__o220JRVjMj^:UH@B2
+!s85 0
+!s108 1415441612.796000
+!s107 D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source/ErrorLp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source|D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source/ErrorLp.v|
+!s101 -O0
+vfir_lpf
+Ic_hl7]XSRh5om3aHGUc:M0
+VE@IHMZNG1M_<:GaG;=29o0
+R1
+w1415103495
+8D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/fir_lpf.vo
+FD:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/fir_lpf.vo
+L0 31
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 k`S3ELOE4PDZnn>eh29n:1
+!s85 0
+!s108 1415441611.656000
+!s107 D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/fir_lpf.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD|D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/fir_lpf.vo|
+!s101 -O0
+vFpgaGardner
+Ik6D:LT@Yl9>oR3J0QYHN03
+V?JOFi?50RAE?X9h;_[o6I3
+R1
+w1415439547
+8D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source/FpgaGardner.v
+FD:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source/FpgaGardner.v
+L0 2
+R2
+r1
+31
+R3
+R5
+n@fpga@gardner
+!i10b 1
+!s100 _ZM0CT4cYQS30ggniVRFY3
+!s85 0
+!s108 1415441612.656000
+!s107 D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source/FpgaGardner.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source|D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source/FpgaGardner.v|
+!s101 -O0
+vgnco
+IFC0_7Dj2B2nPCcQd:5kNi3
+Vlf]:R`K<g2AIdeAQ?cWZa0
+R1
+w1415432095
+8D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source/gnco.v
+FD:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source/gnco.v
+L0 2
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 IPRUi4G]`d:>mg@98;HGc0
+!s85 0
+!s108 1415441612.500000
+!s107 D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source/gnco.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source|D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source/gnco.v|
+!s101 -O0
+vInterpolateFilter
+IQD5G;8_9>IUUmgn0hg^@`3
+VHI:]WiT>BBK]5l;HhDSKn3
+R1
+w1415432203
+8D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source/InterpolateFilter.v
+FD:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source/InterpolateFilter.v
+L0 2
+R2
+r1
+31
+R3
+R5
+n@interpolate@filter
+!i10b 1
+!s100 nB?[VMdeAzFIzV2O7RnND0
+!s85 0
+!s108 1415441612.921000
+!s107 D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source/InterpolateFilter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source|D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source/InterpolateFilter.v|
+!s101 -O0
+vLoopFilter
+Ii<z9@Fi2I:d=TLO<5EP@V0
+V6BYGhS[23lMX[IY>G^ZG40
+R1
+w1415103014
+8D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source/LoopFilter.v
+FD:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source/LoopFilter.v
+L0 2
+R2
+r1
+31
+R3
+R5
+n@loop@filter
+!i10b 1
+!s100 @Bg65O;83WiKa?Znd?LeJ1
+!s85 0
+!s108 1415441613.328000
+!s107 D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source/LoopFilter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source|D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source/LoopFilter.v|
+!s101 -O0
+vmult18_16
+Ii6c@[ZLDZiC@FH:SHFA3J0
+VLD>]MYGObH6CBn5;X_Z3O2
+R1
+w1415373096
+8D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/mult18_16.v
+FD:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/mult18_16.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 bYLF2PQH^MzzlW]z1[eWA2
+!s85 0
+!s108 1415441612.281000
+!s107 D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/mult18_16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD|D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/mult18_16.v|
+!s101 -O0
+vmult8_8
+IodT;6Y90om1`51IM<E4c12
+VlcSL[haK_meMilJN=L=B=1
+R1
+w1415103449
+8D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/mult8_8.v
+FD:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/mult8_8.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 F09z3bSd:[FoQaJ@QUzeR0
+!s85 0
+!s108 1415441613.468000
+!s107 D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/mult8_8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD|D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/mult8_8.v|
+!s101 -O0
+vnco
+I;hV<2SdozzMm23V^mPE`[2
+VL;fJi:;5aVGlbVkgO^bj90
+R1
+w1415103383
+8D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/nco.vo
+FD:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/nco.vo
+L0 31
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 cQRN46znEV0FJ:NIn]Sl10
+!s85 0
+!s108 1415441611.437000
+!s107 D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/nco.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD|D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/nco.vo|
+!s101 -O0
+vQamCarrier
+I=?20j1jmMc]`3dEo2FXi@1
+VE=E4_ZEn@D85W`CLBOX]Q1
+R1
+w1415441499
+8D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source/QamCarrier.v
+FD:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source/QamCarrier.v
+L0 2
+R2
+r1
+31
+R3
+R5
+n@qam@carrier
+!i10b 1
+!s100 `Um<DShe@E<NQB@PiSkUQ1
+!s85 0
+!s108 1415441613.203000
+!s107 D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source/QamCarrier.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source|D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/source/QamCarrier.v|
+!s101 -O0
+vQamCarrier_vlg_tst
+!i10b 1
+!s100 W7j<A@mfDAcghfj5LkaYP1
+ITO<N>MJ2YEWbDgkJKOc?Y3
+VDlimUT_6Xk_AK0G:KD?EC0
+R1
+w1415441602
+8D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/simulation/modelsim/QamCarrier.vt
+FD:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/simulation/modelsim/QamCarrier.vt
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1415441613.812000
+!s107 D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/simulation/modelsim/QamCarrier.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/simulation/modelsim|D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/simulation/modelsim/QamCarrier.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/simulation/modelsim -O0
+n@qam@carrier_vlg_tst

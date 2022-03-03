@@ -1,0 +1,64 @@
+# Reading C:/altera/modelsim/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do FirIPCore_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\modelsim\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\modelsim\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore {D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/fir.vo}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module fir
+# 
+# Top level modules:
+# 	fir
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/source {D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/source/FirIPCore.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module FirIPCore
+# 
+# Top level modules:
+# 	FirIPCore
+# 
+# vlog -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/simulation/modelsim {D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/simulation/modelsim/FirIPCore.vt}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module FirIPCore_vlg_tst
+# 
+# Top level modules:
+# 	FirIPCore_vlg_tst
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  FirIPCore_vlg_tst
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps FirIPCore_vlg_tst 
+# Loading work.FirIPCore_vlg_tst
+# Loading work.FirIPCore
+# Loading work.fir
+# Loading altera_mf_ver.altshift_taps
+# Loading sgate_ver.oper_add
+# Loading lpm_ver.lpm_add_sub
+# Loading sgate_ver.oper_mult
+# Loading lpm_ver.lpm_mult
+# Loading lpm_ver.LPM_HINT_EVALUATION
+# Loading sgate_ver.oper_mux
+# Loading sgate_ver.oper_selector
+# Loading altera_mf_ver.scfifo
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: (vsim-PLI-3409) Illegal binary digit ';' in data on line 2001 of file "E4_5_TestData.txt".    : D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/simulation/modelsim/FirIPCore.vt(80)
+#    Time: 0 ps  Iteration: 0  Instance: /FirIPCore_vlg_tst
+# ** Note: $finish    : D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/simulation/modelsim/FirIPCore.vt(64)
+#    Time: 160110 ns  Iteration: 0  Instance: /FirIPCore_vlg_tst
+# 1
+# Break in Module FirIPCore_vlg_tst at D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/simulation/modelsim/FirIPCore.vt line 64
+# Simulation Breakpoint: 1
+# Break in Module FirIPCore_vlg_tst at D:/ModemPrograms/Chapter_4/E4_5_FirIpCore/FirIPCore/simulation/modelsim/FirIPCore.vt line 64
+# MACRO ./FirIPCore_run_msim_rtl_verilog.do PAUSED at line 18

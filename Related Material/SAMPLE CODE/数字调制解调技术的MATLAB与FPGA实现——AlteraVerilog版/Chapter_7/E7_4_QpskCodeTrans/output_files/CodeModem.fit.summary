@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri Oct 24 21:12:40 2014
+Quartus II 32-bit Version : 12.1 Build 177 11/07/2012 SJ Full Version
+Revision Name : CodeModem
+Top-level Entity Name : CodeModem
+Family : Cyclone IV E
+Device : EP4CE15F17C8
+Timing Models : Final
+Total logic elements : 19 / 15,408 ( < 1 % )
+    Total combinational functions : 19 / 15,408 ( < 1 % )
+    Dedicated logic registers : 8 / 15,408 ( < 1 % )
+Total registers : 8
+Total pins : 8 / 166 ( 5 % )
+Total virtual pins : 0
+Total memory bits : 0 / 516,096 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 112 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

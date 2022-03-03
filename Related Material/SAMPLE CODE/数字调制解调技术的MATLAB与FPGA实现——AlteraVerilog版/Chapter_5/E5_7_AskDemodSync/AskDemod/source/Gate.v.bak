@@ -1,0 +1,9 @@
+//这是Gate.v文件的程序清单
+module Gate (
+	rst,clk,din,
+	dout);
+	
+	input    rst;              //复位信号，高电平有效
+	input		clk;   				//FPGA系统时钟:8MHz
+	input	 signed [7:0]	din;  //基带输入数据
+	output signed [13:0]	dout; //ASK输出数据

@@ -1,0 +1,67 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ModemPrograms\Chapter_6\E6_4_FpgaFskMod\fsk\simulation\modelsim
+vdds
+IC8J7`79nISY3egU5Pk8Q>3
+VbCUZb:oS>kfiB7zGV2Vgh3
+Z1 dD:\ModemPrograms\Chapter_6\E6_4_FpgaFskMod\fsk\simulation\modelsim
+w1413086435
+8D:/ModemPrograms/Chapter_6/E6_4_FpgaFskMod/fsk/dds.vo
+FD:/ModemPrograms/Chapter_6/E6_4_FpgaFskMod/fsk/dds.vo
+L0 31
+Z2 OV;L;10.1b;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 C3^PT06kFih82UP;O`m<E0
+!s85 0
+!s108 1413088048.359000
+!s107 D:/ModemPrograms/Chapter_6/E6_4_FpgaFskMod/fsk/dds.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_6/E6_4_FpgaFskMod/fsk|D:/ModemPrograms/Chapter_6/E6_4_FpgaFskMod/fsk/dds.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_6/E6_4_FpgaFskMod/fsk -O0
+vFskMod
+I::b4^Em_:XXg1J1YE_>0^1
+VIi8^>1?UfC8i@mTic>bHN2
+R1
+w1413086935
+8D:/ModemPrograms/Chapter_6/E6_4_FpgaFskMod/fsk/source/FskMod.v
+FD:/ModemPrograms/Chapter_6/E6_4_FpgaFskMod/fsk/source/FskMod.v
+L0 2
+R2
+r1
+31
+R3
+n@fsk@mod
+!i10b 1
+!s100 <4?nm6=44bKOBBY9NlHka3
+!s85 0
+!s108 1413088048.609000
+!s107 D:/ModemPrograms/Chapter_6/E6_4_FpgaFskMod/fsk/source/FskMod.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_6/E6_4_FpgaFskMod/fsk/source|D:/ModemPrograms/Chapter_6/E6_4_FpgaFskMod/fsk/source/FskMod.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_6/E6_4_FpgaFskMod/fsk/source -O0
+vFskMod_vlg_tst
+!i10b 1
+!s100 m<eiH6XX7<4gi5Ija=KNg0
+I_AVRI]miHWVO<L9lF`^l`2
+VP>i=Q?OB^5<m1>c?PDUJ@3
+R1
+w1413088035
+8D:/ModemPrograms/Chapter_6/E6_4_FpgaFskMod/fsk/simulation/modelsim/FskMod.vt
+FD:/ModemPrograms/Chapter_6/E6_4_FpgaFskMod/fsk/simulation/modelsim/FskMod.vt
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1413088048.796000
+!s107 D:/ModemPrograms/Chapter_6/E6_4_FpgaFskMod/fsk/simulation/modelsim/FskMod.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ModemPrograms/Chapter_6/E6_4_FpgaFskMod/fsk/simulation/modelsim|D:/ModemPrograms/Chapter_6/E6_4_FpgaFskMod/fsk/simulation/modelsim/FskMod.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/ModemPrograms/Chapter_6/E6_4_FpgaFskMod/fsk/simulation/modelsim -O0
+n@fsk@mod_vlg_tst
