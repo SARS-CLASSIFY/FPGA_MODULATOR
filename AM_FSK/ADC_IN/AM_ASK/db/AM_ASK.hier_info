@@ -11,22 +11,22 @@ data_in[6] => data_in[6].IN1
 data_in[7] => data_in[7].IN1
 data_in[8] => data_in[8].IN1
 data_in[9] => data_in[9].IN1
-dac_clk <= FskMod:FskMod_inst.dac_clk
-adc_clk <= clk.DB_MAX_OUTPUT_PORT_TYPE
-am[0] <= am_u.DB_MAX_OUTPUT_PORT_TYPE
-am[1] <= am_u.DB_MAX_OUTPUT_PORT_TYPE
-am[2] <= am_u.DB_MAX_OUTPUT_PORT_TYPE
-am[3] <= am_u.DB_MAX_OUTPUT_PORT_TYPE
-am[4] <= am_u.DB_MAX_OUTPUT_PORT_TYPE
-am[5] <= am_u.DB_MAX_OUTPUT_PORT_TYPE
-am[6] <= am_u.DB_MAX_OUTPUT_PORT_TYPE
-am[7] <= am_u.DB_MAX_OUTPUT_PORT_TYPE
-am[8] <= am_u.DB_MAX_OUTPUT_PORT_TYPE
-am[9] <= am_u.DB_MAX_OUTPUT_PORT_TYPE
-am[10] <= am_u.DB_MAX_OUTPUT_PORT_TYPE
-am[11] <= am_u.DB_MAX_OUTPUT_PORT_TYPE
-am[12] <= am_u.DB_MAX_OUTPUT_PORT_TYPE
-am[13] <= am_u.DB_MAX_OUTPUT_PORT_TYPE
+dac_clk << clk_200M.DB_MAX_OUTPUT_PORT_TYPE
+adc_clk << clk.DB_MAX_OUTPUT_PORT_TYPE
+am[0] << am_u[0].DB_MAX_OUTPUT_PORT_TYPE
+am[1] << am_u[1].DB_MAX_OUTPUT_PORT_TYPE
+am[2] << am_u[2].DB_MAX_OUTPUT_PORT_TYPE
+am[3] << am_u[3].DB_MAX_OUTPUT_PORT_TYPE
+am[4] << am_u[4].DB_MAX_OUTPUT_PORT_TYPE
+am[5] << am_u[5].DB_MAX_OUTPUT_PORT_TYPE
+am[6] << am_u[6].DB_MAX_OUTPUT_PORT_TYPE
+am[7] << am_u[7].DB_MAX_OUTPUT_PORT_TYPE
+am[8] << am_u[8].DB_MAX_OUTPUT_PORT_TYPE
+am[9] << am_u[9].DB_MAX_OUTPUT_PORT_TYPE
+am[10] << am_u[10].DB_MAX_OUTPUT_PORT_TYPE
+am[11] << am_u[11].DB_MAX_OUTPUT_PORT_TYPE
+am[12] << am_u[12].DB_MAX_OUTPUT_PORT_TYPE
+am[13] << am_u[13].DB_MAX_OUTPUT_PORT_TYPE
 
 
 |AM_MODE|add:add_inst
@@ -127,6 +127,7 @@ result[8] <= op_1.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |AM_MODE|mult:mult_inst
+clock => clock.IN1
 dataa[0] => dataa[0].IN1
 dataa[1] => dataa[1].IN1
 dataa[2] => dataa[2].IN1
@@ -160,44 +161,45 @@ result[14] <= lpm_mult:lpm_mult_component.result
 
 
 |AM_MODE|mult:mult_inst|lpm_mult:lpm_mult_component
-dataa[0] => mult_o5n:auto_generated.dataa[0]
-dataa[1] => mult_o5n:auto_generated.dataa[1]
-dataa[2] => mult_o5n:auto_generated.dataa[2]
-dataa[3] => mult_o5n:auto_generated.dataa[3]
-dataa[4] => mult_o5n:auto_generated.dataa[4]
-dataa[5] => mult_o5n:auto_generated.dataa[5]
-datab[0] => mult_o5n:auto_generated.datab[0]
-datab[1] => mult_o5n:auto_generated.datab[1]
-datab[2] => mult_o5n:auto_generated.datab[2]
-datab[3] => mult_o5n:auto_generated.datab[3]
-datab[4] => mult_o5n:auto_generated.datab[4]
-datab[5] => mult_o5n:auto_generated.datab[5]
-datab[6] => mult_o5n:auto_generated.datab[6]
-datab[7] => mult_o5n:auto_generated.datab[7]
-datab[8] => mult_o5n:auto_generated.datab[8]
+dataa[0] => mult_f3p:auto_generated.dataa[0]
+dataa[1] => mult_f3p:auto_generated.dataa[1]
+dataa[2] => mult_f3p:auto_generated.dataa[2]
+dataa[3] => mult_f3p:auto_generated.dataa[3]
+dataa[4] => mult_f3p:auto_generated.dataa[4]
+dataa[5] => mult_f3p:auto_generated.dataa[5]
+datab[0] => mult_f3p:auto_generated.datab[0]
+datab[1] => mult_f3p:auto_generated.datab[1]
+datab[2] => mult_f3p:auto_generated.datab[2]
+datab[3] => mult_f3p:auto_generated.datab[3]
+datab[4] => mult_f3p:auto_generated.datab[4]
+datab[5] => mult_f3p:auto_generated.datab[5]
+datab[6] => mult_f3p:auto_generated.datab[6]
+datab[7] => mult_f3p:auto_generated.datab[7]
+datab[8] => mult_f3p:auto_generated.datab[8]
 sum[0] => ~NO_FANOUT~
 aclr => ~NO_FANOUT~
 sclr => ~NO_FANOUT~
-clock => ~NO_FANOUT~
+clock => mult_f3p:auto_generated.clock
 clken => ~NO_FANOUT~
-result[0] <= mult_o5n:auto_generated.result[0]
-result[1] <= mult_o5n:auto_generated.result[1]
-result[2] <= mult_o5n:auto_generated.result[2]
-result[3] <= mult_o5n:auto_generated.result[3]
-result[4] <= mult_o5n:auto_generated.result[4]
-result[5] <= mult_o5n:auto_generated.result[5]
-result[6] <= mult_o5n:auto_generated.result[6]
-result[7] <= mult_o5n:auto_generated.result[7]
-result[8] <= mult_o5n:auto_generated.result[8]
-result[9] <= mult_o5n:auto_generated.result[9]
-result[10] <= mult_o5n:auto_generated.result[10]
-result[11] <= mult_o5n:auto_generated.result[11]
-result[12] <= mult_o5n:auto_generated.result[12]
-result[13] <= mult_o5n:auto_generated.result[13]
-result[14] <= mult_o5n:auto_generated.result[14]
+result[0] <= mult_f3p:auto_generated.result[0]
+result[1] <= mult_f3p:auto_generated.result[1]
+result[2] <= mult_f3p:auto_generated.result[2]
+result[3] <= mult_f3p:auto_generated.result[3]
+result[4] <= mult_f3p:auto_generated.result[4]
+result[5] <= mult_f3p:auto_generated.result[5]
+result[6] <= mult_f3p:auto_generated.result[6]
+result[7] <= mult_f3p:auto_generated.result[7]
+result[8] <= mult_f3p:auto_generated.result[8]
+result[9] <= mult_f3p:auto_generated.result[9]
+result[10] <= mult_f3p:auto_generated.result[10]
+result[11] <= mult_f3p:auto_generated.result[11]
+result[12] <= mult_f3p:auto_generated.result[12]
+result[13] <= mult_f3p:auto_generated.result[13]
+result[14] <= mult_f3p:auto_generated.result[14]
 
 
-|AM_MODE|mult:mult_inst|lpm_mult:lpm_mult_component|mult_o5n:auto_generated
+|AM_MODE|mult:mult_inst|lpm_mult:lpm_mult_component|mult_f3p:auto_generated
+clock => mac_out2.CLK
 dataa[0] => mac_mult1.DATAA
 dataa[1] => mac_mult1.DATAA1
 dataa[2] => mac_mult1.DATAA2

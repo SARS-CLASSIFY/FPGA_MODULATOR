@@ -1,5 +1,5 @@
 Analysis & Synthesis report for AM_ASK
-Thu Mar 03 15:50:58 2022
+Thu Mar 10 16:56:44 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -62,15 +62,15 @@ refer to the applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Mar 03 15:50:58 2022           ;
+; Analysis & Synthesis Status        ; Successful - Thu Mar 10 16:56:43 2022           ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
 ; Revision Name                      ; AM_ASK                                          ;
 ; Top-level Entity Name              ; AM_MODE                                         ;
 ; Family                             ; Cyclone IV E                                    ;
 ; Total logic elements               ; 291                                             ;
-;     Total combinational functions  ; 280                                             ;
-;     Dedicated logic registers      ; 214                                             ;
-; Total registers                    ; 214                                             ;
+;     Total combinational functions  ; 266                                             ;
+;     Dedicated logic registers      ; 242                                             ;
+; Total registers                    ; 242                                             ;
 ; Total pins                         ; 28                                              ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 106,496                                         ;
@@ -221,7 +221,7 @@ refer to the applicable agreement for further details.
 ; lpm_mult.tdf                                       ; yes             ; Megafunction                     ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/lpm_mult.tdf                         ;         ;
 ; lpm_add_sub.inc                                    ; yes             ; Megafunction                     ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/lpm_add_sub.inc                      ;         ;
 ; multcore.inc                                       ; yes             ; Megafunction                     ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/multcore.inc                         ;         ;
-; db/mult_o5n.tdf                                    ; yes             ; Auto-Generated Megafunction      ; C:/Users/86150/Desktop/AM_AD_DATA/AM_ASK/db/mult_o5n.tdf                                    ;         ;
+; db/mult_f3p.tdf                                    ; yes             ; Auto-Generated Megafunction      ; C:/Users/86150/Desktop/AM_AD_DATA/AM_ASK/db/mult_f3p.tdf                                    ;         ;
 ; altpll.tdf                                         ; yes             ; Megafunction                     ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/altpll.tdf                           ;         ;
 ; stratix_pll.inc                                    ; yes             ; Megafunction                     ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/stratix_pll.inc                      ;         ;
 ; stratixii_pll.inc                                  ; yes             ; Megafunction                     ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/stratixii_pll.inc                    ;         ;
@@ -251,40 +251,40 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------+-----------------+----------------------------------+---------------------------------------------------------------------------------------------+---------+
 
 
-+-----------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary               ;
-+---------------------------------------------+-------------+
-; Resource                                    ; Usage       ;
-+---------------------------------------------+-------------+
-; Estimated Total logic elements              ; 291         ;
-;                                             ;             ;
-; Total combinational functions               ; 280         ;
-; Logic element usage by number of LUT inputs ;             ;
-;     -- 4 input functions                    ; 24          ;
-;     -- 3 input functions                    ; 63          ;
-;     -- <=2 input functions                  ; 193         ;
-;                                             ;             ;
-; Logic elements by mode                      ;             ;
-;     -- normal mode                          ; 160         ;
-;     -- arithmetic mode                      ; 120         ;
-;                                             ;             ;
-; Total registers                             ; 214         ;
-;     -- Dedicated logic registers            ; 214         ;
-;     -- I/O registers                        ; 0           ;
-;                                             ;             ;
-; I/O pins                                    ; 28          ;
-; Total memory bits                           ; 106496      ;
-;                                             ;             ;
-; Embedded Multiplier 9-bit elements          ; 1           ;
-;                                             ;             ;
-; Total PLLs                                  ; 2           ;
-;     -- PLLs                                 ; 2           ;
-;                                             ;             ;
-; Maximum fan-out node                        ; rst_n~input ;
-; Maximum fan-out                             ; 214         ;
-; Total fan-out                               ; 1602        ;
-; Average fan-out                             ; 2.76        ;
-+---------------------------------------------+-------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                                                                                                               ;
++---------------------------------------------+-------------------------------------------------------------------------------------------------------------+
+; Resource                                    ; Usage                                                                                                       ;
++---------------------------------------------+-------------------------------------------------------------------------------------------------------------+
+; Estimated Total logic elements              ; 291                                                                                                         ;
+;                                             ;                                                                                                             ;
+; Total combinational functions               ; 266                                                                                                         ;
+; Logic element usage by number of LUT inputs ;                                                                                                             ;
+;     -- 4 input functions                    ; 24                                                                                                          ;
+;     -- 3 input functions                    ; 50                                                                                                          ;
+;     -- <=2 input functions                  ; 192                                                                                                         ;
+;                                             ;                                                                                                             ;
+; Logic elements by mode                      ;                                                                                                             ;
+;     -- normal mode                          ; 146                                                                                                         ;
+;     -- arithmetic mode                      ; 120                                                                                                         ;
+;                                             ;                                                                                                             ;
+; Total registers                             ; 242                                                                                                         ;
+;     -- Dedicated logic registers            ; 242                                                                                                         ;
+;     -- I/O registers                        ; 0                                                                                                           ;
+;                                             ;                                                                                                             ;
+; I/O pins                                    ; 28                                                                                                          ;
+; Total memory bits                           ; 106496                                                                                                      ;
+;                                             ;                                                                                                             ;
+; Embedded Multiplier 9-bit elements          ; 1                                                                                                           ;
+;                                             ;                                                                                                             ;
+; Total PLLs                                  ; 2                                                                                                           ;
+;     -- PLLs                                 ; 2                                                                                                           ;
+;                                             ;                                                                                                             ;
+; Maximum fan-out node                        ; FskMod:FskMod_inst|pll200:pll200_inst|altpll:altpll_component|pll200_altpll:auto_generated|wire_pll1_clk[0] ;
+; Maximum fan-out                             ; 229                                                                                                         ;
+; Total fan-out                               ; 1658                                                                                                        ;
+; Average fan-out                             ; 2.79                                                                                                        ;
++---------------------------------------------+-------------------------------------------------------------------------------------------------------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -292,7 +292,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------+
 ; Compilation Hierarchy Node                         ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                              ; Entity Name      ; Library Name ;
 +----------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------+
-; |AM_MODE                                           ; 280 (79)            ; 214 (33)                  ; 106496      ; 1            ; 1       ; 0         ; 28   ; 0            ; |AM_MODE                                                                                                                                         ; AM_MODE          ; work         ;
+; |AM_MODE                                           ; 266 (65)            ; 242 (61)                  ; 106496      ; 1            ; 1       ; 0         ; 28   ; 0            ; |AM_MODE                                                                                                                                         ; AM_MODE          ; work         ;
 ;    |FskMod:FskMod_inst|                            ; 195 (0)             ; 172 (0)                   ; 106496      ; 0            ; 0       ; 0         ; 0    ; 0            ; |AM_MODE|FskMod:FskMod_inst                                                                                                                      ; FskMod           ; work         ;
 ;       |fsk:u0|                                     ; 195 (0)             ; 172 (0)                   ; 106496      ; 0            ; 0       ; 0         ; 0    ; 0            ; |AM_MODE|FskMod:FskMod_inst|fsk:u0                                                                                                               ; fsk              ; fsk          ;
 ;          |fsk_nco_ii_0:nco_ii_0|                   ; 195 (0)             ; 172 (0)                   ; 106496      ; 0            ; 0       ; 0         ; 0    ; 0            ; |AM_MODE|FskMod:FskMod_inst|fsk:u0|fsk_nco_ii_0:nco_ii_0                                                                                         ; fsk_nco_ii_0     ; fsk          ;
@@ -327,7 +327,7 @@ refer to the applicable agreement for further details.
 ;          |add_sub_shh:auto_generated|              ; 6 (6)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |AM_MODE|add:add_inst|lpm_add_sub:LPM_ADD_SUB_component|add_sub_shh:auto_generated                                                               ; add_sub_shh      ; work         ;
 ;    |mult:mult_inst|                                ; 0 (0)               ; 0 (0)                     ; 0           ; 1            ; 1       ; 0         ; 0    ; 0            ; |AM_MODE|mult:mult_inst                                                                                                                          ; mult             ; work         ;
 ;       |lpm_mult:lpm_mult_component|                ; 0 (0)               ; 0 (0)                     ; 0           ; 1            ; 1       ; 0         ; 0    ; 0            ; |AM_MODE|mult:mult_inst|lpm_mult:lpm_mult_component                                                                                              ; lpm_mult         ; work         ;
-;          |mult_o5n:auto_generated|                 ; 0 (0)               ; 0 (0)                     ; 0           ; 1            ; 1       ; 0         ; 0    ; 0            ; |AM_MODE|mult:mult_inst|lpm_mult:lpm_mult_component|mult_o5n:auto_generated                                                                      ; mult_o5n         ; work         ;
+;          |mult_f3p:auto_generated|                 ; 0 (0)               ; 0 (0)                     ; 0           ; 1            ; 1       ; 0         ; 0    ; 0            ; |AM_MODE|mult:mult_inst|lpm_mult:lpm_mult_component|mult_f3p:auto_generated                                                                      ; mult_f3p         ; work         ;
 +----------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -430,9 +430,9 @@ Note: number of Embedded Multiplier Blocks used is only available after a succes
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 214   ;
+; Total registers                              ; 242   ;
 ; Number of registers using Synchronous Clear  ; 49    ;
-; Number of registers using Synchronous Load   ; 1     ;
+; Number of registers using Synchronous Load   ; 15    ;
 ; Number of registers using Asynchronous Clear ; 74    ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 0     ;
@@ -450,14 +450,14 @@ Note: number of Embedded Multiplier Blocks used is only available after a succes
 +----------------------------------------+---------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                   ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                         ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------+
-; 3:1                ; 12 bits   ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; Yes        ; |AM_MODE|FskMod:FskMod_inst|fsk:u0|fsk_nco_ii_0:nco_ii_0|asj_gar:ux007|rom_add[5]  ;
-; 9:1                ; 5 bits    ; 30 LEs        ; 15 LEs               ; 15 LEs                 ; Yes        ; |AM_MODE|FskMod:FskMod_inst|fsk:u0|fsk_nco_ii_0:nco_ii_0|segment_sel:rot|sin_o[10] ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                  ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                        ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------------------------+
+; 3:1                ; 12 bits   ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; Yes        ; |AM_MODE|FskMod:FskMod_inst|fsk:u0|fsk_nco_ii_0:nco_ii_0|asj_gar:ux007|rom_add[6] ;
+; 9:1                ; 5 bits    ; 30 LEs        ; 15 LEs               ; 15 LEs                 ; Yes        ; |AM_MODE|FskMod:FskMod_inst|fsk:u0|fsk_nco_ii_0:nco_ii_0|segment_sel:rot|sin_o[9] ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------------------------+
 
 
 +---------------------------------------------------------------------------------------------+
@@ -503,7 +503,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; LPM_WIDTHR                                     ; 0            ; Untyped                 ;
 ; LPM_WIDTHS                                     ; 1            ; Untyped                 ;
 ; LPM_REPRESENTATION                             ; SIGNED       ; Untyped                 ;
-; LPM_PIPELINE                                   ; 0            ; Untyped                 ;
+; LPM_PIPELINE                                   ; 1            ; Signed Integer          ;
 ; LATENCY                                        ; 0            ; Untyped                 ;
 ; INPUT_A_IS_CONSTANT                            ; NO           ; Untyped                 ;
 ; INPUT_B_IS_CONSTANT                            ; NO           ; Untyped                 ;
@@ -515,7 +515,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO         ; Untyped                 ;
 ; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0            ; Untyped                 ;
 ; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0            ; Untyped                 ;
-; CBXI_PARAMETER                                 ; mult_o5n     ; Untyped                 ;
+; CBXI_PARAMETER                                 ; mult_f3p     ; Untyped                 ;
 ; INPUT_A_FIXED_VALUE                            ; Bx           ; Untyped                 ;
 ; INPUT_B_FIXED_VALUE                            ; Bx           ; Untyped                 ;
 ; USE_AHDL_IMPLEMENTATION                        ; OFF          ; Untyped                 ;
@@ -1421,20 +1421,20 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; boundary_port         ; 28                          ;
-; cycloneiii_ff         ; 214                         ;
+; cycloneiii_ff         ; 242                         ;
 ;     CLR               ; 74                          ;
 ;     SCLR              ; 49                          ;
-;     SLD               ; 1                           ;
-;     plain             ; 90                          ;
-; cycloneiii_lcell_comb ; 280                         ;
+;     SLD               ; 15                          ;
+;     plain             ; 104                         ;
+; cycloneiii_lcell_comb ; 266                         ;
 ;     arith             ; 120                         ;
 ;         2 data inputs ; 71                          ;
 ;         3 data inputs ; 49                          ;
-;     normal            ; 160                         ;
+;     normal            ; 146                         ;
 ;         0 data inputs ; 2                           ;
 ;         1 data inputs ; 5                           ;
-;         2 data inputs ; 115                         ;
-;         3 data inputs ; 14                          ;
+;         2 data inputs ; 114                         ;
+;         3 data inputs ; 1                           ;
 ;         4 data inputs ; 24                          ;
 ; cycloneiii_mac_mult   ; 1                           ;
 ; cycloneiii_mac_out    ; 1                           ;
@@ -1442,7 +1442,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; cycloneiii_ram_block  ; 26                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 4.10                        ;
-; Average LUT depth     ; 2.02                        ;
+; Average LUT depth     ; 1.87                        ;
 +-----------------------+-----------------------------+
 
 
@@ -1451,7 +1451,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -1461,7 +1461,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
-    Info: Processing started: Thu Mar 03 15:50:37 2022
+    Info: Processing started: Thu Mar 10 16:56:16 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off AM_ASK -c AM_ASK
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -1531,20 +1531,21 @@ Info (12133): Instantiated megafunction "add:add_inst|lpm_add_sub:LPM_ADD_SUB_co
 Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_shh.tdf
     Info (12023): Found entity 1: add_sub_shh File: C:/Users/86150/Desktop/AM_AD_DATA/AM_ASK/db/add_sub_shh.tdf Line: 22
 Info (12128): Elaborating entity "add_sub_shh" for hierarchy "add:add_inst|lpm_add_sub:LPM_ADD_SUB_component|add_sub_shh:auto_generated" File: d:/intelfpga/intelfpga/quartus/libraries/megafunctions/lpm_add_sub.tdf Line: 118
-Info (12128): Elaborating entity "mult" for hierarchy "mult:mult_inst" File: C:/Users/86150/Desktop/AM_AD_DATA/AM_ASK/AM_MODE.v Line: 116
-Info (12128): Elaborating entity "lpm_mult" for hierarchy "mult:mult_inst|lpm_mult:lpm_mult_component" File: C:/Users/86150/Desktop/AM_AD_DATA/AM_ASK/ip/mult/mult.v Line: 59
-Info (12130): Elaborated megafunction instantiation "mult:mult_inst|lpm_mult:lpm_mult_component" File: C:/Users/86150/Desktop/AM_AD_DATA/AM_ASK/ip/mult/mult.v Line: 59
-Info (12133): Instantiated megafunction "mult:mult_inst|lpm_mult:lpm_mult_component" with the following parameter: File: C:/Users/86150/Desktop/AM_AD_DATA/AM_ASK/ip/mult/mult.v Line: 59
+Info (12128): Elaborating entity "mult" for hierarchy "mult:mult_inst" File: C:/Users/86150/Desktop/AM_AD_DATA/AM_ASK/AM_MODE.v Line: 117
+Info (12128): Elaborating entity "lpm_mult" for hierarchy "mult:mult_inst|lpm_mult:lpm_mult_component" File: C:/Users/86150/Desktop/AM_AD_DATA/AM_ASK/ip/mult/mult.v Line: 61
+Info (12130): Elaborated megafunction instantiation "mult:mult_inst|lpm_mult:lpm_mult_component" File: C:/Users/86150/Desktop/AM_AD_DATA/AM_ASK/ip/mult/mult.v Line: 61
+Info (12133): Instantiated megafunction "mult:mult_inst|lpm_mult:lpm_mult_component" with the following parameter: File: C:/Users/86150/Desktop/AM_AD_DATA/AM_ASK/ip/mult/mult.v Line: 61
     Info (12134): Parameter "lpm_hint" = "MAXIMIZE_SPEED=5"
+    Info (12134): Parameter "lpm_pipeline" = "1"
     Info (12134): Parameter "lpm_representation" = "SIGNED"
     Info (12134): Parameter "lpm_type" = "LPM_MULT"
     Info (12134): Parameter "lpm_widtha" = "6"
     Info (12134): Parameter "lpm_widthb" = "9"
     Info (12134): Parameter "lpm_widthp" = "15"
-Info (12021): Found 1 design units, including 1 entities, in source file db/mult_o5n.tdf
-    Info (12023): Found entity 1: mult_o5n File: C:/Users/86150/Desktop/AM_AD_DATA/AM_ASK/db/mult_o5n.tdf Line: 28
-Info (12128): Elaborating entity "mult_o5n" for hierarchy "mult:mult_inst|lpm_mult:lpm_mult_component|mult_o5n:auto_generated" File: d:/intelfpga/intelfpga/quartus/libraries/megafunctions/lpm_mult.tdf Line: 376
-Info (12128): Elaborating entity "adc10065" for hierarchy "adc10065:adc10065_inst" File: C:/Users/86150/Desktop/AM_AD_DATA/AM_ASK/AM_MODE.v Line: 125
+Info (12021): Found 1 design units, including 1 entities, in source file db/mult_f3p.tdf
+    Info (12023): Found entity 1: mult_f3p File: C:/Users/86150/Desktop/AM_AD_DATA/AM_ASK/db/mult_f3p.tdf Line: 28
+Info (12128): Elaborating entity "mult_f3p" for hierarchy "mult:mult_inst|lpm_mult:lpm_mult_component|mult_f3p:auto_generated" File: d:/intelfpga/intelfpga/quartus/libraries/megafunctions/lpm_mult.tdf Line: 376
+Info (12128): Elaborating entity "adc10065" for hierarchy "adc10065:adc10065_inst" File: C:/Users/86150/Desktop/AM_AD_DATA/AM_ASK/AM_MODE.v Line: 126
 Info (12128): Elaborating entity "pll_1M" for hierarchy "adc10065:adc10065_inst|pll_1M:comb_46" File: C:/Users/86150/Desktop/AM_AD_DATA/AM_ASK/source/adc10065.v Line: 40
 Info (12128): Elaborating entity "altpll" for hierarchy "adc10065:adc10065_inst|pll_1M:comb_46|altpll:altpll_component" File: C:/Users/86150/Desktop/AM_AD_DATA/AM_ASK/ip/pll_1M/pll_1M.v Line: 90
 Info (12130): Elaborated megafunction instantiation "adc10065:adc10065_inst|pll_1M:comb_46|altpll:altpll_component" File: C:/Users/86150/Desktop/AM_AD_DATA/AM_ASK/ip/pll_1M/pll_1M.v Line: 90
@@ -1606,7 +1607,7 @@ Info (12133): Instantiated megafunction "adc10065:adc10065_inst|pll_1M:comb_46|a
 Info (12021): Found 1 design units, including 1 entities, in source file db/pll_1m_altpll.v
     Info (12023): Found entity 1: pll_1M_altpll File: C:/Users/86150/Desktop/AM_AD_DATA/AM_ASK/db/pll_1m_altpll.v Line: 29
 Info (12128): Elaborating entity "pll_1M_altpll" for hierarchy "adc10065:adc10065_inst|pll_1M:comb_46|altpll:altpll_component|pll_1M_altpll:auto_generated" File: d:/intelfpga/intelfpga/quartus/libraries/megafunctions/altpll.tdf Line: 897
-Info (12128): Elaborating entity "FskMod" for hierarchy "FskMod:FskMod_inst" File: C:/Users/86150/Desktop/AM_AD_DATA/AM_ASK/AM_MODE.v Line: 135
+Info (12128): Elaborating entity "FskMod" for hierarchy "FskMod:FskMod_inst" File: C:/Users/86150/Desktop/AM_AD_DATA/AM_ASK/AM_MODE.v Line: 136
 Info (12128): Elaborating entity "fsk" for hierarchy "FskMod:FskMod_inst|fsk:u0" File: C:/Users/86150/Desktop/AM_AD_DATA/AM_ASK/source/fsk/FskMod.v Line: 33
 Info (12128): Elaborating entity "fsk_nco_ii_0" for hierarchy "FskMod:FskMod_inst|fsk:u0|fsk_nco_ii_0:nco_ii_0" File: C:/Users/86150/Desktop/AM_AD_DATA/AM_ASK/ip/fsk/fsk/synthesis/fsk.v Line: 24
 Info (12128): Elaborating entity "asj_xnqg" for hierarchy "FskMod:FskMod_inst|fsk:u0|fsk_nco_ii_0:nco_ii_0|asj_xnqg:u011" File: C:/Users/86150/Desktop/AM_AD_DATA/AM_ASK/ip/fsk/fsk/synthesis/submodules/fsk_nco_ii_0.v Line: 332
@@ -1764,9 +1765,9 @@ Info (21057): Implemented 348 device resources after synthesis - the final resou
     Info (21065): Implemented 2 PLLs
     Info (21062): Implemented 1 DSP elements
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 4810 megabytes
-    Info: Processing ended: Thu Mar 03 15:50:58 2022
-    Info: Elapsed time: 00:00:21
-    Info: Total CPU time (on all processors): 00:00:33
+    Info: Peak virtual memory: 4812 megabytes
+    Info: Processing ended: Thu Mar 10 16:56:44 2022
+    Info: Elapsed time: 00:00:28
+    Info: Total CPU time (on all processors): 00:00:39
 
 

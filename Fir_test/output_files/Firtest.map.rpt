@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Firtest
-Sun Jan 30 00:23:52 2022
+Sun Mar 06 22:46:10 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -175,7 +175,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun Jan 30 00:23:52 2022           ;
+; Analysis & Synthesis Status        ; Successful - Sun Mar 06 22:46:10 2022           ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
 ; Revision Name                      ; Firtest                                         ;
 ; Top-level Entity Name              ; FirIPCore                                       ;
@@ -297,42 +297,42 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                                     ;
-+-----------------------------------------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path                                ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                  ; Library ;
-+-----------------------------------------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------------+---------+
-; ip/filter/firip.v                                               ; yes             ; User Wizard-Generated File   ; J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip.v                                               ; firip   ;
-; ip/filter/firip/dspba_library_package.vhd                       ; yes             ; User VHDL File               ; J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/dspba_library_package.vhd                       ; firip   ;
-; ip/filter/firip/dspba_library.vhd                               ; yes             ; User VHDL File               ; J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/dspba_library.vhd                               ; firip   ;
-; ip/filter/firip/auk_dspip_math_pkg_hpfir.vhd                    ; yes             ; User VHDL File               ; J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/auk_dspip_math_pkg_hpfir.vhd                    ; firip   ;
-; ip/filter/firip/auk_dspip_lib_pkg_hpfir.vhd                     ; yes             ; User VHDL File               ; J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/auk_dspip_lib_pkg_hpfir.vhd                     ; firip   ;
-; ip/filter/firip/auk_dspip_avalon_streaming_controller_hpfir.vhd ; yes             ; User VHDL File               ; J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/auk_dspip_avalon_streaming_controller_hpfir.vhd ; firip   ;
-; ip/filter/firip/auk_dspip_avalon_streaming_sink_hpfir.vhd       ; yes             ; User VHDL File               ; J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/auk_dspip_avalon_streaming_sink_hpfir.vhd       ; firip   ;
-; ip/filter/firip/auk_dspip_avalon_streaming_source_hpfir.vhd     ; yes             ; User VHDL File               ; J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/auk_dspip_avalon_streaming_source_hpfir.vhd     ; firip   ;
-; ip/filter/firip/auk_dspip_roundsat_hpfir.vhd                    ; yes             ; User VHDL File               ; J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/auk_dspip_roundsat_hpfir.vhd                    ; firip   ;
-; ip/filter/firip/altera_avalon_sc_fifo.v                         ; yes             ; User Verilog HDL File        ; J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/altera_avalon_sc_fifo.v                         ; firip   ;
-; ip/filter/firip/firip_0002_rtl_core.vhd                         ; yes             ; User VHDL File               ; J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/firip_0002_rtl_core.vhd                         ; firip   ;
-; ip/filter/firip/firip_0002_ast.vhd                              ; yes             ; User VHDL File               ; J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/firip_0002_ast.vhd                              ; firip   ;
-; ip/filter/firip/firip_0002.vhd                                  ; yes             ; User VHDL File               ; J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/firip_0002.vhd                                  ; firip   ;
-; source/FirIPCore.v                                              ; yes             ; User Verilog HDL File        ; J:/GIT/FPGA_MODULATOR/Firtest/source/FirIPCore.v                                              ;         ;
-; altsyncram.tdf                                                  ; yes             ; Megafunction                 ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/altsyncram.tdf                         ;         ;
-; stratix_ram_block.inc                                           ; yes             ; Megafunction                 ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/stratix_ram_block.inc                  ;         ;
-; lpm_mux.inc                                                     ; yes             ; Megafunction                 ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/lpm_mux.inc                            ;         ;
-; lpm_decode.inc                                                  ; yes             ; Megafunction                 ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/lpm_decode.inc                         ;         ;
-; aglobal181.inc                                                  ; yes             ; Megafunction                 ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/aglobal181.inc                         ;         ;
-; a_rdenreg.inc                                                   ; yes             ; Megafunction                 ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/a_rdenreg.inc                          ;         ;
-; altrom.inc                                                      ; yes             ; Megafunction                 ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/altrom.inc                             ;         ;
-; altram.inc                                                      ; yes             ; Megafunction                 ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/altram.inc                             ;         ;
-; altdpram.inc                                                    ; yes             ; Megafunction                 ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/altdpram.inc                           ;         ;
-; db/altsyncram_2in3.tdf                                          ; yes             ; Auto-Generated Megafunction  ; J:/GIT/FPGA_MODULATOR/Firtest/db/altsyncram_2in3.tdf                                          ;         ;
-; lpm_mult.tdf                                                    ; yes             ; Megafunction                 ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/lpm_mult.tdf                           ;         ;
-; lpm_add_sub.inc                                                 ; yes             ; Megafunction                 ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/lpm_add_sub.inc                        ;         ;
-; multcore.inc                                                    ; yes             ; Megafunction                 ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/multcore.inc                           ;         ;
-; bypassff.inc                                                    ; yes             ; Megafunction                 ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/bypassff.inc                           ;         ;
-; altshift.inc                                                    ; yes             ; Megafunction                 ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/altshift.inc                           ;         ;
-; db/mult_udu.tdf                                                 ; yes             ; Auto-Generated Megafunction  ; J:/GIT/FPGA_MODULATOR/Firtest/db/mult_udu.tdf                                                 ;         ;
-+-----------------------------------------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                      ;
++-----------------------------------------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path                                ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                   ; Library ;
++-----------------------------------------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------------------------+---------+
+; ip/filter/firip.v                                               ; yes             ; User Wizard-Generated File   ; J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip.v                                               ; firip   ;
+; ip/filter/firip/dspba_library_package.vhd                       ; yes             ; User VHDL File               ; J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/dspba_library_package.vhd                       ; firip   ;
+; ip/filter/firip/dspba_library.vhd                               ; yes             ; User VHDL File               ; J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/dspba_library.vhd                               ; firip   ;
+; ip/filter/firip/auk_dspip_math_pkg_hpfir.vhd                    ; yes             ; User VHDL File               ; J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/auk_dspip_math_pkg_hpfir.vhd                    ; firip   ;
+; ip/filter/firip/auk_dspip_lib_pkg_hpfir.vhd                     ; yes             ; User VHDL File               ; J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/auk_dspip_lib_pkg_hpfir.vhd                     ; firip   ;
+; ip/filter/firip/auk_dspip_avalon_streaming_controller_hpfir.vhd ; yes             ; User VHDL File               ; J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/auk_dspip_avalon_streaming_controller_hpfir.vhd ; firip   ;
+; ip/filter/firip/auk_dspip_avalon_streaming_sink_hpfir.vhd       ; yes             ; User VHDL File               ; J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/auk_dspip_avalon_streaming_sink_hpfir.vhd       ; firip   ;
+; ip/filter/firip/auk_dspip_avalon_streaming_source_hpfir.vhd     ; yes             ; User VHDL File               ; J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/auk_dspip_avalon_streaming_source_hpfir.vhd     ; firip   ;
+; ip/filter/firip/auk_dspip_roundsat_hpfir.vhd                    ; yes             ; User VHDL File               ; J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/auk_dspip_roundsat_hpfir.vhd                    ; firip   ;
+; ip/filter/firip/altera_avalon_sc_fifo.v                         ; yes             ; User Verilog HDL File        ; J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/altera_avalon_sc_fifo.v                         ; firip   ;
+; ip/filter/firip/firip_0002_rtl_core.vhd                         ; yes             ; User VHDL File               ; J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/firip_0002_rtl_core.vhd                         ; firip   ;
+; ip/filter/firip/firip_0002_ast.vhd                              ; yes             ; User VHDL File               ; J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/firip_0002_ast.vhd                              ; firip   ;
+; ip/filter/firip/firip_0002.vhd                                  ; yes             ; User VHDL File               ; J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/firip_0002.vhd                                  ; firip   ;
+; source/FirIPCore.v                                              ; yes             ; User Verilog HDL File        ; J:/GIT/FPGA_MODULATOR/Fir_test/source/FirIPCore.v                                              ;         ;
+; altsyncram.tdf                                                  ; yes             ; Megafunction                 ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/altsyncram.tdf                          ;         ;
+; stratix_ram_block.inc                                           ; yes             ; Megafunction                 ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/stratix_ram_block.inc                   ;         ;
+; lpm_mux.inc                                                     ; yes             ; Megafunction                 ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/lpm_mux.inc                             ;         ;
+; lpm_decode.inc                                                  ; yes             ; Megafunction                 ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/lpm_decode.inc                          ;         ;
+; aglobal181.inc                                                  ; yes             ; Megafunction                 ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/aglobal181.inc                          ;         ;
+; a_rdenreg.inc                                                   ; yes             ; Megafunction                 ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/a_rdenreg.inc                           ;         ;
+; altrom.inc                                                      ; yes             ; Megafunction                 ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/altrom.inc                              ;         ;
+; altram.inc                                                      ; yes             ; Megafunction                 ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/altram.inc                              ;         ;
+; altdpram.inc                                                    ; yes             ; Megafunction                 ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/altdpram.inc                            ;         ;
+; db/altsyncram_2in3.tdf                                          ; yes             ; Auto-Generated Megafunction  ; J:/GIT/FPGA_MODULATOR/Fir_test/db/altsyncram_2in3.tdf                                          ;         ;
+; lpm_mult.tdf                                                    ; yes             ; Megafunction                 ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/lpm_mult.tdf                            ;         ;
+; lpm_add_sub.inc                                                 ; yes             ; Megafunction                 ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/lpm_add_sub.inc                         ;         ;
+; multcore.inc                                                    ; yes             ; Megafunction                 ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/multcore.inc                            ;         ;
+; bypassff.inc                                                    ; yes             ; Megafunction                 ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/bypassff.inc                            ;         ;
+; altshift.inc                                                    ; yes             ; Megafunction                 ; d:/intelfpga/intelfpga/quartus/libraries/megafunctions/altshift.inc                            ;         ;
+; db/mult_udu.tdf                                                 ; yes             ; Auto-Generated Megafunction  ; J:/GIT/FPGA_MODULATOR/Fir_test/db/mult_udu.tdf                                                 ;         ;
++-----------------------------------------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------+
@@ -4383,69 +4383,69 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
-    Info: Processing started: Sun Jan 30 00:23:35 2022
+    Info: Processing started: Sun Mar 06 22:45:53 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Firtest -c Firtest
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file ip/filter/firip.v
-    Info (12023): Found entity 1: firip File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip.v Line: 8
+    Info (12023): Found entity 1: firip File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip.v Line: 8
 Info (12021): Found 1 design units, including 0 entities, in source file ip/filter/firip/dspba_library_package.vhd
-    Info (12022): Found design unit 1: dspba_library_package (firip) File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/dspba_library_package.vhd Line: 17
+    Info (12022): Found design unit 1: dspba_library_package (firip) File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/dspba_library_package.vhd Line: 17
 Info (12021): Found 6 design units, including 3 entities, in source file ip/filter/firip/dspba_library.vhd
-    Info (12022): Found design unit 1: dspba_delay-delay File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/dspba_library.vhd Line: 34
-    Info (12022): Found design unit 2: dspba_sync_reg-sync_reg File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/dspba_library.vhd Line: 117
-    Info (12022): Found design unit 3: dspba_pipe-rtl File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/dspba_library.vhd Line: 356
-    Info (12023): Found entity 1: dspba_delay File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/dspba_library.vhd Line: 18
-    Info (12023): Found entity 2: dspba_sync_reg File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/dspba_library.vhd Line: 93
-    Info (12023): Found entity 3: dspba_pipe File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/dspba_library.vhd Line: 343
+    Info (12022): Found design unit 1: dspba_delay-delay File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/dspba_library.vhd Line: 34
+    Info (12022): Found design unit 2: dspba_sync_reg-sync_reg File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/dspba_library.vhd Line: 117
+    Info (12022): Found design unit 3: dspba_pipe-rtl File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/dspba_library.vhd Line: 356
+    Info (12023): Found entity 1: dspba_delay File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/dspba_library.vhd Line: 18
+    Info (12023): Found entity 2: dspba_sync_reg File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/dspba_library.vhd Line: 93
+    Info (12023): Found entity 3: dspba_pipe File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/dspba_library.vhd Line: 343
 Info (12021): Found 2 design units, including 0 entities, in source file ip/filter/firip/auk_dspip_math_pkg_hpfir.vhd
-    Info (12022): Found design unit 1: auk_dspip_math_pkg_hpfir (firip) File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/auk_dspip_math_pkg_hpfir.vhd Line: 54
-    Info (12022): Found design unit 2: auk_dspip_math_pkg_hpfir-body File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/auk_dspip_math_pkg_hpfir.vhd Line: 131
+    Info (12022): Found design unit 1: auk_dspip_math_pkg_hpfir (firip) File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/auk_dspip_math_pkg_hpfir.vhd Line: 54
+    Info (12022): Found design unit 2: auk_dspip_math_pkg_hpfir-body File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/auk_dspip_math_pkg_hpfir.vhd Line: 131
 Info (12021): Found 1 design units, including 0 entities, in source file ip/filter/firip/auk_dspip_lib_pkg_hpfir.vhd
-    Info (12022): Found design unit 1: auk_dspip_lib_pkg_hpfir (firip) File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/auk_dspip_lib_pkg_hpfir.vhd Line: 22
+    Info (12022): Found design unit 1: auk_dspip_lib_pkg_hpfir (firip) File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/auk_dspip_lib_pkg_hpfir.vhd Line: 22
 Info (12021): Found 2 design units, including 1 entities, in source file ip/filter/firip/auk_dspip_avalon_streaming_controller_hpfir.vhd
-    Info (12022): Found design unit 1: auk_dspip_avalon_streaming_controller_hpfir-struct File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/auk_dspip_avalon_streaming_controller_hpfir.vhd Line: 64
-    Info (12023): Found entity 1: auk_dspip_avalon_streaming_controller_hpfir File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/auk_dspip_avalon_streaming_controller_hpfir.vhd Line: 41
+    Info (12022): Found design unit 1: auk_dspip_avalon_streaming_controller_hpfir-struct File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/auk_dspip_avalon_streaming_controller_hpfir.vhd Line: 64
+    Info (12023): Found entity 1: auk_dspip_avalon_streaming_controller_hpfir File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/auk_dspip_avalon_streaming_controller_hpfir.vhd Line: 41
 Info (12021): Found 2 design units, including 1 entities, in source file ip/filter/firip/auk_dspip_avalon_streaming_sink_hpfir.vhd
-    Info (12022): Found design unit 1: auk_dspip_avalon_streaming_sink_hpfir-rtl File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/auk_dspip_avalon_streaming_sink_hpfir.vhd Line: 106
-    Info (12023): Found entity 1: auk_dspip_avalon_streaming_sink_hpfir File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/auk_dspip_avalon_streaming_sink_hpfir.vhd Line: 56
+    Info (12022): Found design unit 1: auk_dspip_avalon_streaming_sink_hpfir-rtl File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/auk_dspip_avalon_streaming_sink_hpfir.vhd Line: 106
+    Info (12023): Found entity 1: auk_dspip_avalon_streaming_sink_hpfir File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/auk_dspip_avalon_streaming_sink_hpfir.vhd Line: 56
 Info (12021): Found 2 design units, including 1 entities, in source file ip/filter/firip/auk_dspip_avalon_streaming_source_hpfir.vhd
-    Info (12022): Found design unit 1: auk_dspip_avalon_streaming_source_hpfir-rtl File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/auk_dspip_avalon_streaming_source_hpfir.vhd Line: 109
-    Info (12023): Found entity 1: auk_dspip_avalon_streaming_source_hpfir File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/auk_dspip_avalon_streaming_source_hpfir.vhd Line: 70
+    Info (12022): Found design unit 1: auk_dspip_avalon_streaming_source_hpfir-rtl File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/auk_dspip_avalon_streaming_source_hpfir.vhd Line: 109
+    Info (12023): Found entity 1: auk_dspip_avalon_streaming_source_hpfir File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/auk_dspip_avalon_streaming_source_hpfir.vhd Line: 70
 Info (12021): Found 2 design units, including 1 entities, in source file ip/filter/firip/auk_dspip_roundsat_hpfir.vhd
-    Info (12022): Found design unit 1: auk_dspip_roundsat_hpfir-beh File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/auk_dspip_roundsat_hpfir.vhd Line: 57
-    Info (12023): Found entity 1: auk_dspip_roundsat_hpfir File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/auk_dspip_roundsat_hpfir.vhd Line: 39
+    Info (12022): Found design unit 1: auk_dspip_roundsat_hpfir-beh File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/auk_dspip_roundsat_hpfir.vhd Line: 57
+    Info (12023): Found entity 1: auk_dspip_roundsat_hpfir File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/auk_dspip_roundsat_hpfir.vhd Line: 39
 Info (12021): Found 1 design units, including 1 entities, in source file ip/filter/firip/altera_avalon_sc_fifo.v
-    Info (12023): Found entity 1: altera_avalon_sc_fifo File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/altera_avalon_sc_fifo.v Line: 21
+    Info (12023): Found entity 1: altera_avalon_sc_fifo File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/altera_avalon_sc_fifo.v Line: 21
 Info (12021): Found 2 design units, including 1 entities, in source file ip/filter/firip/firip_0002_rtl_core.vhd
-    Info (12022): Found design unit 1: firip_0002_rtl_core-normal File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/firip_0002_rtl_core.vhd Line: 47
-    Info (12023): Found entity 1: firip_0002_rtl_core File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/firip_0002_rtl_core.vhd Line: 34
+    Info (12022): Found design unit 1: firip_0002_rtl_core-normal File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/firip_0002_rtl_core.vhd Line: 47
+    Info (12023): Found entity 1: firip_0002_rtl_core File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/firip_0002_rtl_core.vhd Line: 34
 Info (12021): Found 2 design units, including 1 entities, in source file ip/filter/firip/firip_0002_ast.vhd
-    Info (12022): Found design unit 1: firip_0002_ast-struct File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/firip_0002_ast.vhd Line: 55
-    Info (12023): Found entity 1: firip_0002_ast File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/firip_0002_ast.vhd Line: 9
+    Info (12022): Found design unit 1: firip_0002_ast-struct File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/firip_0002_ast.vhd Line: 55
+    Info (12023): Found entity 1: firip_0002_ast File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/firip_0002_ast.vhd Line: 9
 Info (12021): Found 2 design units, including 1 entities, in source file ip/filter/firip/firip_0002.vhd
-    Info (12022): Found design unit 1: firip_0002-syn File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/firip_0002.vhd Line: 33
-    Info (12023): Found entity 1: firip_0002 File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/firip_0002.vhd Line: 19
+    Info (12022): Found design unit 1: firip_0002-syn File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/firip_0002.vhd Line: 33
+    Info (12023): Found entity 1: firip_0002 File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/firip_0002.vhd Line: 19
 Info (12021): Found 1 design units, including 1 entities, in source file source/firipcore.v
-    Info (12023): Found entity 1: FirIPCore File: J:/GIT/FPGA_MODULATOR/Firtest/source/FirIPCore.v Line: 2
+    Info (12023): Found entity 1: FirIPCore File: J:/GIT/FPGA_MODULATOR/Fir_test/source/FirIPCore.v Line: 2
 Info (12127): Elaborating entity "FirIPCore" for the top level hierarchy
-Info (12128): Elaborating entity "firip" for hierarchy "firip:u0" File: J:/GIT/FPGA_MODULATOR/Firtest/source/FirIPCore.v Line: 41
-Info (12128): Elaborating entity "firip_0002" for hierarchy "firip:u0|firip_0002:firip_inst" File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip.v Line: 28
-Warning (10036): Verilog HDL or VHDL warning at firip_0002.vhd(54): object "coeff_in_read_sig" assigned a value but never read File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/firip_0002.vhd Line: 54
-Info (12128): Elaborating entity "firip_0002_ast" for hierarchy "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst" File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/firip_0002.vhd Line: 62
-Warning (10541): VHDL Signal Declaration warning at firip_0002_ast.vhd(208): used implicit default value for signal "core_channel_out_core" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/firip_0002_ast.vhd Line: 208
-Info (12128): Elaborating entity "auk_dspip_avalon_streaming_sink_hpfir" for hierarchy "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|auk_dspip_avalon_streaming_sink_hpfir:sink" File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/firip_0002_ast.vhd Line: 89
-Info (12128): Elaborating entity "auk_dspip_avalon_streaming_source_hpfir" for hierarchy "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|auk_dspip_avalon_streaming_source_hpfir:source" File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/firip_0002_ast.vhd Line: 109
-Info (12128): Elaborating entity "auk_dspip_avalon_streaming_controller_hpfir" for hierarchy "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|auk_dspip_avalon_streaming_controller_hpfir:intf_ctrl" File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/firip_0002_ast.vhd Line: 137
-Info (12128): Elaborating entity "firip_0002_rtl_core" for hierarchy "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|firip_0002_rtl_core:\real_passthrough:hpfircore_core" File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/firip_0002_ast.vhd Line: 218
-Info (12128): Elaborating entity "dspba_delay" for hierarchy "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|firip_0002_rtl_core:\real_passthrough:hpfircore_core|dspba_delay:u0_m0_wo0_memread" File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/firip_0002_rtl_core.vhd Line: 709
-Info (12128): Elaborating entity "dspba_delay" for hierarchy "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|firip_0002_rtl_core:\real_passthrough:hpfircore_core|dspba_delay:u0_m0_wo0_compute" File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/firip_0002_rtl_core.vhd Line: 714
-Info (12128): Elaborating entity "dspba_delay" for hierarchy "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|firip_0002_rtl_core:\real_passthrough:hpfircore_core|dspba_delay:d_u0_m0_wo0_compute_q_20" File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/firip_0002_rtl_core.vhd Line: 724
-Info (12128): Elaborating entity "dspba_delay" for hierarchy "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|firip_0002_rtl_core:\real_passthrough:hpfircore_core|dspba_delay:d_xIn_0_13" File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/firip_0002_rtl_core.vhd Line: 817
-Info (12128): Elaborating entity "dspba_delay" for hierarchy "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|firip_0002_rtl_core:\real_passthrough:hpfircore_core|dspba_delay:d_in0_m0_wi0_wo0_assign_id1_q_13" File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/firip_0002_rtl_core.vhd Line: 822
-Info (12128): Elaborating entity "altsyncram" for hierarchy "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|firip_0002_rtl_core:\real_passthrough:hpfircore_core|altsyncram:u0_m0_wo0_wi0_r0_memr0_dmem" File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/firip_0002_rtl_core.vhd Line: 854
-Info (12130): Elaborated megafunction instantiation "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|firip_0002_rtl_core:\real_passthrough:hpfircore_core|altsyncram:u0_m0_wo0_wi0_r0_memr0_dmem" File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/firip_0002_rtl_core.vhd Line: 854
-Info (12133): Instantiated megafunction "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|firip_0002_rtl_core:\real_passthrough:hpfircore_core|altsyncram:u0_m0_wo0_wi0_r0_memr0_dmem" with the following parameter: File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/firip_0002_rtl_core.vhd Line: 854
+Info (12128): Elaborating entity "firip" for hierarchy "firip:u0" File: J:/GIT/FPGA_MODULATOR/Fir_test/source/FirIPCore.v Line: 41
+Info (12128): Elaborating entity "firip_0002" for hierarchy "firip:u0|firip_0002:firip_inst" File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip.v Line: 28
+Warning (10036): Verilog HDL or VHDL warning at firip_0002.vhd(54): object "coeff_in_read_sig" assigned a value but never read File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/firip_0002.vhd Line: 54
+Info (12128): Elaborating entity "firip_0002_ast" for hierarchy "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst" File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/firip_0002.vhd Line: 62
+Warning (10541): VHDL Signal Declaration warning at firip_0002_ast.vhd(208): used implicit default value for signal "core_channel_out_core" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/firip_0002_ast.vhd Line: 208
+Info (12128): Elaborating entity "auk_dspip_avalon_streaming_sink_hpfir" for hierarchy "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|auk_dspip_avalon_streaming_sink_hpfir:sink" File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/firip_0002_ast.vhd Line: 89
+Info (12128): Elaborating entity "auk_dspip_avalon_streaming_source_hpfir" for hierarchy "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|auk_dspip_avalon_streaming_source_hpfir:source" File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/firip_0002_ast.vhd Line: 109
+Info (12128): Elaborating entity "auk_dspip_avalon_streaming_controller_hpfir" for hierarchy "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|auk_dspip_avalon_streaming_controller_hpfir:intf_ctrl" File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/firip_0002_ast.vhd Line: 137
+Info (12128): Elaborating entity "firip_0002_rtl_core" for hierarchy "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|firip_0002_rtl_core:\real_passthrough:hpfircore_core" File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/firip_0002_ast.vhd Line: 218
+Info (12128): Elaborating entity "dspba_delay" for hierarchy "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|firip_0002_rtl_core:\real_passthrough:hpfircore_core|dspba_delay:u0_m0_wo0_memread" File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/firip_0002_rtl_core.vhd Line: 709
+Info (12128): Elaborating entity "dspba_delay" for hierarchy "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|firip_0002_rtl_core:\real_passthrough:hpfircore_core|dspba_delay:u0_m0_wo0_compute" File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/firip_0002_rtl_core.vhd Line: 714
+Info (12128): Elaborating entity "dspba_delay" for hierarchy "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|firip_0002_rtl_core:\real_passthrough:hpfircore_core|dspba_delay:d_u0_m0_wo0_compute_q_20" File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/firip_0002_rtl_core.vhd Line: 724
+Info (12128): Elaborating entity "dspba_delay" for hierarchy "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|firip_0002_rtl_core:\real_passthrough:hpfircore_core|dspba_delay:d_xIn_0_13" File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/firip_0002_rtl_core.vhd Line: 817
+Info (12128): Elaborating entity "dspba_delay" for hierarchy "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|firip_0002_rtl_core:\real_passthrough:hpfircore_core|dspba_delay:d_in0_m0_wi0_wo0_assign_id1_q_13" File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/firip_0002_rtl_core.vhd Line: 822
+Info (12128): Elaborating entity "altsyncram" for hierarchy "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|firip_0002_rtl_core:\real_passthrough:hpfircore_core|altsyncram:u0_m0_wo0_wi0_r0_memr0_dmem" File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/firip_0002_rtl_core.vhd Line: 854
+Info (12130): Elaborated megafunction instantiation "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|firip_0002_rtl_core:\real_passthrough:hpfircore_core|altsyncram:u0_m0_wo0_wi0_r0_memr0_dmem" File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/firip_0002_rtl_core.vhd Line: 854
+Info (12133): Instantiated megafunction "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|firip_0002_rtl_core:\real_passthrough:hpfircore_core|altsyncram:u0_m0_wo0_wi0_r0_memr0_dmem" with the following parameter: File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/firip_0002_rtl_core.vhd Line: 854
     Info (12134): Parameter "address_aclr_a" = "UNUSED"
     Info (12134): Parameter "address_aclr_b" = "NONE"
     Info (12134): Parameter "address_reg_b" = "CLOCK0"
@@ -4497,11 +4497,11 @@ Info (12133): Instantiated megafunction "firip:u0|firip_0002:firip_inst|firip_00
     Info (12134): Parameter "lpm_hint" = "UNUSED"
     Info (12134): Parameter "lpm_type" = "altsyncram"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_2in3.tdf
-    Info (12023): Found entity 1: altsyncram_2in3 File: J:/GIT/FPGA_MODULATOR/Firtest/db/altsyncram_2in3.tdf Line: 27
+    Info (12023): Found entity 1: altsyncram_2in3 File: J:/GIT/FPGA_MODULATOR/Fir_test/db/altsyncram_2in3.tdf Line: 27
 Info (12128): Elaborating entity "altsyncram_2in3" for hierarchy "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|firip_0002_rtl_core:\real_passthrough:hpfircore_core|altsyncram:u0_m0_wo0_wi0_r0_memr0_dmem|altsyncram_2in3:auto_generated" File: d:/intelfpga/intelfpga/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
-Info (12128): Elaborating entity "LPM_MULT" for hierarchy "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|firip_0002_rtl_core:\real_passthrough:hpfircore_core|LPM_MULT:u0_m0_wo0_mtree_mult1_50_component" File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/firip_0002_rtl_core.vhd Line: 940
-Info (12130): Elaborated megafunction instantiation "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|firip_0002_rtl_core:\real_passthrough:hpfircore_core|LPM_MULT:u0_m0_wo0_mtree_mult1_50_component" File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/firip_0002_rtl_core.vhd Line: 940
-Info (12133): Instantiated megafunction "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|firip_0002_rtl_core:\real_passthrough:hpfircore_core|LPM_MULT:u0_m0_wo0_mtree_mult1_50_component" with the following parameter: File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/firip_0002_rtl_core.vhd Line: 940
+Info (12128): Elaborating entity "LPM_MULT" for hierarchy "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|firip_0002_rtl_core:\real_passthrough:hpfircore_core|LPM_MULT:u0_m0_wo0_mtree_mult1_50_component" File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/firip_0002_rtl_core.vhd Line: 940
+Info (12130): Elaborated megafunction instantiation "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|firip_0002_rtl_core:\real_passthrough:hpfircore_core|LPM_MULT:u0_m0_wo0_mtree_mult1_50_component" File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/firip_0002_rtl_core.vhd Line: 940
+Info (12133): Instantiated megafunction "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|firip_0002_rtl_core:\real_passthrough:hpfircore_core|LPM_MULT:u0_m0_wo0_mtree_mult1_50_component" with the following parameter: File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/firip_0002_rtl_core.vhd Line: 940
     Info (12134): Parameter "LPM_WIDTHA" = "12"
     Info (12134): Parameter "LPM_WIDTHB" = "12"
     Info (12134): Parameter "LPM_WIDTHS" = "1"
@@ -4511,12 +4511,12 @@ Info (12133): Instantiated megafunction "firip:u0|firip_0002:firip_inst|firip_00
     Info (12134): Parameter "LPM_TYPE" = "LPM_MULT"
     Info (12134): Parameter "LPM_HINT" = "DEDICATED_MULTIPLIER_CIRCUITRY=YES, MAXIMIZE_SPEED=5"
 Info (12021): Found 1 design units, including 1 entities, in source file db/mult_udu.tdf
-    Info (12023): Found entity 1: mult_udu File: J:/GIT/FPGA_MODULATOR/Firtest/db/mult_udu.tdf Line: 28
+    Info (12023): Found entity 1: mult_udu File: J:/GIT/FPGA_MODULATOR/Fir_test/db/mult_udu.tdf Line: 28
 Info (12128): Elaborating entity "mult_udu" for hierarchy "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|firip_0002_rtl_core:\real_passthrough:hpfircore_core|LPM_MULT:u0_m0_wo0_mtree_mult1_50_component|mult_udu:auto_generated" File: d:/intelfpga/intelfpga/quartus/libraries/megafunctions/lpm_mult.tdf Line: 376
-Info (12128): Elaborating entity "dspba_delay" for hierarchy "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|firip_0002_rtl_core:\real_passthrough:hpfircore_core|dspba_delay:u0_m0_wo0_wi0_r0_delayr1" File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/firip_0002_rtl_core.vhd Line: 962
-Info (12128): Elaborating entity "dspba_delay" for hierarchy "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|firip_0002_rtl_core:\real_passthrough:hpfircore_core|dspba_delay:d_u0_m0_wo0_wi0_r0_delayr1_q_15" File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/firip_0002_rtl_core.vhd Line: 967
-Info (12128): Elaborating entity "auk_dspip_roundsat_hpfir" for hierarchy "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|auk_dspip_roundsat_hpfir:\real_passthrough:gen_outp_blk:0:outp_blk" File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/firip_0002_ast.vhd Line: 244
-Info (13000): Registers with preset signals will power-up high File: J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip/firip_0002_rtl_core.vhd Line: 1095
+Info (12128): Elaborating entity "dspba_delay" for hierarchy "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|firip_0002_rtl_core:\real_passthrough:hpfircore_core|dspba_delay:u0_m0_wo0_wi0_r0_delayr1" File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/firip_0002_rtl_core.vhd Line: 962
+Info (12128): Elaborating entity "dspba_delay" for hierarchy "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|firip_0002_rtl_core:\real_passthrough:hpfircore_core|dspba_delay:d_u0_m0_wo0_wi0_r0_delayr1_q_15" File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/firip_0002_rtl_core.vhd Line: 967
+Info (12128): Elaborating entity "auk_dspip_roundsat_hpfir" for hierarchy "firip:u0|firip_0002:firip_inst|firip_0002_ast:firip_0002_ast_inst|auk_dspip_roundsat_hpfir:\real_passthrough:gen_outp_blk:0:outp_blk" File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/firip_0002_ast.vhd Line: 244
+Info (13000): Registers with preset signals will power-up high File: J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip/firip_0002_rtl_core.vhd Line: 1095
 Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
 Info (286030): Timing-Driven Synthesis is running
 Info (17049): 5 registers lost all their fanouts during netlist optimizations.
@@ -4529,9 +4529,9 @@ Info (21057): Implemented 4047 device resources after synthesis - the final reso
     Info (21064): Implemented 12 RAM segments
     Info (21062): Implemented 102 DSP elements
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 3 warnings
-    Info: Peak virtual memory: 4844 megabytes
-    Info: Processing ended: Sun Jan 30 00:23:52 2022
+    Info: Peak virtual memory: 4853 megabytes
+    Info: Processing ended: Sun Mar 06 22:46:10 2022
     Info: Elapsed time: 00:00:17
-    Info: Total CPU time (on all processors): 00:00:29
+    Info: Total CPU time (on all processors): 00:00:30
 
 

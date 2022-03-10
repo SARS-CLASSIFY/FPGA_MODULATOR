@@ -1,2 +1,2 @@
 v1
-DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,mult:mult_inst|lpm_mult:lpm_mult_component|mult_o5n:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,mult:mult_inst|lpm_mult:lpm_mult_component|mult_f3p:auto_generated|mac_out2,

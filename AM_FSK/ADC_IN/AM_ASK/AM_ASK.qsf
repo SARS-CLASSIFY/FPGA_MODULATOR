@@ -110,6 +110,17 @@ set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/ASKMod.vt -s
 set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/source_data.vt -section_id source_data
 set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/AM_MODE.vt -section_id AM_MODE
 set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/FskMod.vt -section_id FskMod
+set_location_assignment PIN_A6 -to adc_clk
+set_location_assignment PIN_C2 -to data_in[9]
+set_location_assignment PIN_B3 -to data_in[8]
+set_location_assignment PIN_A2 -to data_in[7]
+set_location_assignment PIN_B4 -to data_in[6]
+set_location_assignment PIN_A3 -to data_in[5]
+set_location_assignment PIN_B5 -to data_in[4]
+set_location_assignment PIN_A4 -to data_in[3]
+set_location_assignment PIN_B6 -to data_in[2]
+set_location_assignment PIN_A5 -to data_in[1]
+set_location_assignment PIN_B7 -to data_in[0]
 set_global_assignment -name QIP_FILE ip/mult/mult.qip
 set_global_assignment -name VERILOG_FILE AM_MODE.v
 set_global_assignment -name VERILOG_TEST_BENCH_FILE simulation/modelsim/AM_MODE.vt
@@ -123,16 +134,5 @@ set_global_assignment -name VERILOG_FILE source/adc10065.v
 set_global_assignment -name VERILOG_FILE rom_sim/adda_out.v
 set_global_assignment -name VERILOG_FILE rom_sim/addr_ctrl.v
 set_global_assignment -name QIP_FILE rom_sim/sin.qip
-set_location_assignment PIN_A6 -to adc_clk
-set_location_assignment PIN_C2 -to data_in[9]
-set_location_assignment PIN_B3 -to data_in[8]
-set_location_assignment PIN_A2 -to data_in[7]
-set_location_assignment PIN_B4 -to data_in[6]
-set_location_assignment PIN_A3 -to data_in[5]
-set_location_assignment PIN_B5 -to data_in[4]
-set_location_assignment PIN_A4 -to data_in[3]
-set_location_assignment PIN_B6 -to data_in[2]
-set_location_assignment PIN_A5 -to data_in[1]
-set_location_assignment PIN_B7 -to data_in[0]
 set_global_assignment -name QIP_FILE ip/pll_1M/pll_1M.qip
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

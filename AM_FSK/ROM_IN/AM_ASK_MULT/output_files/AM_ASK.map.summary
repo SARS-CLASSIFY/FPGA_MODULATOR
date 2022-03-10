@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Mar 10 11:38:56 2022
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : AM_ASK
+Top-level Entity Name : AM_MODE
+Family : Cyclone IV E
+Total logic elements : 328
+    Total combinational functions : 305
+    Dedicated logic registers : 278
+Total registers : 278
+Total pins : 18
+Total virtual pins : 0
+Total memory bits : 108,288
+Embedded Multiplier 9-bit elements : 1
+Total PLLs : 1

@@ -1,5 +1,5 @@
 Flow report for Firtest
-Sun Jan 30 00:24:28 2022
+Sun Mar 06 22:46:48 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Sun Jan 30 00:24:28 2022           ;
+; Flow Status                        ; Successful - Sun Mar 06 22:46:48 2022           ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
 ; Revision Name                      ; Firtest                                         ;
 ; Top-level Entity Name              ; FirIPCore                                       ;
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 01/30/2022 00:23:36 ;
+; Start date & time ; 03/06/2022 22:45:53 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Firtest             ;
 +-------------------+---------------------+
@@ -75,14 +75,14 @@ refer to the applicable agreement for further details.
 +--------------------------------------+---------------------------------------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                                               ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+---------------------------------------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 154027290586572.164347341616088                                     ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 154027290586572.164657795309872                                     ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; i1                                                                  ; --            ; --          ; FirIPCore      ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; FirIPCore                                                           ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                                                         ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)                                           ; <None>        ; --          ; --             ;
 ; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                                                     ; --            ; --          ; eda_simulation ;
 ; EDA_TEST_BENCH_FILE                  ; simulation/modelsim/FirIPCore.vt                                    ; --            ; --          ; FirIPCore      ;
-; EDA_TEST_BENCH_MODULE_NAME           ; FirIPCore                                                           ; --            ; --          ; FirIPCore      ;
+; EDA_TEST_BENCH_MODULE_NAME           ; FirIPCore_vlg_tst                                                   ; --            ; --          ; FirIPCore      ;
 ; EDA_TEST_BENCH_NAME                  ; FirIPCore                                                           ; --            ; --          ; eda_simulation ;
 ; EDA_TIME_SCALE                       ; 1 ps                                                                ; --            ; --          ; eda_simulation ;
 ; MAX_CORE_JUNCTION_TEMP               ; 85                                                                  ; --            ; --          ; --             ;
@@ -126,12 +126,12 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:16     ; 1.0                     ; 4844 MB             ; 00:00:28                           ;
-; Fitter               ; 00:00:20     ; 1.1                     ; 5598 MB             ; 00:00:33                           ;
-; Assembler            ; 00:00:01     ; 1.0                     ; 4689 MB             ; 00:00:01                           ;
-; Timing Analyzer      ; 00:00:04     ; 1.5                     ; 4815 MB             ; 00:00:04                           ;
-; EDA Netlist Writer   ; 00:00:06     ; 1.0                     ; 4680 MB             ; 00:00:06                           ;
-; Total                ; 00:00:47     ; --                      ; --                  ; 00:01:12                           ;
+; Analysis & Synthesis ; 00:00:16     ; 1.0                     ; 4853 MB             ; 00:00:30                           ;
+; Fitter               ; 00:00:22     ; 1.1                     ; 5590 MB             ; 00:00:38                           ;
+; Assembler            ; 00:00:02     ; 1.0                     ; 4687 MB             ; 00:00:01                           ;
+; Timing Analyzer      ; 00:00:04     ; 1.5                     ; 4816 MB             ; 00:00:04                           ;
+; EDA Netlist Writer   ; 00:00:05     ; 1.0                     ; 4683 MB             ; 00:00:05                           ;
+; Total                ; 00:00:49     ; --                      ; --                  ; 00:01:18                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

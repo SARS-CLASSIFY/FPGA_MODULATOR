@@ -44,7 +44,7 @@ module AM_MODE(
 	assign	dac_clk=clk_200M;
 	assign   adc_clk=clk;
 				
-	always @(*)
+	always @(posedge clk_200M)
 				out_data <= out[14:1];			
 				
 
@@ -73,7 +73,7 @@ module AM_MODE(
 	
 	//有符号转无符号
 	reg [13:0] am_u;
-	always @(*)
+	always @(posedge clk_200M)
 		begin
 			if(out_data[13]==0)
 				begin
@@ -109,6 +109,7 @@ add add_inst(
 );
 	
 mult mult_inst(
+	.clock(clk_200M),
 	.dataa(mult_in_a),
 	.datab(mult_in),
 	.result(out)

@@ -1,5 +1,5 @@
 Info: Start Nativelink Simulation process
-executing command line: ip-make-simscript --nativelink-mode --output-directory=Firtest_iputf_input --spd=J:/GIT/FPGA_MODULATOR/Firtest/ip/filter/firip.spd 
+executing command line: ip-make-simscript --nativelink-mode --output-directory=Firtest_iputf_input --spd=J:/GIT/FPGA_MODULATOR/Fir_test/ip/filter/firip.spd 
 
 ========= EDA Simulation Settings =====================
 
@@ -18,6 +18,6 @@ Sim dir               :  simulation\modelsim
 
 Info: Starting NativeLink simulation with ModelSim-Altera software
 Sourced NativeLink script d:/intelfpga/intelfpga/quartus/common/tcl/internal/nativelink/modelsim.tcl
-Warning: File Firtest_run_msim_rtl_verilog.do already exists - backing up current file as Firtest_run_msim_rtl_verilog.do.bak10
+Warning: File Firtest_run_msim_rtl_verilog.do already exists - backing up current file as Firtest_run_msim_rtl_verilog.do.bak11
 Info: Spawning ModelSim-Altera Simulation software 
 Info: NativeLink simulation flow was successful
