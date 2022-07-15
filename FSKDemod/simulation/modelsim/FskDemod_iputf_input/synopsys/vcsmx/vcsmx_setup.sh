@@ -1,0 +1,32 @@
+
+cp -f C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/submodules/fskmode_nco_ii_0_sin.hex ./
+cp -f C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/submodules/fskmode_nco_ii_0_cos.hex ./
+
+vhdlan -xlrm "C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/dspba_library_package.vhd"                                       
+vhdlan -xlrm "C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/dspba_library.vhd"                                               
+vhdlan -xlrm "C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/auk_dspip_math_pkg_hpfir.vhd"                                    
+vhdlan -xlrm "C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/auk_dspip_lib_pkg_hpfir.vhd"                                     
+vhdlan -xlrm "C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd"                 
+vhdlan -xlrm "C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd"                       
+vhdlan -xlrm "C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/auk_dspip_avalon_streaming_source_hpfir.vhd"                     
+vhdlan -xlrm "C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/auk_dspip_roundsat_hpfir.vhd"                                    
+vlogan +v2k  "C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/altera_avalon_sc_fifo.v"                                         
+vhdlan -xlrm "C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/firip_rtl_core.vhd"                                              
+vhdlan -xlrm "C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/firip_ast.vhd"                                                   
+vhdlan -xlrm "C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/firip.vhd"                                                       
+vhdlan -xlrm "C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/firip_tb.vhd"                                                    
+vhdlan -xlrm "C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/dspba_library_package.vhd"                                     
+vhdlan -xlrm "C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/dspba_library.vhd"                                             
+vhdlan -xlrm "C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_math_pkg_hpfir.vhd"                                  
+vhdlan -xlrm "C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_lib_pkg_hpfir.vhd"                                   
+vhdlan -xlrm "C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd"               
+vhdlan -xlrm "C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd"                     
+vhdlan -xlrm "C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_avalon_streaming_source_hpfir.vhd"                   
+vhdlan -xlrm "C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_roundsat_hpfir.vhd"                                  
+vlogan +v2k  "C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/altera_avalon_sc_fifo.v"                                       
+vhdlan -xlrm "C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/firipx_rtl_core.vhd"                                           
+vhdlan -xlrm "C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/firipx_ast.vhd"                                                
+vhdlan -xlrm "C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/firipx.vhd"                                                    
+vhdlan -xlrm "C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/firipx_tb.vhd"                                                 
+vlogan +v2k  "C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/submodules/fskmode_nco_ii_0.v"               -work nco_ii_0
+vlogan +v2k  "C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/fskmode.v"                                                 

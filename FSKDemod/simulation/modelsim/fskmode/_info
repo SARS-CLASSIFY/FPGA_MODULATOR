@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/86150/Desktop/Fir_test/simulation/modelsim
+vfskmode
+Z1 !s110 1646721052
+!i10b 1
+!s100 cinaN[RP^WiJV=L;B^D8P2
+IogMdBSfM3PVK]f`LMO:g@3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1646719279
+8C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/synthesis/fskmode.v
+FC:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/synthesis/fskmode.v
+L0 6
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1646721052.000000
+!s107 C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/synthesis/fskmode.v|
+!s90 -reportprogress|300|-vlog01compat|-work|fskmode|+incdir+C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/synthesis|C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/synthesis/fskmode.v|
+!i113 1
+Z6 o-vlog01compat -work fskmode
+!s92 -vlog01compat -work fskmode +incdir+C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/synthesis
+Z7 tCvgOpt 0
+vfskmode_nco_ii_0
+R1
+!i10b 1
+!s100 jj@mdBMni2_B=kF5zgmb_2
+I2`fJeQeK>Y8Y6kSe:J4Tz1
+R2
+R0
+R3
+8C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/synthesis/submodules/fskmode_nco_ii_0.v
+FC:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/synthesis/submodules/fskmode_nco_ii_0.v
+L0 23
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/synthesis/submodules/fskmode_nco_ii_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|fskmode|+incdir+C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/synthesis/submodules|C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/synthesis/submodules/fskmode_nco_ii_0.v|
+!i113 1
+R6
+!s92 -vlog01compat -work fskmode +incdir+C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/synthesis/submodules
+R7

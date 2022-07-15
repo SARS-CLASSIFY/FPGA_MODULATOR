@@ -1,0 +1,17 @@
+module shift_top(
+	input                        clk,
+	input                        rst_n,
+	
+	output [3:0]sig_a,
+	output [3:0]sig_b,
+	output clk_b,
+	
+	output							  trans_done,
+	output                       dout
+);
+
+reg trans_ready;
+
+
+
+

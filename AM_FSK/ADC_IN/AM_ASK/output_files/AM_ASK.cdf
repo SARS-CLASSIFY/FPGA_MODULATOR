@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP4CE6) Path("C:/Users/86150/Desktop/AM_AD_DATA/AM_ASK/output_files/") File("output_file.jic") MfrSpec(OpMask(1) SEC_Device(EPCS16) Child_OpMask(1 1));
+		Device PartName(EP4CE6F17) Path("J:/GIT/FPGA_MODULATOR/AM_FSK/ADC_IN/AM_ASK/output_files/") File("AM_ASK.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

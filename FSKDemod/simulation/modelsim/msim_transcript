@@ -1,0 +1,906 @@
+# Reading D:/IntelFPGA/IntelFPGA/modelsim_ase/tcl/vsim/pref.tcl
+# do FskDemod_run_msim_rtl_verilog.do
+# if ![file isdirectory FskDemod_iputf_libs] {
+# 	file mkdir FskDemod_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/IntelFPGA/IntelFPGA/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+###### Libraries for IPUTF cores 
+# vlib FskDemod_iputf_libs/nco_ii_0
+# ** Warning: (vlib-34) Library already exists at "FskDemod_iputf_libs/nco_ii_0".
+# vmap nco_ii_0 ./FskDemod_iputf_libs/nco_ii_0
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap nco_ii_0 ./FskDemod_iputf_libs/nco_ii_0 
+# Modifying modelsim.ini
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# file copy -force C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/submodules/fskmode_nco_ii_0_sin.hex ./
+# file copy -force C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/submodules/fskmode_nco_ii_0_cos.hex ./
+# 
+# vcom "C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/dspba_library_package.vhd"                                       
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:43 on Mar 08,2022
+# vcom -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/dspba_library_package.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package dspba_library_package
+# End time: 14:30:44 on Mar 08,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom "C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/dspba_library.vhd"                                               
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:44 on Mar 08,2022
+# vcom -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/dspba_library.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package dspba_library_package
+# -- Compiling entity dspba_delay
+# -- Compiling architecture delay of dspba_delay
+# -- Loading package NUMERIC_STD
+# -- Compiling entity dspba_sync_reg
+# -- Compiling architecture sync_reg of dspba_sync_reg
+# -- Compiling entity dspba_pipe
+# -- Compiling architecture rtl of dspba_pipe
+# End time: 14:30:44 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom "C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/auk_dspip_math_pkg_hpfir.vhd"                                    
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:44 on Mar 08,2022
+# vcom -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/auk_dspip_math_pkg_hpfir.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package auk_dspip_math_pkg_hpfir
+# -- Compiling package body auk_dspip_math_pkg_hpfir
+# -- Loading package auk_dspip_math_pkg_hpfir
+# End time: 14:30:44 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom "C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/auk_dspip_lib_pkg_hpfir.vhd"                                     
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:44 on Mar 08,2022
+# vcom -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/auk_dspip_lib_pkg_hpfir.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package auk_dspip_math_pkg_hpfir
+# -- Compiling package auk_dspip_lib_pkg_hpfir
+# End time: 14:30:44 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom "C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd"                 
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:44 on Mar 08,2022
+# vcom -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity auk_dspip_avalon_streaming_controller_hpfir
+# -- Compiling architecture struct of auk_dspip_avalon_streaming_controller_hpfir
+# End time: 14:30:44 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom "C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd"                       
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:44 on Mar 08,2022
+# vcom -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package auk_dspip_math_pkg_hpfir
+# -- Loading package auk_dspip_lib_pkg_hpfir
+# -- Loading package altera_mf_components
+# -- Compiling entity auk_dspip_avalon_streaming_sink_hpfir
+# -- Compiling architecture rtl of auk_dspip_avalon_streaming_sink_hpfir
+# ** Warning: C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd(113): Nonresolved signal 'sink_next_state' may have multiple sources.
+#   Drivers:
+#     C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd(272):Process sink_comb_update_2
+#        Driven at:
+#           C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd(279)
+#     C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd(177):Process sink_comb_update_1
+#        Driven at:
+#           C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd(183)
+# End time: 14:30:44 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vcom "C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/auk_dspip_avalon_streaming_source_hpfir.vhd"                     
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:44 on Mar 08,2022
+# vcom -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/auk_dspip_avalon_streaming_source_hpfir.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package altera_mf_components
+# -- Loading package auk_dspip_math_pkg_hpfir
+# -- Compiling entity auk_dspip_avalon_streaming_source_hpfir
+# -- Compiling architecture rtl of auk_dspip_avalon_streaming_source_hpfir
+# ** Warning: C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/auk_dspip_avalon_streaming_source_hpfir.vhd(122): Nonresolved signal 'count_finished' may have multiple sources.
+#   Drivers:
+#     C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/auk_dspip_avalon_streaming_source_hpfir.vhd(217):Conditional signal assignment line__216
+#     C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/auk_dspip_avalon_streaming_source_hpfir.vhd(206):Conditional signal assignment line__205
+# ** Warning: C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/auk_dspip_avalon_streaming_source_hpfir.vhd(123): Nonresolved signal 'count_started' may have multiple sources.
+#   Drivers:
+#     C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/auk_dspip_avalon_streaming_source_hpfir.vhd(219):Conditional signal assignment line__218
+#     C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/auk_dspip_avalon_streaming_source_hpfir.vhd(210):Conditional signal assignment line__209
+# End time: 14:30:44 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vcom "C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/auk_dspip_roundsat_hpfir.vhd"                                    
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:44 on Mar 08,2022
+# vcom -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/auk_dspip_roundsat_hpfir.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity auk_dspip_roundsat_hpfir
+# -- Compiling architecture beh of auk_dspip_roundsat_hpfir
+# End time: 14:30:44 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/altera_avalon_sc_fifo.v"                                         
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:45 on Mar 08,2022
+# vlog -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/altera_avalon_sc_fifo.v 
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# End time: 14:30:45 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom "C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/firip_rtl_core.vhd"                                              
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:45 on Mar 08,2022
+# vcom -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/firip_rtl_core.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package dspba_library_package
+# -- Loading package altera_mf_components
+# -- Loading package LPM_COMPONENTS
+# -- Compiling entity firip_rtl_core
+# -- Compiling architecture normal of firip_rtl_core
+# End time: 14:30:45 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom "C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/firip_ast.vhd"                                                   
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:45 on Mar 08,2022
+# vcom -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/firip_ast.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package auk_dspip_math_pkg_hpfir
+# -- Loading package auk_dspip_lib_pkg_hpfir
+# -- Compiling entity firip_ast
+# -- Compiling architecture struct of firip_ast
+# End time: 14:30:45 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom "C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/firip.vhd"                                                       
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:45 on Mar 08,2022
+# vcom -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/firip.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package auk_dspip_math_pkg_hpfir
+# -- Loading package auk_dspip_lib_pkg_hpfir
+# -- Compiling entity firip
+# -- Compiling architecture syn of firip
+# End time: 14:30:45 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom "C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/firip_tb.vhd"                                                    
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:45 on Mar 08,2022
+# vcom -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/firip_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity firip_tb
+# -- Compiling architecture rtl of firip_tb
+# -- Loading package auk_dspip_math_pkg_hpfir
+# -- Loading package auk_dspip_lib_pkg_hpfir
+# -- Loading entity firip
+# End time: 14:30:45 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom "C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/dspba_library_package.vhd"                                     
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:45 on Mar 08,2022
+# vcom -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/dspba_library_package.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package dspba_library_package
+# End time: 14:30:45 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom "C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/dspba_library.vhd"                                             
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:45 on Mar 08,2022
+# vcom -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/dspba_library.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package dspba_library_package
+# -- Compiling entity dspba_delay
+# -- Compiling architecture delay of dspba_delay
+# -- Loading package NUMERIC_STD
+# -- Compiling entity dspba_sync_reg
+# -- Compiling architecture sync_reg of dspba_sync_reg
+# -- Compiling entity dspba_pipe
+# -- Compiling architecture rtl of dspba_pipe
+# End time: 14:30:45 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom "C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_math_pkg_hpfir.vhd"                                  
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:45 on Mar 08,2022
+# vcom -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_math_pkg_hpfir.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package auk_dspip_math_pkg_hpfir
+# -- Compiling package body auk_dspip_math_pkg_hpfir
+# -- Loading package auk_dspip_math_pkg_hpfir
+# End time: 14:30:46 on Mar 08,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom "C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_lib_pkg_hpfir.vhd"                                   
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:46 on Mar 08,2022
+# vcom -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_lib_pkg_hpfir.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package auk_dspip_math_pkg_hpfir
+# -- Compiling package auk_dspip_lib_pkg_hpfir
+# End time: 14:30:46 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom "C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd"               
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:46 on Mar 08,2022
+# vcom -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity auk_dspip_avalon_streaming_controller_hpfir
+# -- Compiling architecture struct of auk_dspip_avalon_streaming_controller_hpfir
+# End time: 14:30:46 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom "C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd"                     
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:46 on Mar 08,2022
+# vcom -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package auk_dspip_math_pkg_hpfir
+# -- Loading package auk_dspip_lib_pkg_hpfir
+# -- Loading package altera_mf_components
+# -- Compiling entity auk_dspip_avalon_streaming_sink_hpfir
+# -- Compiling architecture rtl of auk_dspip_avalon_streaming_sink_hpfir
+# ** Warning: C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd(113): Nonresolved signal 'sink_next_state' may have multiple sources.
+#   Drivers:
+#     C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd(272):Process sink_comb_update_2
+#        Driven at:
+#           C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd(279)
+#     C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd(177):Process sink_comb_update_1
+#        Driven at:
+#           C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd(183)
+# End time: 14:30:46 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vcom "C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_avalon_streaming_source_hpfir.vhd"                   
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:46 on Mar 08,2022
+# vcom -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_avalon_streaming_source_hpfir.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package altera_mf_components
+# -- Loading package auk_dspip_math_pkg_hpfir
+# -- Compiling entity auk_dspip_avalon_streaming_source_hpfir
+# -- Compiling architecture rtl of auk_dspip_avalon_streaming_source_hpfir
+# ** Warning: C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_avalon_streaming_source_hpfir.vhd(122): Nonresolved signal 'count_finished' may have multiple sources.
+#   Drivers:
+#     C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_avalon_streaming_source_hpfir.vhd(217):Conditional signal assignment line__216
+#     C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_avalon_streaming_source_hpfir.vhd(206):Conditional signal assignment line__205
+# ** Warning: C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_avalon_streaming_source_hpfir.vhd(123): Nonresolved signal 'count_started' may have multiple sources.
+#   Drivers:
+#     C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_avalon_streaming_source_hpfir.vhd(219):Conditional signal assignment line__218
+#     C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_avalon_streaming_source_hpfir.vhd(210):Conditional signal assignment line__209
+# End time: 14:30:46 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vcom "C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_roundsat_hpfir.vhd"                                  
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:46 on Mar 08,2022
+# vcom -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_roundsat_hpfir.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity auk_dspip_roundsat_hpfir
+# -- Compiling architecture beh of auk_dspip_roundsat_hpfir
+# End time: 14:30:46 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/altera_avalon_sc_fifo.v"                                       
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:46 on Mar 08,2022
+# vlog -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/altera_avalon_sc_fifo.v 
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# End time: 14:30:46 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom "C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/firipx_rtl_core.vhd"                                           
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:46 on Mar 08,2022
+# vcom -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/firipx_rtl_core.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package dspba_library_package
+# -- Loading package altera_mf_components
+# -- Loading package LPM_COMPONENTS
+# -- Compiling entity firipx_rtl_core
+# -- Compiling architecture normal of firipx_rtl_core
+# End time: 14:30:46 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom "C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/firipx_ast.vhd"                                                
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:46 on Mar 08,2022
+# vcom -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/firipx_ast.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package auk_dspip_math_pkg_hpfir
+# -- Loading package auk_dspip_lib_pkg_hpfir
+# -- Compiling entity firipx_ast
+# -- Compiling architecture struct of firipx_ast
+# End time: 14:30:47 on Mar 08,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom "C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/firipx.vhd"                                                    
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:47 on Mar 08,2022
+# vcom -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/firipx.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package auk_dspip_math_pkg_hpfir
+# -- Loading package auk_dspip_lib_pkg_hpfir
+# -- Compiling entity firipx
+# -- Compiling architecture syn of firipx
+# End time: 14:30:47 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom "C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/firipx_tb.vhd"                                                 
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:47 on Mar 08,2022
+# vcom -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/firipx_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity firipx_tb
+# -- Compiling architecture rtl of firipx_tb
+# -- Loading package auk_dspip_math_pkg_hpfir
+# -- Loading package auk_dspip_lib_pkg_hpfir
+# -- Loading entity firipx
+# End time: 14:30:47 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/submodules/mentor/sid_2c_1p.v"               -work nco_ii_0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:47 on Mar 08,2022
+# vlog -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/submodules/mentor/sid_2c_1p.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 14:30:47 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/submodules/mentor/asj_nco_fxx.v"             -work nco_ii_0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:47 on Mar 08,2022
+# vlog -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/submodules/mentor/asj_nco_fxx.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 14:30:48 on Mar 08,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog "C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/submodules/mentor/asj_gar.v"                 -work nco_ii_0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:48 on Mar 08,2022
+# vlog -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/submodules/mentor/asj_gar.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 14:30:48 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/submodules/mentor/asj_nco_apr_dxx.v"         -work nco_ii_0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:48 on Mar 08,2022
+# vlog -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/submodules/mentor/asj_nco_apr_dxx.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 14:30:48 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/submodules/mentor/asj_dxx_g.v"               -work nco_ii_0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:48 on Mar 08,2022
+# vlog -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/submodules/mentor/asj_dxx_g.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 14:30:49 on Mar 08,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog "C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/submodules/mentor/asj_nco_as_m_cen.v"        -work nco_ii_0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:49 on Mar 08,2022
+# vlog -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/submodules/mentor/asj_nco_as_m_cen.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 14:30:49 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/submodules/mentor/asj_altqmcpipe.v"          -work nco_ii_0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:49 on Mar 08,2022
+# vlog -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/submodules/mentor/asj_altqmcpipe.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 14:30:49 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/submodules/mentor/asj_nco_mob_rw.v"          -work nco_ii_0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:49 on Mar 08,2022
+# vlog -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/submodules/mentor/asj_nco_mob_rw.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 14:30:50 on Mar 08,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog "C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/submodules/mentor/asj_nco_isdr.v"            -work nco_ii_0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:50 on Mar 08,2022
+# vlog -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/submodules/mentor/asj_nco_isdr.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 14:30:50 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/submodules/mentor/segment_arr_tdl.v"         -work nco_ii_0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:50 on Mar 08,2022
+# vlog -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/submodules/mentor/segment_arr_tdl.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 14:30:50 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/submodules/mentor/segment_sel.v"             -work nco_ii_0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:50 on Mar 08,2022
+# vlog -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/submodules/mentor/segment_sel.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 14:30:50 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/submodules/mentor/asj_dxx.v"                 -work nco_ii_0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:51 on Mar 08,2022
+# vlog -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/submodules/mentor/asj_dxx.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 14:30:51 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/submodules/mentor/asj_xnqg.v"                -work nco_ii_0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:51 on Mar 08,2022
+# vlog -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/submodules/mentor/asj_xnqg.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 14:30:51 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/submodules/fskmode_nco_ii_0.v"               -work nco_ii_0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:51 on Mar 08,2022
+# vlog -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/submodules/fskmode_nco_ii_0.v -work nco_ii_0 
+# -- Compiling module fskmode_nco_ii_0
+# 
+# Top level modules:
+# 	fskmode_nco_ii_0
+# End time: 14:30:51 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/fskmode.v"                                                 
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:51 on Mar 08,2022
+# vlog -reportprogress 300 C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/fskmode.v 
+# -- Compiling module fskmode
+# 
+# Top level modules:
+# 	fskmode
+# End time: 14:30:51 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/86150/Desktop/Fir_test/ip/filterx {C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx.vo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:52 on Mar 08,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/86150/Desktop/Fir_test/ip/filterx" C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx.vo 
+# End time: 14:30:52 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlib firipx
+# ** Warning: (vlib-34) Library already exists at "firipx".
+# vmap firipx firipx
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap firipx firipx 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work firipx +incdir+C:/Users/86150/Desktop/Fir_test/ip/filterx {C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:52 on Mar 08,2022
+# vlog -reportprogress 300 -vlog01compat -work firipx "+incdir+C:/Users/86150/Desktop/Fir_test/ip/filterx" C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx.v 
+# -- Compiling module firipx
+# 
+# Top level modules:
+# 	firipx
+# End time: 14:30:52 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work firipx +incdir+C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx {C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/altera_avalon_sc_fifo.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:52 on Mar 08,2022
+# vlog -reportprogress 300 -vlog01compat -work firipx "+incdir+C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx" C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/altera_avalon_sc_fifo.v 
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# End time: 14:30:52 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/86150/Desktop/Fir_test/source {C:/Users/86150/Desktop/Fir_test/source/FskDemod.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:52 on Mar 08,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/86150/Desktop/Fir_test/source" C:/Users/86150/Desktop/Fir_test/source/FskDemod.v 
+# -- Compiling module FskDemod
+# 
+# Top level modules:
+# 	FskDemod
+# End time: 14:30:52 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/86150/Desktop/Fir_test/source {C:/Users/86150/Desktop/Fir_test/source/FskMod.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:52 on Mar 08,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/86150/Desktop/Fir_test/source" C:/Users/86150/Desktop/Fir_test/source/FskMod.v 
+# -- Compiling module FskMod
+# 
+# Top level modules:
+# 	FskMod
+# End time: 14:30:52 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlib fskmode
+# ** Warning: (vlib-34) Library already exists at "fskmode".
+# vmap fskmode fskmode
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap fskmode fskmode 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work fskmode +incdir+C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/synthesis {C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/synthesis/fskmode.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:52 on Mar 08,2022
+# vlog -reportprogress 300 -vlog01compat -work fskmode "+incdir+C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/synthesis" C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/synthesis/fskmode.v 
+# -- Compiling module fskmode
+# 
+# Top level modules:
+# 	fskmode
+# End time: 14:30:52 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work fskmode +incdir+C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/synthesis/submodules {C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/synthesis/submodules/fskmode_nco_ii_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:52 on Mar 08,2022
+# vlog -reportprogress 300 -vlog01compat -work fskmode "+incdir+C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/synthesis/submodules" C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/synthesis/submodules/fskmode_nco_ii_0.v 
+# -- Compiling module fskmode_nco_ii_0
+# 
+# Top level modules:
+# 	fskmode_nco_ii_0
+# End time: 14:30:52 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work firipx {C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/dspba_library_package.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:52 on Mar 08,2022
+# vcom -reportprogress 300 -93 -work firipx C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/dspba_library_package.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package dspba_library_package
+# End time: 14:30:53 on Mar 08,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work firipx {C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_math_pkg_hpfir.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:53 on Mar 08,2022
+# vcom -reportprogress 300 -93 -work firipx C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_math_pkg_hpfir.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package auk_dspip_math_pkg_hpfir
+# -- Compiling package body auk_dspip_math_pkg_hpfir
+# -- Loading package auk_dspip_math_pkg_hpfir
+# End time: 14:30:53 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work firipx {C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_avalon_streaming_controller_hpfir.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:53 on Mar 08,2022
+# vcom -reportprogress 300 -93 -work firipx C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_avalon_streaming_controller_hpfir.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity auk_dspip_avalon_streaming_controller_hpfir
+# -- Compiling architecture struct of auk_dspip_avalon_streaming_controller_hpfir
+# End time: 14:30:53 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work firipx {C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_roundsat_hpfir.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:53 on Mar 08,2022
+# vcom -reportprogress 300 -93 -work firipx C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_roundsat_hpfir.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity auk_dspip_roundsat_hpfir
+# -- Compiling architecture beh of auk_dspip_roundsat_hpfir
+# End time: 14:30:53 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work firipx {C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/dspba_library.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:53 on Mar 08,2022
+# vcom -reportprogress 300 -93 -work firipx C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/dspba_library.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package dspba_library_package
+# -- Compiling entity dspba_delay
+# -- Compiling architecture delay of dspba_delay
+# -- Loading package NUMERIC_STD
+# -- Compiling entity dspba_sync_reg
+# -- Compiling architecture sync_reg of dspba_sync_reg
+# -- Compiling entity dspba_pipe
+# -- Compiling architecture rtl of dspba_pipe
+# End time: 14:30:53 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work firipx {C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_lib_pkg_hpfir.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:53 on Mar 08,2022
+# vcom -reportprogress 300 -93 -work firipx C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_lib_pkg_hpfir.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package auk_dspip_math_pkg_hpfir
+# -- Compiling package auk_dspip_lib_pkg_hpfir
+# End time: 14:30:53 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work firipx {C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_avalon_streaming_source_hpfir.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:53 on Mar 08,2022
+# vcom -reportprogress 300 -93 -work firipx C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_avalon_streaming_source_hpfir.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package altera_mf_components
+# -- Loading package auk_dspip_math_pkg_hpfir
+# -- Compiling entity auk_dspip_avalon_streaming_source_hpfir
+# -- Compiling architecture rtl of auk_dspip_avalon_streaming_source_hpfir
+# ** Warning: C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_avalon_streaming_source_hpfir.vhd(122): Nonresolved signal 'count_finished' may have multiple sources.
+#   Drivers:
+#     C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_avalon_streaming_source_hpfir.vhd(217):Conditional signal assignment line__216
+#     C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_avalon_streaming_source_hpfir.vhd(206):Conditional signal assignment line__205
+# ** Warning: C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_avalon_streaming_source_hpfir.vhd(123): Nonresolved signal 'count_started' may have multiple sources.
+#   Drivers:
+#     C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_avalon_streaming_source_hpfir.vhd(219):Conditional signal assignment line__218
+#     C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_avalon_streaming_source_hpfir.vhd(210):Conditional signal assignment line__209
+# End time: 14:30:53 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vcom -93 -work firipx {C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/firipx_0002_rtl_core.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:53 on Mar 08,2022
+# vcom -reportprogress 300 -93 -work firipx C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/firipx_0002_rtl_core.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package dspba_library_package
+# -- Loading package altera_mf_components
+# -- Loading package LPM_COMPONENTS
+# -- Compiling entity firipx_0002_rtl_core
+# -- Compiling architecture normal of firipx_0002_rtl_core
+# End time: 14:30:54 on Mar 08,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work firipx {C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_avalon_streaming_sink_hpfir.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:54 on Mar 08,2022
+# vcom -reportprogress 300 -93 -work firipx C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_avalon_streaming_sink_hpfir.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package auk_dspip_math_pkg_hpfir
+# -- Loading package auk_dspip_lib_pkg_hpfir
+# -- Loading package altera_mf_components
+# -- Compiling entity auk_dspip_avalon_streaming_sink_hpfir
+# -- Compiling architecture rtl of auk_dspip_avalon_streaming_sink_hpfir
+# ** Warning: C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_avalon_streaming_sink_hpfir.vhd(113): Nonresolved signal 'sink_next_state' may have multiple sources.
+#   Drivers:
+#     C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_avalon_streaming_sink_hpfir.vhd(272):Process sink_comb_update_2
+#        Driven at:
+#           C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_avalon_streaming_sink_hpfir.vhd(279)
+#     C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_avalon_streaming_sink_hpfir.vhd(177):Process sink_comb_update_1
+#        Driven at:
+#           C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_avalon_streaming_sink_hpfir.vhd(183)
+# End time: 14:30:54 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vcom -93 -work firipx {C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/firipx_0002_ast.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:54 on Mar 08,2022
+# vcom -reportprogress 300 -93 -work firipx C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/firipx_0002_ast.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package auk_dspip_math_pkg_hpfir
+# -- Loading package auk_dspip_lib_pkg_hpfir
+# -- Compiling entity firipx_0002_ast
+# -- Compiling architecture struct of firipx_0002_ast
+# End time: 14:30:54 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work firipx {C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/firipx_0002.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:54 on Mar 08,2022
+# vcom -reportprogress 300 -93 -work firipx C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/firipx_0002.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package auk_dspip_math_pkg_hpfir
+# -- Loading package auk_dspip_lib_pkg_hpfir
+# -- Compiling entity firipx_0002
+# -- Compiling architecture syn of firipx_0002
+# End time: 14:30:54 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/86150/Desktop/Fir_test/simulation/modelsim {C:/Users/86150/Desktop/Fir_test/simulation/modelsim/FskDemod.vt}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:54 on Mar 08,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/86150/Desktop/Fir_test/simulation/modelsim" C:/Users/86150/Desktop/Fir_test/simulation/modelsim/FskDemod.vt 
+# -- Compiling module FskDemod_vlg_tst
+# 
+# Top level modules:
+# 	FskDemod_vlg_tst
+# End time: 14:30:54 on Mar 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L cycloneive -L rtl_work -L work -L firipx -L fskmode -L nco_ii_0 -voptargs="+acc"  FskDemod_vlg_tst
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L cycloneive -L rtl_work -L work -L firipx -L fskmode -L nco_ii_0 -voptargs=""+acc"" FskDemod_vlg_tst 
+# Start time: 14:30:54 on Mar 08,2022
+# Loading work.FskDemod_vlg_tst
+# Loading work.FskDemod
+# Loading work.FskMod
+# Loading work.fskmode
+# Loading fskmode.fskmode_nco_ii_0
+# Loading lpm_ver.lpm_add_sub
+# Loading altera_mf_ver.altsyncram
+# Loading lpm_ver.lpm_counter
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.auk_dspip_math_pkg_hpfir(body)
+# Loading work.auk_dspip_lib_pkg_hpfir
+# Loading work.firip(syn)
+# Loading work.firip_ast(struct)
+# Loading altera_mf.altera_mf_components
+# Loading work.auk_dspip_avalon_streaming_sink_hpfir(rtl)
+# Loading work.auk_dspip_avalon_streaming_source_hpfir(rtl)
+# Loading ieee.std_logic_arith(body)
+# Loading work.auk_dspip_avalon_streaming_controller_hpfir(struct)
+# Loading ieee.math_real(body)
+# Loading work.dspba_library_package
+# Loading lpm.lpm_components
+# Loading work.firip_rtl_core(normal)
+# Loading work.dspba_delay(delay)
+# Loading work.auk_dspip_roundsat_hpfir(beh)
+# Loading work.firipx(syn)
+# Loading work.firipx_ast(struct)
+# Loading work.firipx_rtl_core(normal)
+# ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
+#    Time: 0 ps  Iteration: 0  Protected: /FskDemod_vlg_tst/i1/u0/u0/nco_ii_0/ux003/<protected> File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/220model.v
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
+#    Time: 0 ps  Iteration: 0  Protected: /FskDemod_vlg_tst/i1/u0/u0/nco_ii_0/ux000/<protected> File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/220model.v
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
+#    Time: 0 ps  Iteration: 0  Protected: /FskDemod_vlg_tst/i1/u0/u0/nco_ii_0/ux0120/<protected> File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
+#    Time: 0 ps  Iteration: 0  Protected: /FskDemod_vlg_tst/i1/u0/u0/nco_ii_0/ux0121/<protected> File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
+#    Time: 0 ps  Iteration: 0  Protected: /FskDemod_vlg_tst/i1/u0/u0/nco_ii_0/ux710isdr/<protected> File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/220model.v
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: Design size of 27923 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $finish    : C:/Users/86150/Desktop/Fir_test/simulation/modelsim/FskDemod.vt(65)
+#    Time: 100000110 ns  Iteration: 0  Instance: /FskDemod_vlg_tst
+# 1
+# Break in Module FskDemod_vlg_tst at C:/Users/86150/Desktop/Fir_test/simulation/modelsim/FskDemod.vt line 65
+# End time: 14:33:38 on Mar 08,2022, Elapsed time: 0:02:44
+# Errors: 0, Warnings: 62

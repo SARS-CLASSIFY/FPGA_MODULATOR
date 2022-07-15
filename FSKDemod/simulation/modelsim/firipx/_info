@@ -1,0 +1,578 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/86150/Desktop/Fir_test/simulation/modelsim
+valtera_avalon_sc_fifo
+Z1 !s110 1646721052
+!i10b 1
+!s100 4mK@em][G=j]om3zJIhOc0
+Ij77CYM0m`kRDYazm?9J5h0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1646718723
+8C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/altera_avalon_sc_fifo.v
+FC:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/altera_avalon_sc_fifo.v
+L0 21
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1646721052.000000
+!s107 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/altera_avalon_sc_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|firipx|+incdir+C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx|C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/altera_avalon_sc_fifo.v|
+!i113 1
+Z6 o-vlog01compat -work firipx
+!s92 -vlog01compat -work firipx +incdir+C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx
+Z7 tCvgOpt 0
+Eauk_dspip_avalon_streaming_controller_hpfir
+R3
+Z8 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z9 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z10 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z11 8C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_avalon_streaming_controller_hpfir.vhd
+Z12 FC:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_avalon_streaming_controller_hpfir.vhd
+l0
+L41
+V6U:55h5h>BUkNQF5Phe1d2
+!s100 ORMaER9G]`b[YkFGoXo<C3
+Z13 OV;C;10.5b;63
+31
+Z14 !s110 1646721053
+!i10b 1
+Z15 !s108 1646721053.000000
+Z16 !s90 -reportprogress|300|-93|-work|firipx|C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_avalon_streaming_controller_hpfir.vhd|
+Z17 !s107 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_avalon_streaming_controller_hpfir.vhd|
+!i113 1
+Z18 o-93 -work firipx
+Z19 tExplicit 1 CvgOpt 0
+Astruct
+R8
+R9
+R10
+DEx4 work 43 auk_dspip_avalon_streaming_controller_hpfir 0 22 6U:55h5h>BUkNQF5Phe1d2
+l72
+L64
+V8e]^?:2md`EcE7M;EZX@I1
+!s100 MWO51>Fz`WN=CIY16D1gH2
+R13
+31
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 1
+R18
+R19
+Eauk_dspip_avalon_streaming_sink_hpfir
+R3
+Z20 DPx9 altera_mf 20 altera_mf_components 0 22 gV:l9C^?PSb6]b5V?_jR@3
+Z21 DPx4 work 24 auk_dspip_math_pkg_hpfir 0 22 ]<k`=@a?@cDL6k_L;DK`O2
+Z22 DPx4 work 23 auk_dspip_lib_pkg_hpfir 0 22 HH5bgH@d2=0N<a44n:67k0
+Z23 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R9
+R10
+R0
+Z24 8C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_avalon_streaming_sink_hpfir.vhd
+Z25 FC:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_avalon_streaming_sink_hpfir.vhd
+l0
+L56
+VDDV_;7Yn?m==@MChZRm9K0
+!s100 0WO5KznO2MM4IEKTLL4ea1
+R13
+31
+Z26 !s110 1646721054
+!i10b 1
+Z27 !s108 1646721054.000000
+Z28 !s90 -reportprogress|300|-93|-work|firipx|C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_avalon_streaming_sink_hpfir.vhd|
+Z29 !s107 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_avalon_streaming_sink_hpfir.vhd|
+!i113 1
+R18
+R19
+Artl
+R20
+R21
+R22
+R23
+R9
+R10
+DEx4 work 37 auk_dspip_avalon_streaming_sink_hpfir 0 22 DDV_;7Yn?m==@MChZRm9K0
+l164
+L106
+V^W8c`^>O`7LH?n[LHjO9:3
+!s100 aKlIFR2DezO>78LXQeZZW1
+R13
+31
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R18
+R19
+Eauk_dspip_avalon_streaming_source_hpfir
+R3
+R21
+R20
+R23
+R9
+R10
+R0
+Z30 8C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_avalon_streaming_source_hpfir.vhd
+Z31 FC:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_avalon_streaming_source_hpfir.vhd
+l0
+L70
+VI>2RHikZWi84N<ai069bE2
+!s100 z_E>RhDjTK@iSkAe6<CzM1
+R13
+31
+R14
+!i10b 1
+R15
+Z32 !s90 -reportprogress|300|-93|-work|firipx|C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_avalon_streaming_source_hpfir.vhd|
+Z33 !s107 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_avalon_streaming_source_hpfir.vhd|
+!i113 1
+R18
+R19
+Artl
+R21
+R20
+R23
+R9
+R10
+DEx4 work 39 auk_dspip_avalon_streaming_source_hpfir 0 22 I>2RHikZWi84N<ai069bE2
+l190
+L109
+VCJ6?HF22eRg?YgEoK9;OQ3
+!s100 9_^:d_>A;JGb2ekO`XAiL1
+R13
+31
+R14
+!i10b 1
+R15
+R32
+R33
+!i113 1
+R18
+R19
+Pauk_dspip_lib_pkg_hpfir
+R21
+R23
+R9
+R10
+R3
+R0
+8C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_lib_pkg_hpfir.vhd
+FC:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_lib_pkg_hpfir.vhd
+l0
+L22
+VHH5bgH@d2=0N<a44n:67k0
+!s100 f?>LI6^Y:?0:4C>aOS6?X2
+R13
+31
+R14
+!i10b 1
+R15
+!s90 -reportprogress|300|-93|-work|firipx|C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_lib_pkg_hpfir.vhd|
+!s107 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_lib_pkg_hpfir.vhd|
+!i113 1
+R18
+R19
+Pauk_dspip_math_pkg_hpfir
+R23
+R9
+R10
+R3
+R0
+Z34 8C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_math_pkg_hpfir.vhd
+Z35 FC:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_math_pkg_hpfir.vhd
+l0
+L54
+V]<k`=@a?@cDL6k_L;DK`O2
+!s100 @O6TWU38[<`Y=f_oja2am1
+R13
+31
+b1
+R14
+!i10b 1
+R15
+Z36 !s90 -reportprogress|300|-93|-work|firipx|C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_math_pkg_hpfir.vhd|
+Z37 !s107 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_math_pkg_hpfir.vhd|
+!i113 1
+R18
+R19
+Bbody
+R21
+R23
+R9
+R10
+l0
+L131
+Vj0UgS<eC<[F1FNRKn<X[Q1
+!s100 EDZNSThdcYV1lkL7HbnIz0
+R13
+31
+R14
+!i10b 1
+R15
+R36
+R37
+!i113 1
+R18
+R19
+Eauk_dspip_roundsat_hpfir
+R3
+R23
+R9
+R10
+R0
+Z38 8C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_roundsat_hpfir.vhd
+Z39 FC:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_roundsat_hpfir.vhd
+l0
+L39
+VA<XdG@k?6OP=QmN6:7`c<3
+!s100 S`Ha]KjQXV0CDDgljgCX;0
+R13
+31
+R14
+!i10b 1
+R15
+Z40 !s90 -reportprogress|300|-93|-work|firipx|C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_roundsat_hpfir.vhd|
+Z41 !s107 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/auk_dspip_roundsat_hpfir.vhd|
+!i113 1
+R18
+R19
+Abeh
+R23
+R9
+R10
+DEx4 work 24 auk_dspip_roundsat_hpfir 0 22 A<XdG@k?6OP=QmN6:7`c<3
+l66
+L57
+VUlY=O6>KzG8laRE>kYSJ61
+!s100 SAz6VWg0=:KiPPFk<lih43
+R13
+31
+R14
+!i10b 1
+R15
+R40
+R41
+!i113 1
+R18
+R19
+Edspba_delay
+R3
+Z42 DPx4 work 21 dspba_library_package 0 22 QA5:D0LfU[lFMY]bMg2cb0
+R9
+R10
+R0
+Z43 8C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/dspba_library.vhd
+Z44 FC:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/dspba_library.vhd
+l0
+L18
+V0OK0bTAlPjm@LQV0aW9?^1
+!s100 >TY9@l4a>2O5Wd_6jF4:g0
+R13
+31
+R14
+!i10b 1
+R15
+Z45 !s90 -reportprogress|300|-93|-work|firipx|C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/dspba_library.vhd|
+Z46 !s107 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/dspba_library.vhd|
+!i113 1
+R18
+R19
+Adelay
+R42
+R9
+R10
+DEx4 work 11 dspba_delay 0 22 0OK0bTAlPjm@LQV0aW9?^1
+l37
+L34
+V[cV:5<MaLS2fbX>mRhAbb2
+!s100 DAfPXKZhR<Ac>Wg8zYj1H3
+R13
+31
+R14
+!i10b 1
+R15
+R45
+R46
+!i113 1
+R18
+R19
+Pdspba_library_package
+R9
+R10
+R3
+R0
+8C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/dspba_library_package.vhd
+FC:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/dspba_library_package.vhd
+l0
+L17
+VQA5:D0LfU[lFMY]bMg2cb0
+!s100 @e;XE0e^oAdIdzY=Rc];H3
+R13
+31
+R14
+!i10b 1
+R5
+!s90 -reportprogress|300|-93|-work|firipx|C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/dspba_library_package.vhd|
+!s107 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/dspba_library_package.vhd|
+!i113 1
+R18
+R19
+Edspba_pipe
+R3
+R23
+R9
+R10
+R0
+R43
+R44
+l0
+L343
+Vk02C_jC`_2AV2j6Tm8CBK2
+!s100 ko3XcgZgdPgSD;SDR?Wmi2
+R13
+31
+R14
+!i10b 1
+R15
+R45
+R46
+!i113 1
+R18
+R19
+Artl
+R23
+R9
+R10
+DEx4 work 10 dspba_pipe 0 22 k02C_jC`_2AV2j6Tm8CBK2
+l362
+L356
+VPM?k=4>Ud6EhPaD<6cWif0
+!s100 =]hA3YBJaaU9dNBMla?I?2
+R13
+31
+R14
+!i10b 1
+R15
+R45
+R46
+!i113 1
+R18
+R19
+Edspba_sync_reg
+R3
+R42
+R23
+R9
+R10
+R0
+R43
+R44
+l0
+L93
+VG7Z=`UWCe>@1JLi=OTklc1
+!s100 G`[2Ci2RQWoL`zK>2h>oj2
+R13
+31
+R14
+!i10b 1
+R15
+R45
+R46
+!i113 1
+R18
+R19
+Async_reg
+R42
+R23
+R9
+R10
+DEx4 work 14 dspba_sync_reg 0 22 G7Z=`UWCe>@1JLi=OTklc1
+l136
+L117
+VRW4h<L[5JUHOPc8:32e`91
+!s100 D5ba3Bk5_`1nL6?j<JkK81
+R13
+31
+R14
+!i10b 1
+R15
+R45
+R46
+!i113 1
+R18
+R19
+vfiripx
+R1
+!i10b 1
+!s100 b@H>9][LVL`_82EmV`OCo2
+I=@V72baJPFoCM4n;lVMOS1
+R2
+R0
+w1646718728
+8C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx.v
+FC:/Users/86150/Desktop/Fir_test/ip/filterx/firipx.v
+L0 8
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|firipx|+incdir+C:/Users/86150/Desktop/Fir_test/ip/filterx|C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx.v|
+!i113 1
+R6
+!s92 -vlog01compat -work firipx +incdir+C:/Users/86150/Desktop/Fir_test/ip/filterx
+R7
+Efiripx_0002
+R3
+R21
+R23
+R22
+R9
+R10
+R0
+Z47 8C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/firipx_0002.vhd
+Z48 FC:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/firipx_0002.vhd
+l0
+L19
+VPM6=UA7UI=cC59O6Z?Ri33
+!s100 DNMgeEdm]VA5_7MGXkPV91
+R13
+31
+R26
+!i10b 1
+R27
+Z49 !s90 -reportprogress|300|-93|-work|firipx|C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/firipx_0002.vhd|
+Z50 !s107 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/firipx_0002.vhd|
+!i113 1
+R18
+R19
+Asyn
+R21
+R23
+R22
+R9
+R10
+Z51 DEx4 work 11 firipx_0002 0 22 PM6=UA7UI=cC59O6Z?Ri33
+l56
+L33
+Z52 VobUY7AzgW7P4Ez4YkV0:a2
+Z53 !s100 MnJ1n<jTS9PA_JIa<N;4M3
+R13
+31
+R26
+!i10b 1
+R27
+R49
+R50
+!i113 1
+R18
+R19
+Efiripx_0002_ast
+R3
+R21
+R22
+R23
+R9
+R10
+R0
+Z54 8C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/firipx_0002_ast.vhd
+Z55 FC:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/firipx_0002_ast.vhd
+l0
+L9
+VkM@eOmRbaoTZm7Wme^fZk1
+!s100 5=A2@YH[<Wc2CR8hiNoi]0
+R13
+31
+R26
+!i10b 1
+R27
+Z56 !s90 -reportprogress|300|-93|-work|firipx|C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/firipx_0002_ast.vhd|
+Z57 !s107 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/firipx_0002_ast.vhd|
+!i113 1
+R18
+R19
+Astruct
+R21
+R22
+R23
+R9
+R10
+DEx4 work 15 firipx_0002_ast 0 22 kM@eOmRbaoTZm7Wme^fZk1
+l88
+L55
+V:dYfU@^>AVz_UKRD7k3ob3
+!s100 `mJPCzZjHFW<JZ9n6V4S^1
+R13
+31
+R26
+!i10b 1
+R27
+R56
+R57
+!i113 1
+R18
+R19
+Efiripx_0002_rtl_core
+R3
+Z58 DPx3 lpm 14 lpm_components 0 22 BZZBj]8LhndN7CkCjD@L`2
+R20
+R42
+Z59 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+R23
+R9
+R10
+R0
+Z60 8C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/firipx_0002_rtl_core.vhd
+Z61 FC:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/firipx_0002_rtl_core.vhd
+l0
+L34
+VTX9llZT9T06H_7e?^JK1o2
+!s100 _]DhVePNZBJGGQn:2l8V41
+R13
+31
+R26
+!i10b 1
+R15
+Z62 !s90 -reportprogress|300|-93|-work|firipx|C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/firipx_0002_rtl_core.vhd|
+Z63 !s107 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx/firipx_0002_rtl_core.vhd|
+!i113 1
+R18
+R19
+Anormal
+R58
+R20
+R42
+R59
+R23
+R9
+R10
+DEx4 work 20 firipx_0002_rtl_core 0 22 TX9llZT9T06H_7e?^JK1o2
+l890
+L47
+Vdih2L4RQcS<ZK=eELnEEi1
+!s100 Vm``BKnNE9fW;d^0<KJ9L2
+R13
+31
+R26
+!i10b 1
+R15
+R62
+R63
+!i113 1
+R18
+R19

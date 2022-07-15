@@ -1,0 +1,12 @@
+module decoder(
+	input                        clk,
+	input                        rst_n,
+	
+	input 							  signal,
+	
+	output                       [3:0]dout
+);
+
+reg [3:0] data_out;
+
+

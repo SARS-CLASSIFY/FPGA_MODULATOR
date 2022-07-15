@@ -1,0 +1,836 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/86150/Desktop/Fir_test/simulation/modelsim
+valtera_avalon_sc_fifo
+Z1 !s110 1646721046
+!i10b 1
+!s100 4mK@em][G=j]om3zJIhOc0
+IUF0loAZi3O<lOR;XGSj;>1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1646718723
+8C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/altera_avalon_sc_fifo.v
+FC:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/altera_avalon_sc_fifo.v
+L0 21
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1646721046.000000
+!s107 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/altera_avalon_sc_fifo.v|
+!s90 -reportprogress|300|C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/altera_avalon_sc_fifo.v|
+!i113 1
+Z6 tCvgOpt 0
+Eauk_dspip_avalon_streaming_controller_hpfir
+R3
+Z7 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z10 8C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd
+Z11 FC:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd
+l0
+L41
+VmzLKcb3?XGg7F;Pc`g^U30
+!s100 ORMaER9G]`b[YkFGoXo<C3
+Z12 OV;C;10.5b;63
+32
+R1
+!i10b 1
+R5
+Z13 !s90 -reportprogress|300|C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd|
+Z14 !s107 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd|
+!i113 1
+Z15 tExplicit 1 CvgOpt 0
+Astruct
+R7
+R8
+R9
+DEx4 work 43 auk_dspip_avalon_streaming_controller_hpfir 0 22 mzLKcb3?XGg7F;Pc`g^U30
+l72
+L64
+V5[9N9aCPWceEVmzW7?haR3
+!s100 MWO51>Fz`WN=CIY16D1gH2
+R12
+32
+R1
+!i10b 1
+R5
+R13
+R14
+!i113 1
+R15
+Eauk_dspip_avalon_streaming_sink_hpfir
+R3
+Z16 DPx9 altera_mf 20 altera_mf_components 0 22 gV:l9C^?PSb6]b5V?_jR@3
+Z17 DPx4 work 24 auk_dspip_math_pkg_hpfir 0 22 SMh<mnKIT3f?e`UL8YAf30
+Z18 DPx4 work 23 auk_dspip_lib_pkg_hpfir 0 22 ]n@P0Cg`Kmfb@EQ`hbJ3C2
+Z19 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R8
+R9
+R0
+Z20 8C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd
+Z21 FC:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd
+l0
+L56
+Vc3aP]jD`FWLDmMbL02M?71
+!s100 0WO5KznO2MM4IEKTLL4ea1
+R12
+32
+R1
+!i10b 1
+R5
+Z22 !s90 -reportprogress|300|C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd|
+Z23 !s107 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd|
+!i113 1
+R15
+Artl
+R16
+R17
+R18
+R19
+R8
+R9
+DEx4 work 37 auk_dspip_avalon_streaming_sink_hpfir 0 22 c3aP]jD`FWLDmMbL02M?71
+l164
+L106
+V>JXTP:[nnkgAK4J09X0Y10
+!s100 aKlIFR2DezO>78LXQeZZW1
+R12
+32
+R1
+!i10b 1
+R5
+R22
+R23
+!i113 1
+R15
+Eauk_dspip_avalon_streaming_source_hpfir
+R3
+R17
+R16
+R19
+R8
+R9
+R0
+Z24 8C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_avalon_streaming_source_hpfir.vhd
+Z25 FC:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_avalon_streaming_source_hpfir.vhd
+l0
+L70
+Vh0^KLKk9RPWE9FkPV688a0
+!s100 z_E>RhDjTK@iSkAe6<CzM1
+R12
+32
+R1
+!i10b 1
+R5
+Z26 !s90 -reportprogress|300|C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_avalon_streaming_source_hpfir.vhd|
+Z27 !s107 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_avalon_streaming_source_hpfir.vhd|
+!i113 1
+R15
+Artl
+R17
+R16
+R19
+R8
+R9
+DEx4 work 39 auk_dspip_avalon_streaming_source_hpfir 0 22 h0^KLKk9RPWE9FkPV688a0
+l190
+L109
+Vam1ie5h2KMKXT`jCDKfMG0
+!s100 9_^:d_>A;JGb2ekO`XAiL1
+R12
+32
+R1
+!i10b 1
+R5
+R26
+R27
+!i113 1
+R15
+Pauk_dspip_lib_pkg_hpfir
+R17
+R19
+R8
+R9
+R3
+R0
+8C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_lib_pkg_hpfir.vhd
+FC:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_lib_pkg_hpfir.vhd
+l0
+L22
+V]n@P0Cg`Kmfb@EQ`hbJ3C2
+!s100 f?>LI6^Y:?0:4C>aOS6?X2
+R12
+32
+R1
+!i10b 1
+R5
+!s90 -reportprogress|300|C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_lib_pkg_hpfir.vhd|
+!s107 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_lib_pkg_hpfir.vhd|
+!i113 1
+R15
+Pauk_dspip_math_pkg_hpfir
+R19
+R8
+R9
+R3
+R0
+Z28 8C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_math_pkg_hpfir.vhd
+Z29 FC:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_math_pkg_hpfir.vhd
+l0
+L54
+VSMh<mnKIT3f?e`UL8YAf30
+!s100 @O6TWU38[<`Y=f_oja2am1
+R12
+32
+b1
+Z30 !s110 1646721045
+!i10b 1
+Z31 !s108 1646721045.000000
+Z32 !s90 -reportprogress|300|C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_math_pkg_hpfir.vhd|
+Z33 !s107 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_math_pkg_hpfir.vhd|
+!i113 1
+R15
+Bbody
+R17
+R19
+R8
+R9
+l0
+L131
+V`OCm?;Q96zD:4j0=aCH`Y0
+!s100 EDZNSThdcYV1lkL7HbnIz0
+R12
+32
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R15
+Eauk_dspip_roundsat_hpfir
+R3
+R19
+R8
+R9
+R0
+Z34 8C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_roundsat_hpfir.vhd
+Z35 FC:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_roundsat_hpfir.vhd
+l0
+L39
+VL8Q=Q6XfD:5e:WVJZ6k@E3
+!s100 S`Ha]KjQXV0CDDgljgCX;0
+R12
+32
+R1
+!i10b 1
+R5
+Z36 !s90 -reportprogress|300|C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_roundsat_hpfir.vhd|
+Z37 !s107 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/auk_dspip_roundsat_hpfir.vhd|
+!i113 1
+R15
+Abeh
+R19
+R8
+R9
+DEx4 work 24 auk_dspip_roundsat_hpfir 0 22 L8Q=Q6XfD:5e:WVJZ6k@E3
+l66
+L57
+Va<FU3bo7Iz2RgbS_<XQf52
+!s100 SAz6VWg0=:KiPPFk<lih43
+R12
+32
+R1
+!i10b 1
+R5
+R36
+R37
+!i113 1
+R15
+Edspba_delay
+R3
+Z38 DPx4 work 21 dspba_library_package 0 22 KTlXWShT2<@=FUf9L`nD@1
+R8
+R9
+R0
+Z39 8C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/dspba_library.vhd
+Z40 FC:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/dspba_library.vhd
+l0
+L18
+Vh_99QD]IcO`z?>TBh9:D_2
+!s100 >TY9@l4a>2O5Wd_6jF4:g0
+R12
+32
+R30
+!i10b 1
+R31
+Z41 !s90 -reportprogress|300|C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/dspba_library.vhd|
+Z42 !s107 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/dspba_library.vhd|
+!i113 1
+R15
+Adelay
+R38
+R8
+R9
+DEx4 work 11 dspba_delay 0 22 h_99QD]IcO`z?>TBh9:D_2
+l37
+L34
+VJ?aanBflNgc[^b7nS;oh72
+!s100 DAfPXKZhR<Ac>Wg8zYj1H3
+R12
+32
+R30
+!i10b 1
+R31
+R41
+R42
+!i113 1
+R15
+Pdspba_library_package
+R8
+R9
+R3
+R0
+8C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/dspba_library_package.vhd
+FC:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/dspba_library_package.vhd
+l0
+L17
+VKTlXWShT2<@=FUf9L`nD@1
+!s100 @e;XE0e^oAdIdzY=Rc];H3
+R12
+32
+R30
+!i10b 1
+R31
+!s90 -reportprogress|300|C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/dspba_library_package.vhd|
+!s107 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/dspba_library_package.vhd|
+!i113 1
+R15
+Edspba_pipe
+R3
+R19
+R8
+R9
+R0
+R39
+R40
+l0
+L343
+VI4KODRF]=ojndU_8;Qa<A0
+!s100 ko3XcgZgdPgSD;SDR?Wmi2
+R12
+32
+R30
+!i10b 1
+R31
+R41
+R42
+!i113 1
+R15
+Artl
+R19
+R8
+R9
+DEx4 work 10 dspba_pipe 0 22 I4KODRF]=ojndU_8;Qa<A0
+l362
+L356
+V04Zm]fe?nYFNSJ9@9:?0J0
+!s100 =]hA3YBJaaU9dNBMla?I?2
+R12
+32
+R30
+!i10b 1
+R31
+R41
+R42
+!i113 1
+R15
+Edspba_sync_reg
+R3
+R38
+R19
+R8
+R9
+R0
+R39
+R40
+l0
+L93
+V^:zbgnPCjHS7<>M40RfPY2
+!s100 G`[2Ci2RQWoL`zK>2h>oj2
+R12
+32
+R30
+!i10b 1
+R31
+R41
+R42
+!i113 1
+R15
+Async_reg
+R38
+R19
+R8
+R9
+DEx4 work 14 dspba_sync_reg 0 22 ^:zbgnPCjHS7<>M40RfPY2
+l136
+L117
+V4klTB7YQGR@?1BoPQPHB^1
+!s100 D5ba3Bk5_`1nL6?j<JkK81
+R12
+32
+R30
+!i10b 1
+R31
+R41
+R42
+!i113 1
+R15
+Efirip
+Z43 w1646718423
+R17
+R19
+R18
+R8
+R9
+R0
+Z44 8C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/firip.vhd
+Z45 FC:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/firip.vhd
+l0
+L19
+Vih5`fn7Z3@?GVK^_20L`n0
+!s100 acaBMTLX:@P=A0I_=:=`R2
+R12
+32
+R30
+!i10b 1
+R31
+Z46 !s90 -reportprogress|300|C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/firip.vhd|
+Z47 !s107 C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/firip.vhd|
+!i113 1
+R15
+Asyn
+R17
+R19
+R18
+R8
+R9
+Z48 DEx4 work 5 firip 0 22 ih5`fn7Z3@?GVK^_20L`n0
+l56
+L33
+VFB5XOloKVd@8[b1f054^k2
+!s100 8k_Z=jN=z6h5aI452JkbH1
+R12
+32
+R30
+!i10b 1
+R31
+R46
+R47
+!i113 1
+R15
+Efirip_ast
+R43
+R17
+R18
+R19
+R8
+R9
+R0
+Z49 8C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/firip_ast.vhd
+Z50 FC:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/firip_ast.vhd
+l0
+L9
+V26U4hWgZ`69U19m8FgaTh0
+!s100 ==aT?6NJ?RReZ`eTAAP`O0
+R12
+32
+R30
+!i10b 1
+R31
+Z51 !s90 -reportprogress|300|C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/firip_ast.vhd|
+Z52 !s107 C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/firip_ast.vhd|
+!i113 1
+R15
+Astruct
+R17
+R18
+R19
+R8
+R9
+DEx4 work 9 firip_ast 0 22 26U4hWgZ`69U19m8FgaTh0
+l88
+L55
+VJOJ<8XMn6i?G?051U_6iO3
+!s100 Qf8bh2QcdM5VL:G[`YgHe0
+R12
+32
+R30
+!i10b 1
+R31
+R51
+R52
+!i113 1
+R15
+Efirip_rtl_core
+R43
+Z53 DPx3 lpm 14 lpm_components 0 22 BZZBj]8LhndN7CkCjD@L`2
+R16
+R38
+Z54 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+R19
+R8
+R9
+R0
+Z55 8C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/firip_rtl_core.vhd
+Z56 FC:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/firip_rtl_core.vhd
+l0
+L34
+Vj1[4<2Sj:GeX5KAG3l:zH2
+!s100 mIThKL^0;4ZC4W[cnN]f61
+R12
+32
+R30
+!i10b 1
+R31
+Z57 !s90 -reportprogress|300|C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/firip_rtl_core.vhd|
+Z58 !s107 C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/firip_rtl_core.vhd|
+!i113 1
+R15
+Anormal
+R53
+R16
+R38
+R54
+R19
+R8
+R9
+DEx4 work 14 firip_rtl_core 0 22 j1[4<2Sj:GeX5KAG3l:zH2
+l726
+L47
+VKW9NOi==mC[6;HTM99[1?1
+!s100 [T6AJVGU@d=zl?keco:<42
+R12
+32
+R30
+!i10b 1
+R31
+R57
+R58
+!i113 1
+R15
+Efirip_tb
+R43
+R19
+R8
+R9
+R0
+Z59 8C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/firip_tb.vhd
+Z60 FC:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/firip_tb.vhd
+l0
+L20
+VPQ]oWJj@FUlOkmcWI3Ami1
+!s100 `>7;[;ChNE3D:z_<;E^N73
+R12
+32
+R30
+!i10b 1
+R31
+Z61 !s90 -reportprogress|300|C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/firip_tb.vhd|
+Z62 !s107 C:/Users/86150/Desktop/Fir_test/ip/filter/firip_sim/firip_tb.vhd|
+!i113 1
+R15
+Artl
+R17
+R18
+R48
+R19
+R8
+R9
+DEx4 work 8 firip_tb 0 22 PQ]oWJj@FUlOkmcWI3Ami1
+l140
+L54
+V^i5<O9c^T@U]07JmPm^cS3
+!s100 OVJ8DGF`>7gl6AWTYzlmL3
+R12
+32
+R30
+!i10b 1
+R31
+R61
+R62
+!i113 1
+R15
+Efiripx
+R3
+R17
+R19
+R18
+R8
+R9
+R0
+Z63 8C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/firipx.vhd
+Z64 FC:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/firipx.vhd
+l0
+L19
+VaZi;QmmTD;I=B?^:0__BO0
+!s100 iE0=^T2A?kmCNG?29eTgE0
+R12
+32
+Z65 !s110 1646721047
+!i10b 1
+Z66 !s108 1646721047.000000
+Z67 !s90 -reportprogress|300|C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/firipx.vhd|
+Z68 !s107 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/firipx.vhd|
+!i113 1
+R15
+Asyn
+R17
+R19
+R18
+R8
+R9
+Z69 DEx4 work 6 firipx 0 22 aZi;QmmTD;I=B?^:0__BO0
+l56
+L33
+VBGV7:3X8FgQ01EHA8nB[X2
+!s100 `ag`Y8D1CaaSjl`VDY7kW2
+R12
+32
+R65
+!i10b 1
+R66
+R67
+R68
+!i113 1
+R15
+Efiripx_ast
+R3
+R17
+R18
+R19
+R8
+R9
+R0
+Z70 8C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/firipx_ast.vhd
+Z71 FC:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/firipx_ast.vhd
+l0
+L9
+VLQ?mg5@EbReP58CIYQ[G_2
+!s100 RF`@ZMAlG;NgFXn5f5;GC2
+R12
+32
+R65
+!i10b 1
+R5
+Z72 !s90 -reportprogress|300|C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/firipx_ast.vhd|
+Z73 !s107 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/firipx_ast.vhd|
+!i113 1
+R15
+Astruct
+R17
+R18
+R19
+R8
+R9
+DEx4 work 10 firipx_ast 0 22 LQ?mg5@EbReP58CIYQ[G_2
+l88
+L55
+V7Q>k=9R87[6F4[eakgBCd1
+!s100 NdR;koE[I7hTKA5G>:1]`0
+R12
+32
+R65
+!i10b 1
+R5
+R72
+R73
+!i113 1
+R15
+Efiripx_rtl_core
+R3
+R53
+R16
+R38
+R54
+R19
+R8
+R9
+R0
+Z74 8C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/firipx_rtl_core.vhd
+Z75 FC:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/firipx_rtl_core.vhd
+l0
+L34
+VU7i99e=<]5n?3oFehfFaP2
+!s100 nP]IfV=S<l149Y=4dQ@OK3
+R12
+32
+R1
+!i10b 1
+R5
+Z76 !s90 -reportprogress|300|C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/firipx_rtl_core.vhd|
+Z77 !s107 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/firipx_rtl_core.vhd|
+!i113 1
+R15
+Anormal
+R53
+R16
+R38
+R54
+R19
+R8
+R9
+DEx4 work 15 firipx_rtl_core 0 22 U7i99e=<]5n?3oFehfFaP2
+l890
+L47
+V>`B?LgD;8^GRo?2Nf<z8K3
+!s100 @P82J0HM7`:8Q?iI;f8lV1
+R12
+32
+R1
+!i10b 1
+R5
+R76
+R77
+!i113 1
+R15
+Efiripx_tb
+R3
+R19
+R8
+R9
+R0
+Z78 8C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/firipx_tb.vhd
+Z79 FC:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/firipx_tb.vhd
+l0
+L20
+V^^V<6[<E:UEf]EPM0maoO0
+!s100 gCnm_NJAW@5OLgRiQO3bI2
+R12
+32
+R65
+!i10b 1
+R66
+Z80 !s90 -reportprogress|300|C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/firipx_tb.vhd|
+Z81 !s107 C:/Users/86150/Desktop/Fir_test/ip/filterx/firipx_sim/firipx_tb.vhd|
+!i113 1
+R15
+Artl
+R17
+R18
+R69
+R19
+R8
+R9
+DEx4 work 9 firipx_tb 0 22 ^^V<6[<E:UEf]EPM0maoO0
+l140
+L54
+V89Jg[@n>YST=YHfL9`zCL0
+!s100 SgMc4]4[[nWE<T::=3;UD0
+R12
+32
+R65
+!i10b 1
+R66
+R80
+R81
+!i113 1
+R15
+vFskDemod
+Z82 !s110 1646721052
+!i10b 1
+!s100 THmUjoO>`kmiBBUR?`EeY0
+II[<d^Y_mG_gaD8ARGN99D1
+R2
+R0
+w1646720853
+8C:/Users/86150/Desktop/Fir_test/source/FskDemod.v
+FC:/Users/86150/Desktop/Fir_test/source/FskDemod.v
+L0 2
+R4
+r1
+!s85 0
+31
+Z83 !s108 1646721052.000000
+!s107 C:/Users/86150/Desktop/Fir_test/source/FskDemod.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/86150/Desktop/Fir_test/source|C:/Users/86150/Desktop/Fir_test/source/FskDemod.v|
+!i113 1
+Z84 o-vlog01compat -work work
+Z85 !s92 -vlog01compat -work work +incdir+C:/Users/86150/Desktop/Fir_test/source
+R6
+n@fsk@demod
+vFskDemod_vlg_tst
+!s110 1646721054
+!i10b 1
+!s100 TE2QbOARZi=b^=RN]a?oa2
+Ime;5@e55:hhPb=k=RNmER3
+R2
+R0
+w1646721004
+8C:/Users/86150/Desktop/Fir_test/simulation/modelsim/FskDemod.vt
+FC:/Users/86150/Desktop/Fir_test/simulation/modelsim/FskDemod.vt
+L0 28
+R4
+r1
+!s85 0
+31
+!s108 1646721054.000000
+!s107 C:/Users/86150/Desktop/Fir_test/simulation/modelsim/FskDemod.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/86150/Desktop/Fir_test/simulation/modelsim|C:/Users/86150/Desktop/Fir_test/simulation/modelsim/FskDemod.vt|
+!i113 1
+R84
+!s92 -vlog01compat -work work +incdir+C:/Users/86150/Desktop/Fir_test/simulation/modelsim
+R6
+n@fsk@demod_vlg_tst
+vFskMod
+R82
+!i10b 1
+!s100 89;jSE_<Ze3Ja8e<T<23N2
+I3Rc1A<odB<g6KgE3B9U893
+R2
+R0
+w1646556315
+8C:/Users/86150/Desktop/Fir_test/source/FskMod.v
+FC:/Users/86150/Desktop/Fir_test/source/FskMod.v
+L0 2
+R4
+r1
+!s85 0
+31
+R83
+!s107 C:/Users/86150/Desktop/Fir_test/source/FskMod.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/86150/Desktop/Fir_test/source|C:/Users/86150/Desktop/Fir_test/source/FskMod.v|
+!i113 1
+R84
+R85
+R6
+n@fsk@mod
+vfskmode
+!s110 1646721051
+!i10b 1
+!s100 cinaN[RP^WiJV=L;B^D8P2
+ITOK4YY_4z3o]MhdcD@A4l2
+R2
+R0
+w1646719270
+8C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/fskmode.v
+FC:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/fskmode.v
+L0 6
+R4
+r1
+!s85 0
+31
+!s108 1646721051.000000
+!s107 C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/fskmode.v|
+!s90 -reportprogress|300|C:/Users/86150/Desktop/Fir_test/ip/nco/fskmode/simulation/fskmode.v|
+!i113 1
+R6

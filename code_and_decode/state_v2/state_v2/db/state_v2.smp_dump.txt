@@ -1,0 +1,5 @@
+
+State Machine - |shift_top|shift_data:shift_data_inst|state
+Name state.S_SEND 
+state.S_START 0 
+state.S_SEND 1 

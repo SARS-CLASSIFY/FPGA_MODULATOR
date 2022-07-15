@@ -1,0 +1,33 @@
+module tmm_c(clk,rst_n,m,clk_out);
+input clk;
+input rst_n;
+input [10:0]m;
+
+output clk_out;
+
+reg [10:0]count;
+reg clk_out;
+
+always@(posedge clk)
+begin
+	if(!rst_n)
+	begin
+		count<=0;
+		clk_out<=0;
+	end
+
+	else if(count==m-1)
+	begin
+		clk_out<=~clk_out;
+		count<=0;
+	end
+	else if(count==m/2-1)
+	begin
+		clk_out<=~clk_out;
+		count<=count+1;
+	end
+	else
+		count<=count+1;
+end
+
+endmodule

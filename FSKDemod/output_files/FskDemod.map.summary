@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Mar 08 17:16:53 2022
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : FskDemod
+Top-level Entity Name : FskDemod
+Family : Cyclone IV E
+Total logic elements : 4,684
+    Total combinational functions : 3,305
+    Dedicated logic registers : 4,655
+Total registers : 4655
+Total pins : 14
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

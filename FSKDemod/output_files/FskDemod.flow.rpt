@@ -1,0 +1,229 @@
+Flow report for FskDemod
+Tue Mar 08 17:17:35 2022
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Flow Summary                                                                         ;
++------------------------------------+-------------------------------------------------+
+; Flow Status                        ; Successful - Tue Mar 08 17:17:35 2022           ;
+; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
+; Revision Name                      ; FskDemod                                        ;
+; Top-level Entity Name              ; FskDemod                                        ;
+; Family                             ; Cyclone IV E                                    ;
+; Device                             ; EP4CE6F17C8                                     ;
+; Timing Models                      ; Final                                           ;
+; Total logic elements               ; 4,698 / 6,272 ( 75 % )                          ;
+;     Total combinational functions  ; 3,306 / 6,272 ( 53 % )                          ;
+;     Dedicated logic registers      ; 4,655 / 6,272 ( 74 % )                          ;
+; Total registers                    ; 4655                                            ;
+; Total pins                         ; 14 / 180 ( 8 % )                                ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 0 / 276,480 ( 0 % )                             ;
+; Embedded Multiplier 9-bit elements ; 0 / 30 ( 0 % )                                  ;
+; Total PLLs                         ; 1 / 2 ( 50 % )                                  ;
++------------------------------------+-------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 03/08/2022 17:16:31 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; FskDemod            ;
++-------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                            ;
++--------------------------------------+-----------------------------------------------------------------------+---------------+-------------+----------------+
+; Assignment Name                      ; Value                                                                 ; Default Value ; Entity Name ; Section Id     ;
++--------------------------------------+-----------------------------------------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID                ; 154027290586572.164673099009656                                       ; --            ; --          ; --             ;
+; EDA_DESIGN_INSTANCE_NAME             ; i1                                                                    ; --            ; --          ; --             ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; FskDemod                                                              ; --            ; --          ; eda_simulation ;
+; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                                                           ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)                                             ; <None>        ; --          ; --             ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                                                       ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_FILE                  ; simulation/modelsim/FskDemod.vt                                       ; --            ; --          ; --             ;
+; EDA_TEST_BENCH_MODULE_NAME           ; FskDemod_vlg_tst                                                      ; --            ; --          ; --             ;
+; EDA_TEST_BENCH_NAME                  ; FskDemod                                                              ; --            ; --          ; eda_simulation ;
+; EDA_TIME_SCALE                       ; 1 ps                                                                  ; --            ; --          ; eda_simulation ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                                                    ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                                                     ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filter/firip.cmp                                                   ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filter/firip_sim/dspba_library_package.vhd                         ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filter/firip_sim/dspba_library.vhd                                 ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filter/firip_sim/auk_dspip_math_pkg_hpfir.vhd                      ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filter/firip_sim/auk_dspip_lib_pkg_hpfir.vhd                       ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filter/firip_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd   ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filter/firip_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd         ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filter/firip_sim/auk_dspip_avalon_streaming_source_hpfir.vhd       ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filter/firip_sim/auk_dspip_roundsat_hpfir.vhd                      ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filter/firip_sim/altera_avalon_sc_fifo.v                           ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filter/firip_sim/firip_rtl_core.vhd                                ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filter/firip_sim/firip_ast.vhd                                     ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filter/firip_sim/firip.vhd                                         ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filter/firip_sim/firip_nativelink.tcl                              ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filter/firip_sim/firip_msim.tcl                                    ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filter/firip_sim/firip_tb.vhd                                      ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filter/firip_sim/firip_mlab.m                                      ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filter/firip_sim/firip_model.m                                     ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filter/firip_sim/firip_coef_int.txt                                ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filter/firip_sim/firip_input.txt                                   ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filter/firip_sim/firip_param.txt                                   ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filterx/firipx.cmp                                                 ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filterx/firipx_sim/dspba_library_package.vhd                       ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filterx/firipx_sim/dspba_library.vhd                               ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filterx/firipx_sim/auk_dspip_math_pkg_hpfir.vhd                    ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filterx/firipx_sim/auk_dspip_lib_pkg_hpfir.vhd                     ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filterx/firipx_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filterx/firipx_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd       ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filterx/firipx_sim/auk_dspip_avalon_streaming_source_hpfir.vhd     ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filterx/firipx_sim/auk_dspip_roundsat_hpfir.vhd                    ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filterx/firipx_sim/altera_avalon_sc_fifo.v                         ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filterx/firipx_sim/firipx_rtl_core.vhd                             ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filterx/firipx_sim/firipx_ast.vhd                                  ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filterx/firipx_sim/firipx.vhd                                      ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filterx/firipx_sim/firipx_nativelink.tcl                           ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filterx/firipx_sim/firipx_msim.tcl                                 ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filterx/firipx_sim/firipx_tb.vhd                                   ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filterx/firipx_sim/firipx_mlab.m                                   ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filterx/firipx_sim/firipx_model.m                                  ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filterx/firipx_sim/firipx_coef_int.txt                             ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filterx/firipx_sim/firipx_input.txt                                ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/filterx/firipx_sim/firipx_param.txt                                ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/pll_1M/pll_1M_inst.v                                               ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/pll_1M/pll_1M_bb.v                                                 ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/pll_1M/pll_1M.ppf                                                  ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/pll_1M/pll_1M_syn.v                                                ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/synthesis/../fskmode.cmp                               ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/synthesis/../../fskmode.qsys                           ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/../../fskmode.qsys                          ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/fskmode.v                                   ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/submodules/mentor/sid_2c_1p.v               ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/submodules/aldec/sid_2c_1p.v                ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/submodules/mentor/asj_nco_fxx.v             ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/submodules/aldec/asj_nco_fxx.v              ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/submodules/mentor/asj_gar.v                 ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/submodules/aldec/asj_gar.v                  ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/submodules/mentor/asj_nco_apr_dxx.v         ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/submodules/aldec/asj_nco_apr_dxx.v          ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/submodules/mentor/asj_dxx_g.v               ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/submodules/aldec/asj_dxx_g.v                ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/submodules/mentor/asj_nco_as_m_cen.v        ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/submodules/aldec/asj_nco_as_m_cen.v         ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/submodules/mentor/asj_altqmcpipe.v          ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/submodules/aldec/asj_altqmcpipe.v           ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/submodules/mentor/asj_nco_mob_rw.v          ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/submodules/aldec/asj_nco_mob_rw.v           ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/submodules/mentor/asj_nco_isdr.v            ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/submodules/aldec/asj_nco_isdr.v             ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/submodules/mentor/segment_arr_tdl.v         ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/submodules/aldec/segment_arr_tdl.v          ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/submodules/mentor/segment_sel.v             ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/submodules/aldec/segment_sel.v              ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/submodules/mentor/asj_dxx.v                 ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/submodules/aldec/asj_dxx.v                  ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/submodules/mentor/asj_xnqg.v                ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/submodules/aldec/asj_xnqg.v                 ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/submodules/fskmode_nco_ii_0_sin.hex         ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/submodules/fskmode_nco_ii_0_cos.hex         ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/submodules/fskmode_nco_ii_0.v               ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/submodules/fskmode_nco_ii_0_tb.vhd          ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/submodules/c_model/model_wrapper.cpp        ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/submodules/c_model/nco_model.cpp            ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip/nco/fskmode/simulation/submodules/c_model/nco_model.h              ; --            ; --          ; --             ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE          ; 1.2V                                                                  ; --            ; --          ; --             ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family)                                ; --            ; --          ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family)                                ; --            ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family)                                ; --            ; --          ; Top            ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                                                   ; --            ; --          ; --             ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                                 ; --            ; --          ; --             ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                                                          ; --            ; --          ; --             ;
+; SLD_FILE                             ; ip/nco/fskmode/synthesis/fskmode.debuginfo                            ; --            ; --          ; --             ;
+; SLD_INFO                             ; QSYS_NAME fskmode HAS_SOPCINFO 1 GENERATION_ID 1646719277             ; --            ; fskmode     ; --             ;
+; SOPCINFO_FILE                        ; ip/nco/fskmode/synthesis/../../fskmode.sopcinfo                       ; --            ; --          ; --             ;
+; SPD_FILE                             ; ip/filter/firip.spd                                                   ; --            ; --          ; --             ;
+; SPD_FILE                             ; ip/filterx/firipx.spd                                                 ; --            ; --          ; --             ;
+; SPD_FILE                             ; ip/nco/fskmode/simulation/../fskmode.spd                              ; --            ; --          ; --             ;
+; SYNTHESIS_ONLY_QIP                   ; On                                                                    ; --            ; --          ; --             ;
+; SYNTHESIS_ONLY_QIP                   ; On                                                                    ; --            ; --          ; --             ;
+; SYNTHESIS_ONLY_QIP                   ; On                                                                    ; --            ; --          ; --             ;
++--------------------------------------+-----------------------------------------------------------------------+---------------+-------------+----------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:24     ; 1.0                     ; 4852 MB             ; 00:00:34                           ;
+; Fitter               ; 00:00:22     ; 1.1                     ; 5593 MB             ; 00:00:36                           ;
+; Assembler            ; 00:00:02     ; 1.0                     ; 4690 MB             ; 00:00:01                           ;
+; Timing Analyzer      ; 00:00:05     ; 1.3                     ; 4808 MB             ; 00:00:06                           ;
+; EDA Netlist Writer   ; 00:00:07     ; 1.0                     ; 4684 MB             ; 00:00:07                           ;
+; Total                ; 00:01:00     ; --                      ; --                  ; 00:01:24                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; LAPTOP-7TUI81E5  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; LAPTOP-7TUI81E5  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; LAPTOP-7TUI81E5  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; LAPTOP-7TUI81E5  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; LAPTOP-7TUI81E5  ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off FskDemod -c FskDemod
+quartus_fit --read_settings_files=off --write_settings_files=off FskDemod -c FskDemod
+quartus_asm --read_settings_files=off --write_settings_files=off FskDemod -c FskDemod
+quartus_sta FskDemod -c FskDemod
+quartus_eda --read_settings_files=off --write_settings_files=off FskDemod -c FskDemod
+
+
+

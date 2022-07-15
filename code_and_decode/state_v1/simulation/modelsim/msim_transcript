@@ -1,0 +1,107 @@
+# Reading D:/IntelFPGA/IntelFPGA/modelsim_ase/tcl/vsim/pref.tcl
+# do state_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/IntelFPGA/IntelFPGA/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/86150/Desktop/FPGA\ MODULATION/state/source {C:/Users/86150/Desktop/FPGA MODULATION/state/source/shift_data.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:50:01 on Apr 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/86150/Desktop/FPGA MODULATION/state/source" C:/Users/86150/Desktop/FPGA MODULATION/state/source/shift_data.v 
+# -- Compiling module shift_data
+# 
+# Top level modules:
+# 	shift_data
+# End time: 16:50:01 on Apr 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/86150/Desktop/FPGA\ MODULATION/state/source {C:/Users/86150/Desktop/FPGA MODULATION/state/source/tmm_c.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:50:01 on Apr 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/86150/Desktop/FPGA MODULATION/state/source" C:/Users/86150/Desktop/FPGA MODULATION/state/source/tmm_c.v 
+# -- Compiling module tmm_c
+# 
+# Top level modules:
+# 	tmm_c
+# End time: 16:50:02 on Apr 03,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/86150/Desktop/FPGA\ MODULATION/state/source {C:/Users/86150/Desktop/FPGA MODULATION/state/source/shift_top.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:50:02 on Apr 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/86150/Desktop/FPGA MODULATION/state/source" C:/Users/86150/Desktop/FPGA MODULATION/state/source/shift_top.v 
+# -- Compiling module shift_top
+# 
+# Top level modules:
+# 	shift_top
+# End time: 16:50:02 on Apr 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/86150/Desktop/FPGA\ MODULATION/state/source {C:/Users/86150/Desktop/FPGA MODULATION/state/source/decoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:50:02 on Apr 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/86150/Desktop/FPGA MODULATION/state/source" C:/Users/86150/Desktop/FPGA MODULATION/state/source/decoder.v 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 16:50:02 on Apr 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/86150/Desktop/FPGA\ MODULATION/state/source {C:/Users/86150/Desktop/FPGA MODULATION/state/source/tmm_c1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:50:02 on Apr 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/86150/Desktop/FPGA MODULATION/state/source" C:/Users/86150/Desktop/FPGA MODULATION/state/source/tmm_c1.v 
+# -- Compiling module tmm_c1
+# 
+# Top level modules:
+# 	tmm_c1
+# End time: 16:50:02 on Apr 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/86150/Desktop/FPGA\ MODULATION/state/source {C:/Users/86150/Desktop/FPGA MODULATION/state/source/tmm_c2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:50:02 on Apr 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/86150/Desktop/FPGA MODULATION/state/source" C:/Users/86150/Desktop/FPGA MODULATION/state/source/tmm_c2.v 
+# -- Compiling module tmm_c2
+# 
+# Top level modules:
+# 	tmm_c2
+# End time: 16:50:02 on Apr 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/86150/Desktop/FPGA\ MODULATION/state/simulation/modelsim {C:/Users/86150/Desktop/FPGA MODULATION/state/simulation/modelsim/shift_top.vt}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:50:02 on Apr 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/86150/Desktop/FPGA MODULATION/state/simulation/modelsim" C:/Users/86150/Desktop/FPGA MODULATION/state/simulation/modelsim/shift_top.vt 
+# -- Compiling module shift_top_vlg_tst
+# 
+# Top level modules:
+# 	shift_top_vlg_tst
+# End time: 16:50:02 on Apr 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  shift_top_vlg_tst
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" shift_top_vlg_tst 
+# Start time: 16:50:02 on Apr 03,2022
+# Loading work.shift_top_vlg_tst
+# Loading work.shift_top
+# Loading work.shift_data
+# Loading work.tmm_c
+# Loading work.decoder
+# Loading work.tmm_c1
+# Loading work.tmm_c2
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $finish    : C:/Users/86150/Desktop/FPGA MODULATION/state/simulation/modelsim/shift_top.vt(65)
+#    Time: 2000110 ns  Iteration: 0  Instance: /shift_top_vlg_tst
+# 1
+# Break in Module shift_top_vlg_tst at C:/Users/86150/Desktop/FPGA MODULATION/state/simulation/modelsim/shift_top.vt line 65
+# End time: 16:51:23 on Apr 03,2022, Elapsed time: 0:01:21
+# Errors: 0, Warnings: 0

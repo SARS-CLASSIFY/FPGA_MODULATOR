@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<instance entity-name="altera_fir_compiler_ii" version="18.1" >
+<generic name="filterType" value="single" />
+<generic name="interpFactor" value="1" />
+<generic name="decimFactor" value="1" />
+<generic name="symmetryMode" value="nsym" />
+<generic name="L_bandsFilter" value="1" />
+<generic name="inputChannelNum" value="1" />
+<generic name="clockRate" value="0.01" />
+<generic name="clockSlack" value="0" />
+<generic name="inputRate" value="0.01" />
+<generic name="coeffReload" value="false" />
+<generic name="baseAddress" value="0" />
+<generic name="readWriteMode" value="read_write" />
+<generic name="backPressure" value="false" />
+<generic name="deviceFamily" value="Cyclone IV E" />
+<generic name="speedGrade" value="medium" />
+<generic name="delayRAMBlockThreshold" value="20" />
+<generic name="dualMemDistRAMThreshold" value="1280" />
+<generic name="mRAMThreshold" value="1000000" />
+<generic name="hardMultiplierThreshold" value="-1" />
+<generic name="reconfigurable" value="false" />
+<generic name="num_modes" value="2" />
+<generic name="reconfigurable_list" value="0" />
+<generic name="MODE_STRING" value="None Set" />
+<generic name="channelModes" value="0,1,2,3" />
+<generic name="inputType" value="int" />
+<generic name="inputBitWidth" value="10" />
+<generic name="inputFracBitWidth" value="0" />
+<generic name="coeffSetRealValue" value="-3.31878662109375E-4,-4.00543212890625E-4,-4.8065185546875E-4,-5.76019287109375E-4,-6.866455078125E-4,-8.144378662109375E-4,-9.593963623046875E-4,-0.001117706298828125,-0.001285552978515625,-0.0014553070068359375,-0.001621246337890625,-0.0017681121826171875,-0.001888275146484375,-0.001964569091796875,-0.0019855499267578125,-0.00193023681640625,-0.0017871856689453125,-0.001537322998046875,-0.0011653900146484375,-6.561279296875E-4,0.0,8.1634521484375E-4,0.001800537109375,0.0029582977294921875,0.0042877197265625,0.00579071044921875,0.0074596405029296875,0.009281158447265625,0.0112457275390625,0.013332366943359375,0.0155181884765625,0.017780303955078125,0.02008819580078125,0.022413253784179688,0.024721145629882812,0.0269775390625,0.029150009155273438,0.031202316284179688,0.03310394287109375,0.034824371337890625,0.0363311767578125,0.037601470947265625,0.03861236572265625,0.039348602294921875,0.039794921875,0.039943695068359375,0.039794921875,0.039348602294921875,0.03861236572265625,0.037601470947265625,0.0363311767578125,0.034824371337890625,0.03310394287109375,0.031202316284179688,0.029150009155273438,0.0269775390625,0.024721145629882812,0.022413253784179688,0.02008819580078125,0.017780303955078125,0.0155181884765625,0.013332366943359375,0.0112457275390625,0.009281158447265625,0.0074596405029296875,0.00579071044921875,0.0042877197265625,0.0029582977294921875,0.001800537109375,8.1634521484375E-4,0.0,-6.561279296875E-4,-0.0011653900146484375,-0.001537322998046875,-0.0017871856689453125,-0.00193023681640625,-0.0019855499267578125,-0.001964569091796875,-0.001888275146484375,-0.0017681121826171875,-0.001621246337890625,-0.0014553070068359375,-0.001285552978515625,-0.001117706298828125,-9.593963623046875E-4,-8.144378662109375E-4,-6.866455078125E-4,-5.76019287109375E-4,-4.8065185546875E-4,-4.00543212890625E-4,-3.31878662109375E-4" />
+<generic name="coeffSetRealValueImag" value="0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.0530093, -0.04498, 0.0, 0.0749693, 0.159034, 0.224907, 0.249809, 0.224907, 0.159034, 0.0749693, 0.0, -0.04498, -0.0530093, -0.0321283, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0" />
+<generic name="coeffScaling" value="auto" />
+<generic name="coeffType" value="int" />
+<generic name="coeffBitWidth" value="8" />
+<generic name="coeffFracBitWidth" value="0" />
+<generic name="coeffComplex" value="false" />
+<generic name="karatsuba" value="false" />
+<generic name="outType" value="int" />
+<generic name="outMSBRound" value="trunc" />
+<generic name="outMsbBitRem" value="0" />
+<generic name="outLSBRound" value="trunc" />
+<generic name="outLsbBitRem" value="0" />
+<generic name="bankCount" value="1" />
+<generic name="bankDisplay" value="0" />
+</instance>
